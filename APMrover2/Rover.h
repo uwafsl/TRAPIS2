@@ -68,7 +68,6 @@
 #include "mode.h"
 
 #include "AP_Arming.h"
-#include "compat.h"
 
 #include <AP_Notify/AP_Notify.h>                    // Notify library
 #include <AP_BattMonitor/AP_BattMonitor.h>          // Battery monitor library
@@ -368,7 +367,6 @@ private:
     // Loiter control
     uint16_t loiter_duration;       // How long we should loiter at the nav_waypoint (time in seconds)
     uint32_t loiter_start_time;     // How long have we been loitering - The start time in millis
-    float distance_past_wp;         // record the distance we have gone past the wp
     bool previously_reached_wp;     // set to true if we have EVER reached the waypoint
 
     // time that rudder/steering arming has been running

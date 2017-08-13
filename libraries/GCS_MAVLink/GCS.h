@@ -45,6 +45,9 @@ enum ap_message {
     MSG_RAW_IMU2,
     MSG_RAW_IMU3,
     MSG_GPS_RAW,
+    MSG_GPS_RTK,
+    MSG_GPS2_RAW,
+    MSG_GPS2_RTK,
     MSG_SYSTEM_TIME,
     MSG_SERVO_OUT,
     MSG_NEXT_WAYPOINT,
@@ -293,6 +296,8 @@ protected:
     // message sending functions:
     bool try_send_compass_message(enum ap_message id);
     bool try_send_mission_message(enum ap_message id);
+    bool try_send_camera_message(enum ap_message id);
+    bool try_send_gps_message(enum ap_message id);
     void send_hwstatus();
 
 private:
