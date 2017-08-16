@@ -617,7 +617,7 @@ void Plane::update_flight_mode(void)
         calc_nav_pitch();
         calc_throttle();
         break;
-
+        
     //UWAFSL START
 	case UW_MODE_1:{
 		//Start playing a LOUD tone so the user can locate the aircraft
@@ -626,6 +626,7 @@ void Plane::update_flight_mode(void)
 		break;
 	}
 	case UW_MODE_2:{
+    /*
 		//dt used for ILCintegrator
 		double dt = 0.02; //Seconds
 		//Set next waypoint to the guided waypoint
@@ -682,11 +683,12 @@ void Plane::update_flight_mode(void)
 
 		//channel_roll->servo_out = -g.uw_gain_aileron*CSD.GetAileron()*100*180/3.14; //Units: centi-degrees
 		//channel_pitch->servo_out = -g.uw_gain_elevator*CSD.GetElevator()*100*180/3.14; //Units: centi-degrees
-		steering_control.steering = steering_control.rudder = -g.uw_gain_rudder*CSD.GetRudder()*100*180/3.14; //Units: centi-degrees
-		break;
+		steering_control.steering = steering_control.rudder = -g.uw_gain_rudder*CSD.GetRudder()*100*180/3.14; //Units: centi-degrees */
+		break; 
 	}
 
 	case UW_MODE_3:{
+    /*
 		//dt used for ILCintegrator
 		double dt = 0.02; //Seconds
 		//radius
@@ -738,12 +740,12 @@ void Plane::update_flight_mode(void)
 		//channel_roll->servo_out = -g.uw_gain_aileron*CSD.GetAileron()*100*180/3.14; //Units: centi-degrees
 		//channel_pitch->servo_out = -g.uw_gain_elevator*CSD.GetElevator()*100*180/3.14; //Units: centi-degrees
 		steering_control.steering = steering_control.rudder = -g.uw_gain_rudder*CSD.GetRudder()*100*180/3.14; //Units: centi-degrees
-
-		break;
+        */
+		break; 
 	}
 		
 	case UW_MODE_4:{
-
+    /*
 		uint8_t ch = 7; //CH_8
 		double rad_act_pwm = hal.rcin->read(ch); //(pwm)
 
@@ -755,8 +757,8 @@ void Plane::update_flight_mode(void)
 		//channel_pitch->servo_out = -500;
 		steering_control.steering = steering_control.rudder = rad_act_pwm;
 
-			
-		break;
+			*/
+		break; 
 	}
 	//UWAFSL END
         
