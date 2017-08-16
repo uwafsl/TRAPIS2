@@ -1,4 +1,4 @@
-﻿#include "GCS_Mavlink.h"
+#include "GCS_Mavlink.h"
 
 #include "Plane.h"
 #include "version.h"
@@ -49,12 +49,6 @@ void Plane::send_heartbeat(mavlink_channel_t chan)
     case LOITER:
     case AVOID_ADSB:
     case GUIDED:
-    //UWAFSL START
-	case UW_MODE_1:
-	case UW_MODE_2:
-	case UW_MODE_3:
-	case UW_MODE_4:
-	//UWAFSL END
     case CIRCLE:
     case QRTL:
         base_mode = MAV_MODE_FLAG_GUIDED_ENABLED |

@@ -1,4 +1,4 @@
-﻿/*
+/*
    Lead developer: Andrew Tridgell
  
    Authors:    Doug Weibel, Jose Julio, Jordi Munoz, Jason Short, Randy Mackay, Pat Hickey, John Arne Birkeland, Olivier Adler, Amilcar Lucas, Gregory Fletcher, Paul Riseborough, Brandon Jones, Jon Challinger
@@ -617,148 +617,6 @@ void Plane::update_flight_mode(void)
         calc_nav_pitch();
         calc_throttle();
         break;
-
-    //UWAFSL START
-	case UW_MODE_1:{
-		//Start playing a LOUD tone so the user can locate the aircraft
-		//Lost_aircraft is deleted or renamed 
-        //AP_Notify::events.lost_aircraft = true;
-		break;
-	}
-	case UW_MODE_2:{
-		//dt used for ILCintegrator
-		double dt = 0.02; //Seconds
-		//Set next waypoint to the guided waypoint
-		next_WP_loc = guided_WP_loc;
-		//Ensure guided WP has been set
-		//If not, set desired loiter location to home WP
-		if (guided_WP_loc.lat == 0 && guided_WP_loc.lng == 0) {
-			next_WP_loc = home;
-		}
-		//radius
-		double rad_act = get_distance(current_loc, next_WP_loc); //(m)
-		double rad_ref = g.uw_radius; //(m)
-		//altitude
-        //ck removing parenthese from relative_altitude
-		double alt = relative_altitude; //(m)
-		double alt_ref = g.uw_altitude; //(m)
-		//speed
-		double uB = airspeed.get_airspeed(); //(m/s)
-		double vB = 0;         //(m/s)
-		double wB = 0;         //(m/s)
-		//angles
-		double p = ahrs.get_gyro().x;
-		double q = ahrs.get_gyro().y;
-		double r = ahrs.get_gyro().z;
-		//roll and pitch
-		double phi = ahrs.roll;
-		double theta = ahrs.pitch;
-
-		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref)*g.uw_gain_outer;
-
-		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
-
-		//Calculate desired throttle setting
-
-		double thr_des = 60+(rad_ref-rad_act);
-
-		//Set limitations on throttle settings
-
-		if (thr_des > 100){
-			thr_des = 100;
-		}
-		else if (thr_des < 40){
-			thr_des = 40;
-		}
-
-		//Set desired throttle setting
-        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
-
-		//channel_throttle->servo_out = thr_des;
-
-		//Set desired deflection angles
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -g.uw_gain_aileron*CSD.GetAileron()*100*180/3.14); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -g.uw_gain_elevator*CSD.GetElevator()*100*180/3.14); //centidegrees
-
-		//channel_roll->servo_out = -g.uw_gain_aileron*CSD.GetAileron()*100*180/3.14; //Units: centi-degrees
-		//channel_pitch->servo_out = -g.uw_gain_elevator*CSD.GetElevator()*100*180/3.14; //Units: centi-degrees
-		steering_control.steering = steering_control.rudder = -g.uw_gain_rudder*CSD.GetRudder()*100*180/3.14; //Units: centi-degrees
-		break;
-	}
-
-	case UW_MODE_3:{
-		//dt used for ILCintegrator
-		double dt = 0.02; //Seconds
-		//radius
-		uint8_t ch = 7; //CH_8
-		double rad_act_pwm = hal.rcin->read(ch); //(pwm)
-		double rad_act = rad_act_pwm/100; //(m)
-		//double rad_act = g.uw_act_radius; //(m)
-		double rad_ref = g.uw_radius; //(m)
-		//altitude
-		double alt = relative_altitude; //(m)
-		double alt_ref = g.uw_altitude; //(m)
-		//speed
-		double uB = airspeed.get_airspeed(); //(m/s)
-		double vB = 0;         //(m/s)
-		double wB = 0;         //(m/s)
-		//angles
-		double p = ahrs.get_gyro().x;
-		double q = ahrs.get_gyro().y;
-		double r = ahrs.get_gyro().z;
-		//roll and pitch
-		double phi = ahrs.roll;
-		double theta = ahrs.pitch;
-
-		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref)*g.uw_gain_outer;
-
-		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
-
-		//Calculate desired throttle setting
-
-		double thr_des = 60+(rad_ref-rad_act);
-
-		//Set limitations on throttle settings
-
-		if (thr_des > 100){
-			thr_des = 100;
-		}
-		else if (thr_des < 40){
-			thr_des = 40;
-		}
-
-		//Set desired throttle setting
-        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
-
-		//channel_throttle->servo_out = thr_des;
-
-		//Set desired deflection angles
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -g.uw_gain_aileron*CSD.GetAileron()*100*180/3.14); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -g.uw_gain_elevator*CSD.GetElevator()*100*180/3.14); //centidegrees
-		//channel_roll->servo_out = -g.uw_gain_aileron*CSD.GetAileron()*100*180/3.14; //Units: centi-degrees
-		//channel_pitch->servo_out = -g.uw_gain_elevator*CSD.GetElevator()*100*180/3.14; //Units: centi-degrees
-		steering_control.steering = steering_control.rudder = -g.uw_gain_rudder*CSD.GetRudder()*100*180/3.14; //Units: centi-degrees
-
-		break;
-	}
-		
-	case UW_MODE_4:{
-
-		uint8_t ch = 7; //CH_8
-		double rad_act_pwm = hal.rcin->read(ch); //(pwm)
-
-        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 50);
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 500); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -500); //centidegrees
-		//channel_throttle->servo_out= 50;
-		//channel_roll->servo_out = 500;
-		//channel_pitch->servo_out = -500;
-		steering_control.steering = steering_control.rudder = rad_act_pwm;
-
-			
-		break;
-	}
-	//UWAFSL END
         
     case TRAINING: {
         training_manual_roll = false;
@@ -986,13 +844,6 @@ void Plane::update_navigation()
     case GUIDED:
         update_loiter(radius);
         break;
-
-    //UWAFSL START
-	case UW_MODE_1:
-	case UW_MODE_2:
-	case UW_MODE_3:
-	case UW_MODE_4:
-	//UWAFSL END
 
     case CRUISE:
         update_cruise();

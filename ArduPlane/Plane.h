@@ -1,4 +1,4 @@
-﻿/*
+/*
    Lead developer: Andrew Tridgell & Tom Pittenger
 
    Authors:    Doug Weibel, Jose Julio, Jordi Munoz, Jason Short, Randy Mackay, Pat Hickey, John Arne Birkeland, Olivier Adler, Amilcar Lucas, Gregory Fletcher, Paul Riseborough, Brandon Jones, Jon Challinger
@@ -28,10 +28,6 @@
 #include <cmath>
 #include <stdarg.h>
 #include <stdio.h>
-
-//UWAFSL START
-#include <OrbitControl/OrbitControl.h>
-//UWAFSL END
 
 #include <AP_HAL/AP_HAL.h>
 #include <AP_Common/AP_Common.h>
@@ -431,17 +427,6 @@ private:
         bool launchTimerStarted;
     } takeoff_state;
     
-    //UWAFSL START
-    ////////////////////////////////////////////////////////////////////////////////
-    // UW controller state
-    ////////////////////////////////////////////////////////////////////////////////
-    struct {
-        InnerLoopController ILC;
-        OuterLoopController OLC;
-    } uw_mode_2_state;
-    //UWAFSL END
-
-
     // ground steering controller state
     struct {
         // Direction held during phases of takeoff and landing centidegrees

@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 // Internal defines, don't edit and expect things to work
 // -------------------------------------------------------
@@ -64,13 +64,7 @@ enum FlightMode {
     QHOVER        = 18,
     QLOITER       = 19,
     QLAND         = 20,
-    QRTL          = 21,
-    //UWAFSL START
-    UW_MODE_1     = 22,
-    UW_MODE_2     = 23,
-    UW_MODE_3     = 24,
-	UW_MODE_4     = 25
-    //UWAFSL END
+    QRTL          = 21
 };
 
 enum mode_reason_t {
