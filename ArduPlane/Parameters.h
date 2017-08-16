@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include <AP_Common/AP_Common.h>
 
@@ -160,6 +160,12 @@ public:
         k_param_q_attitude_control,
         k_param_takeoff_pitch_limit_reduction_sec,
 
+        //UWAFSL START
+		//Visual Anchoring
+		k_param_uw_radius = 108,  //108
+		k_param_uw_altitude,      //109
+		//UWAFSL END
+
         // 110: Telemetry control
         //
         k_param_gcs0 = 110,         // stream rates for uartA
@@ -294,6 +300,12 @@ public:
         k_param_rc_15_old,
         k_param_rc_16_old,
 
+        //UWAFSL START
+		//Visual Anchoring
+		k_param_uw_act_radius = 208, //208
+		k_param_uw_gain_outer,       //209
+		//UWAFSL END
+
         //
         // 210: flight modes
         //
@@ -307,6 +319,12 @@ public:
         k_param_initial_mode,
         k_param_land_slope_recalc_shallow_threshold,    // unused - moved to AP_Landing
         k_param_land_slope_recalc_steep_threshold_to_abort, // unused - moved to AP_Landing
+
+        //UWAFSL START
+		//Visual Anchoring
+		k_param_uw_gain_elevator = 218, //218
+		k_param_uw_gain_rudder,         //219
+		//UWAFSL END
 
         //
         // 220: Waypoint data
@@ -347,6 +365,11 @@ public:
 
         k_param_mixing_offset,
         k_param_dspoiler_rud_rate,
+
+        //UWAFSL START
+		//Visual Anchoring
+		k_param_uw_gain_aileron = 248, //248
+		//UWAFSL END
 
         k_param_DataFlash = 253, // Logging Group
 
@@ -507,6 +530,17 @@ public:
 #endif
     AP_Int16 gcs_pid_mask;
     AP_Int8 parachute_channel;
+
+    //UWAFSL START
+    //Adding Parameters
+    AP_Float uw_radius;
+    AP_Float uw_altitude;
+    AP_Float uw_act_radius;
+    AP_Float uw_gain_outer;
+    AP_Float uw_gain_elevator;
+    AP_Float uw_gain_rudder;
+    AP_Float uw_gain_aileron;
+    //UWAFSL END
 };
 
 /*
