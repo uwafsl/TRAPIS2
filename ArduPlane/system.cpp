@@ -746,16 +746,16 @@ void Plane::print_flight_mode(AP_HAL::BetterStream *port, uint8_t mode)
 
     //UWAFSL START
 	case UW_MODE_1:
-		port->printf("UW_Mode_1");
+		port->print("UW_Mode_1");
 		break;
 	case UW_MODE_2:
-		port->printf("UW_Mode_2");
+		port->print("UW_Mode_2");
 		break;
 	case UW_MODE_3:
-		port->printf("UW_Mode_3");
+		port->print("UW_Mode_3");
 		break;
 	case UW_MODE_4:
-		port->printf("UW_Mode_4");
+		port->print("UW_Mode_4");
 		break;
 	//UWAFSL END
 
@@ -847,20 +847,6 @@ void Plane::notify_flight_mode(enum FlightMode mode)
     case QRTL:
         notify.set_flight_mode_str("QRTL");
         break;
-    //UWAFSL START
-	case UW_MODE_1:
-        notify.set_flight_mode_str("UW_MODE_1");
-		break;
-	case UW_MODE_2:
-        notify.set_flight_mode_str("UW_MODE_2");
-		break;
-	case UW_MODE_3:
-        notify.set_flight_mode_str("UW_MODE_3");
-		break;
-	case UW_MODE_4:
-        notify.set_flight_mode_str("UW_MODE_4");
-		break;
-	//UWAFSL END
     default:
         notify.set_flight_mode_str("----");
         break;
