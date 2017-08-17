@@ -1,4 +1,4 @@
-﻿#include "Plane.h"
+#include "Plane.h"
 #include <AP_RSSI/AP_RSSI.h>
 
 void Plane::init_barometer(bool full_calibration)
@@ -274,14 +274,7 @@ void Plane::update_sensor_status_flags(void)
         control_sensors_enabled |= MAV_SYS_STATUS_SENSOR_Z_ALTITUDE_CONTROL; // altitude control
         control_sensors_enabled |= MAV_SYS_STATUS_SENSOR_XY_POSITION_CONTROL; // X/Y position control
         break;
-        /*
-    //UWAFSL START 
-    case UW_MODE_1:
-    case UW_MODE_2:
-    case UW_MODE_3:
-    case UW_MODE_4:
-    //UWAFSL END
-    */
+
     case INITIALISING:
         break;
     }

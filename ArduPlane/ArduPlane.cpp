@@ -1,4 +1,4 @@
-﻿/*
+/*
    Lead developer: Andrew Tridgell
  
    Authors:    Doug Weibel, Jose Julio, Jordi Munoz, Jason Short, Randy Mackay, Pat Hickey, John Arne Birkeland, Olivier Adler, Amilcar Lucas, Gregory Fletcher, Paul Riseborough, Brandon Jones, Jon Challinger
@@ -610,18 +610,7 @@ void Plane::update_flight_mode(void)
             break;
         }
         // no break
-        /*
-        //UWAFSL START 
-        case UW_MODE_1:
-            break;
-        case UW_MODE_2:
-            break;
-        case UW_MODE_3:
-            break;
-        case UW_MODE_4:
-            break;
-        //UWAFSL END
-        */
+
     case RTL:
     case LOITER:
         calc_nav_roll();
@@ -855,14 +844,7 @@ void Plane::update_navigation()
     case GUIDED:
         update_loiter(radius);
         break;
-        /*
-    //UWAFSL START
-	case UW_MODE_1:
-	case UW_MODE_2:
-	case UW_MODE_3:
-	case UW_MODE_4:
-	//UWAFSL END
-    */
+
     case CRUISE:
         update_cruise();
         break;

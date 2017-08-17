@@ -1,4 +1,4 @@
-﻿LIBRARIES += AP_Common
+LIBRARIES += AP_Common
 LIBRARIES += AP_Menu
 LIBRARIES += AP_Param
 LIBRARIES += StorageManager

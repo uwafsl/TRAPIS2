@@ -1,4 +1,4 @@
-﻿#include "GCS_Mavlink.h"
+#include "GCS_Mavlink.h"
 
 #include "Plane.h"
 #include "version.h"
@@ -57,14 +57,6 @@ void Plane::send_heartbeat(mavlink_channel_t chan)
         // APM does in any mode, as that is defined as "system finds its own goal
         // positions", which APM does not currently do
         break;
-        /*
-    //UWAFSL START
-	case UW_MODE_1:
-	case UW_MODE_2:
-	case UW_MODE_3:
-	case UW_MODE_4:
-	//UWAFSL END
-    */
     case INITIALISING:
         system_status = MAV_STATE_CALIBRATING;
         break;
