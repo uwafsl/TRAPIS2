@@ -386,35 +386,6 @@ const AP_Param::Info Plane::var_info[] = {
     // @Values: 0 1000
     // @User: Standard
     GSCALAR(uw_act_radius, "UW_ACT_RADIUS",  200),
-
-    // @Param: UW_OUTER_GAIN
-    // @DisplayName: Outer Loop Gain
-    // @Description: Sets the proportional gain for PsiDotError
-    // @Values: 0 1000
-    // @User: Standard
-    GSCALAR(uw_gain_outer, "UW_GAIN_OUTER",  1),
-
-    // @Param: UW_ELEVATOR_GAIN
-    // @DisplayName: Elevator Gain
-    // @Description: The proportion gain on the elevator output signal
-    // @Values: 0 1000
-    // @User: Standard
-    GSCALAR(uw_gain_elevator, "UW_GAIN_ELEVATOR",  1),
-
-    // @Param: UW_RUDDER_GAIN
-    // @DisplayName: Rudder Gain
-    // @Description: The proportion gain on the rudder output signal
-    // @Values: 0 1000
-    // @User: Standard
-    GSCALAR(uw_gain_rudder, "UW_GAIN_RUDDER",  1),
-
-    // @Param: UW_AILERON_GAIN
-    // @DisplayName: Aileron Gain
-    // @Description: The proportion gain on the aileron output signal
-    // @Values: 0 1000
-    // @User: Standard
-    GSCALAR(uw_gain_aileron, "UW_GAIN_AILERON",  1),
-
     //UWAFSL END
 
     // @Param: ARSPD_FBW_MIN

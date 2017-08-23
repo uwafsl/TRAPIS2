@@ -402,16 +402,5 @@
 #ifndef UW_ACT_RADIUS      //Defines uw_act_radius
  # define UW_ACT_RADIUS 100 //Sets default value
 #endif
-#ifndef UW_GAIN_OUTER     //Defines uw_outer_gain
- # define UW_GAIN_OUTER 100  //Sets default value
-#endif
-#ifndef UW_GAIN_ELEVATOR      //Defines uw_elevator_gain
- # define UW_GAIN_ELEVATOR 1 //Sets default value
-#endif
-#ifndef UW_GAIN_RUDDER      //Defines uw_rudder_gain
- # define UW_GAIN_RUDDER 1 //Sets default value
-#endif
-#ifndef UW_GAIN_AILERON      //Defines uw_aileron_gain
- # define UW_GAIN_AILERON 1 //Sets default value
-#endif
+
 //UWAFSL END
