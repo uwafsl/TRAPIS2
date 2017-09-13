@@ -39,7 +39,7 @@
 ////
 OuterLoopController::OuterLoopController()
 {
-    Kp_outer = 3;        // outerloopcontroller forward gain
+    //Kp_outer = 3;        // outerloopcontroller forward gain
     fadein_tau = 0.005;  // time constant for fade-in activation
 
     //initialize parameters
@@ -85,7 +85,7 @@ OuterLoopController::~OuterLoopController()
 ///
 /// Side-effects:   - none
 ////
-double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_ref)
+double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_ref, double pro_gain, double der_gain, double psiDotErr_lim, double pro_forget_factor, double der_forget_factor)
 {
 
     double psiDotErr;
@@ -112,16 +112,16 @@ double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_re
     /// Outer Loop Algorithm
     ////
     //UW_Mode pre_gain = 5e-3 (simulator)
-    double pre_gain = 5e-3;  // gain to scale down the radius error into the appropriate order of magnitude
+    //double pre_gain = 5e-3;  // gain to scale down the radius error into the appropriate order of magnitude
     double r_err = rad_ref - rad_act;
 
 	//UW_Mode dr_gain = 1e-2 (simulator)
-    double dr_gain = 1e-2; // gain to scale down the radius derivative error
+    //double dr_gain = 1e-2; // gain to scale down the radius derivative error
 
 	double dt = 0.02; //delta-t for computing the radius derivative 
 
-	double der_forget_factor = 0.8; //forgetting factor to reduce derivative input signal when no new radius information
-	double pro_forget_factor = 0.98; //forgetting factor to reduce proportional input signal when no new radius information
+	//double der_forget_factor = 0.8; //forgetting factor to reduce derivative input signal when no new radius information
+	//double pro_forget_factor = 0.98; //forgetting factor to reduce proportional input signal when no new radius information
 
     //radius derivative, used to maintain a flight path tangential to the desired orbit
     if (last_rad_act == 0){
@@ -186,16 +186,16 @@ double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_re
 
 	//Ryan Grimes disabled the fade in gain application to the forward gain because of its negative impact on wind drift correction
     //double forward_gain = OuterLoopController::activateController() * pre_gain * Kp_outer;
-	double forward_gain = pre_gain * Kp_outer;
-	psiDotErr = r_err * forward_gain * -1 + dr_gain*dr;
+	//double forward_gain = pre_gain * Kp_outer;
+	psiDotErr = r_err * pro_gain * -1 + der_gain*dr;
 
 
     // signal saturation
 	// Ryan Grimes increased max and min psiDotErr values (was 0.1)
-    if (psiDotErr < -0.5) {
-        psiDotErr = -0.5;
-    } else if (psiDotErr > 0.5) {
-        psiDotErr = 0.5;
+    if (psiDotErr < -psiDotErr_lim) {
+        psiDotErr = -psiDotErr_lim;
+    } else if (psiDotErr > psiDotErr_lim) {
+        psiDotErr = psiDotErr_lim;
     }
 
     // save input information

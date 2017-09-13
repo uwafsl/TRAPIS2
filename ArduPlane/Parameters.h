@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 #include <AP_Common/AP_Common.h>
 
@@ -357,7 +357,11 @@ public:
 		//Visual Anchoring
 		k_param_uw_radius = 251,  //251
 		k_param_uw_altitude,      //252
-		k_param_uw_act_radius,    //253
+		k_param_uw_pro_gain,      //253
+        k_param_uw_der_gain,      //254
+        k_param_uw_psiDotErr_lim, //255
+        k_param_uw_pro_forget_factor = 9, // was empty
+        k_param_uw_der_forget_factor = 198 // replaced k_param_rc_14_old
 		//UWAFSL END
     };
 
@@ -520,7 +524,11 @@ public:
     //Adding Parameters
     AP_Float uw_radius;
     AP_Float uw_altitude;
-    AP_Float uw_act_radius;
+    AP_Float uw_pro_gain;
+    AP_Float uw_der_gain;
+    AP_Float uw_psiDotErr_lim;
+    AP_Float uw_pro_forget_factor;
+    AP_Float uw_der_forget_factor;
     //UWAFSL END
 };
 

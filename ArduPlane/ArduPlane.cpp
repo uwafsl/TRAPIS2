@@ -1,4 +1,4 @@
-﻿/*
+/*
    Lead developer: Andrew Tridgell
  
    Authors:    Doug Weibel, Jose Julio, Jordi Munoz, Jason Short, Randy Mackay, Pat Hickey, John Arne Birkeland, Olivier Adler, Amilcar Lucas, Gregory Fletcher, Paul Riseborough, Brandon Jones, Jon Challinger
@@ -626,6 +626,9 @@ void Plane::update_flight_mode(void)
 		break;
 	}
 	case UW_MODE_2:{
+        if (control_mode != UW_MODE_2) {
+            set_mode(UW_MODE_2, MODE_REASON_UNKNOWN);
+        }
 		//dt used for ILCintegrator
 		double dt = 0.02; //Seconds
 		//Set next waypoint to the guided waypoint
@@ -654,18 +657,25 @@ void Plane::update_flight_mode(void)
 		double phi = ahrs.roll;
 		double theta = ahrs.pitch;
 
-		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref);
+        // Defining Paramters
+        double pro_gain = g.uw_pro_gain;
+        double der_gain = g.uw_der_gain;
+        double psiDotErr_lim = g.uw_psiDotErr_lim;
+        double pro_forget_factor = g.uw_pro_forget_factor;
+        double der_forget_factor = g.uw_der_forget_factor;
+
+		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, psiDotErr_lim, pro_forget_factor, der_forget_factor);
 
 		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
 
 		//Calculate desired throttle setting
 
-		double thr_des = 60+(rad_ref-rad_act);
+		double thr_des = 60 + 0.5 * (rad_ref-rad_act);
 
 		//Set limitations on throttle settings
 
-		if (thr_des > 100){
-			thr_des = 100;
+		if (thr_des > 80){
+            thr_des = 80;
 		}
 		else if (thr_des < 40){
 			thr_des = 40;
@@ -687,6 +697,9 @@ void Plane::update_flight_mode(void)
 	}
 
 	case UW_MODE_3:{
+        if (control_mode != UW_MODE_3) {
+            set_mode(UW_MODE_3, MODE_REASON_UNKNOWN);
+        }
 		//dt used for ILCintegrator
 		double dt = 0.02; //Seconds
 		//radius
@@ -710,18 +723,25 @@ void Plane::update_flight_mode(void)
 		double phi = ahrs.roll;
 		double theta = ahrs.pitch;
 
-		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref);
+        // Defining Paramters
+        double pro_gain = g.uw_pro_gain;
+        double der_gain = g.uw_der_gain;
+        double psiDotErr_lim = g.uw_psiDotErr_lim;
+        double pro_forget_factor = g.uw_pro_forget_factor;
+        double der_forget_factor = g.uw_der_forget_factor;
+
+        double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, psiDotErr_lim, pro_forget_factor, der_forget_factor);
 
 		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
 
 		//Calculate desired throttle setting
 
-		double thr_des = 60+(rad_ref-rad_act);
+		double thr_des = 60 + 0.5 *(rad_ref-rad_act);
 
 		//Set limitations on throttle settings
 
-		if (thr_des > 100){
-			thr_des = 100;
+		if (thr_des > 80){
+			thr_des = 80;
 		}
 		else if (thr_des < 40){
 			thr_des = 40;
@@ -990,7 +1010,15 @@ void Plane::update_navigation()
     //UWAFSL START
 	case UW_MODE_1:
 	case UW_MODE_2:
+        if (control_mode != UW_MODE_2) {
+            set_mode(UW_MODE_2, MODE_REASON_UNKNOWN);
+        }
+        break;
 	case UW_MODE_3:
+        if (control_mode != UW_MODE_3) {
+            set_mode(UW_MODE_3, MODE_REASON_UNKNOWN);
+        }
+        break;
 	case UW_MODE_4:
 	//UWAFSL END
 
