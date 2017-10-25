@@ -400,13 +400,13 @@
  # define UW_ALTITUDE 100  //Sets default value
 #endif
 #ifndef UW_PRO_GAIN     //Defines uw_pro_gain
- # define UW_PRO_GAIN 1.5e-2 //Sets default value
+ # define UW_PRO_GAIN 5e-3 //Sets default value
 #endif
 #ifndef UW_DER_GAIN     //Defines uw_der_gain
-# define UW_DER_GAIN 5e-3 //Sets default value
+# define UW_DER_GAIN 1e-2 //Sets default value
 #endif
 #ifndef UW_PSIDOTERR_LIM     //Defines uw_psiDotErr_lim
-# define UW_PSIDOTERR_LIM 0.1 //Sets default value
+# define UW_PSIDOTERR_LIM 0.3 //Sets default value
 #endif
 #ifndef UW_PRO_FORGET_FACTOR     //Defines uw_pro_forget_factor
 # define UW_PRO_FORGET_FACTOR 0.98 //Sets default value

@@ -385,21 +385,21 @@ const AP_Param::Info Plane::var_info[] = {
     // @Description: Sets the proportional gain of orbit for visual anchoring flight mode
     // @Values: 0 1
     // @User: Standard
-    GSCALAR(uw_pro_gain, "UW_PRO_GAIN",  1.5e-2),
+    GSCALAR(uw_pro_gain, "UW_PRO_GAIN",  5e-3),
 
     // @Param: UW_DER_GAIN
     // @DisplayName: Derivative Gain of Orbit
     // @Description: Sets the derivative gain of orbit for visual anchoring flight mode
     // @Values: 0 1
     // @User: Standard
-    GSCALAR(uw_der_gain, "UW_DER_GAIN", 5e-3),
+    GSCALAR(uw_der_gain, "UW_DER_GAIN", 1e-2),
 
     // @Param: UW_PSIDOTERR_LIM
     // @DisplayName: Heading Rate Limits of Orbit
     // @Description: Sets the heading rate limit (psiDotErr limit) of orbit for visual anchoring flight mode (rad/s)
     // @Values: 0 1
     // @User: Standard
-    GSCALAR(uw_psiDotErr_lim, "UW_PSIDOTERR_LIM", 0.1),
+    GSCALAR(uw_psiDotErr_lim, "UW_PSIDOTERR_LIM", 0.3),
 
     // @Param: UW_PRO_FORGET_FACTOR
     // @DisplayName: Proportional Forgetting Factor of Orbit

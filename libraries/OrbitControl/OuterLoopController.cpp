@@ -111,12 +111,15 @@ double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_re
     ////
     /// Outer Loop Algorithm
     ////
-    //UW_Mode pre_gain = 5e-3 (simulator)
-    //double pre_gain = 5e-3;  // gain to scale down the radius error into the appropriate order of magnitude
+    //UW_Mode 2 pro_gain = 0.015 (simulator)
+    //UW_Mode 3 pro_gain @ 10 Hz = 0.01 (simulator)
+    //UW_Mode 3 pro_gain @ 2 Hz = 0.005 (simulator)
+   
     double r_err = rad_ref - rad_act;
 
-	//UW_Mode dr_gain = 1e-2 (simulator)
-    //double dr_gain = 1e-2; // gain to scale down the radius derivative error
+    //UW_Mode 2 der_gain = 0.01 (simulator)
+    //UW_Mode 3 der_gain @ 10 Hz = 0.01 (simulator)
+    //UW_Mode 3 der_gain @ 2 Hz = 0.01 (simulator)
 
 	double dt = 0.02; //delta-t for computing the radius derivative 
 

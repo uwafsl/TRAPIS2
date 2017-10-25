@@ -217,14 +217,15 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	/// Yaw Damper
 	////
 	double r_e = r_ref - r;
-	intYawDamper += (kR/5)*r_e*dt;
+	//intYawDamper += (kR/5)*r_e*dt;
 	// signal saturation
-	if (intYawDamper < -0.7) {
-		intYawDamper = -0.7;
-	} else if (intYawDamper > 0.7) {
-		intYawDamper = 0.7;
-	}
-	double dR = -(r_e*kR + intYawDamper);
+	//if (intYawDamper < -0.7) {
+	//	intYawDamper = -0.7;
+	//} else if (intYawDamper > 0.7) {
+	//	intYawDamper = 0.7;
+	//}
+	//double dR = -(r_e*kR + intYawDamper);
+    double dR = -(r_e*kR);
 
 	////
 	/// Altitude Loop
