@@ -21,7 +21,9 @@
  */
 
 #include "Plane.h"
-
+// UWAFSL START
+// Hi
+// UWAFSL END
 #define SCHED_TASK(func, rate_hz, max_time_micros) SCHED_TASK_CLASS(Plane, &plane, func, rate_hz, max_time_micros)
 
 
