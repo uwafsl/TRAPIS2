@@ -58,6 +58,15 @@
     <Filter Include="libraries\AP_ADC">
       <UniqueIdentifier>{f22c07ed-7772-4f5e-8559-7e177e760d2c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="libraries\AP_ADSB">
+      <UniqueIdentifier>{ff5c5af1-c375-4b2c-9470-758c78759802}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\AP_AdvancedFailsafe">
+      <UniqueIdentifier>{7cd9a6c8-86a4-4f5e-83c7-b0ba7feae597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\AP_AdvancedFailsafe\Failsafe_Board">
+      <UniqueIdentifier>{fc8ded7d-c3ea-4b37-82ce-02bff84994c1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -708,6 +717,12 @@
     <ClCompile Include="libraries\AP_ADC\AP_ADC_ADS1115.cpp">
       <Filter>libraries\AP_ADC</Filter>
     </ClCompile>
+    <ClCompile Include="libraries\AP_ADSB\AP_ADSB.cpp">
+      <Filter>libraries\AP_ADSB</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\AP_AdvancedFailsafe\AP_AdvancedFailsafe.cpp">
+      <Filter>libraries\AP_AdvancedFailsafe</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -739,6 +754,9 @@
     </Text>
     <Text Include="libraries\AP_ADC\keywords.txt">
       <Filter>libraries\AP_ADC</Filter>
+    </Text>
+    <Text Include="libraries\AP_AdvancedFailsafe\Failsafe_Board\nobuild.txt">
+      <Filter>libraries\AP_AdvancedFailsafe\Failsafe_Board</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -1003,6 +1021,12 @@
     <ClInclude Include="libraries\AP_ADC\AP_ADC_ADS1115.h">
       <Filter>libraries\AP_ADC</Filter>
     </ClInclude>
+    <ClInclude Include="libraries\AP_ADSB\AP_ADSB.h">
+      <Filter>libraries\AP_ADSB</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AP_AdvancedFailsafe\AP_AdvancedFailsafe.h">
+      <Filter>libraries\AP_AdvancedFailsafe</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="AntennaTracker\make.inc">
@@ -1094,6 +1118,12 @@
     </None>
     <None Include="libraries\AC_PID\examples\AC_PID_test\wscript">
       <Filter>libraries\AC_PID\examples\AC_PID_test</Filter>
+    </None>
+    <None Include="libraries\AP_AdvancedFailsafe\Failsafe_Board\Failsafe_Board.pde">
+      <Filter>libraries\AP_AdvancedFailsafe\Failsafe_Board</Filter>
+    </None>
+    <None Include="libraries\AP_AdvancedFailsafe\Failsafe_Board\Makefile">
+      <Filter>libraries\AP_AdvancedFailsafe\Failsafe_Board</Filter>
     </None>
   </ItemGroup>
 </Project>

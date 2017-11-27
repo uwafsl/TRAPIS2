@@ -355,6 +355,8 @@
     <ClCompile Include="libraries\AP_AccelCal\AP_AccelCal.cpp" />
     <ClCompile Include="libraries\AP_ADC\AP_ADC.cpp" />
     <ClCompile Include="libraries\AP_ADC\AP_ADC_ADS1115.cpp" />
+    <ClCompile Include="libraries\AP_ADSB\AP_ADSB.cpp" />
+    <ClCompile Include="libraries\AP_AdvancedFailsafe\AP_AdvancedFailsafe.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt" />
@@ -367,6 +369,7 @@
     <Text Include="libraries\AC_PID\keywords.txt" />
     <Text Include="libraries\AC_WPNav\keywords.txt" />
     <Text Include="libraries\AP_ADC\keywords.txt" />
+    <Text Include="libraries\AP_AdvancedFailsafe\Failsafe_Board\nobuild.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntennaTracker\APM_Config.h" />
@@ -456,6 +459,8 @@
     <ClInclude Include="libraries\AP_AccelCal\AP_AccelCal.h" />
     <ClInclude Include="libraries\AP_ADC\AP_ADC.h" />
     <ClInclude Include="libraries\AP_ADC\AP_ADC_ADS1115.h" />
+    <ClInclude Include="libraries\AP_ADSB\AP_ADSB.h" />
+    <ClInclude Include="libraries\AP_AdvancedFailsafe\AP_AdvancedFailsafe.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AntennaTracker\make.inc" />
@@ -488,6 +493,8 @@
     <None Include="ArduSub\Parameters.pde" />
     <None Include="ArduSub\wscript" />
     <None Include="libraries\AC_PID\examples\AC_PID_test\wscript" />
+    <None Include="libraries\AP_AdvancedFailsafe\Failsafe_Board\Failsafe_Board.pde" />
+    <None Include="libraries\AP_AdvancedFailsafe\Failsafe_Board\Makefile" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
