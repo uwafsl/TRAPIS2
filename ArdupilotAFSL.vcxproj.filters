@@ -1234,6 +1234,198 @@
     <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta">
       <UniqueIdentifier>{c16dacc4-9f22-4904-874b-192e2c73f4b3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4Firmware\misc">
+      <UniqueIdentifier>{009c3ade-a4f5-4dab-bd36-86990dc7c14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\misc\tones">
+      <UniqueIdentifier>{912bf215-8104-418f-93c5-52e4a25d27de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\msg">
+      <UniqueIdentifier>{232b4065-287b-4eea-9809-fad89aec9314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\msg\templates">
+      <UniqueIdentifier>{3a24510b-af8d-4fd6-a17b-8c044d564aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\msg\templates\px4">
+      <UniqueIdentifier>{c7746054-ee08-4bd0-b31d-7a970c3760e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\msg\templates\uorb">
+      <UniqueIdentifier>{7401129a-be80-46c8-9820-11268d249426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\msg\templates\px4\ros">
+      <UniqueIdentifier>{51df167d-b381-4d00-80b7-f29e39bf6654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\msg\templates\px4\uorb">
+      <UniqueIdentifier>{70e2ca99-966d-4e01-8ab5-446d933ba55b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs">
+      <UniqueIdentifier>{8182f554-508d-4ccf-9074-3d1ff1bf8a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerocore">
+      <UniqueIdentifier>{5a99d291-989d-4219-8b81-74a574771f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerocore\include">
+      <UniqueIdentifier>{acbb7fcf-f2a2-407c-a5ae-60753022f5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerocore\scripts">
+      <UniqueIdentifier>{429134ec-17ea-405c-bf8a-f1440967e31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerofc-v1">
+      <UniqueIdentifier>{fac38485-f885-4531-8545-9a0a1fc2563b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\include">
+      <UniqueIdentifier>{c0277af8-a30f-4ac3-9a4a-5fd716466ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\nsh">
+      <UniqueIdentifier>{03d21743-d1a4-4c4a-9595-2b389f5aa8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\src">
+      <UniqueIdentifier>{c1680aa8-5ed5-4f62-ab9c-b3121546ea62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\scripts">
+      <UniqueIdentifier>{861b2a39-7576-4323-b247-89b591ef62c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerocore\nsh">
+      <UniqueIdentifier>{662f730d-6a60-4c61-9528-51f46929a8ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\aerocore\src">
+      <UniqueIdentifier>{be59df72-88a1-4cdf-bf65-32d2ac7a512c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\mindpx-v2">
+      <UniqueIdentifier>{4e4444ea-5557-45c7-bee0-b9a5bdec74e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2">
+      <UniqueIdentifier>{530be2e7-846b-43f0-9b89-42e549f7ca00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3">
+      <UniqueIdentifier>{6512eaf9-e756-466d-a265-435d058aa77e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4">
+      <UniqueIdentifier>{aa741c60-970a-410c-af7c-c5565ee36649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro">
+      <UniqueIdentifier>{b0f81272-efba-4761-a124-6fcb224f7e53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v1">
+      <UniqueIdentifier>{a1264a76-94c7-4bb3-9a4c-c906455f7687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v2">
+      <UniqueIdentifier>{fa6e6bed-58d7-4611-872f-c08a7cc68c32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery">
+      <UniqueIdentifier>{be094ffe-429f-494a-8312-f9b4dce2e276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\include">
+      <UniqueIdentifier>{a5a19793-445b-4615-9fe8-a178c2ef9fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\src">
+      <UniqueIdentifier>{3d34ac67-4a16-4ac7-9c67-2bc25546fc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\scripts">
+      <UniqueIdentifier>{e62d15f5-755c-43c4-b923-f66648b4e013}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh">
+      <UniqueIdentifier>{400cd73e-dc83-493f-b18b-90238990d84d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\include">
+      <UniqueIdentifier>{54ad4ea9-01f1-4a2b-8b3c-d27180aa314b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh">
+      <UniqueIdentifier>{abd30f8f-5779-46b9-9138-02e25eeb2ed1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\scripts">
+      <UniqueIdentifier>{4a3f2764-02a5-4091-ad63-694ce302531b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\src">
+      <UniqueIdentifier>{7390c78e-bd6f-4b35-b293-231ea9aab7a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\include">
+      <UniqueIdentifier>{7921ef03-496e-450e-815f-cc5d583e5994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh">
+      <UniqueIdentifier>{60e7f9d2-e71d-4ba3-bacf-cdcc55834b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\scripts">
+      <UniqueIdentifier>{5542f25b-9bf4-4f4b-a02c-45ff2d8a6726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\src">
+      <UniqueIdentifier>{72bd0bb8-2575-4eb6-bf40-d210f0620189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\include">
+      <UniqueIdentifier>{e947a226-b53e-40ef-83b7-63abc666e23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh">
+      <UniqueIdentifier>{937d3673-22b8-4f6b-b331-d510b7560ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\scripts">
+      <UniqueIdentifier>{7c7482dd-6069-4098-80c9-69d616ad420d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\src">
+      <UniqueIdentifier>{f6c63a2a-3589-4ded-a239-fa2704f3441c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\include">
+      <UniqueIdentifier>{67298670-bf08-4aea-835d-dab9bc7b8ac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh">
+      <UniqueIdentifier>{4def50e6-e6a3-4325-b25b-43ffe8575018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\scripts">
+      <UniqueIdentifier>{b81eff72-d6a2-4e53-b731-2cd78f3fa2ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\src">
+      <UniqueIdentifier>{287d3a77-995a-40e7-b3c3-9a0b3bd4b9e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v1\include">
+      <UniqueIdentifier>{3b0aad45-fc40-44fa-978e-1aefb3452376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v1\nsh">
+      <UniqueIdentifier>{75ad4d7f-130a-4b78-8186-a9d6ed59007c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v1\scripts">
+      <UniqueIdentifier>{069763b4-a845-4a42-be7d-85911f770bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v1\src">
+      <UniqueIdentifier>{f4b12745-62df-4c1e-b27f-f9b725f17955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v2\include">
+      <UniqueIdentifier>{aef5663f-79fd-45b4-b0cd-ed3b0c3be9f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v2\nsh">
+      <UniqueIdentifier>{5d2b2dd6-82ef-4594-86db-8c51bf97c66d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v2\scripts">
+      <UniqueIdentifier>{7f3d76a2-621f-4513-ace7-64c63a85efea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4io-v2\src">
+      <UniqueIdentifier>{db386fea-c3e4-49b8-8a5f-e3495694650e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\include">
+      <UniqueIdentifier>{ca1945da-cc55-4a25-bddb-6cecb97d14b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh">
+      <UniqueIdentifier>{290b7d3f-037a-492f-b89b-30151b851482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\scripts">
+      <UniqueIdentifier>{236ff244-db2d-43d8-a6e0-404dd8a53561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\src">
+      <UniqueIdentifier>{a3e57dfc-7f46-4be6-beb9-6ce62ee4e82d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1">
+      <UniqueIdentifier>{a0a15cb0-3db9-49ad-b361-e5cd814e5ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\include">
+      <UniqueIdentifier>{cad68d77-19c2-473d-9a73-3a12dfa293cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\nsh">
+      <UniqueIdentifier>{76988393-3d44-44e4-bee3-19fd1cdc8f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\scripts">
+      <UniqueIdentifier>{f3dde326-1c36-4aab-94c5-41e930a02650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\src">
+      <UniqueIdentifier>{2652433f-4b83-4e21-9efb-fa6469d871d5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -3870,6 +4062,39 @@
     <ClCompile Include="modules\mavlink\pymavlink\mavnative\mavnative.c">
       <Filter>modules\mavlink\pymavlink\mavnative</Filter>
     </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\aerocore\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerofc-v1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\px4io-v1\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\px4io-v2\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v2\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\src\empty.c">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -4198,6 +4423,27 @@
     </Text>
     <Text Include="modules\PX4Firmware\makefiles\README.txt">
       <Filter>modules\PX4Firmware\makefiles</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\misc\tones\charge.txt">
+      <Filter>modules\PX4Firmware\misc\tones</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\misc\tones\cucuracha.txt">
+      <Filter>modules\PX4Firmware\misc\tones</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\misc\tones\daisy.txt">
+      <Filter>modules\PX4Firmware\misc\tones</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\misc\tones\dixie.txt">
+      <Filter>modules\PX4Firmware\misc\tones</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\misc\tones\tell.txt">
+      <Filter>modules\PX4Firmware\misc\tones</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\misc\tones\yankee.txt">
+      <Filter>modules\PX4Firmware\misc\tones</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\nuttx-configs\px4io-v1\include\README.txt">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\include</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -7103,6 +7349,66 @@
     <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta\version.h">
       <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta</Filter>
     </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\aerocore\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\aerocore\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerofc-v1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerofc-v1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4io-v1\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4io-v2\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v2\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\include\board.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\include\nsh_romfsimg.h">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="AntennaTracker\make.inc">
@@ -9795,6 +10101,465 @@
     </None>
     <None Include="modules\PX4Firmware\makefiles\qurt\config_qurt_hello.mk">
       <Filter>modules\PX4Firmware\makefiles\qurt</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\templates\px4\ros\msg.h.template">
+      <Filter>modules\PX4Firmware\msg\templates\px4\ros</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\templates\px4\uorb\msg.h.template">
+      <Filter>modules\PX4Firmware\msg\templates\px4\uorb</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\templates\uorb\msg.h.template">
+      <Filter>modules\PX4Firmware\msg\templates\uorb</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_armed.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_controls.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_controls_0.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_controls_1.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_controls_2.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_controls_3.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_controls_virtual_fw.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_controls_virtual_mc.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_direct.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\actuator_outputs.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\airspeed.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\att_pos_mocap.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\battery_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\camera_trigger.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\control_state.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\debug_key_value.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\differential_pressure.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\distance_sensor.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\ekf2_innovations.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\ekf2_replay.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\encoders.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\esc_report.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\esc_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\estimator_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\fence.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\fence_vertex.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\filtered_bottom_flow.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\follow_target.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\fw_virtual_attitude_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\fw_virtual_rates_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\geofence_result.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\hil_sensor.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\home_position.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\input_rc.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\manual_control_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\mavlink_log.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\mc_att_ctrl_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\mc_virtual_attitude_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\mc_virtual_rates_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\mission.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\mission_result.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\multirotor_motor_limits.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\navigation_capabilities.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\offboard_control_mode.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\optical_flow.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\output_pwm.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\parameter_update.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\position_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\position_setpoint_triplet.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\pwm_input.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\qshell_req.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\rc_channels.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\rc_parameter_map.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\safety.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\satellite_info.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\sensor_accel.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\sensor_baro.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\sensor_combined.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\sensor_gyro.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\sensor_mag.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\servorail_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\subsystem_info.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\system_power.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\tecs_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\telemetry_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\test_motor.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\time_offset.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\uavcan_parameter_request.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\uavcan_parameter_value.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_attitude.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_attitude_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_command.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_command_ack.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_control_mode.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_force_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_global_position.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_global_velocity_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_gps_position.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_land_detected.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_local_position.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_local_position_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_rates_setpoint.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vehicle_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vision_position_estimate.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\vtol_vehicle_status.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\msg\wind_estimate.msg">
+      <Filter>modules\PX4Firmware\msg\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerocore\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerocore\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerocore\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerocore\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerocore\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerocore\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerocore\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerofc-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerofc-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerofc-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerofc-v1\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\aerofc-v1\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\aerofc-v1\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\mindpx-v2\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\mindpx-v2\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v1\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v1\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v1\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v2\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v2\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v3\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v3\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4fmu-v4pro\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v1\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v1\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v1\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v1\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v1\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v1\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v1\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v2\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v2\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v2\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v2\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v2\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v2\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v2\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4io-v2\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4io-v2\src</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh\appconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh\defconfig">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh\Make.defs">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh\setenv.sh">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\nsh</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\scripts\ld.script">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\src\Makefile">
+      <Filter>modules\PX4Firmware\nuttx-configs\px4-stm32f4discovery\src</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
