@@ -80,8 +80,8 @@ void Plane::stabilize_roll(float speed_scaler)
     if (control_mode == STABILIZE && channel_roll->get_control_in() != 0) {
         disable_integrator = true;
     }
-    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, rollController.get_servo_out(nav_roll_cd - ahrs.roll_sensor, 
-                                                                                         speed_scaler, 
+    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, rollController.get_servo_out(nav_roll_cd - ahrs.roll_sensor,
+                                                                                         speed_scaler,
                                                                                          disable_integrator));
 }
 
@@ -104,8 +104,8 @@ void Plane::stabilize_pitch(float speed_scaler)
     if (control_mode == STABILIZE && channel_pitch->get_control_in() != 0) {
         disable_integrator = true;
     }
-    SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, pitchController.get_servo_out(demanded_pitch - ahrs.pitch_sensor, 
-                                                                                           speed_scaler, 
+    SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, pitchController.get_servo_out(demanded_pitch - ahrs.pitch_sensor,
+                                                                                           speed_scaler,
                                                                                            disable_integrator));
 }
 
@@ -118,7 +118,7 @@ void Plane::stabilize_pitch(float speed_scaler)
 void Plane::stick_mix_channel(RC_Channel *channel, int16_t &servo_out)
 {
     float ch_inf;
-        
+
     ch_inf = (float)channel->get_radio_in() - (float)channel->get_radio_trim();
     ch_inf = fabsf(ch_inf);
     ch_inf = MIN(ch_inf, 400.0f);
@@ -190,7 +190,7 @@ void Plane::stabilize_stick_mixing_fbw()
     }
     nav_roll_cd += roll_input * roll_limit_cd;
     nav_roll_cd = constrain_int32(nav_roll_cd, -roll_limit_cd, roll_limit_cd);
-    
+
     float pitch_input = channel_pitch->norm_input();
     if (pitch_input > 0.5f) {
         pitch_input = (3*pitch_input - 1);
@@ -214,7 +214,7 @@ void Plane::stabilize_stick_mixing_fbw()
 
     - hold a specific heading with ground steering
     - rate controlled with ground steering
-    - yaw control for coordinated flight    
+    - yaw control for coordinated flight
  */
 void Plane::stabilize_yaw(float speed_scaler)
 {
@@ -224,7 +224,7 @@ void Plane::stabilize_yaw(float speed_scaler)
     } else {
         // otherwise use ground steering when no input control and we
         // are below the GROUND_STEER_ALT
-        steering_control.ground_steering = (channel_roll->get_control_in() == 0 && 
+        steering_control.ground_steering = (channel_roll->get_control_in() == 0 &&
                                             fabsf(relative_altitude) < g.ground_steer_alt);
         if (!landing.is_ground_steering_allowed()) {
             // don't use ground steering on landing approach
@@ -382,6 +382,10 @@ void Plane::stabilize()
         // nothing to do
         return;
     }
+    if (control_mode == UWSMP) {
+      // nothing to do
+      return;
+    }
     //UWAFSL END
 
     float speed_scaler = get_speed_scaler();
@@ -409,10 +413,10 @@ void Plane::stabilize()
     }
 
     /*
-      see if we should zero the attitude controller integrators. 
+      see if we should zero the attitude controller integrators.
      */
     if (channel_throttle->get_control_in() == 0 &&
-        fabsf(relative_altitude) < 5.0f && 
+        fabsf(relative_altitude) < 5.0f &&
         fabsf(barometer.get_climb_rate()) < 0.5f &&
         gps.ground_speed() < 3) {
         // we are low, with no climb rate, and zero throttle, and very
@@ -424,7 +428,7 @@ void Plane::stabilize()
 
         // if moving very slowly also zero the steering integrator
         if (gps.ground_speed() < 1) {
-            steerController.reset_I();            
+            steerController.reset_I();
         }
     }
 }
@@ -504,7 +508,7 @@ void Plane::calc_nav_yaw_course(void)
  */
 void Plane::calc_nav_yaw_ground(void)
 {
-    if (gps.ground_speed() < 1 && 
+    if (gps.ground_speed() < 1 &&
         channel_throttle->get_control_in() == 0 &&
         flight_stage != AP_Vehicle::FixedWing::FLIGHT_TAKEOFF &&
         flight_stage != AP_Vehicle::FixedWing::FLIGHT_ABORT_LAND) {
@@ -522,7 +526,7 @@ void Plane::calc_nav_yaw_ground(void)
     }
     if (!is_zero(steer_rate)) {
         // pilot is giving rudder input
-        steer_state.locked_course = false;        
+        steer_state.locked_course = false;
     } else if (!steer_state.locked_course) {
         // pilot has released the rudder stick or we are still - lock the course
         steer_state.locked_course = true;
@@ -697,7 +701,7 @@ void Plane::update_load_factor(void)
         // no limits while hovering
         return;
     }
-       
+
 
     float max_load_factor = smoothed_airspeed / aparm.airspeed_min;
     if (max_load_factor <= 1) {
@@ -718,5 +722,5 @@ void Plane::update_load_factor(void)
         }
         nav_roll_cd = constrain_int32(nav_roll_cd, -roll_limit, roll_limit);
         roll_limit_cd = constrain_int32(roll_limit_cd, -roll_limit, roll_limit);
-    }    
+    }
 }
