@@ -1122,6 +1122,7 @@
     <Text Include="modules\mavlink\CMakeLists.txt" />
     <Text Include="modules\mavlink\cmake\WELCOME.txt" />
     <Text Include="modules\mavlink\pymavlink\requirements.txt" />
+    <Text Include="modules\PX4Firmware\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntennaTracker\APM_Config.h" />
@@ -2535,6 +2536,48 @@
     <None Include="modules\mavlink\scripts\test.sh" />
     <None Include="modules\mavlink\scripts\travis_update_generated_repos.sh" />
     <None Include="modules\mavlink\scripts\update_c_library.sh" />
+    <None Include="modules\PX4Firmware\.gitignore" />
+    <None Include="modules\PX4Firmware\.gitmodules" />
+    <None Include="modules\PX4Firmware\.travis.yml" />
+    <None Include="modules\PX4Firmware\.ycm_extra_conf.py" />
+    <None Include="modules\PX4Firmware\cmake\common\px4_base.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_mindpx-v2_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4-stm32f4discovery_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v1_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v2_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v2_ekf2.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v2_lpe.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v4pro_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v4_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_eagle_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_eagle_hil.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_eagle_muorb.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_eagle_release.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_rpi2_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_rpi2_release.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_sitl_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_sitl_ekf2.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_sitl_lpe.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\posix_sitl_replay.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_default.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_hello.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_hil.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_muorb.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_release.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_test.cmake" />
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_travis.cmake" />
+    <None Include="modules\PX4Firmware\cmake\nuttx\bin_to_obj.py" />
+    <None Include="modules\PX4Firmware\cmake\nuttx\builtin_commands.c.in" />
+    <None Include="modules\PX4Firmware\cmake\nuttx\px4_impl_nuttx.cmake" />
+    <None Include="modules\PX4Firmware\CONTRIBUTING.md" />
+    <None Include="modules\PX4Firmware\Firmware.sublime-project" />
+    <None Include="modules\PX4Firmware\LICENSE.md" />
+    <None Include="modules\PX4Firmware\Makefile" />
+    <None Include="modules\PX4Firmware\Makefile.make" />
+    <None Include="modules\PX4Firmware\README.md" />
+    <None Include="modules\PX4Firmware\template_.cproject" />
+    <None Include="modules\PX4Firmware\template_.project" />
+    <None Include="modules\PX4Firmware\Vagrantfile" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="libraries\AP_HAL_Linux\qflight\qflight_dsp.idl" />
@@ -2568,6 +2611,7 @@
     <Xml Include="modules\mavlink\pymavlink\generator\swift\Tests\MAVLinkTests\Testdata\ardupilotmega.xml" />
     <Xml Include="modules\mavlink\pymavlink\generator\swift\Tests\MAVLinkTests\Testdata\common.xml" />
     <Xml Include="modules\mavlink\pymavlink\generator\swift\Tests\MAVLinkTests\Testdata\uAvionix.xml" />
+    <Xml Include="modules\PX4Firmware\package.xml" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="mk\PX4\Tools\genmsg\doc\ros.png" />

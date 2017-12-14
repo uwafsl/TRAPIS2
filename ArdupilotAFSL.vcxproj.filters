@@ -1123,6 +1123,21 @@
     <Filter Include="modules\mavlink\pymavlink\tools\images">
       <UniqueIdentifier>{fb33bc23-bf58-4e57-a0fb-8c971d5fd0a4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4Firmware">
+      <UniqueIdentifier>{1747ddff-0cab-4dc5-bdd6-2b130dc79892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake">
+      <UniqueIdentifier>{5d3a25dc-8e59-4b33-b3df-63deca6b4e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\common">
+      <UniqueIdentifier>{4a3f2768-d658-46cb-aadd-65cf89fb4dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\configs">
+      <UniqueIdentifier>{8bb7dfaa-6e4d-455c-9253-6c25cbb0c46a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\nuttx">
+      <UniqueIdentifier>{1cba473a-bc6e-4296-914b-27ef816a783f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -4070,6 +4085,9 @@
     <Text Include="modules\mavlink\pymavlink\requirements.txt">
       <Filter>modules\mavlink\pymavlink</Filter>
     </Text>
+    <Text Include="modules\PX4Firmware\CMakeLists.txt">
+      <Filter>modules\PX4Firmware</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntennaTracker\APM_Config.h">
@@ -6142,6 +6160,7 @@
     <ClInclude Include="modules\mavlink\pymavlink\mavnative\mavlink_defaults.h">
       <Filter>modules\mavlink\pymavlink\mavnative</Filter>
     </ClInclude>
+    <ClInclude Include="mavschema.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AntennaTracker\make.inc">
@@ -8292,6 +8311,132 @@
     <None Include="modules\mavlink\pymavlink\tools\sertotcp.py">
       <Filter>modules\mavlink\pymavlink\tools</Filter>
     </None>
+    <None Include="modules\PX4Firmware\.gitignore">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\.gitmodules">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\.travis.yml">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\.ycm_extra_conf.py">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\CONTRIBUTING.md">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Firmware.sublime-project">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\LICENSE.md">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Makefile">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Makefile.make">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\README.md">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\template_.cproject">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\template_.project">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Vagrantfile">
+      <Filter>modules\PX4Firmware</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\common\px4_base.cmake">
+      <Filter>modules\PX4Firmware\cmake\common</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_mindpx-v2_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v1_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v2_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v2_ekf2.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v2_lpe.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v4_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4fmu-v4pro_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\nuttx_px4-stm32f4discovery_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_eagle_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_eagle_hil.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_eagle_muorb.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_eagle_release.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_rpi2_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_rpi2_release.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_sitl_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_sitl_ekf2.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_sitl_lpe.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\posix_sitl_replay.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_default.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_hello.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_hil.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_muorb.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_release.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_test.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\configs\qurt_eagle_travis.cmake">
+      <Filter>modules\PX4Firmware\cmake\configs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\nuttx\bin_to_obj.py">
+      <Filter>modules\PX4Firmware\cmake\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\nuttx\builtin_commands.c.in">
+      <Filter>modules\PX4Firmware\cmake\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\nuttx\px4_impl_nuttx.cmake">
+      <Filter>modules\PX4Firmware\cmake\nuttx</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="libraries\AP_HAL_Linux\qflight\qflight_dsp.idl">
@@ -8382,6 +8527,9 @@
     </Xml>
     <Xml Include="modules\mavlink\pymavlink\generator\swift\Tests\MAVLinkTests\Testdata\uAvionix.xml">
       <Filter>modules\mavlink\pymavlink\generator\swift\Tests\MAVLinkTests\Testdata</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\package.xml">
+      <Filter>modules\PX4Firmware</Filter>
     </Xml>
   </ItemGroup>
   <ItemGroup>
