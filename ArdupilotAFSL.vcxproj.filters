@@ -1156,6 +1156,84 @@
     <Filter Include="modules\PX4Firmware\cmake\toolchains">
       <UniqueIdentifier>{c819f5ab-6a7c-4f69-89fa-1e4a4f7a91e8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4Firmware\Debug">
+      <UniqueIdentifier>{11ae6bb4-f471-4f8d-8e8f-8c3aa0d68354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Documentation">
+      <UniqueIdentifier>{19400d38-003d-4df5-975d-cfcf6e966fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Documentation\px4_hil">
+      <UniqueIdentifier>{f08c6f20-50ee-4e97-a9be-6ae5d83ef95f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Documentation\px4_hil\docs">
+      <UniqueIdentifier>{894365b4-c91d-4025-94ac-be2e30d52eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Images">
+      <UniqueIdentifier>{41ad012a-1aef-4023-a389-09a5542cbbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\integrationstests">
+      <UniqueIdentifier>{c91bb9f4-4883-426c-9b22-f9200026e166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\integrationstests\demo_tests">
+      <UniqueIdentifier>{fcd14840-0a0e-47d4-a875-0d78e8e59383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\launch">
+      <UniqueIdentifier>{24f3db27-2ebf-4ebf-a57d-88e433043693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\makefiles">
+      <UniqueIdentifier>{56e6ef82-5bd0-4c0f-8438-1daacc61611a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\makefiles\nuttx">
+      <UniqueIdentifier>{e79c544b-71c6-48df-a555-244bac25d071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\makefiles\posix">
+      <UniqueIdentifier>{fcecf51a-1d43-4dc1-8033-16afb5629267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\makefiles\qurt">
+      <UniqueIdentifier>{f627a00e-9d9e-4e60-a013-7f56dd1f77d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink">
+      <UniqueIdentifier>{43d6f466-8394-4913-ac85-87ff2e3a765b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include">
+      <UniqueIdentifier>{a138b9d0-e07f-4497-be39-a55e1193dcba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink">
+      <UniqueIdentifier>{3f17b5f4-966e-4738-8544-7b5fa516b7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0">
+      <UniqueIdentifier>{896d9903-16ab-4cf2-9202-87aa294b4219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega">
+      <UniqueIdentifier>{688f7f67-e3e9-4f17-9ffd-5852a34a6041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV">
+      <UniqueIdentifier>{58709a3b-a013-4840-b40e-e06e7b02e365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad">
+      <UniqueIdentifier>{2f27f5f5-60ad-4a81-ace6-04a55456ea61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common">
+      <UniqueIdentifier>{60cdc232-fdbf-4acb-b694-45654de17378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot">
+      <UniqueIdentifier>{f0e04668-ceca-4544-a817-f0dd9ee15f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions">
+      <UniqueIdentifier>{cc6ee225-768b-48eb-8943-4477d056d0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal">
+      <UniqueIdentifier>{806cdebb-cbc2-4420-8edf-f25965756b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs">
+      <UniqueIdentifier>{3ac6714e-7d17-445c-be89-cd703d781f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\test">
+      <UniqueIdentifier>{37a43220-cb53-423c-9070-21db25165c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta">
+      <UniqueIdentifier>{c16dacc4-9f22-4904-874b-192e2c73f4b3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -4115,6 +4193,12 @@
     <Text Include="modules\PX4Firmware\cmake\ros-CMakeLists.txt">
       <Filter>modules\PX4Firmware\cmake</Filter>
     </Text>
+    <Text Include="modules\PX4Firmware\Documentation\px4_hil\docs\readme.txt">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil\docs</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\makefiles\README.txt">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntennaTracker\APM_Config.h">
@@ -6188,6 +6272,837 @@
       <Filter>modules\mavlink\pymavlink\mavnative</Filter>
     </ClInclude>
     <ClInclude Include="mavschema.h" />
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\checksum.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\mavlink_conversions.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\mavlink_helpers.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\mavlink_types.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\protocol.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\ardupilotmega.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_ahrs.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_ahrs2.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_ahrs3.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_airspeed_autocal.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_ap_adc.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_autopilot_version_request.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_battery2.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_camera_feedback.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_camera_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_compassmot_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data16.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data32.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data64.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_data96.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_digicam_configure.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_digicam_control.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_ekf_status_report.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_fence_fetch_point.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_fence_point.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_fence_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_gimbal_control.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_gimbal_report.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_gimbal_torque_cmd_report.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_gopro_get_request.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_gopro_get_response.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_gopro_heartbeat.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_gopro_set_request.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_gopro_set_response.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_hwstatus.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_led_control.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_limits_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_mag_cal_progress.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_mag_cal_report.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_meminfo.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_mount_configure.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_mount_control.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_mount_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_pid_tuning.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_radio.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_rally_fetch_point.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_rally_point.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_rangefinder.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_remote_log_block_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_remote_log_data_block.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_rpm.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_sensor_offsets.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_set_mag_offsets.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_simstate.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\mavlink_msg_wind.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ardupilotmega</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\ASLUAV.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_asl_obctrl.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_aslctrl_data.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_aslctrl_debug.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_asluav_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_ekf_ext.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_fw_soaring_data.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_sens_atmos.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_sens_batmon.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_sens_mppt.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_sens_power.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\mavlink_msg_sensorpod_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ASLUAV</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad\autoquad.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad\mavlink_msg_aq_esc_telemetry.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad\mavlink_msg_aq_telemetry_f.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\autoquad</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\common.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_actuator_control_target.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_adsb_vehicle.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_altitude.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_att_pos_mocap.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_attitude.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_attitude_quaternion.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_attitude_quaternion_cov.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_attitude_target.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_auth_key.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_autopilot_version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_battery_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_camera_trigger.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_change_operator_control.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_change_operator_control_ack.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_command_ack.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_command_int.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_command_long.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_control_system_state.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_data_stream.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_data_transmission_handshake.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_debug.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_debug_vect.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_distance_sensor.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_encapsulated_data.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_extended_sys_state.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_file_transfer_protocol.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_follow_target.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_global_position_int.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_global_position_int_cov.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_global_vision_position_estimate.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_gps_global_origin.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_gps_inject_data.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_gps_raw_int.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_gps_rtk.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_gps_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_gps2_raw.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_gps2_rtk.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_heartbeat.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_highres_imu.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_hil_controls.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_hil_gps.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_hil_optical_flow.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_hil_rc_inputs_raw.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_hil_sensor.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_hil_state.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_hil_state_quaternion.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_home_position.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_landing_target.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_local_position_ned.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_local_position_ned_cov.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_local_position_ned_system_global_offset.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_log_data.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_log_entry.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_log_erase.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_log_request_data.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_log_request_end.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_log_request_list.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_manual_control.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_manual_setpoint.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_memory_vect.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_message_interval.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_ack.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_clear_all.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_count.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_current.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_item.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_item_int.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_item_reached.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_request.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_request_list.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_request_partial_list.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_set_current.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_mission_write_partial_list.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_named_value_float.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_named_value_int.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_nav_controller_output.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_optical_flow.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_optical_flow_rad.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_param_map_rc.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_param_request_list.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_param_request_read.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_param_set.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_param_value.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_ping.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_position_target_global_int.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_position_target_local_ned.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_power_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_radio_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_raw_imu.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_raw_pressure.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_rc_channels.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_rc_channels_override.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_rc_channels_raw.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_rc_channels_scaled.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_request_data_stream.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_resource_request.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_safety_allowed_area.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_safety_set_allowed_area.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_scaled_imu.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_scaled_imu2.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_scaled_imu3.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_scaled_pressure.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_scaled_pressure2.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_scaled_pressure3.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_serial_control.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_servo_output_raw.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_set_actuator_control_target.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_set_attitude_target.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_set_gps_global_origin.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_set_home_position.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_set_mode.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_set_position_target_global_int.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_set_position_target_local_ned.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_sim_state.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_statustext.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_sys_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_system_time.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_terrain_check.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_terrain_data.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_terrain_report.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_terrain_request.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_timesync.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_v2_extension.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_vfr_hud.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_vibration.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_vicon_position_estimate.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_vision_position_estimate.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\mavlink_msg_vision_speed_estimate.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\common\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\common</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\matrixpilot.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_airspeeds.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_altitudes.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_flexifunction_buffer_function.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_flexifunction_buffer_function_ack.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_flexifunction_command.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_flexifunction_command_ack.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_flexifunction_directory.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_flexifunction_directory_ack.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_flexifunction_read_req.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_flexifunction_set.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f2_a.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f2_b.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f4.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f5.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f6.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f7.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f8.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f13.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f14.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f15.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\mavlink_msg_serial_udb_extra_f16.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\matrixpilot</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal\mavlink_msg_heartbeat.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal\minimal.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\minimal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_boot.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_control_surface.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_cpu_load.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_ctrl_srfc_pt.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_data_log.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_diagnostic.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_gps_date_time.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_isr_location.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_mid_lvl_cmds.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_novatel_diag.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_ptz_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_sensor_bias.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_sensor_diag.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_slugs_camera_order.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_slugs_configuration_camera.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_slugs_mobile_location.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_slugs_navigation.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_status_gps.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_uav_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\mavlink_msg_volt_sensor.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\slugs.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\slugs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\test\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\test\mavlink_msg_test_types.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\test\test.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\test\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\test\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta\mavlink.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta\mavlink_msg_nav_filter_bias.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta\mavlink_msg_radio_calibration.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta\mavlink_msg_ualberta_sys_status.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta\testsuite.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta\ualberta.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta\version.h">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\ualberta</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="AntennaTracker\make.inc">
@@ -8509,6 +9424,378 @@
     <None Include="modules\PX4Firmware\cmake\toolchains\Toolchain-native.cmake">
       <Filter>modules\PX4Firmware\cmake\toolchains</Filter>
     </None>
+    <None Include="modules\PX4Firmware\Debug\ARMv7M">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\dot.gdbinit">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\memdump">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\NuttX">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\Nuttx.py">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\NuttX_BMP">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\olimex-px4fmu-debug.cfg">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\openocd.gdbinit">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\poor-mans-profiler.sh">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\PX4">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\px4fmu-v1-board.cfg">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Debug\runopenocd.sh">
+      <Filter>modules\PX4Firmware\Debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\px4_hil\px4_hil.doxyfile">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\px4_hil\UserGuide.md">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\arming_state_machine.odg">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\arming_state_machine.pdf">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\code_structure_diagrams.odg">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\code_structure_diagrams.pdf">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\control_flow.graffle">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\Doxyfile">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\doxygen.sh">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\dsm_bind.odt">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\dsm_bind.pdf">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\fixed_wing_control.odg">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\flight_mode_state_machine.odg">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\flight_mode_state_machine.pdf">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\mixing_architecture.graffle">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\px4_block_diagram.odg">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\px4_block_diagram.pdf">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\rc_mode_switch.odg">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\rc_mode_switch.pdf">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\README">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Documentation\versionfilter.sh">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\aerocore.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\aerofc-v1.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\mindpx-v2.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4fmu-v1.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4fmu-v2.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4fmu-v3.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4fmu-v4.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4fmu-v4pro.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4io-v1.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4iov2.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4io-v2.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\px4-stm32f4discovery.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\vrbrain-v51.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\vrbrain-v52.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\vrbrain-v54.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\vrcore-v10.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\vrubrain-v51.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Images\vrubrain-v52.prototype">
+      <Filter>modules\PX4Firmware\Images</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\direct_manual_input_test.py">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\direct_offboard_posctl_test.py">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\direct_tests.launch">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\flight_path_assertion.py">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\manual_input.py">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\mavros_offboard_attctl_test.py">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\mavros_offboard_posctl_test.py">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\mavros_tests.launch">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\integrationtests\demo_tests\px4_test_helper.py">
+      <Filter>modules\PX4Firmware\integrationstests\demo_tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\ardrone.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\example.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\gazebo_ardrone_empty_world.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\gazebo_ardrone_empty_world_offboard_attitudedemo.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\gazebo_ardrone_empty_world_offboard_positiondemo.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\gazebo_ardrone_house_world.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\gazebo_iris_empty_world.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\gazebo_iris_house_world.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\gazebo_iris_mavros_posix_sitl.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\gazebo_iris_outdoor_world.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\iris.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\mavros_sitl.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\multi_uav.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\multicopter.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\multicopter_w.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\launch\multicopter_x.launch">
+      <Filter>modules\PX4Firmware\launch</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\firmware.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\firmware_nuttx.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\firmware_posix.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\firmware_qurt.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\library.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\module.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx_romfs.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\posix.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\posix_elf.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\qurt.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\qurt_elf.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\setup.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\toolchain_gnu-arm-eabi.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\toolchain_hexagon.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\toolchain_native.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\upload.mk">
+      <Filter>modules\PX4Firmware\makefiles</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\.gitignore">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_aerocore.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_aerofc-v1.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_px4fmu-v1.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_px4fmu-v2.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_px4fmu-v3.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_px4fmu-v4.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_px4fmu-v4pro.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_px4io-v1.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_px4io-v2.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_px4-stm32f4discovery.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_vrbrain-v51.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_vrbrain-v52.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_vrbrain-v54.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_vrcore-v10.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_vrubrain-v51.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\board_vrubrain-v52.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\config_aerocore_default.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\config_px4fmu-v1_default.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\config_px4fmu-v2_default.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\config_px4fmu-v2_multiplatform.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\config_px4fmu-v2_test.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\config_px4io-v1_default.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\config_px4io-v2_default.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\config_px4-stm32f4discovery_default.mk">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\nuttx\gumstix-aerocore.cfg">
+      <Filter>modules\PX4Firmware\makefiles\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\posix\board_posix.mk">
+      <Filter>modules\PX4Firmware\makefiles\posix</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\posix\config_posix_default.mk">
+      <Filter>modules\PX4Firmware\makefiles\posix</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\qurt\board_qurt.mk">
+      <Filter>modules\PX4Firmware\makefiles\qurt</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\qurt\config_qurt_default.mk">
+      <Filter>modules\PX4Firmware\makefiles\qurt</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\makefiles\qurt\config_qurt_hello.mk">
+      <Filter>modules\PX4Firmware\makefiles\qurt</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="libraries\AP_HAL_Linux\qflight\qflight_dsp.idl">
@@ -8603,6 +9890,39 @@
     <Xml Include="modules\PX4Firmware\package.xml">
       <Filter>modules\PX4Firmware</Filter>
     </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\ardupilotmega.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\ASLUAV.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\autoquad.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\common.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\matrixpilot.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\minimal.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\paparazzi.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\python_array_test.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\slugs.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\test.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\ualberta.xml">
+      <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
+    </Xml>
   </ItemGroup>
   <ItemGroup>
     <Image Include="mk\PX4\Tools\genmsg\doc\ros.png">
@@ -8637,6 +9957,18 @@
     </Image>
     <Image Include="modules\mavlink\pymavlink\tools\images\player_end.gif">
       <Filter>modules\mavlink\pymavlink\tools\images</Filter>
+    </Image>
+    <Image Include="modules\PX4Firmware\Documentation\px4_hil\SITL_Diagram.png">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </Image>
+    <Image Include="modules\PX4Firmware\Documentation\px4_hil\SITL_Diagram_QGC.png">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </Image>
+    <Image Include="modules\PX4Firmware\Documentation\fw_landing.png">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
+    </Image>
+    <Image Include="modules\PX4Firmware\Documentation\px4_general_structure.png">
+      <Filter>modules\PX4Firmware\Documentation\px4_hil</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
