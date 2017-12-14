@@ -1123,6 +1123,9 @@
     <Text Include="modules\mavlink\cmake\WELCOME.txt" />
     <Text Include="modules\mavlink\pymavlink\requirements.txt" />
     <Text Include="modules\PX4Firmware\CMakeLists.txt" />
+    <Text Include="modules\PX4Firmware\cmake\ros-CMakeLists.txt" />
+    <Text Include="modules\PX4Firmware\cmake\test\px4_simple_app_correct.txt" />
+    <Text Include="modules\PX4Firmware\cmake\test\px4_simple_app_input.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntennaTracker\APM_Config.h" />
@@ -2569,6 +2572,21 @@
     <None Include="modules\PX4Firmware\cmake\nuttx\bin_to_obj.py" />
     <None Include="modules\PX4Firmware\cmake\nuttx\builtin_commands.c.in" />
     <None Include="modules\PX4Firmware\cmake\nuttx\px4_impl_nuttx.cmake" />
+    <None Include="modules\PX4Firmware\cmake\posix\apps.h_in" />
+    <None Include="modules\PX4Firmware\cmake\posix\ld.script" />
+    <None Include="modules\PX4Firmware\cmake\posix\px4_impl_posix.cmake" />
+    <None Include="modules\PX4Firmware\cmake\qurt\apps.h_in" />
+    <None Include="modules\PX4Firmware\cmake\qurt\px4_impl_qurt.cmake" />
+    <None Include="modules\PX4Firmware\cmake\qurt\qurt_eigen.patch" />
+    <None Include="modules\PX4Firmware\cmake\qurt\qurt_funcs.cmake" />
+    <None Include="modules\PX4Firmware\cmake\scripts\convert_modules_to_cmake.py" />
+    <None Include="modules\PX4Firmware\cmake\scripts\test_compare.py" />
+    <None Include="modules\PX4Firmware\cmake\templates\build_git_version.h.in" />
+    <None Include="modules\PX4Firmware\cmake\templates\cmake_lists.jinja" />
+    <None Include="modules\PX4Firmware\cmake\test\cmake_tester.py" />
+    <None Include="modules\PX4Firmware\cmake\toolchains\Toolchain-arm-linux-gnueabihf.cmake" />
+    <None Include="modules\PX4Firmware\cmake\toolchains\Toolchain-arm-none-eabi.cmake" />
+    <None Include="modules\PX4Firmware\cmake\toolchains\Toolchain-native.cmake" />
     <None Include="modules\PX4Firmware\CONTRIBUTING.md" />
     <None Include="modules\PX4Firmware\Firmware.sublime-project" />
     <None Include="modules\PX4Firmware\LICENSE.md" />

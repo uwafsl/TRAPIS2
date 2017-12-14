@@ -1138,6 +1138,24 @@
     <Filter Include="modules\PX4Firmware\cmake\nuttx">
       <UniqueIdentifier>{1cba473a-bc6e-4296-914b-27ef816a783f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\posix">
+      <UniqueIdentifier>{517958cd-f0a8-49fe-86cf-7e55cc7c407b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\qurt">
+      <UniqueIdentifier>{c443aa4e-c6a9-40c0-92e2-e3b9db2eb51c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\scripts">
+      <UniqueIdentifier>{ab6818c1-c3ad-40a5-a0fb-f2311784b376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\templates">
+      <UniqueIdentifier>{c3f21def-3cd9-4585-be2c-751144ed5cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\test">
+      <UniqueIdentifier>{4f0edaea-376b-467d-85f1-6eac84da2f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\cmake\toolchains">
+      <UniqueIdentifier>{c819f5ab-6a7c-4f69-89fa-1e4a4f7a91e8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -4087,6 +4105,15 @@
     </Text>
     <Text Include="modules\PX4Firmware\CMakeLists.txt">
       <Filter>modules\PX4Firmware</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\cmake\test\px4_simple_app_correct.txt">
+      <Filter>modules\PX4Firmware\cmake\test</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\cmake\test\px4_simple_app_input.txt">
+      <Filter>modules\PX4Firmware\cmake\test</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\cmake\ros-CMakeLists.txt">
+      <Filter>modules\PX4Firmware\cmake</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -8436,6 +8463,51 @@
     </None>
     <None Include="modules\PX4Firmware\cmake\nuttx\px4_impl_nuttx.cmake">
       <Filter>modules\PX4Firmware\cmake\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\posix\apps.h_in">
+      <Filter>modules\PX4Firmware\cmake\posix</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\posix\ld.script">
+      <Filter>modules\PX4Firmware\cmake\posix</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\posix\px4_impl_posix.cmake">
+      <Filter>modules\PX4Firmware\cmake\posix</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\qurt\apps.h_in">
+      <Filter>modules\PX4Firmware\cmake\qurt</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\qurt\px4_impl_qurt.cmake">
+      <Filter>modules\PX4Firmware\cmake\qurt</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\qurt\qurt_eigen.patch">
+      <Filter>modules\PX4Firmware\cmake\qurt</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\qurt\qurt_funcs.cmake">
+      <Filter>modules\PX4Firmware\cmake\qurt</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\scripts\convert_modules_to_cmake.py">
+      <Filter>modules\PX4Firmware\cmake\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\scripts\test_compare.py">
+      <Filter>modules\PX4Firmware\cmake\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\templates\build_git_version.h.in">
+      <Filter>modules\PX4Firmware\cmake\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\templates\cmake_lists.jinja">
+      <Filter>modules\PX4Firmware\cmake\templates</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\test\cmake_tester.py">
+      <Filter>modules\PX4Firmware\cmake\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\toolchains\Toolchain-arm-linux-gnueabihf.cmake">
+      <Filter>modules\PX4Firmware\cmake\toolchains</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\toolchains\Toolchain-arm-none-eabi.cmake">
+      <Filter>modules\PX4Firmware\cmake\toolchains</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\cmake\toolchains\Toolchain-native.cmake">
+      <Filter>modules\PX4Firmware\cmake\toolchains</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
