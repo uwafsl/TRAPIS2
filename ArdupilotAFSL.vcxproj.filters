@@ -2362,12 +2362,6 @@
     <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl">
       <UniqueIdentifier>{e5908a9b-76d1-4fd5-b705-c05d8bef8f9a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test">
-      <UniqueIdentifier>{723f7f94-db8c-4adb-a101-1acad18a3d55}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan">
-      <UniqueIdentifier>{a34f6ad4-3e10-458e-86c4-01a7268cbf12}</UniqueIdentifier>
-    </Filter>
     <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan">
       <UniqueIdentifier>{dbbe998d-776b-4fc7-9ad6-3956cb1d2dca}</UniqueIdentifier>
     </Filter>
@@ -2376,6 +2370,459 @@
     </Filter>
     <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol">
       <UniqueIdentifier>{5d1234ef-6089-49e8-8f13-ed82bc4466ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\actuator">
+      <UniqueIdentifier>{6005f580-96d4-4256-b8f2-aca9e8db312d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\ahrs">
+      <UniqueIdentifier>{b6b33203-40f0-4a9f-988e-21b252f2811b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data">
+      <UniqueIdentifier>{fdf26c3e-cfdd-4eb7-97f5-2f9ec6fe3385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal">
+      <UniqueIdentifier>{066ce6e1-8b59-4110-87fd-e9ca638e354f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\esc">
+      <UniqueIdentifier>{863047b0-f400-4b13-8341-19c01dec61f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\gnss">
+      <UniqueIdentifier>{998f0d08-ef26-456f-9c5f-95b067b0ebf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\hardpoint">
+      <UniqueIdentifier>{39f0e12e-2c0b-4ac9-a57a-d59c6698652b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication">
+      <UniqueIdentifier>{53e5e80c-3aee-4797-9975-10c365d56c6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\power">
+      <UniqueIdentifier>{eec98778-bfd9-49f5-9d7f-c33bf4cb720c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\range_sensor">
+      <UniqueIdentifier>{d3dc676a-c180-4738-a2e2-05150c342a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\safety">
+      <UniqueIdentifier>{cceebaf8-a4ef-4bdd-961f-813e1a0564c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\debug">
+      <UniqueIdentifier>{569be908-dfdb-4dc5-8ecb-80f73166424f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param">
+      <UniqueIdentifier>{1c53b0fa-c270-4927-991a-e9ba142fc443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file">
+      <UniqueIdentifier>{75245a76-50fe-4f65-9003-841cf597df44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id">
+      <UniqueIdentifier>{f8c0214f-5cf6-440c-bf08-9bf15e53da0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server">
+      <UniqueIdentifier>{23770183-9823-4f28-b98c-41a17f2807ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan">
+      <UniqueIdentifier>{723f7f94-db8c-4adb-a101-1acad18a3d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test">
+      <UniqueIdentifier>{a34f6ad4-3e10-458e-86c4-01a7268cbf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\dsdl">
+      <UniqueIdentifier>{81bb414f-b59a-4e68-876a-7b0e3f545f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl">
+      <UniqueIdentifier>{61c2b153-9d11-4bf6-a5ab-fe2cfd78fc52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\monitors">
+      <UniqueIdentifier>{f53ddb11-6611-481b-bd39-1833495e4688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\services">
+      <UniqueIdentifier>{e07feb0d-469a-43e7-8d64-3847a7a5975d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\driver">
+      <UniqueIdentifier>{f2094022-4ca1-45bd-be39-f983c1036cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\helpers">
+      <UniqueIdentifier>{b455d1e7-8697-4b1c-ae57-0cb95cb4f0ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal">
+      <UniqueIdentifier>{578028ad-5556-4ba8-9080-caf139f50015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node">
+      <UniqueIdentifier>{f0c54ed8-43de-4d3b-932f-0bfc982b3271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol">
+      <UniqueIdentifier>{ea976409-a090-41b5-9b50-373e42b7ed02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport">
+      <UniqueIdentifier>{fd9e8fe4-5524-4688-a55a-29c175f2fb30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util">
+      <UniqueIdentifier>{b4c28517-1564-470e-bb98-a5f36360be09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server">
+      <UniqueIdentifier>{e98f9c4e-b904-4843-88e8-c42dcf195a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\centralized">
+      <UniqueIdentifier>{4ed1883b-bdde-4309-9e3e-faa6f749b602}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed">
+      <UniqueIdentifier>{77bb24a7-d2a7-4c1c-b46f-88534e1f37ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src">
+      <UniqueIdentifier>{1de81111-f02a-486e-97a4-bde631a45419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test">
+      <UniqueIdentifier>{1c270e4b-5141-40b5-b420-d88040879e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\tools">
+      <UniqueIdentifier>{91263130-ac37-4706-9495-6cf736347ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport">
+      <UniqueIdentifier>{7a5c1b5a-4ab9-4548-94a8-8b2812c78c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\driver">
+      <UniqueIdentifier>{f931b485-6a19-4d4d-b354-eedf1490a8d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal">
+      <UniqueIdentifier>{f7ff1554-3164-4dbe-b3c1-3970f7707c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node">
+      <UniqueIdentifier>{29ebdab6-ca6e-4619-938a-ed4694c5c19d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\protocol">
+      <UniqueIdentifier>{8441816b-3e0f-4623-8f06-e1708e4653b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test">
+      <UniqueIdentifier>{b8519927-3245-410d-81b4-490a1e1e3394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\helpers">
+      <UniqueIdentifier>{291c91f6-9e37-434b-a176-9e5ee810528c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal">
+      <UniqueIdentifier>{2416c2b4-35e3-4339-8873-f0b380ae2d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node">
+      <UniqueIdentifier>{c98a04c6-140e-4dfb-b589-bf0897794595}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol">
+      <UniqueIdentifier>{4275fcdf-938a-4ce4-991d-e13031abe7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport">
+      <UniqueIdentifier>{4c4d1fb9-1a7f-4c0f-8379-35ccc37921c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util">
+      <UniqueIdentifier>{bb076165-b9c1-4fe1-b8b2-ec4957b0ca33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b">
+      <UniqueIdentifier>{326c5178-4ff5-498a-bfc6-5f6dd8ec9563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a">
+      <UniqueIdentifier>{f5526288-2c88-47ed-b16a-4967419453dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server">
+      <UniqueIdentifier>{031d8e64-3490-407c-8c20-d133edfe5c3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\centralized">
+      <UniqueIdentifier>{804a818c-b3dd-49c0-89c8-d78eb4d0c69b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed">
+      <UniqueIdentifier>{756df415-dd8b-47ba-9257-f50f471ef826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can">
+      <UniqueIdentifier>{32c8e6e8-6395-42ab-a37e-c39a0ccf569d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux">
+      <UniqueIdentifier>{e7b2e185-9b45-4974-b7af-1f2e47dc2983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24">
+      <UniqueIdentifier>{0ef10761-2cb3-4382-9156-bfd1e72924af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix">
+      <UniqueIdentifier>{1a0ae208-8b43-46a4-836b-246e337a70d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32">
+      <UniqueIdentifier>{f627ba68-c789-4767-818b-0934d64508c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\scripts">
+      <UniqueIdentifier>{49e6c331-8944-4c6b-8854-bba26504dfb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include">
+      <UniqueIdentifier>{b9e001cf-8670-48df-9743-ddbfbc57e67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps">
+      <UniqueIdentifier>{1271e808-2d40-44d0-b5aa-76d426b4777d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux">
+      <UniqueIdentifier>{d73b598c-7227-4d03-baa4-45078a34303e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver">
+      <UniqueIdentifier>{8a0fd864-70ee-4fff-a1cc-366ad77150cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24">
+      <UniqueIdentifier>{f2adf3e2-fb66-482d-ab2c-a7d36db772ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include">
+      <UniqueIdentifier>{068144c9-5511-444a-9925-d8859ba063a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src">
+      <UniqueIdentifier>{5de760e2-7659-49a2-b868-bf56d7aaa4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include\uavcan_lpc11c24">
+      <UniqueIdentifier>{a1135a9a-b344-4570-8bc5-dc09b2191066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib">
+      <UniqueIdentifier>{ee36d0ac-a3cc-4e3b-8895-46bd40ca9a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src">
+      <UniqueIdentifier>{0acf216a-3240-408f-b3aa-550681348dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc">
+      <UniqueIdentifier>{69bfa699-538b-4bed-88ba-e0418784fd39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\src">
+      <UniqueIdentifier>{315b8597-24ec-4ebf-9c17-7d09800ac434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys">
+      <UniqueIdentifier>{7b5ca5f7-69a8-463f-b3f3-48756d5b5a82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include">
+      <UniqueIdentifier>{7b9d900a-2cd8-4959-b35c-48ae8a478333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix">
+      <UniqueIdentifier>{3a6ac110-e915-413b-a981-c1d657e44ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix\dynamic_node_id_server">
+      <UniqueIdentifier>{8d2f894e-fc24-4fe5-96b5-a35848623f12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver">
+      <UniqueIdentifier>{03138bd1-d582-4b11-a4ec-7f326df88035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107">
+      <UniqueIdentifier>{b1b1a1c3-41aa-4a1e-b0eb-aba917532c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include">
+      <UniqueIdentifier>{ff413cf3-810d-4587-8a50-bd4b368005d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src">
+      <UniqueIdentifier>{526c0c60-7ac7-4b92-a3c5-818ed032fbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32">
+      <UniqueIdentifier>{002e8a94-a56b-4554-a71a-46ec314bc142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src">
+      <UniqueIdentifier>{59d612f5-170d-43fe-adc2-4f1df0f8376a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\board">
+      <UniqueIdentifier>{1da7f52b-495f-44e7-9b34-b81a009ebc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys">
+      <UniqueIdentifier>{38ed129e-5885-4c22-900c-6872e4cfa2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\commmon">
+      <UniqueIdentifier>{844b1b1e-d9bf-4498-acd3-e67900234d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\nuttx">
+      <UniqueIdentifier>{de96fe5b-c9a2-4193-b624-a84346c515b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix">
+      <UniqueIdentifier>{e5071c80-d603-410e-9ee7-15be65078dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt">
+      <UniqueIdentifier>{36f65d75-bce5-4e93-9179-4f71399e9f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros">
+      <UniqueIdentifier>{e15c40da-829b-4547-8105-1f2c42191586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\nuttx\px4_layer">
+      <UniqueIdentifier>{cec9ca7d-91c5-403e-9616-652020ad83c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\work_queue">
+      <UniqueIdentifier>{53b1814d-4431-4ff2-8412-f1bb9ef21c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\tests">
+      <UniqueIdentifier>{cc681029-3d67-48f8-b87f-d86660aebadd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\px4_layer">
+      <UniqueIdentifier>{3906205b-0349-49e5-8d58-7c2ba6d7e9cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\include">
+      <UniqueIdentifier>{372dcbf1-2745-416d-b8ab-a74d2ca59c90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers">
+      <UniqueIdentifier>{027014e0-3242-49b5-b82e-347836fd3c16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\tonealrmsim">
+      <UniqueIdentifier>{b492d299-0077-4f89-afaf-0e0d0220c7ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\rgbledsim">
+      <UniqueIdentifier>{de97f3e5-2f2d-4eae-a287-96c5746ffd5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\ledsim">
+      <UniqueIdentifier>{c84a7808-8e66-4f2b-bd57-1a7678a3cc72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\gyrosim">
+      <UniqueIdentifier>{c189707c-ff45-4dcc-8de6-e356c223e215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\gpssim">
+      <UniqueIdentifier>{48c086ee-8503-4a54-9b41-467c575942ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\df_trone_wrapper">
+      <UniqueIdentifier>{ea6dbe79-d255-4773-8083-78a9d8800a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\df_mpu9250_wrapper">
+      <UniqueIdentifier>{7e7a244e-5de4-41a5-931e-79119607b409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\df_hmc5883_wrapper">
+      <UniqueIdentifier>{246174a0-b36e-4eea-ab8e-9548f86a7b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\df_bmp280_wrapper">
+      <UniqueIdentifier>{a898af38-0ee0-4fa8-8724-287f32b08798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\barosim">
+      <UniqueIdentifier>{2249dbf2-3d3e-45f2-bf65-3c454ce277e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim">
+      <UniqueIdentifier>{c79d1ea0-896a-4267-ad21-69aff2255f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\adcsim">
+      <UniqueIdentifier>{24a12e5d-6416-4307-8bfc-743a0e8e1313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\drivers\accelsim">
+      <UniqueIdentifier>{c880e0b4-56e6-452f-af88-296f3e945ca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\include\arch">
+      <UniqueIdentifier>{094fa309-9548-42d7-a222-a3fa9fc65a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\include\arch\board">
+      <UniqueIdentifier>{79e6d3c1-6d38-4d44-9c7e-f4c1cd9d5c0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\tests\wqueue">
+      <UniqueIdentifier>{a9d81008-d617-4173-9b8f-bfce5b62a3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\tests\vcdev_test">
+      <UniqueIdentifier>{09e5e559-3c7f-49b0-ba3a-a524c4356b85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\tests\muorb">
+      <UniqueIdentifier>{c37fef61-0a78-4f8e-b151-bc98f413bd11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\tests\hrt_test">
+      <UniqueIdentifier>{de39dbcd-1e16-4f9f-acae-ae209251fda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\posix\tests\hello">
+      <UniqueIdentifier>{29aca861-ef13-415f-bffd-c6e0a163643d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\tests">
+      <UniqueIdentifier>{778d12e4-1b65-4477-a439-e3b90214c15e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\stubs">
+      <UniqueIdentifier>{4f5dd95d-bbc4-4f8c-91fd-1b60a657d8a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\px4_layer">
+      <UniqueIdentifier>{57f0d548-af90-4138-a9fb-40d876d9f494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\include">
+      <UniqueIdentifier>{d88e8afc-d231-4c36-ae81-3b88fab7c4d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\include\arch">
+      <UniqueIdentifier>{de4c13d9-f5c8-47e5-9acd-e07a6d3f4b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\include\sys">
+      <UniqueIdentifier>{09ca12d1-5a8c-444d-b5b9-693057c35d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\include\arch\board">
+      <UniqueIdentifier>{770c8d54-84d3-4ff1-b64c-789156f3d64c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\tests\hello">
+      <UniqueIdentifier>{ec3784e9-0fb8-4d44-90cd-b02484294511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\qurt\tests\muorb">
+      <UniqueIdentifier>{93041c5c-6114-4a50-8741-32693887f219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes">
+      <UniqueIdentifier>{9001e060-ec04-4f0b-b352-b8c1efce3310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes\position_estimator">
+      <UniqueIdentifier>{9be90d89-397e-478d-8939-1544acf82d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes\mc_mixer">
+      <UniqueIdentifier>{0be8c2b4-183e-4b25-80af-f38644820da5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes\mavlink">
+      <UniqueIdentifier>{6d13a7dc-4e16-4337-b11e-b03cfabb2bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes\manual_input">
+      <UniqueIdentifier>{fc237d78-2fca-414e-927a-a82b5b888849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_position_setpoints">
+      <UniqueIdentifier>{3e6de226-4aac-48e8-94b6-d5938db2c315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_attitude_setpoints">
+      <UniqueIdentifier>{eb203ffd-d871-4d5b-aa0c-1e3d849c37a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes\commander">
+      <UniqueIdentifier>{c5630ce5-266c-4dd6-89ec-074054bafac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\platforms\ros\nodes\attitude_estimator">
+      <UniqueIdentifier>{a1e94853-352b-4cd9-ac4d-dc568d1a37b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\ver">
+      <UniqueIdentifier>{fe3b814c-c646-4fb6-a550-96a5b3bc0d80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\usb_connected">
+      <UniqueIdentifier>{7d16472c-0d45-4ee5-8e99-15d34585e542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\topic_listener">
+      <UniqueIdentifier>{5a031ae7-cb51-41e7-a64a-0689b5468a49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\top">
+      <UniqueIdentifier>{d32f665c-7243-4fc2-a23d-a138fc6c9444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\tests">
+      <UniqueIdentifier>{0cf8d894-6c96-46f5-aa39-82b8a19e3588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\reflect">
+      <UniqueIdentifier>{e1123d18-9733-40ae-81bf-74f1e02ab1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\reboot">
+      <UniqueIdentifier>{b89562b7-7420-48da-808a-0dda00d43b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\pwm">
+      <UniqueIdentifier>{399368e0-ab84-4e7c-af59-d43e1f698974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\perf">
+      <UniqueIdentifier>{b539dff0-3fa9-462a-9db1-a0fc7200aa7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\param">
+      <UniqueIdentifier>{3983903f-5248-47d0-9057-79760aa7b81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\otp">
+      <UniqueIdentifier>{b3851363-af0c-4b40-8261-0a878bda4e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\nshterm">
+      <UniqueIdentifier>{53a547b0-8852-42b1-8268-e0aec972998f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\mtd">
+      <UniqueIdentifier>{7a208a8b-7f29-44b0-a7c6-5a4adf88071d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\motor_test">
+      <UniqueIdentifier>{0630e773-9285-49ba-b0e4-ef18098cf82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\mixer">
+      <UniqueIdentifier>{0e77ac2b-7684-457a-823a-4d7cb78bd54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\i2c">
+      <UniqueIdentifier>{b51a56a4-791f-4a27-84b0-a5f8c3352aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\esc_calib">
+      <UniqueIdentifier>{b3f816c6-cd46-4229-870a-36d79e2c52bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\dumpfile">
+      <UniqueIdentifier>{bcd6cabf-eb22-49ba-bc3c-68ee982b7ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\config">
+      <UniqueIdentifier>{cac3cbb4-ac7f-457b-b6dc-5704eaa5c00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\src\systemcmds\bl_update">
+      <UniqueIdentifier>{fcddc8f8-9634-4372-9f65-d48c67bcca24}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -6582,6 +7029,873 @@
     <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\actuators\hardpoint.cpp">
       <Filter>modules\PX4Firmware\src\modules\uavcan\actuators</Filter>
     </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\uc_data_type.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\uc_dynamic_memory.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\uc_error.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\driver\uc_can.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\driver</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal\uc_bit_array_copy.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal\uc_bit_stream.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal\uc_float_spec.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal\uc_scalar_codec.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node\uc_generic_publisher.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node\uc_generic_subscriber.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node\uc_global_data_type_registry.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node\uc_scheduler.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node\uc_service_client.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node\uc_timer.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\protocol\uc_dynamic_node_id_client.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\protocol\uc_node_status_provider.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_can_acceptance_filter_configurator.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_can_io.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_crc.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_dispatcher.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_frame.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_outgoing_transfer_registry.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_transfer.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_transfer_buffer.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_transfer_listener.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_transfer_receiver.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport\uc_transfer_sender.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\src\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\data_type.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dynamic_memory.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\test_main.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\time.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\dsdl_const_1.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\dsdl_const_2.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\dsdl_test.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\dsdl_uavcan_compilability.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\helpers\heap_based_pool_allocator.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal\array.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal\bit_stream.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal\char_array_formatter.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal\float_spec.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal\integer_spec.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal\scalar_codec.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal\type_util.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\marshal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\global_data_type_registry.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\node.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\publisher.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\scheduler.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\service_client.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\service_server.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\sub_node.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\subscriber.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\test_node_test.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\data_type_info_provider.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_client.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\file_server.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\firmware_update_trigger.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\global_time_sync_master.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\global_time_sync_slave.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\logger.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\node_info_retriever.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\node_status_monitor.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\node_status_provider.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\panic_broadcaster.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\panic_listener.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\param_server.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\restart_request_server.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\transport_stats_provider.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\allocation_request_manager.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\event.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\node_discoverer.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\storage_marshaller.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\centralized\server.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\centralized</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\centralized\storage.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\centralized</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed\cluster_manager.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed\log.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed\persistent_state.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed\server.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can\can_driver.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can\iface_mock.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can\io.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can\tx_queue.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can_acceptance_filter_configurator.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\crc.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\dispatcher.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\frame.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\incoming_transfer.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\outgoing_transfer_registry.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\transfer.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\transfer_buffer.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\transfer_listener.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\transfer_receiver.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\transfer_sender.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\transfer_test_helpers.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util\comparison.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util\lazy_constructor.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util\linked_list.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util\map.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util\multiset.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util\templates.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\util</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\tools\coverity_scan_model.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_clock.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_dynamic_node_id_client.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_file_server.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_multithreading.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_node.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_posix.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_socket.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_system_utils.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\test_time_sync.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\uavcan_dynamic_node_id_server.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\uavcan_monitor.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\uavcan_nodetool.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src\can.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src\clock.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\src\clock_11xx.c">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\src\uart_11xx.c">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\src\wwdt_11xx.c">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\main.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys\board.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys\crt0.c">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys\libstubs.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src\uc_stm32_can.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src\uc_stm32_clock.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src\uc_stm32_thread.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\dummy.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\main.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\board\board.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\board</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\sensors\baro.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\sensors\gnss.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\sensors\mag.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\sensors\sensor_bridge.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\sensors</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\uavcan_main.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\uavcan_params.c">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uavcan\uavcan_servers.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\unit_test\unit_test.cpp">
+      <Filter>modules\PX4Firmware\src\modules\unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\objects_common.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\Publication.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\Subscription.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\uORB.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\uORBDevices_nuttx.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\uORBDevices_posix.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\uORBMain.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\uORBManager_nuttx.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\uORBManager_posix.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\uORBTest_UnitTest.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\uORB\uORBUtils.cpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\standard.cpp">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\standard_params.c">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\tailsitter.cpp">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\tailsitter_params.c">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\tiltrotor.cpp">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\tiltrotor_params.c">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\vtol_att_control_main.cpp">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\vtol_att_control_params.c">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\modules\vtol_att_control\vtol_type.cpp">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\empty.c">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\common\px4_getopt.c">
+      <Filter>modules\PX4Firmware\src\platforms\commmon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\nuttx\px4_nuttx_impl.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\nuttx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\nuttx\px4_layer\px4_nuttx_tasks.c">
+      <Filter>modules\PX4Firmware\src\platforms\nuttx\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\accelsim\accelsim.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\accelsim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\adcsim\adcsim.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\adcsim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim\airspeedsim.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim\meas_airspeed_sim.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\barosim\baro.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\barosim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\df_bmp280_wrapper\df_bmp280_wrapper.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\df_bmp280_wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\df_hmc5883_wrapper\df_hmc5883_wrapper.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\df_hmc5883_wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\df_mpu9250_wrapper\df_mpu9250_wrapper.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\df_mpu9250_wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\df_trone_wrapper\df_trone_wrapper.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\df_trone_wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\gpssim\gpssim.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\gpssim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\gpssim\ubx_sim.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\gpssim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\gyrosim\gyrosim.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\gyrosim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\ledsim\led.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\ledsim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\rgbledsim\rgbled.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\rgbledsim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\drivers\tonealrmsim\tone_alarm.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\tonealrmsim</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\px4_layer\drv_hrt.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\px4_layer\lib_crc32.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\px4_layer\px4_log.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\px4_layer\px4_posix_impl.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\px4_layer\px4_posix_tasks.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\px4_layer\px4_sem.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\px4_layer\shmem_posix.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\hello\hello_example.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\hello\hello_main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\hello\hello_start_posix.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\hrt_test\hrt_test.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hrt_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\hrt_test\hrt_test_main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hrt_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\hrt_test\hrt_test_start_posix.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hrt_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\muorb\muorb_test_example.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\muorb</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\muorb\muorb_test_main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\muorb</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\muorb\muorb_test_start_posix.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\muorb</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\vcdev_test\vcdevtest_example.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\vcdev_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\vcdev_test\vcdevtest_main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\vcdev_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\vcdev_test\vcdevtest_start_posix.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\vcdev_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\wqueue\wqueue_main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\wqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\wqueue\wqueue_start_posix.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\wqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\tests\wqueue\wqueue_test.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\wqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\dq_addlast.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\dq_rem.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\dq_remfirst.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\hrt_queue.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\hrt_thread.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\hrt_work_cancel.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\queue.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\sq_addafter.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\sq_addlast.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\sq_remfirst.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\work_cancel.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\work_lock.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\work_queue.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\posix\work_queue\work_thread.c">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\commands_hil.c">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\drv_hrt.c">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\lib_crc32.c">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\params.c">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\px4_qurt_impl.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\px4_qurt_tasks.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\qurt_stubs.c">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\shmem_qurt.c">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\stubs\stubs_posix.c">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\stubs\stubs_qurt.c">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\stubs</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\tests\hello\hello_example.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\tests\hello\hello_main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\tests\hello\hello_start_qurt.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\tests\muorb\muorb_test_example.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\muorb</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\tests\muorb\muorb_test_main.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\muorb</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\qurt\tests\muorb\muorb_test_start_qurt.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\muorb</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\geo.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\perf_counter.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\px4_nodehandle.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\px4_publisher.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\px4_ros_impl.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\nodes\attitude_estimator\attitude_estimator.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\attitude_estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\nodes\commander\commander.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\commander</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_attitude_setpoints\demo_offboard_attitude_setpoints.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_attitude_setpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_position_setpoints\demo_offboard_position_setpoints.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_position_setpoints</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\nodes\manual_input\manual_input.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\manual_input</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\nodes\mavlink\mavlink.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\mavlink</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\nodes\mc_mixer\mc_mixer.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\mc_mixer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\platforms\ros\nodes\position_estimator\position_estimator.cpp">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\position_estimator</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\bl_update\bl_update.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\bl_update</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\config\config.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\config</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\dumpfile\dumpfile.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\dumpfile</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\esc_calib\esc_calib.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\esc_calib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\i2c\i2c.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\i2c</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\mixer\mixer.cpp">
+      <Filter>modules\PX4Firmware\src\systemcmds\mixer</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\motor_test\motor_test.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\motor_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\mtd\24xxxx_mtd.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\mtd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\mtd\mtd.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\mtd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\nshterm\nshterm.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\nshterm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\otp\otp.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\otp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\param\param.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\param</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\perf\perf.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\perf</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\pwm\pwm.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\pwm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\reboot\reboot.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\reboot</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\reflect\reflect.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\reflect</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_adc.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_bson.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_conv.cpp">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_dataman.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_eigen.cpp">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_file.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_file2.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_float.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_gpio.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_hott_telemetry.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_hrt.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_int.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_jig_voltages.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_led.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_mathlib.cpp">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_mixer.cpp">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_mount.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_params.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_ppm_loopback.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_rc.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_sensors.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_servo.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_sleep.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_time.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_uart_baudchange.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_uart_console.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_uart_loopback.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\test_uart_send.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\tests\tests_main.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\top\top.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\top</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\usb_connected\usb_connected.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\usb_connected</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\src\systemcmds\ver\ver.c">
+      <Filter>modules\PX4Firmware\src\systemcmds\ver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -7450,6 +8764,171 @@
     </Text>
     <Text Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\CMakeLists.txt">
       <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\modules\uavcan\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\modules\unit_test\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\modules\unit_test</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\modules\uORB\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\modules\vtol_att_control\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\common\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\commmon</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\nuttx\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\nuttx</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\nuttx\px4_layer\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\nuttx\px4_layer</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\accelsim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\accelsim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\adcsim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\adcsim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\barosim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\barosim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\df_bmp280_wrapper\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\df_bmp280_wrapper</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\df_hmc5883_wrapper\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\df_hmc5883_wrapper</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\df_mpu9250_wrapper\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\df_mpu9250_wrapper</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\df_trone_wrapper\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\df_trone_wrapper</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\gpssim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\gpssim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\gyrosim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\gyrosim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\ledsim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\ledsim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\rgbledsim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\rgbledsim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\drivers\tonealrmsim\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\tonealrmsim</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\px4_layer\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\tests\hello\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hello</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\tests\hrt_test\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hrt_test</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\tests\muorb\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\muorb</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\tests\vcdev_test\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\vcdev_test</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\tests\wqueue\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\wqueue</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\posix\work_queue\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\qurt\tests\hello\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\hello</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\platforms\qurt\tests\muorb\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\muorb</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\bl_update\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\bl_update</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\config\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\config</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\dumpfile\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\dumpfile</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\esc_calib\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\esc_calib</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\i2c\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\i2c</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\mixer\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\mixer</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\motor_test\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\motor_test</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\mtd\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\mtd</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\nshterm\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\nshterm</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\otp\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\otp</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\otp\README.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\otp</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\param\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\param</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\perf\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\perf</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\pwm\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\pwm</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\reboot\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\reboot</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\reflect\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\reflect</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\tests\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\top\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\top</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\topic_listener\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\topic_listener</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\usb_connected\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\usb_connected</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\src\systemcmds\ver\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\src\systemcmds\ver</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -11479,6 +12958,708 @@
     </ClInclude>
     <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\actuators\hardpoint.hpp">
       <Filter>modules\PX4Firmware\src\modules\uavcan\actuators</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\build_config.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\data_type.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\debug.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\dynamic_memory.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\error.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\std.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\time.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\uavcan.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\driver\can.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\driver\system_clock.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\driver</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\helpers\heap_based_pool_allocator.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\helpers\ostream.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal\array.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal\bit_stream.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal\char_array_formatter.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal\float_spec.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal\integer_spec.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal\scalar_codec.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal\type_util.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal\types.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\marshal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\abstract_node.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\generic_publisher.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\generic_subscriber.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\global_data_type_registry.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\node.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\publisher.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\scheduler.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\service_client.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\service_server.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\sub_node.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\subscriber.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node\timer.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\data_type_info_provider.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_client.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\file_server.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\firmware_update_trigger.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\global_time_sync_master.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\global_time_sync_slave.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\logger.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\node_info_retriever.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\node_status_monitor.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\node_status_provider.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\panic_broadcaster.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\panic_listener.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\param_server.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\restart_request_server.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\transport_stats_provider.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\allocation_request_manager.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\centralized.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\event.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\node_discoverer.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\node_id_selector.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\storage_backend.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\storage_marshaller.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\types.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\centralized\server.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\centralized</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\centralized\storage.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\centralized</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed\cluster_manager.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed\log.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed\persistent_state.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed\raft_core.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed\server.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed\types.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\dynamic_node_id_server\distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\abstract_transfer_buffer.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\can_acceptance_filter_configurator.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\can_io.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\crc.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\dispatcher.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\frame.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\outgoing_transfer_registry.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\perf_counter.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\transfer.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\transfer_buffer.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\transfer_listener.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\transfer_receiver.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport\transfer_sender.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\bitset.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\comparison.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\lazy_constructor.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\linked_list.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\map.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\method_binder.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\multiset.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\placement_new.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util\templates.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\util</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\clock.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node\test_node.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\node</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\helpers.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\event_tracer.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\get_node_info_mock_server.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server\memory_storage_backend.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\protocol\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can\can.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\can</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport\transfer_test_helpers.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\transport</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps\debug.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux\clock.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux\exception.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux\helpers.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux\socketcan.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux\system_utils.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux\uavcan_linux.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\include\uavcan_linux</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include\uavcan_lpc11c24\can.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include\uavcan_lpc11c24</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include\uavcan_lpc11c24\clock.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include\uavcan_lpc11c24</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include\uavcan_lpc11c24\uavcan_lpc11c24.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include\uavcan_lpc11c24</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src\c_can.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src\internal.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\adc_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\ccand_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\chip.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\clock_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\cmsis.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\cmsis_11cxx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\core_cm0.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\core_cmFunc.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\core_cmInstr.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\error.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\fmc_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\gpio_11xx_2.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\gpiogroup_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\i2c_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\iocon_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\lpc_types.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\pinint_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\pmu_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\ring_buffer.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\romapi_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\ssp_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\sys_config.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\sysctl_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\timer_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\uart_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc\wwdt_11xx.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc_chip_11cxx_lib\inc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys\board.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix\dynamic_node_id_server\file_event_tracer.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix\dynamic_node_id_server\file_storage_backend.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix\dynamic_node_id_server</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix\basic_file_server_backend.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix\firmware_version_checker.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include\uavcan_posix</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32\build_config.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32\bxcan.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32\can.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32\clock.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32\thread.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32\uavcan_stm32.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include\uavcan_stm32</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src\internal.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\board\board.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\board</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys\board.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys\chconf.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys\halconf.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys\mcuconf.h">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\src\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\sensors\baro.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\sensors\gnss.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\sensors\mag.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\sensors\sensor_bridge.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\sensors</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\allocator.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\uavcan_main.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\uavcan_module.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\uavcan_servers.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uavcan\uavcan_virtual_can_driver.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\unit_test\unit_test.h">
+      <Filter>modules\PX4Firmware\src\modules\unit_test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\ORBMap.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\ORBSet.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\Publication.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\Subscription.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORB.h">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORBCommon.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORBCommunicator.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORBDevices.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORBDevices_nuttx.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORBDevices_posix.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORBManager.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORBTest_UnitTest.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\uORB\uORBUtils.hpp">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\vtol_att_control\standard.h">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\vtol_att_control\tailsitter.h">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\vtol_att_control\tiltrotor.h">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\vtol_att_control\vtol_att_control_main.h">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\modules\vtol_att_control\vtol_type.h">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_adc.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_app.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_common.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_config.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_defines.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_getopt.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_i2c.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_includes.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_log.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_message.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_middleware.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_nodehandle.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_parameter.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_posix.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_publisher.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_spi.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_subscriber.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_tasks.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_time.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\px4_workqueue.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\shmem.h">
+      <Filter>modules\PX4Firmware\src\platforms</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim\airspeedsim.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\drivers\barosim\barosim.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\barosim</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\drivers\gpssim\ubx_sim.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\gpssim</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\include\board_config.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\include\crc32.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\include\hrt_work.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\include\px4_platform_types.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\include\queue.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\include\arch\board\board.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\include\arch\board</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\tests\hello\hello_example.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hello</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\tests\hrt_test\hrt_test.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hrt_test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\tests\muorb\muorb_test_example.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\muorb</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\tests\vcdev_test\vcdevtest_example.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\vcdev_test</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\tests\wqueue\wqueue_test.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\wqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\posix\work_queue\work_lock.h">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\board_config.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\crc32.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\hrt_work.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\i2c.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\poll.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\queue.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\qurt_log.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\arch\board\board.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include\arch\board</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\include\sys\ioctl.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\include\sys</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\get_commands.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\tests\hello\hello_example.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\hello</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\qurt\tests\muorb\muorb_test_example.h">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\muorb</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\ros\eigen_math.h">
+      <Filter>modules\PX4Firmware\src\platforms\ros</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\ros\nodes\attitude_estimator\attitude_estimator.h">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\attitude_estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\ros\nodes\commander\commander.h">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\commander</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_attitude_setpoints\demo_offboard_attitude_setpoints.h">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_attitude_setpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_position_setpoints\demo_offboard_position_setpoints.h">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\demo_offboard_position_setpoints</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\ros\nodes\manual_input\manual_input.h">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\manual_input</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\ros\nodes\mavlink\mavlink.h">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\mavlink</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\platforms\ros\nodes\position_estimator\position_estimator.h">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes\position_estimator</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\src\systemcmds\tests\tests.h">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -16077,6 +18258,501 @@
     </None>
     <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\Timestamp.uavcan">
       <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\CoarseOrientation.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\actuator\1010.ArrayCommand.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\actuator</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\actuator\1011.Status.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\actuator</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\actuator\Command.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\actuator</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\ahrs\1000.Solution.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\ahrs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\ahrs\1001.MagneticFieldStrength.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\ahrs</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data\1020.TrueAirspeed.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data\1021.IndicatedAirspeed.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data\1025.AngleOfAttack.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data\1026.Sideslip.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data\1028.StaticPressure.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data\1029.StaticTemperature.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\air_data</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal\1040.AngularCommand.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal\1041.GEOPOICommand.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal\1044.Status.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal\Mode.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\camera_gimbal</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\esc\1030.RawCommand.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\esc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\esc\1031.RPMCommand.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\esc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\esc\1034.Status.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\esc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\gnss\1060.Fix.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\gnss</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\gnss\1061.Auxiliary.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\gnss</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\gnss\1062.RTCMStream.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\gnss</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\hardpoint\1070.Command.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\hardpoint</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\hardpoint\1071.Status.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\hardpoint</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication\1080.BeepCommand.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication\1081.LightsCommand.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication\RGB565.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication\SingleLightCommand.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\indication</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\power\1090.PrimaryPowerSupplyStatus.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\power</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\power\1091.CircuitStatus.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\power</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\power\1092.BatteryInfo.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\power</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\range_sensor\1050.Measurement.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\range_sensor</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\safety\1100.ArmingStatus.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\equipment\safety</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\1.GetNodeInfo.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\2.GetDataTypeInfo.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\4.GetTransportStats.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\4.GlobalTimeSync.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\5.Panic.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\5.RestartNode.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\6.AccessCommandShell.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\341.NodeStatus.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\CANIfaceStats.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\DataTypeKind.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\HardwareVersion.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\SoftwareVersion.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\debug\16370.KeyValue.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\debug\16383.LogMessage.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\debug\LogLevel.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\debug</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\1.Allocation.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server\30.AppendEntries.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server\31.RequestVote.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server\390.Discovery.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server\Entry.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\dynamic_node_id\server</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\40.BeginFirmwareUpdate.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\45.GetInfo.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\46.GetDirectoryEntryInfo.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\47.Delete.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\48.Read.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\49.Write.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\EntryType.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\Error.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file\Path.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\file</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param\10.ExecuteOpcode.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param\11.GetSet.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param\Empty.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param\NumericValue.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param\Value.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\uavcan\protocol\param</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\LICENSE">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl\README.md">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\dsdl\test_common.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\dsdl\test_parser.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\dsdl\test_signature.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\test_driver.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\test_node.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test\test_transport.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl\__init__.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl\common.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl\parser.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl\signature.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl\type_limits.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\dsdl</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\monitors\__init__.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\monitors</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\services\__init__.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\services</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\__init__.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\driver.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\node.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan\transport.py">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\dsdl_compiler\pyuavcan\uavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol\README.md">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include\uavcan\protocol</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\cppcheck.sh">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\include.mk">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\99.StringService.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\128.EmptyService.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\129.ReportBackSoldier.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\20000.MavlinkMessage.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\32768.EmptyMessage.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\A.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\B.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\Deep.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\Empty.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\NestedInUnion.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\NestedMessage.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a\UnionTest.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_a</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b\ServiceWithEmptyRequest.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b\ServiceWithEmptyResponse.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b\SuperIntelligentShadeOfBlue.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b\T.uavcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan\test\dsdl_test\root_ns_b</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\cppcheck.sh">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\scripts\uavcan_add_slcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\scripts\uavcan_add_vcan">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\linux\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver\include.mk">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\driver</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\blackmagic.gdbinit">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\blackmagic_flash.sh">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\lpc11c24.ld">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24\Makefile">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\lpc11c24\test_olimex_lpc_p11c24</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix\include.mk">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\posix</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver\include.mk">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\driver</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\.gitignore">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\Makefile">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107\README.md">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\libuavcan_drivers\stm32\test_stm32f107</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\libuavcan\tools\scitools_understand_buildspy.sh">
+      <Filter>modules\PX4Firmware\src\modules\uavcan\libuavcan\tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\.gitignore">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uavcan\module.mk">
+      <Filter>modules\PX4Firmware\src\modules\uavcan</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\unit_test\module.mk">
+      <Filter>modules\PX4Firmware\src\modules\unit_test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\uORB\module.mk">
+      <Filter>modules\PX4Firmware\src\modules\uORB</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\modules\vtol_att_control\module.mk">
+      <Filter>modules\PX4Firmware\src\modules\vtol_att_control</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\common\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\commmon</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\nuttx\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\nuttx\px4_layer\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\nuttx\px4_layer</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\drivers\accelsim\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\accelsim</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\drivers\adcsim\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\adcsim</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\airspeedsim</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\drivers\barosim\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\barosim</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\drivers\gpssim\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\gpssim</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\drivers\gyrosim\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\gyrosim</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\drivers\tonealrmsim\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\drivers\tonealrmsim</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\px4_layer\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\px4_layer</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\tests\hello\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hello</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\tests\hrt_test\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\hrt_test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\tests\muorb\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\muorb</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\tests\vcdev_test\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\vcdev_test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\tests\wqueue\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\tests\wqueue</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\posix\work_queue\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\posix\work_queue</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\qurt\px4_layer\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\px4_layer</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\qurt\tests\hello\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\hello</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\qurt\tests\muorb\module.mk">
+      <Filter>modules\PX4Firmware\src\platforms\qurt\tests\muorb</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\platforms\ros\nodes\README.md">
+      <Filter>modules\PX4Firmware\src\platforms\ros\nodes</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\bl_update\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\bl_update</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\config\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\config</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\dumpfile\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\dumpfile</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\esc_calib\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\esc_calib</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\i2c\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\i2c</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\mixer\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\mixer</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\motor_test\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\motor_test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\mtd\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\mtd</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\nshterm\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\nshterm</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\otp\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\otp</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\param\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\param</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\perf\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\perf</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\pwm\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\pwm</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\reboot\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\reboot</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\reflect\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\reflect</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\tests\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\top\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\top</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\topic_listener\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\topic_listener</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\usb_connected\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\usb_connected</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\src\systemcmds\ver\module.mk">
+      <Filter>modules\PX4Firmware\src\systemcmds\ver</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
