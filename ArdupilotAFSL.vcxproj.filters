@@ -2824,6 +2824,501 @@
     <Filter Include="modules\PX4Firmware\src\systemcmds\bl_update">
       <UniqueIdentifier>{fcddc8f8-9634-4372-9f65-d48c67bcca24}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\sdlog2">
+      <UniqueIdentifier>{d64e4cc2-dd5e-43c8-83fe-3f51a69a9711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\px4params">
+      <UniqueIdentifier>{c06e72c8-63f3-4d20-8e1a-287f3fb01dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\px4airframes">
+      <UniqueIdentifier>{8f67c6ae-d962-4463-91d2-7a2858a026ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\Matlab">
+      <UniqueIdentifier>{5dcf22dc-389a-4f22-8f33-6996c363388c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg">
+      <UniqueIdentifier>{85f55aae-1e39-4bc2-b91d-8edadc255464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\gencpp">
+      <UniqueIdentifier>{02232839-0965-48db-99e3-2ca960ad2d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\dist">
+      <UniqueIdentifier>{5e8f935f-d74f-4b1b-aa1e-39cb4239aba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\CI">
+      <UniqueIdentifier>{645a95de-f330-4722-a923-1347dfd95c36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\gencpp\cmake">
+      <UniqueIdentifier>{ce5727cd-e697-4c85-9bf9-b74115803a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\gencpp\scripts">
+      <UniqueIdentifier>{9428fb3d-3f97-4fec-883c-2b9837772c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\gencpp\src">
+      <UniqueIdentifier>{4150e2fa-7cfd-4135-9a73-947959b63ede}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\gencpp\src\gencpp">
+      <UniqueIdentifier>{8caf8029-34f6-4f6a-8c3f-977d57513aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\cmake">
+      <UniqueIdentifier>{8e7802c9-7562-4d75-9f29-23ca906d7688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\doc">
+      <UniqueIdentifier>{870bc1c9-70e8-463f-abe9-3bf84ac9ee72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\scripts">
+      <UniqueIdentifier>{3c3d4a01-4ad1-4968-9e47-fcf0684c1745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\src">
+      <UniqueIdentifier>{eb8a6435-2732-49ed-a305-10d90a59490d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test">
+      <UniqueIdentifier>{3b505e05-5f55-4285-9c73-738834abc81a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\src\genmsg">
+      <UniqueIdentifier>{6a1969dd-e906-43f5-a56e-869c8aec7c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files">
+      <UniqueIdentifier>{47ac9383-8f98-4030-ae75-01d1dc42413f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\md5tests">
+      <UniqueIdentifier>{d86cfe22-ae92-4842-8b60-5381a8c94b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\test_ros">
+      <UniqueIdentifier>{d85e69ea-74b3-46f9-ad4f-e0c902201062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs">
+      <UniqueIdentifier>{57ee1e5e-6711-4f40-8aa8-d8b2d951a086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\invalid">
+      <UniqueIdentifier>{f70865e6-0a99-4a8f-848c-1d913ffe71d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\rosgraph_msgs">
+      <UniqueIdentifier>{6c7a2500-7310-411c-8857-a33b0148f78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs">
+      <UniqueIdentifier>{f1ad73a1-c329-4f2d-a951-ff53de4409fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs">
+      <UniqueIdentifier>{709c2247-70a9-46ab-8f23-8d803cc15011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\std_srvs">
+      <UniqueIdentifier>{a05724a9-dc33-4c0e-b7be-e88321ccb7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg">
+      <UniqueIdentifier>{4ac926d3-c330-44a8-b373-c328050db5c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\invalid\msg">
+      <UniqueIdentifier>{0f1740af-1c87-406d-bcd1-a01977debb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\rosgraph_msgs\msg">
+      <UniqueIdentifier>{47751bff-36fb-466f-a642-7df40623922a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg">
+      <UniqueIdentifier>{04925aa6-a0b7-4df1-ba2a-49f286480dde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg">
+      <UniqueIdentifier>{192545f6-66eb-460e-9cfb-4f98b6d7dafa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\std_srvs\srv">
+      <UniqueIdentifier>{eacbe108-1580-4331-8c57-1746e4d9c09b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\test_ros\msg">
+      <UniqueIdentifier>{c7cfeb05-95c7-4250-b76a-9cb59d4244a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\files\test_ros\srv">
+      <UniqueIdentifier>{cc5aaed5-01e4-40c5-8e95-6389e9cd8814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different">
+      <UniqueIdentifier>{6404c1ab-99d0-4bb5-993e-21e3e6c5f845}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text">
+      <UniqueIdentifier>{e97cdf16-be86-4ae5-ad05-fcac5ca7ab32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same">
+      <UniqueIdentifier>{d1b824f3-0074-40b5-91d0-675920f4b0b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\unittests\uorb_unittests">
+      <UniqueIdentifier>{31316f01-c260-4969-9332-2e6c04fa2084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\unittests\testdata">
+      <UniqueIdentifier>{41890441-2b48-4ee9-ab8a-c276103230c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\unittests\nuttx">
+      <UniqueIdentifier>{e63a059d-925f-43d2-b2d0-8fe3cbda9755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\unittests\data">
+      <UniqueIdentifier>{f8435dff-21df-4e16-8319-87f85d0d4d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\unittests\arch">
+      <UniqueIdentifier>{f4a499a0-9ed2-41f5-a7d6-4d459dee8ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4Firmware\unittests\arch\board">
+      <UniqueIdentifier>{23fb8595-2fdc-426f-b4ed-46e6318a204e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX">
+      <UniqueIdentifier>{d207f598-65ef-4ef3-9400-9de818210d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps">
+      <UniqueIdentifier>{00d20484-b520-41df-9043-5965e2fd4a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc">
+      <UniqueIdentifier>{96ef4d44-4850-4a79-bde5-dd8059db2679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx">
+      <UniqueIdentifier>{b523c66b-f2b5-452d-b4b7-1d79c82a3eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\NxWidgets">
+      <UniqueIdentifier>{f277dcdd-d65e-4807-b474-96e059a8e9a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\builtin">
+      <UniqueIdentifier>{f41bc936-a31b-4290-b1e9-be2dabdd1913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples">
+      <UniqueIdentifier>{11c0e81b-4192-4139-81c6-46e264d9f5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\graphics">
+      <UniqueIdentifier>{b423062b-827c-409d-a8b0-db7141ef4ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\include">
+      <UniqueIdentifier>{c1deb023-f1aa-4d38-b6e7-906c4e7d6bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\interpreters">
+      <UniqueIdentifier>{b810f312-552e-454c-8097-6026d1705379}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\modbus">
+      <UniqueIdentifier>{b7813fcf-6418-41a2-a91e-ce06e41c9f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils">
+      <UniqueIdentifier>{262efb3d-7d98-42dd-882e-265961ca59ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\nshlib">
+      <UniqueIdentifier>{b091c916-ca65-416a-ac84-8c50f9a8fbf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\NxWidgets">
+      <UniqueIdentifier>{d7b3a3b7-0ffe-47a6-9d2f-c30d008a4cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system">
+      <UniqueIdentifier>{38f55526-21d6-4dce-88f4-8fe3d4d740c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\builtin\registry">
+      <UniqueIdentifier>{188e659b-67f4-4373-a188-b32c5c3cf770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\adc">
+      <UniqueIdentifier>{d0778a4c-ca55-410b-a85d-472803f25f6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\buttons">
+      <UniqueIdentifier>{7d50c447-b94a-4eac-be1c-4b08a351f301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\can">
+      <UniqueIdentifier>{418b1bdf-cf64-4506-b95a-a730ab68c7c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\cdcacm">
+      <UniqueIdentifier>{3db25481-f746-4dbd-80b9-86fb5b8c1e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\composite">
+      <UniqueIdentifier>{f1270881-3600-4838-83cf-d435ede467f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\cxxtest">
+      <UniqueIdentifier>{06c34f03-f6df-47ab-ad7b-e484f7c6058d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\dhcpd">
+      <UniqueIdentifier>{0306761d-d68e-47f5-a4b6-daab57f9d271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\discover">
+      <UniqueIdentifier>{2cd3aaf3-d190-4dbf-bce1-fe3a8ab1ac5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf">
+      <UniqueIdentifier>{7ee92f86-23e6-47bf-99d5-d477c611ed62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\flash_test">
+      <UniqueIdentifier>{af2e7d93-3183-4928-b33a-6cd166c72eee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\ftpc">
+      <UniqueIdentifier>{f6490a42-fc5d-4e9f-9f9b-1e8fb86d66fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\ftpd">
+      <UniqueIdentifier>{e3c70cf4-b432-4b2d-92e7-1655d354320f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\hello">
+      <UniqueIdentifier>{4642129d-cab5-4737-959e-285b60ad61b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\hidkbd">
+      <UniqueIdentifier>{6aa51def-91f8-4476-89d4-ca3fc2fd741f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\igmp">
+      <UniqueIdentifier>{5abcfa13-e412-4b33-a801-1780574df4f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\json">
+      <UniqueIdentifier>{0e47cd7f-72be-4f0f-99f7-2e2306460bc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\keypadtest">
+      <UniqueIdentifier>{f3e77c94-c9a2-475c-bd95-b72a49003357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\lcdrw">
+      <UniqueIdentifier>{5aff7f55-2f53-4ff5-8430-d9ce156b0b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\mm">
+      <UniqueIdentifier>{66293968-1f18-439a-b276-b8ed503c961b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\modbus">
+      <UniqueIdentifier>{d73b50b1-fd69-4777-8d19-4c1211263bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\mount">
+      <UniqueIdentifier>{1fdce818-884f-4c89-b301-04c268e33500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\mtdpart">
+      <UniqueIdentifier>{019eb7e3-c38e-4b48-b3dc-fb56f2e22204}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nettest">
+      <UniqueIdentifier>{f762a1a0-dfdb-4c4a-a496-e27715fe78b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nrf24l01_term">
+      <UniqueIdentifier>{2bf9db43-0ad7-46af-93cc-a0ae1325ec43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nsh">
+      <UniqueIdentifier>{a8d93d5c-8f4e-424f-99db-41dc67b282a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\null">
+      <UniqueIdentifier>{907e833e-8a09-4865-b877-b705524a4920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nx">
+      <UniqueIdentifier>{b6717e98-0992-483b-a158-00bb67a7c40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxconsole">
+      <UniqueIdentifier>{60a87790-8056-45c6-b480-7f78c3aabfc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxffs">
+      <UniqueIdentifier>{e539d5b3-7359-493c-b1d1-d57cb6ebf01d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat">
+      <UniqueIdentifier>{b2f3b11e-4c8f-4007-9605-691abf97ce28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxhello">
+      <UniqueIdentifier>{6f379d44-6020-44c4-b00e-acfb463dbe12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nximage">
+      <UniqueIdentifier>{d63a2db5-d091-4289-ac1b-251791756b16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxlines">
+      <UniqueIdentifier>{599a7f92-2b41-4c0f-82eb-95a1e31fdd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxtext">
+      <UniqueIdentifier>{7b2fd2b3-fa16-472f-a04a-0b9f89c38371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\ostest">
+      <UniqueIdentifier>{10353d62-c52f-43f6-805f-0ec51a56391c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\pashello">
+      <UniqueIdentifier>{5145bd3d-f437-4e62-be47-5ed04855f513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\pipe">
+      <UniqueIdentifier>{84a095ab-596d-479b-bf7a-d5e1a41ca885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\poll">
+      <UniqueIdentifier>{2ff47ebe-f8ea-437f-be70-2693f92501f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\posix_spawn">
+      <UniqueIdentifier>{ae793e9d-ea90-41ee-910c-094801e8b933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\pwm">
+      <UniqueIdentifier>{4be05493-f558-4c5c-a4a0-327b5a283e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\qencoder">
+      <UniqueIdentifier>{a945cc81-3196-4e80-b3a6-6d852559c665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\relays">
+      <UniqueIdentifier>{2b20db99-5d5d-4721-9502-719090ff22d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\rgmp">
+      <UniqueIdentifier>{f9a0afef-4a17-4cbc-98c9-3d49a0646d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\romfs">
+      <UniqueIdentifier>{9585cba6-e3c8-4ed9-bff1-c844fdf6570c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\sendmail">
+      <UniqueIdentifier>{4a5c383d-a4ec-4b29-82d6-4bd720e42ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\serloop">
+      <UniqueIdentifier>{028f9c97-9ac9-40ba-b231-cae7636951bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\slcd">
+      <UniqueIdentifier>{45541c7e-7a9b-4ff7-b7bc-498a92c73710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\smart">
+      <UniqueIdentifier>{33c105e5-6259-4eab-bd41-a4d7b29d8762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\smart_test">
+      <UniqueIdentifier>{6f64d633-696c-4cb7-8433-9ce62c56617e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\tcpecho">
+      <UniqueIdentifier>{fa60a64c-8f38-4257-aa13-6f27f8d79486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\telnetd">
+      <UniqueIdentifier>{8f6574de-097a-41b7-a6a3-5ae186772dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\thttpd">
+      <UniqueIdentifier>{c8f18481-2b6a-431e-9980-c4cf7ce43cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\tiff">
+      <UniqueIdentifier>{7ea95002-0e3b-4d2f-b99c-782f7d4e1867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\touchscreen">
+      <UniqueIdentifier>{87794db3-cf1f-46c6-9a59-cd873e21b495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\udp">
+      <UniqueIdentifier>{1fd3c032-0aac-4283-a0c8-4e6fc182b5e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\uip">
+      <UniqueIdentifier>{48966773-d0d8-446d-b3bb-9bc4559498d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\usbserial">
+      <UniqueIdentifier>{47cefde4-e8c9-4d8f-9a29-bb0114c88f4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\usbstorage">
+      <UniqueIdentifier>{9ce57ac0-dc90-497c-9e42-f8bd7b834e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\usbterm">
+      <UniqueIdentifier>{2758d999-dffb-4f5b-bfae-8000359913dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\watchdog">
+      <UniqueIdentifier>{d4215f50-19b7-4190-9f7c-40582555af0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\wget">
+      <UniqueIdentifier>{dccaea7b-2712-4331-92c2-c4a08f6362a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\wgetjson">
+      <UniqueIdentifier>{6fa6ff6e-e4f2-4097-9e10-5ea41552b888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\xmlrpc">
+      <UniqueIdentifier>{a3e1fc7b-a203-4438-9b2a-26563af6b9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests">
+      <UniqueIdentifier>{418a9adb-2897-44f2-8822-ac01afcf01d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\task">
+      <UniqueIdentifier>{6426ba94-2372-4f20-a80a-3915ad914dcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\errno">
+      <UniqueIdentifier>{20188416-796e-46aa-8e6e-196da5b8f134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\hello">
+      <UniqueIdentifier>{7e263dff-e60d-4a61-b6c3-20ab0889a5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\helloxx">
+      <UniqueIdentifier>{aad23859-8686-4cdb-91a3-dde2ac524a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\longjmp">
+      <UniqueIdentifier>{82ab61b9-dc88-4773-a989-af6dedb70682}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\mutex">
+      <UniqueIdentifier>{a19ec71a-dbdc-4e4c-8f32-f40bdf11d965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\pthread">
+      <UniqueIdentifier>{68f48eab-a741-42b6-ba6e-21eb7de8ff25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\signal">
+      <UniqueIdentifier>{7d428e03-c477-4b3b-97c5-3a60f9bd8e15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\elf\tests\struct">
+      <UniqueIdentifier>{2475f424-fc55-4741-8f50-8dab6c3e0cf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\helloxx">
+      <UniqueIdentifier>{797891c1-9973-4640-9663-ad40c74b59f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests">
+      <UniqueIdentifier>{41693fef-e8d4-4c1e-8299-9b0e4bc2c241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\errno">
+      <UniqueIdentifier>{c2fef967-3ed5-46e1-973d-c2f84c479eb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello">
+      <UniqueIdentifier>{30789b21-9bad-4b26-92c2-058d6ba764b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello++">
+      <UniqueIdentifier>{6bd1229d-1e08-47d4-be80-955cd01ce148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\longjmp">
+      <UniqueIdentifier>{ea662505-3a0d-4701-8b79-5f9d442fd152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\mutex">
+      <UniqueIdentifier>{575e510c-5db6-44d9-a934-4614a873a518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\pthread">
+      <UniqueIdentifier>{45d0a29f-d593-4cfd-bf8e-2999f4a4ed60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\signal">
+      <UniqueIdentifier>{77f97f74-864d-4b7d-8820-3888e2b2bbb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\struct">
+      <UniqueIdentifier>{9cbb1188-8622-4900-9da8-13c268274a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\nxflat\tests\task">
+      <UniqueIdentifier>{58fa12c0-e7ca-41fb-a0f3-4b6eee7ad9e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem">
+      <UniqueIdentifier>{5ad363f0-9ed0-4507-b17d-e7c8672ae29d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\hello">
+      <UniqueIdentifier>{5cbf072f-a1dc-4f31-a72a-6aacb53e39e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\redirect">
+      <UniqueIdentifier>{7aa61f8f-5fa6-4122-a02f-6fcb39d3f069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\thttpd\content">
+      <UniqueIdentifier>{b9444297-3a81-4d7b-898e-e8b7808ddac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\thttpd\content\hello">
+      <UniqueIdentifier>{b16c3355-429f-4bb0-af7b-73ffa98df895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\thttpd\content\netstat">
+      <UniqueIdentifier>{8918b90d-c2a5-4657-8e73-2486d67a0e1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\thttpd\content\tasks">
+      <UniqueIdentifier>{c3ef1f3f-e07d-493b-b24d-3af9541eb5d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\uip\httpd-fs">
+      <UniqueIdentifier>{f029d3e1-cd99-4f94-94a6-0d45575b0492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\wgetjson\webserver">
+      <UniqueIdentifier>{ae3675b7-47fb-4d0c-adc9-eced737117ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\examples\wgetjson\webserver\wgetjson">
+      <UniqueIdentifier>{05a3c23a-9f52-4c47-a75e-ed0d280a3f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\graphics\screenshot">
+      <UniqueIdentifier>{355e745b-5aca-4a2a-88cc-be5b761e13cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\graphics\tiff">
+      <UniqueIdentifier>{c03cbe8d-af61-48b3-806b-d774f1d4e531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\include\netutils">
+      <UniqueIdentifier>{5559e375-664f-4942-be57-39fd6584b9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\include\modbus">
+      <UniqueIdentifier>{4876ec49-ee7e-4796-a9b3-d57222de520d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\interpreters\ficl">
+      <UniqueIdentifier>{ae059891-d2c9-43f4-85de-102bd5442830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\interpreters\ficl\src">
+      <UniqueIdentifier>{d86dd480-c1ea-4c77-96c0-05ba9a76b289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\modbus\tcp">
+      <UniqueIdentifier>{63ae11bd-09d4-46e4-8aa3-5e12708e158d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\modbus\rtu">
+      <UniqueIdentifier>{91868191-126e-4b67-b9ca-43e55521101a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\modbus\nuttx">
+      <UniqueIdentifier>{0eb4e443-7d1d-4597-b0c0-71eb83d9cf48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\modbus\functions">
+      <UniqueIdentifier>{eafbd4d5-64ac-404d-b4bd-9745f7e3c508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\modbus\ascii">
+      <UniqueIdentifier>{c661416a-9376-4a38-aea6-3360d082b8bc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -7896,6 +8391,573 @@
     <ClCompile Include="modules\PX4Firmware\src\systemcmds\ver\ver.c">
       <Filter>modules\PX4Firmware\src\systemcmds\ver</Filter>
     </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\autodeclination_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\conversion_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\dsm_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\hrt.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\mixer_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\param_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\sbus2_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\sf0x_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\st24_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\sumd_test.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\uorb_stub.cpp">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\uorb_unittests\uORBCommunicator_gtests.cpp">
+      <Filter>modules\PX4Firmware\unittests\uorb_unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\uorb_unittests\uORBCommunicatorMock.cpp">
+      <Filter>modules\PX4Firmware\unittests\uorb_unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4Firmware\unittests\uorb_unittests\uORBCommunicatorMockLoopback.cpp">
+      <Filter>modules\PX4Firmware\unittests\uorb_unittests</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\builtin\builtin.c">
+      <Filter>modules\PX4NuttX\apps\builtin</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\builtin\builtin_list.c">
+      <Filter>modules\PX4NuttX\apps\builtin</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\builtin\exec_builtin.c">
+      <Filter>modules\PX4NuttX\apps\builtin</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\adc\adc_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\adc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\buttons\buttons_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\can\can_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\can</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\cdcacm\cdcacm_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\cdcacm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\composite\composite_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\composite</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\cxxtest\cxxtest_main.cxx">
+      <Filter>modules\PX4NuttX\apps\examples\cxxtest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\dhcpd\host.c">
+      <Filter>modules\PX4NuttX\apps\examples\dhcpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\dhcpd\target.c">
+      <Filter>modules\PX4NuttX\apps\examples\dhcpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\discover\discover_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\discover</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\elf_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\errno\errno.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\errno</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\hello\hello.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\helloxx\hello++1.cpp">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\helloxx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\helloxx\hello++2.cpp">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\helloxx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\helloxx\hello++3.cpp">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\helloxx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\helloxx\hello++4.cpp">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\helloxx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\longjmp\longjmp.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\longjmp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\mutex\mutex.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\pthread\pthread.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\signal\signal.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\struct\struct_dummy.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\struct\struct_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\elf\tests\task\task.c">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\task</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\flash_test\flash_test.c">
+      <Filter>modules\PX4NuttX\apps\examples\flash_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ftpc\ftpc_cmds.c">
+      <Filter>modules\PX4NuttX\apps\examples\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ftpc\ftpc_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ftpd\ftpd_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\ftpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\hello\hello_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\helloxx\helloxx_main.cxx">
+      <Filter>modules\PX4NuttX\apps\examples\helloxx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\hidkbd\hidkbd_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\hidkbd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\igmp\igmp.c">
+      <Filter>modules\PX4NuttX\apps\examples\igmp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\json\json_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\json</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\keypadtest\keypadtest_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\keypadtest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\lcdrw\lcdrw_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\lcdrw</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\mm\mm_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\mm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\modbus\modbus_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\modbus</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\mount\mount_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\mount</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\mount\ramdisk.c">
+      <Filter>modules\PX4NuttX\apps\examples\mount</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\mtdpart\mtdpart_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\mtdpart</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nettest\host.c">
+      <Filter>modules\PX4NuttX\apps\examples\nettest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nettest\nettest.c">
+      <Filter>modules\PX4NuttX\apps\examples\nettest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nettest\nettest_client.c">
+      <Filter>modules\PX4NuttX\apps\examples\nettest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nettest\nettest_server.c">
+      <Filter>modules\PX4NuttX\apps\examples\nettest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nrf24l01_term\nrf24l01_term.c">
+      <Filter>modules\PX4NuttX\apps\examples\nrf24l01_term</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nsh\nsh_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nsh</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\null\null_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\null</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nx\nx_events.c">
+      <Filter>modules\PX4NuttX\apps\examples\nx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nx\nx_kbdin.c">
+      <Filter>modules\PX4NuttX\apps\examples\nx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nx\nx_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nx\nx_server.c">
+      <Filter>modules\PX4NuttX\apps\examples\nx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxconsole\nxcon_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxconsole\nxcon_server.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxconsole\nxcon_toolbar.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxconsole\nxcon_wndo.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxconsole</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxffs\nxffs_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxffs</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\nxflat_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\errno\errno.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\errno</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello\hello.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello++\hello++1.cpp">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello++\hello++2.cpp">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello++\hello++3.cpp">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello++\hello++4.cpp">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\longjmp\longjmp.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\longjmp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\mutex\mutex.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\pthread\pthread.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\pthread</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\signal\signal.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\signal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\struct\struct_dummy.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\struct\struct_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\struct</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxflat\tests\task\task.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\task</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxhello\nxhello_bkgd.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxhello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxhello\nxhello_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxhello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nximage\nximage_bitmap.c">
+      <Filter>modules\PX4NuttX\apps\examples\nximage</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nximage\nximage_bkgd.c">
+      <Filter>modules\PX4NuttX\apps\examples\nximage</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nximage\nximage_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nximage</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxlines\nxlines_bkgd.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxlines</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxlines\nxlines_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxlines</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxtext\nxtext_bkgd.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxtext\nxtext_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxtext\nxtext_popup.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxtext\nxtext_putc.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\nxtext\nxtext_server.c">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\barrier.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\cancel.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\cond.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\dev_null.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\fpu.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\mqueue.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\mutex.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\ostest_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\posixtimer.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\prioinherit.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\restart.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\rmutex.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\roundrobin.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\sem.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\sighand.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\timedmqueue.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\timedwait.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\vfork.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\ostest\waitpid.c">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\pashello\device.c">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\pashello\pashello.c">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\pipe\interlock_test.c">
+      <Filter>modules\PX4NuttX\apps\examples\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\pipe\pipe_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\pipe\redirect_test.c">
+      <Filter>modules\PX4NuttX\apps\examples\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\pipe\transfer_test.c">
+      <Filter>modules\PX4NuttX\apps\examples\pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\poll\host.c">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\poll\net_listener.c">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\poll\net_reader.c">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\poll\poll_listener.c">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\poll\poll_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\poll\select_listener.c">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\posix_spawn\spawn_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\hello\hello.c">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\redirect\redirect.c">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem\redirect</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\pwm\pwm_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\pwm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\qencoder\qe_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\qencoder</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\relays\relays_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\relays</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\rgmp\rgmp_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\rgmp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\romfs\romfs_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\romfs</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\sendmail\host.c">
+      <Filter>modules\PX4NuttX\apps\examples\sendmail</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\sendmail\target.c">
+      <Filter>modules\PX4NuttX\apps\examples\sendmail</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\serloop\serloop_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\serloop</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\slcd\slcd_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\slcd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\smart\smart_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\smart</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\smart_test\smart_test.c">
+      <Filter>modules\PX4NuttX\apps\examples\smart_test</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\tcpecho\tcpecho_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\tcpecho</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\telnetd\shell.c">
+      <Filter>modules\PX4NuttX\apps\examples\telnetd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\thttpd\thttpd_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\thttpd\content\hello\hello.c">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\hello</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\thttpd\content\netstat\netstat.c">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\netstat</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\thttpd\content\tasks\tasks.c">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\tiff\tiff_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\touchscreen\tc_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\touchscreen</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\udp\host.c">
+      <Filter>modules\PX4NuttX\apps\examples\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\udp\target.c">
+      <Filter>modules\PX4NuttX\apps\examples\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\udp\udp-client.c">
+      <Filter>modules\PX4NuttX\apps\examples\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\udp\udp-server.c">
+      <Filter>modules\PX4NuttX\apps\examples\udp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\uip\cgi.c">
+      <Filter>modules\PX4NuttX\apps\examples\uip</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\uip\uip_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\uip</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\usbserial\host.c">
+      <Filter>modules\PX4NuttX\apps\examples\usbserial</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\usbserial\usbserial_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\usbserial</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\usbstorage\usbmsc_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\usbstorage</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\usbterm\usbterm_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\usbterm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\watchdog\watchdog_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\watchdog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\wget\host.c">
+      <Filter>modules\PX4NuttX\apps\examples\wget</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\wget\target.c">
+      <Filter>modules\PX4NuttX\apps\examples\wget</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\wgetjson\wgetjson_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\wgetjson</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\xmlrpc\calls.c">
+      <Filter>modules\PX4NuttX\apps\examples\xmlrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\examples\xmlrpc\xmlrpc_main.c">
+      <Filter>modules\PX4NuttX\apps\examples\xmlrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\graphics\screenshot\screenshot_main.c">
+      <Filter>modules\PX4NuttX\apps\graphics\screenshot</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\graphics\tiff\tiff_addstrip.c">
+      <Filter>modules\PX4NuttX\apps\graphics\tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\graphics\tiff\tiff_finalize.c">
+      <Filter>modules\PX4NuttX\apps\graphics\tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\graphics\tiff\tiff_initialize.c">
+      <Filter>modules\PX4NuttX\apps\graphics\tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\graphics\tiff\tiff_utils.c">
+      <Filter>modules\PX4NuttX\apps\graphics\tiff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\interpreters\ficl\src\nuttx.c">
+      <Filter>modules\PX4NuttX\apps\interpreters\ficl\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\ascii\mbascii.c">
+      <Filter>modules\PX4NuttX\apps\modbus\ascii</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\functions\mbfunccoils.c">
+      <Filter>modules\PX4NuttX\apps\modbus\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\functions\mbfuncdiag.c">
+      <Filter>modules\PX4NuttX\apps\modbus\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\functions\mbfuncdisc.c">
+      <Filter>modules\PX4NuttX\apps\modbus\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\functions\mbfuncholding.c">
+      <Filter>modules\PX4NuttX\apps\modbus\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\functions\mbfuncinput.c">
+      <Filter>modules\PX4NuttX\apps\modbus\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\functions\mbfuncother.c">
+      <Filter>modules\PX4NuttX\apps\modbus\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\functions\mbutils.c">
+      <Filter>modules\PX4NuttX\apps\modbus\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\nuttx\portevent.c">
+      <Filter>modules\PX4NuttX\apps\modbus\nuttx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\nuttx\portother.c">
+      <Filter>modules\PX4NuttX\apps\modbus\nuttx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\nuttx\portserial.c">
+      <Filter>modules\PX4NuttX\apps\modbus\nuttx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\nuttx\porttimer.c">
+      <Filter>modules\PX4NuttX\apps\modbus\nuttx</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\rtu\mbcrc.c">
+      <Filter>modules\PX4NuttX\apps\modbus\rtu</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\rtu\mbrtu.c">
+      <Filter>modules\PX4NuttX\apps\modbus\rtu</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\tcp\mbtcp.c">
+      <Filter>modules\PX4NuttX\apps\modbus\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\modbus\mb.c">
+      <Filter>modules\PX4NuttX\apps\modbus</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -8929,6 +9991,252 @@
     </Text>
     <Text Include="modules\PX4Firmware\src\systemcmds\ver\CMakeLists.txt">
       <Filter>modules\PX4Firmware\src\systemcmds\ver</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\CI\VTOLmission.txt">
+      <Filter>modules\PX4Firmware\Tools\CI</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\gencpp\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\Tools\gencpp</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\gencpp\scripts\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\Tools\gencpp\scripts</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\constants1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\constants2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\constants3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\constantsB1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\constantsB2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\fields1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\fields2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\fields3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\fields4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\different\fields5.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\different</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\constant1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\constant2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\constant3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\constantB1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\constantB2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\constantC1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\constantC2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\embed1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\embed2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\embed3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\embed4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\empty1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\empty2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\empty3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\empty4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\field1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\field2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\field3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\field4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\field5.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\multi1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\multi2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\multi3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\multi4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text\multi5.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\md5text</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\constant1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\constant2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\constant3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\constantB1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\constantB2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\constantC1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\constantC2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\embed1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\embed2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\embed3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\embed4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\empty1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\empty2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\empty3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\empty4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\field1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\field2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\field3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\field4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\field5.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\multi1.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\multi2.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\multi3.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\multi4.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\genmsg\test\md5tests\same\multi5.txt">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\md5tests\same</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\Tools\sdlog2\README.txt">
+      <Filter>modules\PX4Firmware\Tools\sdlog2</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\unittests\CMakeLists.txt">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\unittests\testdata\dsm_x_data.txt">
+      <Filter>modules\PX4Firmware\unittests\testdata</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\unittests\testdata\sbus2_r7008SB.txt">
+      <Filter>modules\PX4Firmware\unittests\testdata</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\unittests\testdata\st24_data.txt">
+      <Filter>modules\PX4Firmware\unittests\testdata</Filter>
+    </Text>
+    <Text Include="modules\PX4Firmware\unittests\testdata\sumd_data.txt">
+      <Filter>modules\PX4Firmware\unittests\testdata</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\ChangeLog.txt">
+      <Filter>modules\PX4NuttX\apps</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\README.txt">
+      <Filter>modules\PX4NuttX\apps</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\examples\flash_test\README.txt">
+      <Filter>modules\PX4NuttX\apps\examples\flash_test</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\examples\pashello\README.txt">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\testdata.txt">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\examples\romfs\testdir.txt">
+      <Filter>modules\PX4NuttX\apps\examples\romfs</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\examples\smart_test\README.txt">
+      <Filter>modules\PX4NuttX\apps\examples\smart_test</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\examples\telnetd\README.txt">
+      <Filter>modules\PX4NuttX\apps\examples\telnetd</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\graphics\tiff\README.txt">
+      <Filter>modules\PX4NuttX\apps\graphics\tiff</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\interpreters\README.txt">
+      <Filter>modules\PX4NuttX\apps\interpreters</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\interpreters\ficl\README.txt">
+      <Filter>modules\PX4NuttX\apps\interpreters\ficl</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\modbus\README.txt">
+      <Filter>modules\PX4NuttX\apps\modbus</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -13660,6 +14968,243 @@
     </ClInclude>
     <ClInclude Include="modules\PX4Firmware\src\systemcmds\tests\tests.h">
       <Filter>modules\PX4Firmware\src\systemcmds\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\unittests\board_config.h">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\unittests\debug.h">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\unittests\queue.h">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\unittests\arch\board\board.h">
+      <Filter>modules\PX4Firmware\unittests\arch\board</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\unittests\nuttx\config.h">
+      <Filter>modules\PX4Firmware\unittests\nuttx</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\unittests\uorb_unittests\uORBCommunicatorMock.hpp">
+      <Filter>modules\PX4Firmware\unittests\uorb_unittests</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\unittests\uorb_unittests\uORBCommunicatorMockLoopback.hpp">
+      <Filter>modules\PX4Firmware\unittests\uorb_unittests</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4Firmware\unittests\uorb_unittests\uORBGtestTopics.hpp">
+      <Filter>modules\PX4Firmware\unittests\uorb_unittests</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\adc\adc.h">
+      <Filter>modules\PX4NuttX\apps\examples\adc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\can\can.h">
+      <Filter>modules\PX4NuttX\apps\examples\can</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\cdcacm\cdcacm.h">
+      <Filter>modules\PX4NuttX\apps\examples\cdcacm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\composite\composite.h">
+      <Filter>modules\PX4NuttX\apps\examples\composite</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\elf\tests\struct\struct.h">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\ftpc\ftpc.h">
+      <Filter>modules\PX4NuttX\apps\examples\ftpc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\ftpd\ftpd.h">
+      <Filter>modules\PX4NuttX\apps\examples\ftpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\igmp\igmp.h">
+      <Filter>modules\PX4NuttX\apps\examples\igmp</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\mount\mount.h">
+      <Filter>modules\PX4NuttX\apps\examples\mount</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\nettest\nettest.h">
+      <Filter>modules\PX4NuttX\apps\examples\nettest</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\nx\nx_internal.h">
+      <Filter>modules\PX4NuttX\apps\examples\nx</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\nxconsole\nxcon_internal.h">
+      <Filter>modules\PX4NuttX\apps\examples\nxconsole</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\nxflat\tests\struct\struct.h">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\struct</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\nxhello\nxhello.h">
+      <Filter>modules\PX4NuttX\apps\examples\nxhello</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\nximage\nximage.h">
+      <Filter>modules\PX4NuttX\apps\examples\nximage</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\nxlines\nxlines.h">
+      <Filter>modules\PX4NuttX\apps\examples\nxlines</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\nxtext\nxtext_internal.h">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\ostest\ostest.h">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\pashello\hello.h">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\pashello\pashello.h">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\pipe\pipe.h">
+      <Filter>modules\PX4NuttX\apps\examples\pipe</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\poll\poll_internal.h">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\pwm\pwm.h">
+      <Filter>modules\PX4NuttX\apps\examples\pwm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\qencoder\qe.h">
+      <Filter>modules\PX4NuttX\apps\examples\qencoder</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\romfs\romfs_testdir.h">
+      <Filter>modules\PX4NuttX\apps\examples\romfs</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\sendmail\hostdefs.h">
+      <Filter>modules\PX4NuttX\apps\examples\sendmail</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\telnetd\shell.h">
+      <Filter>modules\PX4NuttX\apps\examples\telnetd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\touchscreen\tc.h">
+      <Filter>modules\PX4NuttX\apps\examples\touchscreen</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\udp\udp-internal.h">
+      <Filter>modules\PX4NuttX\apps\examples\udp</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\uip\cgi.h">
+      <Filter>modules\PX4NuttX\apps\examples\uip</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\usbstorage\usbmsc.h">
+      <Filter>modules\PX4NuttX\apps\examples\usbstorage</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\usbterm\usbterm.h">
+      <Filter>modules\PX4NuttX\apps\examples\usbterm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\watchdog\watchdog.h">
+      <Filter>modules\PX4NuttX\apps\examples\watchdog</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\examples\wget\hostdefs.h">
+      <Filter>modules\PX4NuttX\apps\examples\wget</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\graphics\tiff\tiff_internal.h">
+      <Filter>modules\PX4NuttX\apps\graphics\tiff</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\builtin.h">
+      <Filter>modules\PX4NuttX\apps\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\ftpc.h">
+      <Filter>modules\PX4NuttX\apps\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\nsh.h">
+      <Filter>modules\PX4NuttX\apps\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\readline.h">
+      <Filter>modules\PX4NuttX\apps\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\tiff.h">
+      <Filter>modules\PX4NuttX\apps\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\usbmonitor.h">
+      <Filter>modules\PX4NuttX\apps\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\modbus\mb.h">
+      <Filter>modules\PX4NuttX\apps\include\modbus</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\modbus\mbframe.h">
+      <Filter>modules\PX4NuttX\apps\include\modbus</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\modbus\mbfunc.h">
+      <Filter>modules\PX4NuttX\apps\include\modbus</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\modbus\mbport.h">
+      <Filter>modules\PX4NuttX\apps\include\modbus</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\modbus\mbproto.h">
+      <Filter>modules\PX4NuttX\apps\include\modbus</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\modbus\mbutils.h">
+      <Filter>modules\PX4NuttX\apps\include\modbus</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\base64.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\cJSON.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\dhcpc.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\dhcpd.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\discover.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\ftpd.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\httpd.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\ipmsfilter.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\md5.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\resolv.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\smtp.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\telnetd.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\tftp.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\thttpd.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\uiplib.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\urldecode.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\webclient.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\include\netutils\xmlrpc.h">
+      <Filter>modules\PX4NuttX\apps\include\netutils</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\interpreters\ficl\src\nuttx.h">
+      <Filter>modules\PX4NuttX\apps\interpreters\ficl\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\modbus\ascii\mbascii.h">
+      <Filter>modules\PX4NuttX\apps\modbus\ascii</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\modbus\nuttx\port.h">
+      <Filter>modules\PX4NuttX\apps\modbus\nuttx</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\modbus\rtu\mbcrc.h">
+      <Filter>modules\PX4NuttX\apps\modbus\rtu</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\modbus\rtu\mbrtu.h">
+      <Filter>modules\PX4NuttX\apps\modbus\rtu</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\modbus\tcp\mbtcp.h">
+      <Filter>modules\PX4NuttX\apps\modbus\tcp</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -18754,6 +20299,1485 @@
     <None Include="modules\PX4Firmware\src\systemcmds\ver\module.mk">
       <Filter>modules\PX4Firmware\src\systemcmds\ver</Filter>
     </None>
+    <None Include="modules\PX4Firmware\Tools\.gitignore">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\adb_upload.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\aero_upload.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\astylerc">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\boot_now.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\check_cmake.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\check_code_style.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\check_submodules.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\decode_backtrace.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\fetch_file.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\fix_code_style.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\fsm_visualisation.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\generate_listener.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\make_color.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\mavlink_px4.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\posix.gdbinit">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\posix_apps.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\posix_lldbinit">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\pre-commit">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_generate_params.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_generate_uorb_topic_headers.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_generate_xml.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_mkfw.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_process_airframes.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_process_params.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_romfs_pruner.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_update_wiki.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px_uploader.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\qurt_apps.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\sitl_run.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\uavcan_copy.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\upload.sh">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\usb_serialload.py">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\CI\MissionCheck.py">
+      <Filter>modules\PX4Firmware\Tools\CI</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\.gitignore">
+      <Filter>modules\PX4Firmware\Tools\gencpp</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\CHANGELOG.rst">
+      <Filter>modules\PX4Firmware\Tools\gencpp</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\rosdoc.yaml">
+      <Filter>modules\PX4Firmware\Tools\gencpp</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\setup.py">
+      <Filter>modules\PX4Firmware\Tools\gencpp</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\cmake\gencpp-extras.cmake.em">
+      <Filter>modules\PX4Firmware\Tools\gencpp\cmake</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\scripts\gen_cpp.py">
+      <Filter>modules\PX4Firmware\Tools\gencpp\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\scripts\msg.h.template">
+      <Filter>modules\PX4Firmware\Tools\gencpp\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\scripts\srv.h.template">
+      <Filter>modules\PX4Firmware\Tools\gencpp\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\gencpp\src\gencpp\__init__.py">
+      <Filter>modules\PX4Firmware\Tools\gencpp\src\gencpp</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\.gitignore">
+      <Filter>modules\PX4Firmware\Tools\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\.hgignore">
+      <Filter>modules\PX4Firmware\Tools\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\CHANGELOG.rst">
+      <Filter>modules\PX4Firmware\Tools\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\rosdoc.yaml">
+      <Filter>modules\PX4Firmware\Tools\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\setup.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\cmake\genmsg-extras.cmake.em">
+      <Filter>modules\PX4Firmware\Tools\genmsg\cmake</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\cmake\pkg-genmsg.cmake.em">
+      <Filter>modules\PX4Firmware\Tools\genmsg\cmake</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\cmake\pkg-genmsg.context.in">
+      <Filter>modules\PX4Firmware\Tools\genmsg\cmake</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\cmake\pkg-msg-extras.cmake.in">
+      <Filter>modules\PX4Firmware\Tools\genmsg\cmake</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\cmake\pkg-msg-paths.cmake.develspace.in">
+      <Filter>modules\PX4Firmware\Tools\genmsg\cmake</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\cmake\pkg-msg-paths.cmake.installspace.in">
+      <Filter>modules\PX4Firmware\Tools\genmsg\cmake</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\doc\conf.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\doc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\doc\developer.rst">
+      <Filter>modules\PX4Firmware\Tools\genmsg\doc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\doc\index.rst">
+      <Filter>modules\PX4Firmware\Tools\genmsg\doc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\doc\Makefile">
+      <Filter>modules\PX4Firmware\Tools\genmsg\doc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\doc\python_api.rst">
+      <Filter>modules\PX4Firmware\Tools\genmsg\doc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\doc\usermacros.rst">
+      <Filter>modules\PX4Firmware\Tools\genmsg\doc</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\scripts\genmsg_check_deps.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\scripts</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\__init__.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\base.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\command_line.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\deps.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\gentools.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\msg_loader.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\msgs.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\names.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\srvs.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\src\genmsg\template_tools.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\src\genmsg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\__init__.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\test_genmsg_base.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\test_genmsg_command_line.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\test_genmsg_gentools.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\test_genmsg_msg_loader.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\test_genmsg_msgs.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\test_genmsg_names.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\test_genmsg_srvs.py">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Point.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Point32.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\PointStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Polygon.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\PolygonStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Pose.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Pose2D.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\PoseArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\PoseStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\PoseWithCovariance.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\PoseWithCovarianceStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Quaternion.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\QuaternionStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Transform.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\TransformStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Twist.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\TwistStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\TwistWithCovariance.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\TwistWithCovarianceStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Vector3.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Vector3Stamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\Wrench.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg\WrenchStamped.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\geometry_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\invalid\msg\BadDepend.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\invalid\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\invalid\msg\BadLocalDepend.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\invalid\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\rosgraph_msgs\msg\Clock.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\rosgraph_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\rosgraph_msgs\msg\Log.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\rosgraph_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\CameraInfo.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\ChannelFloat32.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\CompressedImage.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\Image.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\Imu.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\JointState.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\Joy.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\JoyFeedback.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\JoyFeedbackArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\LaserScan.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\NavSatFix.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\NavSatStatus.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\PointCloud.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\PointCloud2.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\PointField.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\Range.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg\RegionOfInterest.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\sensor_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Bool.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\ColorRGBA.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Duration.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Empty.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Float32.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Float32MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Float64.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Float64MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Header.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Int8.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Int8MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Int16.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Int16MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Int32.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Int32MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Int64.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Int64MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\MultiArrayDimension.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\MultiArrayLayout.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\String.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\Time.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\UInt8.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\UInt8MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\UInt16.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\UInt16MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\UInt32.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\UInt32MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\UInt64.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg\UInt64MultiArray.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_msgs\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\std_srvs\srv\Empty.srv">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\std_srvs\srv</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\test_ros\msg\Bad.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\test_ros\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\test_ros\msg\TestString.msg">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\test_ros\msg</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\test_ros\srv\AddTwoInts.srv">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\test_ros\srv</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\genmsg\test\files\test_ros\srv\GetPoseStamped.srv">
+      <Filter>modules\PX4Firmware\Tools\genmsg\test\files\test_ros\srv</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\Matlab\ellipsoid_fit.m">
+      <Filter>modules\PX4Firmware\Tools\Matlab</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\Matlab\motors.m">
+      <Filter>modules\PX4Firmware\Tools\Matlab</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\Matlab\plot_mag.m">
+      <Filter>modules\PX4Firmware\Tools\Matlab</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4airframes\__init__.py">
+      <Filter>modules\PX4Firmware\Tools\px4airframes</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4airframes\rcout.py">
+      <Filter>modules\PX4Firmware\Tools\px4airframes</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4airframes\README.md">
+      <Filter>modules\PX4Firmware\Tools\px4airframes</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4airframes\srcparser.py">
+      <Filter>modules\PX4Firmware\Tools\px4airframes</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4airframes\srcscanner.py">
+      <Filter>modules\PX4Firmware\Tools\px4airframes</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4airframes\xmlout.py">
+      <Filter>modules\PX4Firmware\Tools\px4airframes</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4params\__init__.py">
+      <Filter>modules\PX4Firmware\Tools\px4params</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4params\dokuwikiout.py">
+      <Filter>modules\PX4Firmware\Tools\px4params</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4params\dokuwikirpc.py">
+      <Filter>modules\PX4Firmware\Tools\px4params</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4params\README.md">
+      <Filter>modules\PX4Firmware\Tools\px4params</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4params\srcparser.py">
+      <Filter>modules\PX4Firmware\Tools\px4params</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4params\srcscanner.py">
+      <Filter>modules\PX4Firmware\Tools\px4params</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\px4params\xmlout.py">
+      <Filter>modules\PX4Firmware\Tools\px4params</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\sdlog2\geotagging.py">
+      <Filter>modules\PX4Firmware\Tools\sdlog2</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\sdlog2\logconv.m">
+      <Filter>modules\PX4Firmware\Tools\sdlog2</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\Tools\sdlog2\sdlog2_dump.py">
+      <Filter>modules\PX4Firmware\Tools\sdlog2</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\unittests\.gitignore">
+      <Filter>modules\PX4Firmware\unittests</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\unittests\data\fit_linear_voltage.m">
+      <Filter>modules\PX4Firmware\unittests\data</Filter>
+    </None>
+    <None Include="modules\PX4Firmware\unittests\data\px4io_v1.3.csv">
+      <Filter>modules\PX4Firmware\unittests\data</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\.gitignore">
+      <Filter>modules\PX4NuttX</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\.gitignore">
+      <Filter>modules\PX4NuttX\apps</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\COPYING">
+      <Filter>modules\PX4NuttX\apps</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\Kconfig">
+      <Filter>modules\PX4NuttX\apps</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\Make.defs">
+      <Filter>modules\PX4NuttX\apps</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\Makefile">
+      <Filter>modules\PX4NuttX\apps</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\builtin\.gitignore">
+      <Filter>modules\PX4NuttX\apps\builtin</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\builtin\Kconfig">
+      <Filter>modules\PX4NuttX\apps\builtin</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\builtin\Make.defs">
+      <Filter>modules\PX4NuttX\apps\builtin</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\builtin\Makefile">
+      <Filter>modules\PX4NuttX\apps\builtin</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\builtin\registry\.gitignore">
+      <Filter>modules\PX4NuttX\apps\builtin\registry</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\builtin\registry\Makefile">
+      <Filter>modules\PX4NuttX\apps\builtin\registry</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\adc\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\adc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\adc\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\adc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\adc\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\adc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\buttons\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\buttons</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\buttons\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\buttons</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\buttons\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\buttons</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\can\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\can</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\can\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\can</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\can\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\can</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\cdcacm\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\cdcacm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\cdcacm\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\cdcacm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\cdcacm\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\cdcacm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\composite\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\composite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\composite\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\composite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\composite\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\composite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\cxxtest\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\cxxtest\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\cxxtest\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\dhcpd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\dhcpd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\dhcpd\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\dhcpd\Makefile.host">
+      <Filter>modules\PX4NuttX\apps\examples\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\discover\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\discover</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\discover\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\discover</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\discover\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\discover</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\elf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\mkdirlist.sh">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\mksymtab.sh">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\errno\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\errno</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\errno\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\errno</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\hello\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\hello\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\helloxx\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\helloxx\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\longjmp\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\longjmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\longjmp\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\longjmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\mutex\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\mutex</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\mutex\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\mutex</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\pthread\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\pthread</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\pthread\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\pthread</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\signal\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\signal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\signal\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\signal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\struct\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\struct</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\struct\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\struct</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\task\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\task</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\elf\tests\task\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\elf\tests\task</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\flash_test\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\flash_test</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\flash_test\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\flash_test</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\flash_test\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\flash_test</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ftpc\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ftpc\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ftpc\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ftpd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\ftpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ftpd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\ftpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ftpd\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\ftpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\hello\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\hello\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\hello\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\helloxx\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\helloxx\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\helloxx\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\hidkbd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\hidkbd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\hidkbd\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\igmp\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\igmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\igmp\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\igmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\igmp\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\igmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\json\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\json</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\json\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\json</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\json\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\json</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\json\README">
+      <Filter>modules\PX4NuttX\apps\examples\json</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\keypadtest\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\keypadtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\keypadtest\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\keypadtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\keypadtest\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\keypadtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\lcdrw\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\lcdrw</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\lcdrw\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\lcdrw</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\lcdrw\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\lcdrw</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mm\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\mm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mm\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\mm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mm\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\mm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\modbus\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\modbus</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\modbus\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\modbus</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\modbus\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\modbus</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mount\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\mount</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mount\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\mount</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mount\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\mount</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mtdpart\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\mtdpart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mtdpart\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\mtdpart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\mtdpart\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\mtdpart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nettest\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nettest\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nettest\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nrf24l01_term\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nrf24l01_term</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nrf24l01_term\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nrf24l01_term</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nsh\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nsh\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nsh\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\null\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\null</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\null\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\null</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\null\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\null</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nx\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nx\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nx\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxconsole\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxconsole</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxconsole\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nxconsole</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxconsole\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxconsole</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxffs\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxffs\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxffs\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\mkdirlist.sh">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\mksymtab.sh">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\errno\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\errno</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\errno\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\errno</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello++\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\hello++\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\hello++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\longjmp\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\longjmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\longjmp\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\longjmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\mutex\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\mutex</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\mutex\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\mutex</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\pthread\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\pthread</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\pthread\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\pthread</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\signal\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\signal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\signal\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\signal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\struct\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\struct</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\struct\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\struct</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\task\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\task</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxflat\tests\task\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxflat\tests\task</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxhello\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxhello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxhello\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nxhello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxhello\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxhello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nximage\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nximage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nximage\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nximage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nximage\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nximage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxlines\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxlines\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxlines\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxtext\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxtext\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\nxtext\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\nxtext</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ostest\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ostest\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\ostest\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pashello\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pashello\hello.pas">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pashello\hello.pex">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pashello\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pashello\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pashello\mkhello.sh">
+      <Filter>modules\PX4NuttX\apps\examples\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pipe\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\pipe</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pipe\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\pipe</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pipe\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\pipe</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\poll\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\poll\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\poll\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\poll\Makefile.host">
+      <Filter>modules\PX4NuttX\apps\examples\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\mksymtab.sh">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\hello\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\hello\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\redirect\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem\redirect</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\posix_spawn\filesystem\redirect\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\posix_spawn\filesystem\redirect</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pwm\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\pwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pwm\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\pwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\pwm\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\pwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\qencoder\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\qencoder</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\qencoder\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\qencoder</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\qencoder\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\qencoder</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\relays\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\relays</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\relays\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\relays</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\relays\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\relays</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\rgmp\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\rgmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\rgmp\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\rgmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\rgmp\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\rgmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\romfs\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\romfs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\romfs\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\romfs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\romfs\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\romfs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\romfs\testdir.tar.gz">
+      <Filter>modules\PX4NuttX\apps\examples\romfs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\sendmail\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\sendmail</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\sendmail\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\sendmail</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\sendmail\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\sendmail</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\sendmail\Makefile.host">
+      <Filter>modules\PX4NuttX\apps\examples\sendmail</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\serloop\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\serloop</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\serloop\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\serloop</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\serloop\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\serloop</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\slcd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\slcd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\slcd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\slcd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\slcd\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\slcd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\smart\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\smart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\smart\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\smart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\smart\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\smart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\smart_test\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\smart_test</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\smart_test\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\smart_test</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\smart_test\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\smart_test</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\tcpecho\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\tcpecho</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\tcpecho\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\tcpecho</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\tcpecho\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\tcpecho</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\telnetd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\telnetd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\telnetd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\telnetd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\telnetd\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\telnetd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\index.html">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\mksymtab.sh">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\style.css">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\hello\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\hello\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\netstat\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\netstat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\netstat\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\netstat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\tasks\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\tasks</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\thttpd\content\tasks\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\thttpd\content\tasks</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\tiff\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\tiff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\tiff\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\tiff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\tiff\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\tiff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\touchscreen\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\touchscreen</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\touchscreen\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\touchscreen</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\touchscreen\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\touchscreen</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\udp\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\udp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\udp\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\udp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\udp\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\udp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\uip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\uip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\uip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\404.html">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\files.shtml">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\footer.html">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\header.html">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\index.shtml">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\stats.shtml">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\style.css">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\tcp.shtml">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbserial\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbserial\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbserial\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbserial\Makefile.host">
+      <Filter>modules\PX4NuttX\apps\examples\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbstorage\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbstorage\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbstorage\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbterm\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\usbterm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbterm\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\usbterm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\usbterm\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\usbterm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\watchdog\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\watchdog</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\watchdog\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\watchdog</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\watchdog\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\watchdog</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wget\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\wget</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wget\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\wget</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wget\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\wget</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wget\Makefile.host">
+      <Filter>modules\PX4NuttX\apps\examples\wget</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wgetjson\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\wgetjson</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wgetjson\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\wgetjson</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wgetjson\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\wgetjson</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wgetjson\webserver\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\wgetjson\webserver</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wgetjson\webserver\wgetjson\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\wgetjson\webserver\wgetjson</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wgetjson\webserver\wgetjson\json_cmd.php">
+      <Filter>modules\PX4NuttX\apps\examples\wgetjson\webserver\wgetjson</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\wgetjson\webserver\wgetjson\post_cmd.php">
+      <Filter>modules\PX4NuttX\apps\examples\wgetjson\webserver\wgetjson</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\xmlrpc\.gitignore">
+      <Filter>modules\PX4NuttX\apps\examples\xmlrpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\xmlrpc\Kconfig">
+      <Filter>modules\PX4NuttX\apps\examples\xmlrpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\examples\xmlrpc\Makefile">
+      <Filter>modules\PX4NuttX\apps\examples\xmlrpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\graphics\Kconfig">
+      <Filter>modules\PX4NuttX\apps\graphics</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\graphics\Make.defs">
+      <Filter>modules\PX4NuttX\apps\graphics</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\graphics\Makefile">
+      <Filter>modules\PX4NuttX\apps\graphics</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\graphics\screenshot\.gitignore">
+      <Filter>modules\PX4NuttX\apps\graphics\screenshot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\graphics\screenshot\Kconfig">
+      <Filter>modules\PX4NuttX\apps\graphics\screenshot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\graphics\screenshot\Makefile">
+      <Filter>modules\PX4NuttX\apps\graphics\screenshot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\graphics\tiff\.gitignore">
+      <Filter>modules\PX4NuttX\apps\graphics\tiff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\graphics\tiff\Makefile">
+      <Filter>modules\PX4NuttX\apps\graphics\tiff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\include\.gitignore">
+      <Filter>modules\PX4NuttX\apps\include</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\interpreters\.gitignore">
+      <Filter>modules\PX4NuttX\apps\interpreters</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\interpreters\Kconfig">
+      <Filter>modules\PX4NuttX\apps\interpreters</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\interpreters\Make.defs">
+      <Filter>modules\PX4NuttX\apps\interpreters</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\interpreters\Makefile">
+      <Filter>modules\PX4NuttX\apps\interpreters</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\interpreters\ficl\.gitignore">
+      <Filter>modules\PX4NuttX\apps\interpreters\ficl</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\interpreters\ficl\configure.sh">
+      <Filter>modules\PX4NuttX\apps\interpreters\ficl</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\interpreters\ficl\Kconfig">
+      <Filter>modules\PX4NuttX\apps\interpreters\ficl</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\interpreters\ficl\Makefile">
+      <Filter>modules\PX4NuttX\apps\interpreters\ficl</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\ascii\Make.defs">
+      <Filter>modules\PX4NuttX\apps\modbus\ascii</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\functions\Make.defs">
+      <Filter>modules\PX4NuttX\apps\modbus\functions</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\nuttx\Make.defs">
+      <Filter>modules\PX4NuttX\apps\modbus\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\rtu\Make.defs">
+      <Filter>modules\PX4NuttX\apps\modbus\rtu</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\tcp\Make.defs">
+      <Filter>modules\PX4NuttX\apps\modbus\tcp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\.gitignore">
+      <Filter>modules\PX4NuttX\apps\modbus</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\Kconfig">
+      <Filter>modules\PX4NuttX\apps\modbus</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\Make.defs">
+      <Filter>modules\PX4NuttX\apps\modbus</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\modbus\Makefile">
+      <Filter>modules\PX4NuttX\apps\modbus</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="libraries\AP_HAL_Linux\qflight\qflight_dsp.idl">
@@ -18899,6 +21923,21 @@
     <Xml Include="modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions\ualberta.xml">
       <Filter>modules\PX4Firmware\mavlink\include\mavlink\v1.0\message_definitions</Filter>
     </Xml>
+    <Xml Include="modules\PX4Firmware\Tools\airframes.xml">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\Tools\parameters_injected.xml">
+      <Filter>modules\PX4Firmware\Tools</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\Tools\dist\vehicle_configs.xml">
+      <Filter>modules\PX4Firmware\Tools\dist</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\Tools\gencpp\package.xml">
+      <Filter>modules\PX4Firmware\Tools\gencpp</Filter>
+    </Xml>
+    <Xml Include="modules\PX4Firmware\Tools\genmsg\package.xml">
+      <Filter>modules\PX4Firmware\Tools\genmsg</Filter>
+    </Xml>
   </ItemGroup>
   <ItemGroup>
     <Image Include="mk\PX4\Tools\genmsg\doc\ros.png">
@@ -18948,6 +21987,12 @@
     </Image>
     <Image Include="modules\PX4Firmware\posix-configs\SITL\SITL_Diagram.png">
       <Filter>modules\PX4Firmware\posix-configs\SITL</Filter>
+    </Image>
+    <Image Include="modules\PX4Firmware\Tools\genmsg\doc\ros.png">
+      <Filter>modules\PX4Firmware\Tools\genmsg\doc</Filter>
+    </Image>
+    <Image Include="modules\PX4NuttX\apps\examples\uip\httpd-fs\fade.png">
+      <Filter>modules\PX4NuttX\apps\examples\uip\httpd-fs</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
