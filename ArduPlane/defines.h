@@ -70,7 +70,8 @@ enum FlightMode {
     UW_MODE_2     = 23,
     UW_MODE_3     = 24,
 	UW_MODE_4     = 25,
-    WA_SMP        = 26
+    WA_SMP        = 26,
+	WA_STEER	  = 27
     //UWAFSL END
 };
 
