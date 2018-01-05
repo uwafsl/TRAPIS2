@@ -1,4 +1,4 @@
-﻿#include "GCS_Mavlink.h"
+#include "GCS_Mavlink.h"
 
 #include "Plane.h"
 #include "version.h"
@@ -54,6 +54,7 @@ void Plane::send_heartbeat(mavlink_channel_t chan)
 	case UW_MODE_2:
 	case UW_MODE_3:
 	case UW_MODE_4:
+    case WA_SMP:
 	//UWAFSL END
     case CIRCLE:
     case QRTL:

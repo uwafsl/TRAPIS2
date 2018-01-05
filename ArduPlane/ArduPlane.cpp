@@ -778,6 +778,10 @@ void Plane::update_flight_mode(void)
 			
 		break;
 	}
+
+    case WA_SMP: {
+        // insert performance behaviors here
+    }
 	//UWAFSL END
         
     case TRAINING: {
@@ -1020,6 +1024,12 @@ void Plane::update_navigation()
         }
         break;
 	case UW_MODE_4:
+        break;
+    case WA_SMP:
+        if (control_mode != WA_SMP) {
+            set_mode(WA_SMP, MODE_REASON_UNKNOWN);
+        }
+        break;
 	//UWAFSL END
 
     case CRUISE:
