@@ -3319,6 +3319,354 @@
     <Filter Include="modules\PX4NuttX\apps\modbus\ascii">
       <UniqueIdentifier>{c661416a-9376-4a38-aea6-3360d082b8bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\codecs">
+      <UniqueIdentifier>{556feb73-07be-4b87-90b4-d66638a62af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\dhcpc">
+      <UniqueIdentifier>{dcff7622-ffa5-42f6-ba0f-d64d5b4f302f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\dhcpd">
+      <UniqueIdentifier>{4628f095-55bf-4927-ad30-b304f398ed63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\discover">
+      <UniqueIdentifier>{cc285b6d-fd2f-445f-9011-684ddc33a0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\ftpc">
+      <UniqueIdentifier>{7c16ffca-2829-4796-8e53-ef7df87b99e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\ftpd">
+      <UniqueIdentifier>{007edb4a-4e89-4d7d-985e-5eca2bb90d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\json">
+      <UniqueIdentifier>{265f5151-c9d9-46f6-956c-458a1baeaf31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\resolv">
+      <UniqueIdentifier>{1d36a222-0652-4836-9dab-ca4709745536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\smtp">
+      <UniqueIdentifier>{b8b93431-4119-442d-9d86-594d41c1123c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\telnetd">
+      <UniqueIdentifier>{c0bcf20d-d13b-4c70-bea9-9f308228aa71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\tftpc">
+      <UniqueIdentifier>{54703ba9-f99f-4af9-b004-c267c878bf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\thttpd">
+      <UniqueIdentifier>{b3ebc878-81c9-4445-a84f-3c13a3c51612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\uiplib">
+      <UniqueIdentifier>{9a5a03b1-e0d5-4f3c-8b97-cc7ff36d438f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\webclient">
+      <UniqueIdentifier>{45207452-e74e-4236-a0b2-2ed35aee6581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\webserver">
+      <UniqueIdentifier>{a5e55a04-2b98-446e-8c3a-d96a471a1590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\xmlrpc">
+      <UniqueIdentifier>{bb575e42-cf04-4b99-970a-23ab855665ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\netutils\thttpd\cgi-src">
+      <UniqueIdentifier>{84d62554-fdbc-4f5d-a879-ad370bb4e86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\flash_eraseall">
+      <UniqueIdentifier>{e805e7f9-d68c-4a4e-9216-8d1241dba4c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\free">
+      <UniqueIdentifier>{2e09048a-7979-407a-9de1-ceaa4ca6ca59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\i2c">
+      <UniqueIdentifier>{f2c0efea-fafb-40e0-a332-99f2748b716b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\install">
+      <UniqueIdentifier>{e6956e04-2b00-48be-8f39-47df48b495ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\poweroff">
+      <UniqueIdentifier>{b60137ac-c1ea-4951-971f-0ba5c77944df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\ramtest">
+      <UniqueIdentifier>{57c4240d-c6c7-4f72-827b-f38c0afbc609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\ramtron">
+      <UniqueIdentifier>{197445ec-cfff-4c22-a8b1-f880be7990c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\readline">
+      <UniqueIdentifier>{5efd53ea-c525-4f12-b4e5-9e6f9556b6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\sdcard">
+      <UniqueIdentifier>{70e3a129-ca7d-40f9-878e-b67ae0861527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\sysinfo">
+      <UniqueIdentifier>{d38ce1c8-1de4-4902-87a8-805cd465117e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\apps\system\usbmonitor">
+      <UniqueIdentifier>{b52e926f-3b5d-41e8-a863-e56c1c3cdc21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot">
+      <UniqueIdentifier>{36d24718-a4dc-4ce8-b8ed-037c2630a88b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\drivers">
+      <UniqueIdentifier>{f7948eac-b93a-4252-87ff-a6e8bd81de1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal">
+      <UniqueIdentifier>{bfd13766-9133-4c2d-a1f1-387bafa55536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\sims">
+      <UniqueIdentifier>{ce3f1eab-573e-444c-a00b-8b208987c949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools">
+      <UniqueIdentifier>{ef6eaabb-1ef5-4c29-891d-217f6cf790dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\uClibc++">
+      <UniqueIdentifier>{90af3a13-c931-4a67-a759-0761b65b6181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\configs">
+      <UniqueIdentifier>{e940c3aa-15a1-49c9-a3a1-c8177d9cb85c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\package">
+      <UniqueIdentifier>{79e7d95f-ee2a-44e9-8df6-41d5825dd07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain">
+      <UniqueIdentifier>{d75e8a83-3426-45ad-82be-42b9e81d919c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig">
+      <UniqueIdentifier>{2e1e9cdf-63b3-4dd5-9c70-a9d10262d990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\package\config">
+      <UniqueIdentifier>{f94585b1-5ad5-4f08-9f78-88f87f6ba74a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog">
+      <UniqueIdentifier>{464e9e1b-7d7c-4c01-ac35-0047d74d5bf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite">
+      <UniqueIdentifier>{487c451a-fc44-4a54-b829-a36f4b1b89e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\patches">
+      <UniqueIdentifier>{c2b16bc5-3cbb-49d8-89ba-07267ee20e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils">
+      <UniqueIdentifier>{ae1ab7ba-f11c-4d91-a53d-2b8d3090239e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\dependencies">
+      <UniqueIdentifier>{c667573c-d4a3-4550-bcb0-9b03e1801b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc">
+      <UniqueIdentifier>{b47d621c-9c28-4d96-9426-9e56511b9260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb">
+      <UniqueIdentifier>{710f1c3d-540c-439f-9f14-078d44237499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\genromfs">
+      <UniqueIdentifier>{a3518923-4dd8-4dbe-a475-60d8dc45dc04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat">
+      <UniqueIdentifier>{c0ed9589-ee07-41ce-a9de-b3a51db409e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\sstrip">
+      <UniqueIdentifier>{e963fcad-5e19-46cc-9466-f7ca104f6d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17">
+      <UniqueIdentifier>{72088dce-75fc-4a05-b0d0-c88099c0f862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.18">
+      <UniqueIdentifier>{5b96c054-2e12-4906-b518-2738be627076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19">
+      <UniqueIdentifier>{2ded5b33-2675-446f-a0fb-d911920c30f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1">
+      <UniqueIdentifier>{fe7faa0c-2da9-44f0-892e-93f60e16c07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1">
+      <UniqueIdentifier>{de3d4d8e-7002-426b-9228-dfd1ebd071eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22">
+      <UniqueIdentifier>{6492ee6e-1ce4-49e4-8e27-379b45820444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6">
+      <UniqueIdentifier>{91d55b37-8d33-42d2-8b94-9dbc1297f52d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6">
+      <UniqueIdentifier>{9291a9af-929b-4575-9ff1-c1667bc2229d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4">
+      <UniqueIdentifier>{639f044d-81c4-4f2f-8dc0-0c76046e4b7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3">
+      <UniqueIdentifier>{41a4301a-d9ce-4f5f-8a57-1568964800a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2">
+      <UniqueIdentifier>{a4cea860-49bb-490f-abab-cb10bf1042a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3">
+      <UniqueIdentifier>{30882984-68e7-41d5-b617-8128b3921878}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3">
+      <UniqueIdentifier>{84f4afa3-7ada-4454-894a-5a983720e9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4">
+      <UniqueIdentifier>{ed95d9ae-181c-469c-82a4-e926ea0e9ee7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.8">
+      <UniqueIdentifier>{f54c66e3-57bb-4efa-949e-7e93aab1ebc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot">
+      <UniqueIdentifier>{970944fc-a655-431e-a8fd-d45620360629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm">
+      <UniqueIdentifier>{d7bffc3e-b7f9-41bd-8e5e-b0f567b5bc0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2">
+      <UniqueIdentifier>{dec8427f-d5f8-4179-bbac-3207ceca7bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\drivers\rtl8187x">
+      <UniqueIdentifier>{69ce39b2-2f02-44bc-9c77-673c75a9bfc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\doc">
+      <UniqueIdentifier>{1e6a94c6-d098-4fda-8749-295af74ed55c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\include">
+      <UniqueIdentifier>{86e37bde-8193-4bf1-bcd0-f173c5156fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn16">
+      <UniqueIdentifier>{2ca2f91f-13f7-4686-9090-b43a86788b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn32">
+      <UniqueIdentifier>{42519169-cdc9-42b9-98db-b956742f4771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\libpas">
+      <UniqueIdentifier>{7a1572d2-362e-4d01-8fcd-88047861dca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\libpoff">
+      <UniqueIdentifier>{ed7f3b26-62b6-4e45-8820-4e4f14c90f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\nuttx">
+      <UniqueIdentifier>{734a3867-6421-4b6f-bc22-70bc6ec2aac8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\pascal">
+      <UniqueIdentifier>{393634ee-9755-4244-bc5d-7339f4147705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\plink">
+      <UniqueIdentifier>{0b66275f-6dcc-4491-a00b-e0b310e0644c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\tests">
+      <UniqueIdentifier>{c7025982-d9e1-4b98-a5e1-dbe7320332bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn16\doc">
+      <UniqueIdentifier>{78413f62-b12d-4db9-a307-241092931214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn16\include">
+      <UniqueIdentifier>{83a5a0bb-5470-4d41-8db5-f208b1fb825b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn16\libinsn">
+      <UniqueIdentifier>{7837f396-4723-44ae-9405-4647cc1e020f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn16\plist">
+      <UniqueIdentifier>{f19b6784-0c46-4661-861c-f6d30fee523b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn16\popt">
+      <UniqueIdentifier>{adad37c6-1589-4466-9b1c-feed81726b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn16\prun">
+      <UniqueIdentifier>{02187f23-1086-414d-a93e-e36a1a176215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn32\regm">
+      <UniqueIdentifier>{7b285969-1f58-48d5-96be-2225f6abe836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn32\popt">
+      <UniqueIdentifier>{ba971c51-36b4-47ce-960f-cb515dcfe2e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn32\plist">
+      <UniqueIdentifier>{e2651bfd-7b19-47c5-85d6-9c1cda90800d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn32\libinsn">
+      <UniqueIdentifier>{40456faa-0b3a-43ba-bfea-405ea566bf64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn32\include">
+      <UniqueIdentifier>{022be69b-23ca-45f9-8c43-d072684d0fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\insn32\doc">
+      <UniqueIdentifier>{76316543-07c1-4482-b71c-09fae5d066c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\pascal\tests\src">
+      <UniqueIdentifier>{d56b217e-3604-4bdb-a3d9-4dcb42470822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\sims\z80sim">
+      <UniqueIdentifier>{dab94f1f-89a2-4a61-9b02-ab4d03143f30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\sims\z80sim\example">
+      <UniqueIdentifier>{410127c8-9273-42d1-814e-2956ae64dcf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\sims\z80sim\src">
+      <UniqueIdentifier>{aeea2be5-c571-4667-8298-33063d0d7cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends">
+      <UniqueIdentifier>{db1d9e83-f591-423a-8856-3993c850998c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\osmocon">
+      <UniqueIdentifier>{40620cb2-becb-4abb-976f-c9e47c9d79cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\docs">
+      <UniqueIdentifier>{721080ba-5a8a-4f98-b98e-15f75d6d0f40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends">
+      <UniqueIdentifier>{4a1367c0-6837-4b2b-89a9-15d7b0434c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs">
+      <UniqueIdentifier>{30c83280-34fd-421d-9b5c-3d161b3167e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts">
+      <UniqueIdentifier>{cf9ff324-3d58-4daf-b383-8a01ffdd1ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\utils">
+      <UniqueIdentifier>{6e897328-3081-41a7-af36-a1054d525cf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\conf">
+      <UniqueIdentifier>{e7c6adcb-f89b-4973-949b-bb35e2f4cf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf">
+      <UniqueIdentifier>{e4b30b72-80bc-4bcd-9195-f1aa5c3c2f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\mconf">
+      <UniqueIdentifier>{0d903e9a-647f-4a9f-8f26-6c60bd68905b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf">
+      <UniqueIdentifier>{a99d0e8c-a6c2-4452-adf5-3c649cb0c936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf">
+      <UniqueIdentifier>{941dc3f8-1b33-4814-8e4d-66388295404f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser">
+      <UniqueIdentifier>{ddbed54c-f82a-4e7a-9bfe-c7161148c702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog">
+      <UniqueIdentifier>{7a278653-0769-4703-bee5-9e9c0fc22b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\images">
+      <UniqueIdentifier>{f59d6fff-3a36-4f7e-a727-be6bfdef8539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff">
+      <UniqueIdentifier>{3cdf9c80-a8e1-4b8d-9e68-158c9514d172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4">
+      <UniqueIdentifier>{55d96ee4-056e-4485-89db-f27e46ce5733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts">
+      <UniqueIdentifier>{d9ca573f-b2cd-4d70-80a4-7cf4c3fdc62e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\uClibc++\include">
+      <UniqueIdentifier>{fdc7f1b6-abd4-4076-abcf-4988c3b92486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\uClibc++\libxx">
+      <UniqueIdentifier>{c1b37489-f7b3-493a-a9d0-7abbf73a2912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++">
+      <UniqueIdentifier>{0372e1a2-e614-4761-a6c9-562789e6d140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++">
+      <UniqueIdentifier>{c73f1adb-14d9-45f2-8a8a-c9829e277751}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -8958,6 +9306,936 @@
     <ClCompile Include="modules\PX4NuttX\apps\modbus\mb.c">
       <Filter>modules\PX4NuttX\apps\modbus</Filter>
     </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\codecs\base64.c">
+      <Filter>modules\PX4NuttX\apps\netutils\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\codecs\md5.c">
+      <Filter>modules\PX4NuttX\apps\netutils\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\codecs\urldecode.c">
+      <Filter>modules\PX4NuttX\apps\netutils\codecs</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\dhcpc\dhcpc.c">
+      <Filter>modules\PX4NuttX\apps\netutils\dhcpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\dhcpd\dhcpd.c">
+      <Filter>modules\PX4NuttX\apps\netutils\dhcpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\discover\discover.c">
+      <Filter>modules\PX4NuttX\apps\netutils\discover</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_cdup.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_chdir.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_chmod.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_cmd.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_connect.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_disconnect.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_filesize.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_filetime.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_getfile.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_getreply.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_help.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_idle.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_listdir.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_login.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_mkdir.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_noop.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_putfile.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_quit.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_rename.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_response.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_rmdir.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_rpwd.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_socket.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_transfer.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_unlink.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_utils.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\ftpd\ftpd.c">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\json\cJSON.c">
+      <Filter>modules\PX4NuttX\apps\netutils\json</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\resolv\resolv.c">
+      <Filter>modules\PX4NuttX\apps\netutils\resolv</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\smtp\smtp.c">
+      <Filter>modules\PX4NuttX\apps\netutils\smtp</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\telnetd\telnetd_daemon.c">
+      <Filter>modules\PX4NuttX\apps\netutils\telnetd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\telnetd\telnetd_driver.c">
+      <Filter>modules\PX4NuttX\apps\netutils\telnetd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\tftpc\tftpc_get.c">
+      <Filter>modules\PX4NuttX\apps\netutils\tftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\tftpc\tftpc_packets.c">
+      <Filter>modules\PX4NuttX\apps\netutils\tftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\tftpc\tftpc_put.c">
+      <Filter>modules\PX4NuttX\apps\netutils\tftpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\fdwatch.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\libhttpd.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\tdate_parse.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\thttpd.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\thttpd_alloc.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\thttpd_cgi.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\thttpd_strings.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\timers.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\cgi-src\phf.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd\cgi-src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\cgi-src\redirect.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd\cgi-src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\thttpd\cgi-src\ssi.c">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd\cgi-src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_gethostaddr.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_getifflag.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_getmacaddr.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_ipmsfilter.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_listenon.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_parsehttpurl.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_server.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_setdraddr.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_sethostaddr.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_setifflag.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_setmacaddr.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uip_setnetmask.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\uiplib\uiplib.c">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\webclient\webclient.c">
+      <Filter>modules\PX4NuttX\apps\netutils\webclient</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\webserver\httpd.c">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\webserver\httpd_cgi.c">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\webserver\httpd_fs.c">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\webserver\httpd_mmap.c">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\webserver\httpd_sendfile.c">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\xmlrpc\response.c">
+      <Filter>modules\PX4NuttX\apps\netutils\xmlrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\netutils\xmlrpc\xmlparser.c">
+      <Filter>modules\PX4NuttX\apps\netutils\xmlrpc</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_builtin.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_codeccmd.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_console.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_consolemain.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_dbgcmds.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_ddcmd.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_envcmds.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_fileapps.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_fscmds.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_init.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_mmcmds.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_mntcmds.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_netcmds.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_netinit.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_parse.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_proccmds.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_romfsetc.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_script.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_session.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_telnetd.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_test.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_timcmds.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\nshlib\nsh_usbdev.c">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\flash_eraseall\flash_eraseall.c">
+      <Filter>modules\PX4NuttX\apps\system\flash_eraseall</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\free\free.c">
+      <Filter>modules\PX4NuttX\apps\system\free</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\i2c\i2c_bus.c">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\i2c\i2c_common.c">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\i2c\i2c_dev.c">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\i2c\i2c_get.c">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\i2c\i2c_main.c">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\i2c\i2c_set.c">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\i2c\i2c_verf.c">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\install\install.c">
+      <Filter>modules\PX4NuttX\apps\system\install</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\poweroff\poweroff.c">
+      <Filter>modules\PX4NuttX\apps\system\poweroff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\ramtest\ramtest.c">
+      <Filter>modules\PX4NuttX\apps\system\ramtest</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\ramtron\ramtron.c">
+      <Filter>modules\PX4NuttX\apps\system\ramtron</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\readline\readline.c">
+      <Filter>modules\PX4NuttX\apps\system\readline</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\sdcard\sdcard.c">
+      <Filter>modules\PX4NuttX\apps\system\sdcard</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\sysinfo\sysinfo.c">
+      <Filter>modules\PX4NuttX\apps\system\sysinfo</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\apps\system\usbmonitor\usbmonitor.c">
+      <Filter>modules\PX4NuttX\apps\system\usbmonitor</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\conf.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\confdata.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\expr.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\mconf.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\menu.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\symbol.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\util.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\checklist.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\inputbox.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\menubox.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\msgbox.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\textbox.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\util.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\yesno.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\ldnxflat.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\mknxflat.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\readnxflat.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm\disarm.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2\disthumb2.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\buildroot\toolchain\sstrip\sstrip.c">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\sstrip</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\drivers\rtl8187x\rtl8187x.c">
+      <Filter>modules\PX4NuttX\misc\drivers\rtl8187x</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\libinsn\paddopcode.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\libinsn\paddtmpopcode.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\libinsn\pdasm.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\libinsn\pgen.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\libinsn\pgetopcode.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\libinsn\preloc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\plist\plist.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\plist</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\popt\pcopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\popt\pfopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\popt\pjopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\popt\plopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\popt\polocal.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\popt\popt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\popt\psopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\prun\pdbg.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\prun</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\prun\pexec.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\prun</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\prun\pload.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\prun</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn16\prun\prun.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\prun</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\libinsn\paddopcode.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\libinsn\paddtmpopcode.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\libinsn\pdasm.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\libinsn\pgen.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\libinsn\pgetopcode.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\libinsn\preloc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\libinsn\presettmpopcodewrite.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\libinsn</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\plist\plist.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\plist</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\popt\pcopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\popt\pfopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\popt\pjopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\popt\plopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\popt\polocal.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\popt\popt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\popt\psopt.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm_pass1.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm_pass2.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm_registers2.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm_tree.c">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpas\pextension.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpas</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpas\psignextend16.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpas</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpas\pswap.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpas</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfdbgcontainer.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfdbgdiscard.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfdbginfo.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfdhdr.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfdreloc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfdsymbol.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfhandle.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfiprog.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfirodata.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pflabel.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pflineno.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfproghandle.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrdbgfunc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfread.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrelease.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrfname.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrhdr.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrlineno.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrprog.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrrawlineno.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrrawreloc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrseek.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrstring.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfrsymbol.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfswap.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfsymhandle.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pftprog.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pftsymbol.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwdbgfunc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwfname.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwhdr.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwlineno.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwprog.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwreloc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwrite.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwrodata.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwstring.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfwsymbol.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfxprog.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pfxrodata.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\libpoff\pofferr.c">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pas.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pblck.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pcexpr.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pcfunc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\perr.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pexpr.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pffunc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pgen.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pprgm.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pproc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\pstm.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\ptbl.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\ptkn.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\pascal\punit.c">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\plink\plink.c">
+      <Filter>modules\PX4NuttX\misc\pascal\plink</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\plink\plreloc.c">
+      <Filter>modules\PX4NuttX\misc\pascal\plink</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\pascal\plink\plsym.c">
+      <Filter>modules\PX4NuttX\misc\pascal\plink</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\sims\z80sim\src\main.c">
+      <Filter>modules\PX4NuttX\misc\sims\z80sim\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\crc16.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\msgb.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\osmocon.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\osmoload.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\panic.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\rbtree.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\select.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\sercomm.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\serial.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\talloc.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\timer.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\osmocon\tpu_debug.c">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\conf\conf.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf\gconf.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\mconf\mconf.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\mconf</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf\nconf.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf\nconf.gui.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf\qconf.cc">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\checklist.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\inputbox.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\menubox.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\textbox.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\util.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\yesno.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\confdata.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\expr.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\lconf.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\menu.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\symbol.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\util.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\yconf.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\tools\kconfig-frontends\utils\gettext.c">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\algorithm.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\associative_base.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\bitset.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\char_traits.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\complex.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\del_op.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\del_opnt.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\del_opv.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\del_opvnt.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\deque.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\eh_alloc.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\eh_globals.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\eh_terminate.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\exception.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\fstream.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\func_exception.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\iomanip.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\ios.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\iostream.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\istream.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\iterator.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\limits.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\list.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\locale.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\map.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\new_handler.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\new_op.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\new_opnt.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\new_opv.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\new_opvnt.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\numeric.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\ostream.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\queue.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\set.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\sstream.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\stack.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\stdexcept.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\streambuf.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\string.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\typeinfo.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\utility.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\valarray.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\vector.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\vterminate.cxx">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -10237,6 +11515,87 @@
     </Text>
     <Text Include="modules\PX4NuttX\apps\modbus\README.txt">
       <Filter>modules\PX4NuttX\apps\modbus</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\netutils\README.txt">
+      <Filter>modules\PX4NuttX\apps\netutils</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\netutils\discover\README.txt">
+      <Filter>modules\PX4NuttX\apps\netutils\discover</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\netutils\ftpc\README.txt">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\netutils\telnetd\README.txt">
+      <Filter>modules\PX4NuttX\apps\netutils\telnetd</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\nshlib\README.txt">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\NxWidgets\README.txt">
+      <Filter>modules\PX4NuttX\apps\NxWidgets</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\system\flash_eraseall\README.txt">
+      <Filter>modules\PX4NuttX\apps\system\flash_eraseall</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\system\i2c\README.txt">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\apps\system\install\README.txt">
+      <Filter>modules\PX4NuttX\apps\system\install</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\LICENSING.txt">
+      <Filter>modules\PX4NuttX\misc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\buildroot\configs\README.txt">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\buildroot\package\config\Kconfig-language.txt">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\pascal\doc\PascalGrammar.txt">
+      <Filter>modules\PX4NuttX\misc\pascal\doc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\pascal\doc\PascalNotes.txt">
+      <Filter>modules\PX4NuttX\misc\pascal\doc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\pascal\insn16\doc\PascalOptimizations.txt">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\doc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\pascal\insn16\doc\PascalTestStatus.txt">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\doc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\pascal\insn32\doc\insn32.txt">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\doc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\pascal\nuttx\README.txt">
+      <Filter>modules\PX4NuttX\misc\pascal\nuttx</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\sims\README.txt">
+      <Filter>modules\PX4NuttX\misc\sims</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\sims\z80sim\README.txt">
+      <Filter>modules\PX4NuttX\misc\sims\z80sim</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\tools\kconfig-language.txt">
+      <Filter>modules\PX4NuttX\misc\tools</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\tools\README.txt">
+      <Filter>modules\PX4NuttX\misc\tools</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\tools\kconfig-frontends\docs\kconfig.txt">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\docs</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\tools\kconfig-frontends\docs\kconfig-language.txt">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\docs</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\uClibc++\ChangeLog.txt">
+      <Filter>modules\PX4NuttX\misc\uClibc++</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\uClibc++\README.txt">
+      <Filter>modules\PX4NuttX\misc\uClibc++</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\misc\uClibc++\ReleaseNotes.txt">
+      <Filter>modules\PX4NuttX\misc\uClibc++</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -15205,6 +16564,333 @@
     </ClInclude>
     <ClInclude Include="modules\PX4NuttX\apps\modbus\tcp\mbtcp.h">
       <Filter>modules\PX4NuttX\apps\modbus\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_config.h">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\ftpc\ftpc_internal.h">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\ftpd\ftpd.h">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\telnetd\telnetd.h">
+      <Filter>modules\PX4NuttX\apps\netutils\telnetd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\tftpc\tftpc_internal.h">
+      <Filter>modules\PX4NuttX\apps\netutils\tftpc</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\config.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\fdwatch.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\libhttpd.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\mime_types.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\tdate_parse.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\thttpd_alloc.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\thttpd_cgi.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\thttpd_strings.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\thttpd\timers.h">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\webserver\httpd.h">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\netutils\webserver\httpd_cgi.h">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\nshlib\nsh.h">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\nshlib\nsh_console.h">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\nshlib\nsh_romfsimg.h">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\apps\system\i2c\i2ctool.h">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\package\config\expr.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\package\config\lkc.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\package\config\lkc_proto.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\colors.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\dialog.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\nxflat.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\reloc-macros.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm\arch.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2\arch.h">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\drivers\rtl8187x\rtl8187x.h">
+      <Filter>modules\PX4NuttX\misc\drivers\rtl8187x</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\Make.config.h">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\keywords.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\paslib.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\pdefs.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\pedefs.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\perr.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\pfdefs.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\pinsn.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\podefs.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\poff.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\pofflib.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\include\pxdefs.h">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\include\pdbg.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\include\pexec.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\include\pinsn16.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\popt\pcopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\popt\pfopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\popt\pjopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\popt\plopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\popt\polocal.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\popt\popt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn16\popt\psopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\include\builtins.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\include\pexec.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\include\pinsn32.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\include\rinsn32.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\popt\pcopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\popt\pfopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\popt\pjopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\popt\plopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\popt\polocal.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\popt\popt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\popt\psopt.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm_pass1.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm_pass2.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm_registers2.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\insn32\regm\regm_tree.h">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\libpoff\pfprivate.h">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\nuttx\keywords.h">
+      <Filter>modules\PX4NuttX\misc\pascal\nuttx</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pas.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pasdefs.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pblck.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pexpr.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pfunc.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pgen.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pprgm.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pproc.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\pstm.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\ptbl.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\ptdefs.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\ptkn.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\pascal\punit.h">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\plink\plink.h">
+      <Filter>modules\PX4NuttX\misc\pascal\plink</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\plink\plreloc.h">
+      <Filter>modules\PX4NuttX\misc\pascal\plink</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\pascal\plink\plsym.h">
+      <Filter>modules\PX4NuttX\misc\pascal\plink</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\crc16.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\linuxlist.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\linuxrbtree.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\msgb.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\panic.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\protocol.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\select.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\sercomm.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\serial.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\talloc.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\timer.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\timer_compat.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\osmocon\utils.h">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf\nconf.h">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf\qconf.h">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\dialog.h">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\expr.h">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\list.h">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\lkc.h">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\lkc_proto.h">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\uClibc++\include\features.h">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\system_configuration.h">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\unwind-cxx.h">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -21777,6 +23463,1500 @@
     </None>
     <None Include="modules\PX4NuttX\apps\modbus\Makefile">
       <Filter>modules\PX4NuttX\apps\modbus</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\Make.defs">
+      <Filter>modules\PX4NuttX\apps\netutils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\codecs\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\codecs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\codecs\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\codecs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\codecs\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\codecs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\dhcpc\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\dhcpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\dhcpc\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\dhcpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\dhcpc\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\dhcpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\dhcpd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\dhcpd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\dhcpd\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\discover\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\discover</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\discover\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\discover</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\discover\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\discover</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\ftpc\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\ftpc\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\ftpc\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\ftpd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\ftpd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\ftpd\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\ftpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\json\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\json</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\json\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\json</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\json\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\json</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\json\README">
+      <Filter>modules\PX4NuttX\apps\netutils\json</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\resolv\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\resolv</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\resolv\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\resolv</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\resolv\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\resolv</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\smtp\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\smtp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\smtp\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\smtp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\smtp\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\smtp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\telnetd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\telnetd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\telnetd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\telnetd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\telnetd\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\telnetd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\tftpc\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\tftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\tftpc\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\tftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\tftpc\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\tftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\thttpd\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\thttpd\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\thttpd\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\thttpd\cgi-src\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd\cgi-src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\thttpd\cgi-src\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\thttpd\cgi-src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\uiplib\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\uiplib\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\uiplib\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\uiplib</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\webclient\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\webclient</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\webclient\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\webclient</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\webclient\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\webclient</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\webserver\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\webserver\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\webserver\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\webserver</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\xmlrpc\.gitignore">
+      <Filter>modules\PX4NuttX\apps\netutils\xmlrpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\xmlrpc\Kconfig">
+      <Filter>modules\PX4NuttX\apps\netutils\xmlrpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\netutils\xmlrpc\Makefile">
+      <Filter>modules\PX4NuttX\apps\netutils\xmlrpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\nshlib\.gitignore">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\nshlib\Kconfig">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\nshlib\Make.defs">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\nshlib\Makefile">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\nshlib\rcS.template">
+      <Filter>modules\PX4NuttX\apps\nshlib</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\NxWidgets\Kconfig">
+      <Filter>modules\PX4NuttX\apps\NxWidgets</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\Make.defs">
+      <Filter>modules\PX4NuttX\apps\system</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\Makefile">
+      <Filter>modules\PX4NuttX\apps\system</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\flash_eraseall\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\flash_eraseall</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\flash_eraseall\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\flash_eraseall</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\flash_eraseall\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\flash_eraseall</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\free\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\free</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\free\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\free</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\free\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\free</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\i2c\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\i2c\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\i2c\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\i2c</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\install\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\install</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\install\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\install</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\install\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\install</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\poweroff\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\poweroff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\poweroff\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\poweroff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\poweroff\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\poweroff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\ramtest\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\ramtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\ramtest\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\ramtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\ramtest\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\ramtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\ramtron\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\ramtron</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\ramtron\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\ramtron</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\ramtron\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\ramtron</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\readline\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\readline</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\readline\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\readline</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\readline\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\readline</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\sdcard\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\sdcard</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\sdcard\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\sdcard</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\sdcard\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\sdcard</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\sysinfo\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\sysinfo</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\sysinfo\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\sysinfo</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\sysinfo\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\sysinfo</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\usbmonitor\.gitignore">
+      <Filter>modules\PX4NuttX\apps\system\usbmonitor</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\usbmonitor\Kconfig">
+      <Filter>modules\PX4NuttX\apps\system\usbmonitor</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\apps\system\usbmonitor\Makefile">
+      <Filter>modules\PX4NuttX\apps\system\usbmonitor</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\.gitignore">
+      <Filter>modules\PX4NuttX\misc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\.defconfig">
+      <Filter>modules\PX4NuttX\misc\buildroot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\.gitignore">
+      <Filter>modules\PX4NuttX\misc\buildroot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\ChangeLog">
+      <Filter>modules\PX4NuttX\misc\buildroot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\Config.in">
+      <Filter>modules\PX4NuttX\misc\buildroot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\Makefile">
+      <Filter>modules\PX4NuttX\misc\buildroot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\ReleaseNotes">
+      <Filter>modules\PX4NuttX\misc\buildroot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\zipme.sh">
+      <Filter>modules\PX4NuttX\misc\buildroot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm7tdmi-defconfig-4.2.4">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm7tdmi-defconfig-4.3.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm920t-defconfig-4.2.4">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm920t-defconfig-4.3.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm920t-eabi-defconfig-4.5.2">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm926t-defconfig-4.2.4">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm926t-defconfig-4.3.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm926t-defconfig-nxflat">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\arm-defconfig">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\avr-defconfig-4.3.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\avr-defconfig-4.5.2">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\bfin-defconfig-4.2.4">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\cortexm0-eabi-defconfig-4.6.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\cortexm3-defconfig-4.3.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\cortexm3-defconfig-nxflat">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\cortexm3-eabi-defconfig-4.6.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\gdb-6_8-cygwin-1_7.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\h8300_defconfig">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\i486-defconfig-4.3.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\m9s12x-config-3.3.6">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\m32c-defconfig-4.2.4">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\m32c-defconfig-4.3.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\m68hc11-config">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\m68hc12-config-3.4.6">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\m68hc12-config-4.3.3">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\m68k-defconfig">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\configs\sh-defconfig">
+      <Filter>modules\PX4NuttX\misc\buildroot\configs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\package</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\config\.gitignore">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\config\lex.zconf.c_shipped">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\config\Makefile">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\config\zconf.l">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\config\zconf.tab.c_shipped">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\config\zconf.tab.h_shipped">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\config\zconf.y">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\config\lxdialog\BIG.FAT.WARNING">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\config\lxdialog</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\.gitignore">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\ChangeLog">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\config.guess">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\config.sub">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\gnuconfig.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\Makefile">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\README.buildroot">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\uname">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\patches\config.sub.ps2.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig\patches</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\patches\config.sub.sh.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig\patches</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite\.gitignore">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite\config-guess.data">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite\config-guess.sh">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite\config-sub.data">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite\config-sub.sh">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite\uname.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\package\gnuconfig\testsuite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\Config.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\patch-kernel.sh">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\binutils.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\Config.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17\110-arm-eabi-conf.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17\300-001_ld_makefile_patch.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17\300-006_better_file_error.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17\300-012_check_ldrunpath_length.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17\400-makeinfo-version-check.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17\400-mips-ELF_MAXPAGESIZE-4K.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.17</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.18\100-s12x-20100504.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.18</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19\110-arm-eabi-conf.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19\120-sh-conf.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19\300-001_ld_makefile_patch.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19\300-012_check_ldrunpath_length.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1\110-arm-eabi-conf.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1\120-sh-conf.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1\300-001_ld_makefile_patch.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1\300-012_check_ldrunpath_length.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1\400-thumb-cputype.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.19.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1\110-arm-eabi-conf.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1\120-sh-conf.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1\300-001_ld_makefile_patch.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1\300-012_check_ldrunpath_length.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1\900-bug12296-cortexm3-svc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.21.1</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22\120-sh-conf.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22\300-001_ld_makefile_patch.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22\300-012_check_ldrunpath_length.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22\999-ppc-textrels.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\binutils\2.22</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\dependencies\dependencies.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\dependencies</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\dependencies\dependencies.sh">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\dependencies</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\Config.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\gcc-nuttx-3.x.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\gcc-nuttx-4.x.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\i386-gcc-soft-float.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6\120-softfloat.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6\500-loop.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6\800-arm-bigendian.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6\810-mips-xgot.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6\820-no-mips-empic-relocs.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6\830-gcc-bug-num-22167.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6\900-sx12-20101109.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6\910-create-mode.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.3.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\71_all_sh-pr16665-fix.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\72_all_sh-no-reorder-blocks.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\73_all_sh-pr20617.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\300-libstdc++-pic.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\304-index_macro.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\600-gcc34-arm-ldm-peephole.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\601-gcc34-arm-ldm.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\601-gcc34-arm-ldm-peephole2.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\602-sdk-libstdc++-includes.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\700-pr15068-fix.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\800-arm-bigendian.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\810-mips-xgot.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\900-nios2.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\910-gcc-3.4.6-ocreatmode.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6\arm-softfloat.patch.conditional">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\3.4.6</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\300-libstdc++-pic.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\304-index_macro.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\305-libmudflap-susv3-legacy.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\307-locale_facets.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\402-libbackend_dep_gcov-iov.h.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\800-arm-bigendian.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\904-flatten-switch-stmt-00.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\910-soft-float.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\920-soft-float.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\930-nuttx-nolibc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4\940-nuttx-nolibstdc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.2.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\300-libmudflap-susv3-legacy.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\310-arm-softfloat-libgcc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\500-backport-fix-for-bug-39076.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\510-backport-fix-for-bug-32044.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\600-arm_insn-opinit-RTX_CODE-fixup.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\610-gcc-4.3.0-fix-header.00.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\620-gcc-4.3.2-armeabi-aapcs-linux.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\630-gcc-4.3.0-cris-pragma-pack-warning-remove.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\700-gcc-4.3.3-arm7arch.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\900-nuttx-nolibc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\910-nuttx-nolibstdc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3\920-gcc-4.3.3-objext.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.3.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2\305-libmudflap-susv3-legacy.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2\810-arm-softfloat-libgcc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2\820-arm-unbreak-armv4t.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2\830-arm-pr43440.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2\850-arm-pr44392.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2\900-nuttx-nolibstdc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2\901-bug43999-fix-mismatch-between-conditions-of-an-IT-block.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.5.2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3\305-libmudflap-susv3-legacy.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3\810-arm-softfloat-libgcc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3\820-arm-unbreak-armv4t.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3\900-nuttx-nolibstdc.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3\powerpc-link-with-math-lib.patch.conditional">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gcc\4.6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\Config.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\gdb.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\400-mips-coredump.patch-2.4.23-29">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\500-thread-timeout.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\600-debian_10.selected-frame.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\620-debian_static-thread-db.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\630-debian_24.tracepoint-segv.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\640-debian_dwarf2-frame-signal-unwinder.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\650-debian_vsyscall-gdb-support.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\660-debian_dwarf-cfa-restore.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\680-debian_sim-destdir.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\690-debian_member-field-symtab.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\700-debian_cp-pass-by-reference.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\710-debian_thread-db-multiple-libraries.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\720-debian_static-threads-test.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\730-debian_gdb-fix-tracefork-check.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\740-debian_make-cv-type-crash.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\750-debian_sparc-singlestep.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\760-debian_vsyscall-bfd-close-result.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\770-debian_vfork-done-spelling.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\780-debian_gdbserver-rdynamic.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\790-debian_dwarf2-cfi-warning.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\800-debian_linux-use-underscore-exit.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\810-debian_bfd-no-kylix-crash.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3\820-debian_disable-linux-fork-messages.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4\400-mips-coredump.patch-2.4.23-29">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4\500-thread-timeout.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4\600-fix-compile-flag-mismatch.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4\700-m68hc1x-20060122.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.8\600-fix-compile-flag-mismatch.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\6.8</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot\400-mips-coredump.patch-2.4.23-29">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot\400-mips-nptl-support.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot\500-thread-timeout.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot\680-debian_sim-destdir.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot\690-debian_member-field-symtab.patch">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\gdb\snapshot</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\genromfs\Config.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\genromfs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\genromfs\genromfs.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\genromfs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\genromfs\genromfs-0.5.2.tar.gz">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\genromfs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\.gitignore">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\Config.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\Makefile">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\nxflat.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm\dyncall_skeleton.def">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm\Makefile">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat\arm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2\dyncall_skeleton.def">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2\Makefile">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\nxflat\thumb2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\sstrip\Config.in">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\sstrip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\buildroot\toolchain\sstrip\sstrip.mk">
+      <Filter>modules\PX4NuttX\misc\buildroot\toolchain\sstrip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\drivers\INSTALL.sh">
+      <Filter>modules\PX4NuttX\misc\drivers</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\drivers\rtl8187x\INSTALL.sh">
+      <Filter>modules\PX4NuttX\misc\drivers\rtl8187x</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\.gitignore">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\ChangeLog">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\config.info">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\Configure">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\Make.defs">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\README">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\Reconfigure">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\ReleaseNotes">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\zipme">
+      <Filter>modules\PX4NuttX\misc\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\include\.gitignore">
+      <Filter>modules\PX4NuttX\misc\pascal\include</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn16\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn16\libinsn\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\libinsn</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn16\plist\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\plist</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn16\popt\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\popt</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn16\prun\Make.defs">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\prun</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn16\prun\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn16\prun</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn32\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn32\libinsn\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\libinsn</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn32\plist\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\plist</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn32\popt\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\popt</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\insn32\regm\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\insn32\regm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\libpas\Make.defs">
+      <Filter>modules\PX4NuttX\misc\pascal\libpas</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\libpas\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\libpas</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\libpoff\Make.defs">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\libpoff\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\libpoff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\nuttx\INSTALL.sh">
+      <Filter>modules\PX4NuttX\misc\pascal\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\nuttx\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\nuttx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\pascal\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\pascal</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\plink\Makefile">
+      <Filter>modules\PX4NuttX\misc\pascal\plink</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\501-uses.sh">
+      <Filter>modules\PX4NuttX\misc\pascal\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\debug.sh">
+      <Filter>modules\PX4NuttX\misc\pascal\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\list.sh">
+      <Filter>modules\PX4NuttX\misc\pascal\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\testall.sh">
+      <Filter>modules\PX4NuttX\misc\pascal\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\testone.sh">
+      <Filter>modules\PX4NuttX\misc\pascal\tests</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\.gitignore">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\001-beginend.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\002-writeln.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\003-for.inp">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\003-for.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\004-repeat.inp">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\004-repeat.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\005-while.inp">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\005-while.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\006-optconst.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\007-function.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\101-cosine.inp">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\101-cosine.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\102-cen2fahr.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\103-sumharm.inp">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\103-sumharm.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\104-primes.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\105-inflation.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\201-strcat.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\202-strcmp.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\501-unit-cosine.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\501-unit-data.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\501-unit-sine.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\501-uses.inp">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\501-uses.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\801-cgihello.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\802-cgiinfo.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\803-redirect.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\804-cgiform.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\805-cgimail.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\806-cgicook.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\901-pageutils.pas">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\pascal\tests\src\README">
+      <Filter>modules\PX4NuttX\misc\pascal\tests\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\sims\z80sim\example\example.asm">
+      <Filter>modules\PX4NuttX\misc\sims\z80sim\example</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\sims\z80sim\example\Makefile">
+      <Filter>modules\PX4NuttX\misc\sims\z80sim\example</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\sims\z80sim\src\.gitignore">
+      <Filter>modules\PX4NuttX\misc\sims\z80sim\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\sims\z80sim\src\Makefile">
+      <Filter>modules\PX4NuttX\misc\sims\z80sim\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\.gitignore">
+      <Filter>modules\PX4NuttX\misc\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\genromfs-0.5.2.tar.gz">
+      <Filter>modules\PX4NuttX\misc\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends-3.3.0-1-libintl.patch">
+      <Filter>modules\PX4NuttX\misc\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-macos.diff">
+      <Filter>modules\PX4NuttX\misc\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\.version">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\aclocal.m4">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\AUTHORS">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\bootstrap">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\configure">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\configure.ac">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\COPYING">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\INSTALL">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\README">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\osmocon\COPYING">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\osmocon\Makefile">
+      <Filter>modules\PX4NuttX\misc\tools\osmocon</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\docs\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\docs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\docs\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\docs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\conf\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\conf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\conf\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\conf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf\gconf.c.patch">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf\gconf.glade">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\gconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\mconf\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\mconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\mconf\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\mconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\nconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf\qconf.cc.patch">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\frontends\qconf</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\images\images.c_orig">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\images</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\images\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\images</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\images\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\images</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\lxdialog</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\hconf.gperf">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\lconf.l">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\yconf.y">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser\yconf.y.patch">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\libs\parser</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\ksync.list">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\ksync.sh">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\version.sh">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\config.h.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4\libtool.m4">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4\lt~obsolete.m4">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4\ltoptions.m4">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4\ltsugar.m4">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4\ltversion.m4">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\m4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts\compile">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts\config.guess">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts\config.sub">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts\depcomp">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts\install-sh">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts\ltmain.sh">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts\missing">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts\ylwrap">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\scripts\.autostuff\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\utils\diff">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\utils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\utils\Makefile.am">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\utils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\utils\Makefile.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\utils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\utils\merge">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\utils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\utils\tweak.in">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\utils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\tools\kconfig-frontends\utils\tweak.in.patch">
+      <Filter>modules\PX4NuttX\misc\tools\kconfig-frontends\utils</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\algorithm">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\associative_base">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\basic_definitions">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\bitset">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\cfloat">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\char_traits">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\clocale">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\complex">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\csetjmp">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\cwchar">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\cwctype">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\deque">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\exception">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\fstream">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\func_exception">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\functional">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\iomanip">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\ios">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\iosfwd">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\iostream">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\istream">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\istream_helpers">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\iterator">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\iterator_base">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\limits">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\list">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\locale">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\Makefile">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\map">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\memory">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\new">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\numeric">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\ostream">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\ostream_helpers">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\queue">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\set">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\sstream">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\stack">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\stdexcept">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\streambuf">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\string">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\string_iostream">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\type_traits">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\typeinfo">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\utility">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\valarray">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\include\uClibc++\vector">
+      <Filter>modules\PX4NuttX\misc\uClibc++\include\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\libxx\uClibc++\Make.defs">
+      <Filter>modules\PX4NuttX\misc\uClibc++\libxx\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\compare.sh">
+      <Filter>modules\PX4NuttX\misc\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\install.sh">
+      <Filter>modules\PX4NuttX\misc\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\uninstall.sh">
+      <Filter>modules\PX4NuttX\misc\uClibc++</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\misc\uClibc++\zipme.sh">
+      <Filter>modules\PX4NuttX\misc\uClibc++</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
