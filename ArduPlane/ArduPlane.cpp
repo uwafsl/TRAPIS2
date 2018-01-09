@@ -660,11 +660,11 @@ void Plane::update_flight_mode(void)
         // Defining Paramters
         double pro_gain = g.uw_pro_gain;
         double der_gain = g.uw_der_gain;
-        double psiDotErr_lim = g.uw_psiDotErr_lim;
-        double pro_forget_factor = g.uw_pro_forget_factor;
-        double der_forget_factor = g.uw_der_forget_factor;
+        //double psiDotErr_lim = g.uw_psiDotErr_lim;
+        //double pro_forget_factor = g.uw_pro_forget_factor;
+        //double der_forget_factor = g.uw_der_forget_factor;
 
-		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, psiDotErr_lim, pro_forget_factor, der_forget_factor);
+		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain);
 
 		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
 
@@ -726,11 +726,8 @@ void Plane::update_flight_mode(void)
         // Defining Paramters
         double pro_gain = g.uw_pro_gain;
         double der_gain = g.uw_der_gain;
-        double psiDotErr_lim = g.uw_psiDotErr_lim;
-        double pro_forget_factor = g.uw_pro_forget_factor;
-        double der_forget_factor = g.uw_der_forget_factor;
 
-        double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, psiDotErr_lim, pro_forget_factor, der_forget_factor);
+        double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain);
 
 		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
 
@@ -780,7 +777,18 @@ void Plane::update_flight_mode(void)
 	}
 
     case WA_SMP: {
-        // insert performance behaviors here
+        double aileron_controller = g.wa_smp_test;
+        if (aileron_controller > 0.5) {
+            // roll right
+            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 1000); // centidegrees
+        } else if (aileron_controller < 0.5) {
+            // roll left
+            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -1000); // centidegrees
+        } else {
+            // keep level
+            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 0);
+        }
+
     }
 	//UWAFSL END
         

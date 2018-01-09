@@ -45,7 +45,7 @@ public:
 
 
     ///////////// Public interface methods ///////////////////////////////
-    double computeOuterLoopSignal(double rad_act, double rad_ref, double pro_gain, double der_gain, double psiDotErr_lim, double pro_forget_factor, double der_forget_factor);
+    double computeOuterLoopSignal(double rad_act, double rad_ref, double pro_gain, double der_gain);
     double activateController();
 
     // ====== Get/Set Functions ==========================
