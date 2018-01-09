@@ -3133,6 +3133,10 @@
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\up_nsh.c" />
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\up_oled.c" />
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\up_ssi.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lm4f_autoleds.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lm4f_boot.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lm4f_nsh.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lm4f_ssi.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt" />
@@ -3652,6 +3656,7 @@
     <Text Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\include\README.txt" />
     <Text Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\README.txt" />
     <Text Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\README.txt" />
+    <Text Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\README.txt" />
     <Text Include="modules\PX4NuttX\nuttx\configs\README.txt" />
     <Text Include="modules\PX4NuttX\nuttx\README.txt" />
   </ItemGroup>
@@ -6285,6 +6290,8 @@
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm3s6965-ek\src\lm3s6965ek_internal.h" />
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\include\board.h" />
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\lm3s8962ek_internal.h" />
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\include\board.h" />
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lmf4120-launchpad.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AntennaTracker\make.inc" />
@@ -9553,6 +9560,18 @@
     <None Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\scripts\ld.script" />
     <None Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\.gitignore" />
     <None Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\Makefile" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\Kconfig" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\nsh\defconfig" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\nsh\Make.defs" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\nsh\setenv.sh" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\ostest\defconfig" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\ostest\Make.defs" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\ostest\setenv.sh" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\scripts\ld.script" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\.gitignore" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\Makefile" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\tools\lm4f120-launchpad.cfg" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\tools\oocd.sh" />
     <None Include="modules\PX4NuttX\nuttx\COPYING" />
     <None Include="modules\PX4NuttX\nuttx\Kconfig" />
     <None Include="modules\PX4NuttX\nuttx\Makefile" />
