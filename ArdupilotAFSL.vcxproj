@@ -3137,6 +3137,12 @@
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lm4f_boot.c" />
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lm4f_nsh.c" />
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lm4f_ssi.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_autoleds.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_boot.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_buttons.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_nsh.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_ostest.c" />
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_userleds.c" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt" />
@@ -3657,6 +3663,7 @@
     <Text Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\README.txt" />
     <Text Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\README.txt" />
     <Text Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\README.txt" />
+    <Text Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\README.txt" />
     <Text Include="modules\PX4NuttX\nuttx\configs\README.txt" />
     <Text Include="modules\PX4NuttX\nuttx\README.txt" />
   </ItemGroup>
@@ -6292,6 +6299,8 @@
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm3s8962-ek\src\lm3s8962ek_internal.h" />
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\include\board.h" />
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lmf4120-launchpad.h" />
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\include\board.h" />
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\xplorer_internal.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AntennaTracker\make.inc" />
@@ -9572,6 +9581,20 @@
     <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\Makefile" />
     <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\tools\lm4f120-launchpad.cfg" />
     <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\tools\oocd.sh" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\Kconfig" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\appconfig" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\defconfig" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\Make.defs" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\setenv.sh" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest\appconfig" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest\defconfig" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest\Make.defs" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest\setenv.sh" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts\flash.sh" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts\ramconfig.ld" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts\spificonfig.ld" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\.gitignore" />
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\Makefile" />
     <None Include="modules\PX4NuttX\nuttx\COPYING" />
     <None Include="modules\PX4NuttX\nuttx\Kconfig" />
     <None Include="modules\PX4NuttX\nuttx\Makefile" />

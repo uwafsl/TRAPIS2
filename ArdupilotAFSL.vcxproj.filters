@@ -4711,6 +4711,21 @@
     <Filter Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\tools">
       <UniqueIdentifier>{4f6ca807-7e2a-4f63-a870-fae7a9c1405b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\include">
+      <UniqueIdentifier>{cd7edbf7-841f-46dd-887d-2d53a326e3f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh">
+      <UniqueIdentifier>{bee68aac-35a0-4306-b5d6-9acedee14468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest">
+      <UniqueIdentifier>{1462dde7-f312-4faa-a6af-b7a41330e9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts">
+      <UniqueIdentifier>{2e930a42-4564-4f40-9034-4e4a7c3aa9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src">
+      <UniqueIdentifier>{22efe151-8f6b-42c6-b63e-378f2e202ac2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -13707,6 +13722,24 @@
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lm4f_ssi.c">
       <Filter>modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src</Filter>
     </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_autoleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_ostest.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_userleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -15268,6 +15301,9 @@
     </Text>
     <Text Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\README.txt">
       <Filter>modules\PX4NuttX\nuttx\configs\lm4f120-launchpad</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -23155,6 +23191,12 @@
     </ClInclude>
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src\lmf4120-launchpad.h">
       <Filter>modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\xplorer_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -33012,6 +33054,48 @@
     </None>
     <None Include="modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\tools\oocd.sh">
       <Filter>modules\PX4NuttX\nuttx\configs\lm4f120-launchpad\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts\flash.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts\ramconfig.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts\spificonfig.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
