@@ -270,6 +270,7 @@ void Plane::update_sensor_status_flags(void)
 	case UW_MODE_3:
 	case UW_MODE_4:
     case WA_SMP:
+    case WA_STEER:
 	//UWAFSL END
     case AVOID_ADSB:
     case GUIDED:

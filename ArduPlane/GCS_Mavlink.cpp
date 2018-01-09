@@ -55,6 +55,7 @@ void Plane::send_heartbeat(mavlink_channel_t chan)
 	case UW_MODE_3:
 	case UW_MODE_4:
     case WA_SMP:
+    case WA_STEER:
 	//UWAFSL END
     case CIRCLE:
     case QRTL:

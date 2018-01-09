@@ -788,8 +788,14 @@ void Plane::update_flight_mode(void)
             // keep level
             SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 0);
         }
-
+        break;
     }
+
+    case WA_STEER: {
+        // fill in mode
+        break;
+    }
+
 	//UWAFSL END
         
     case TRAINING: {
@@ -1036,6 +1042,11 @@ void Plane::update_navigation()
     case WA_SMP:
         if (control_mode != WA_SMP) {
             set_mode(WA_SMP, MODE_REASON_UNKNOWN);
+        }
+        break;
+    case WA_STEER:
+        if (control_mode != WA_STEER) {
+            set_mode(WA_STEER, MODE_REASON_UNKNOWN);
         }
         break;
 	//UWAFSL END
