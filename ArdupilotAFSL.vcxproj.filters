@@ -4726,6 +4726,273 @@
     <Filter Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src">
       <UniqueIdentifier>{22efe151-8f6b-42c6-b63e-378f2e202ac2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd">
+      <UniqueIdentifier>{3c437729-81ac-4f1e-b90e-dd9d99b2cc1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\include">
+      <UniqueIdentifier>{0d07d34f-6710-48b8-9652-623334db61cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh">
+      <UniqueIdentifier>{62bf8aa8-2e5d-47c2-8671-0872758f1ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx">
+      <UniqueIdentifier>{19056ed1-dbc6-40fc-8c73-30a321b44e6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest">
+      <UniqueIdentifier>{a9dfb82e-4297-420d-8f3c-af62ac3146fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\scripts">
+      <UniqueIdentifier>{9b165ff2-17c7-414d-90b4-28186facdd58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src">
+      <UniqueIdentifier>{b9d2c5c7-6992-4a93-b8f8-2bab008ff5e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd">
+      <UniqueIdentifier>{1912155a-9404-4881-8bf5-68f5802b2b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\tools">
+      <UniqueIdentifier>{a46afad5-0054-475d-b1af-e90e8fb3c918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage">
+      <UniqueIdentifier>{d767e292-ac46-44c5-a189-804ea0120ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\m68332evb\doc">
+      <UniqueIdentifier>{34ebab3b-0a76-4138-b877-13f8f78301f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\m68332evb\include">
+      <UniqueIdentifier>{fb2133be-f56c-40e2-ad86-640eec5665f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\m68332evb\src">
+      <UniqueIdentifier>{a2cfba22-c371-4f55-ae03-a77e1ea6c2ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mbed\hidkbd">
+      <UniqueIdentifier>{8dc84adb-920b-4a0d-adea-4a9dfb8a0a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mbed\include">
+      <UniqueIdentifier>{d33219b7-e185-426e-b64b-56b98be956b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mbed\nsh">
+      <UniqueIdentifier>{09c73af4-2207-4e71-897b-1733ec9af8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mbed\scripts">
+      <UniqueIdentifier>{9737414e-5cff-42d8-bfd9-cd395104e6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mbed\src">
+      <UniqueIdentifier>{5373096a-5760-4225-94a6-ec383b3c3946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite">
+      <UniqueIdentifier>{a5e94bf6-438d-49cf-b659-1193a4f8aade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\include">
+      <UniqueIdentifier>{2d326d69-8a76-4d34-a731-1e814cb7f508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\nsh">
+      <UniqueIdentifier>{1beb7c7e-abb0-401c-af21-e8b617b914f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest">
+      <UniqueIdentifier>{c1e00f89-0f2d-4549-9220-7c2827a89ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\scripts">
+      <UniqueIdentifier>{6eb84cbf-b1c9-4566-891d-98f066770d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src">
+      <UniqueIdentifier>{69e857f2-31a5-425b-9889-3504f065aab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial">
+      <UniqueIdentifier>{63940c0e-6502-4691-bd73-696bfd0cae62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage">
+      <UniqueIdentifier>{52717e86-69f4-4cc8-ba55-fcae3491515d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\micropendous3\hello">
+      <UniqueIdentifier>{12d41261-e8d4-47c0-906c-44f47b5bc397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\micropendous3\include">
+      <UniqueIdentifier>{f2e1e9f9-2fc0-4f33-940d-5bf053130d7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\micropendous3\src">
+      <UniqueIdentifier>{0e830350-85b2-4157-8db6-d9ee5bba9f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\fulldemo">
+      <UniqueIdentifier>{f5cfc169-ea53-45b5-a324-62ec5feee8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\include">
+      <UniqueIdentifier>{e5f0db74-a08d-4dcb-a63f-7db5255e39a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kernel">
+      <UniqueIdentifier>{4f3c0ceb-ae77-4edd-8976-0c29f1f48670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kostest">
+      <UniqueIdentifier>{33db42db-86c4-45e1-9ee3-ec182d352404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nsh">
+      <UniqueIdentifier>{9170c789-1d35-4a28-bb52-76fa03ad2994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nx">
+      <UniqueIdentifier>{a7c50269-d414-4282-8b41-3c80ac6fa897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxlines">
+      <UniqueIdentifier>{bb9c697b-d859-4a3e-b74a-650ab3a11101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxtext">
+      <UniqueIdentifier>{d398ce2d-038f-4ef0-a44e-17e0b210ec45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts">
+      <UniqueIdentifier>{d3f42e57-78af-45d3-bddb-257d3751b490}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src">
+      <UniqueIdentifier>{b118bbc0-8e68-4b58-a6ff-bd973980c385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\usbnsh">
+      <UniqueIdentifier>{30ae010d-aa76-4444-af20-7b7ac445e136}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mirtoo\include">
+      <UniqueIdentifier>{b894af99-b4d2-4a56-8e68-db4a2a029eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mirtoo\nsh">
+      <UniqueIdentifier>{29da8f98-5dea-4a6c-a523-8cbddf3f27ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mirtoo\nxffs">
+      <UniqueIdentifier>{6ab4f2aa-cd01-4968-8cf2-8a2f8692ca05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mirtoo\ostest">
+      <UniqueIdentifier>{fdfd88a7-eb41-4fb0-8171-f950bfe033ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mirtoo\scripts">
+      <UniqueIdentifier>{406a1e2c-d49e-4e6b-9602-8b9ffde3c0c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mirtoo\src">
+      <UniqueIdentifier>{d41491fe-e976-4e68-bebf-ab0a4dbc1dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mx1ads\include">
+      <UniqueIdentifier>{52884d7a-689e-4b0a-82f3-feeef4a6e32f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mx1ads\ostest">
+      <UniqueIdentifier>{d09020b5-d46f-4ff9-b343-1ba3efc0f411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\mx1ads\src">
+      <UniqueIdentifier>{6aa171b5-fefd-4db3-a78b-b1656b76000f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ne64badge\include">
+      <UniqueIdentifier>{bbe36b94-6d51-4bd0-93f4-66882892b82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ne64badge\ostest">
+      <UniqueIdentifier>{a13ac051-bb58-46d3-bf63-13e83ad928d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ne64badge\src">
+      <UniqueIdentifier>{74953e68-e8b3-43f3-8e2b-ce90243231ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\doc">
+      <UniqueIdentifier>{1e333446-ac78-4bb6-a00d-82d8ef7e3ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\include">
+      <UniqueIdentifier>{b2c06a78-6ea0-406e-a1af-806caafd46a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest">
+      <UniqueIdentifier>{af6e521a-ee26-464e-8f18-ddf21fef75fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh">
+      <UniqueIdentifier>{02a60eae-bf69-499b-a41a-9f733e04c5f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest">
+      <UniqueIdentifier>{e0d9d3df-3989-4d7b-91aa-12312c8e8e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll">
+      <UniqueIdentifier>{af0dcf94-54b8-49e6-ae33-18b7d2646798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\src">
+      <UniqueIdentifier>{a0bcb5f7-607d-44a5-9b11-ccfdc8744af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd">
+      <UniqueIdentifier>{0fb8cd73-4e9e-46eb-bd1e-d22ca02685a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp">
+      <UniqueIdentifier>{3820abbf-1fa1-4538-9194-8650e9f5d864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip">
+      <UniqueIdentifier>{cffa635c-b303-4968-a512-c72503a870b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nucleus2g\include">
+      <UniqueIdentifier>{061b43d3-e482-43c3-9b23-7f7426476241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nucleus2g\nsh">
+      <UniqueIdentifier>{8110bb09-ed0a-4813-852e-46db045e0f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nucleus2g\ostest">
+      <UniqueIdentifier>{64e4a5f4-bca4-4e26-bdd4-14a947117869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nucleus2g\scripts">
+      <UniqueIdentifier>{b4a3d25b-69a3-4d88-91b5-7a16ac5dbcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src">
+      <UniqueIdentifier>{c8de1a3d-2e6f-48d4-bf6c-13d7a08fc3f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nucleus2g\tools">
+      <UniqueIdentifier>{ed47c748-6db8-47a6-b2f8-dade9f4bf3d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbserial">
+      <UniqueIdentifier>{87245a97-2a5c-46e2-b7a5-ebe36dea66c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage">
+      <UniqueIdentifier>{10e73c3a-fa6e-47bb-8d4b-a3b3679b4249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\include">
+      <UniqueIdentifier>{834e6581-fce2-4faf-ad90-2be3f1811570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\nsh">
+      <UniqueIdentifier>{667ced9a-2f8c-4605-bd8f-dc6cc3cd3cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\ostest">
+      <UniqueIdentifier>{ada71090-c66f-4e9b-ae2a-7a97dbde98dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\scripts">
+      <UniqueIdentifier>{3a926c82-77c5-4f39-9a42-0c929e1d3d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src">
+      <UniqueIdentifier>{9a9c692a-70ff-47ac-8451-0537e51745c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc">
+      <UniqueIdentifier>{3b3ead6d-31c6-40dd-bc24-fdaf3ff338b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\hidkbd">
+      <UniqueIdentifier>{f1ea797f-ac4d-4acf-bd97-60b6a10e4298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\include">
+      <UniqueIdentifier>{e11871d2-112a-4790-9e7a-94c16768a782}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nettest">
+      <UniqueIdentifier>{75540b4a-e12d-4065-8af9-96c568ac0fc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nsh">
+      <UniqueIdentifier>{64d2fe40-d2e8-4136-8fe6-f0a01e7c77af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx">
+      <UniqueIdentifier>{482fa429-bf4f-469a-bc9e-12b00134f186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest">
+      <UniqueIdentifier>{9ccaf30d-ac6f-435b-a0f8-82ca955bc5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\scripts">
+      <UniqueIdentifier>{53bddb81-cd3f-4a8f-9549-f1e569b73b04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd">
+      <UniqueIdentifier>{ad87d441-5bee-42d6-a75f-5867b92023ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src">
+      <UniqueIdentifier>{3de1c979-2dc6-4107-8166-8408332d4d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd">
+      <UniqueIdentifier>{a7cdfa4e-6664-4fe3-8456-f8c26b130138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools">
+      <UniqueIdentifier>{da98d4d5-ef95-4f43-9bc9-00012e32fa42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbserial">
+      <UniqueIdentifier>{eb2f644d-30dd-46ac-af40-c3952b5eb43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage">
+      <UniqueIdentifier>{b32135b0-01f7-40cd-b4b4-67f2acb97ae0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -13740,6 +14007,192 @@
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\up_userleds.c">
       <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
     </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\up_oled.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\up_ssp.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\up_usbmsc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mbed\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mbed\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mbed\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src\up_composite.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src\up_spi1.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src\up_usbmsc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\micropendous3\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kernel\up_userspace.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_clockconfig.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_cxxinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_extmem.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_idle.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_mio283qt2.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_pm.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_pwm.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_qencoder.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_touchscreen.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_usb.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_vs1053.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\up_watchdog.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mirtoo\src\up_adc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mirtoo\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mirtoo\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mirtoo\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mirtoo\src\up_spi2.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mx1ads\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mx1ads\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\mx1ads\src\up_network.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\ne64badge\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\ne64badge\src\up_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\ne64badge\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\ne64badge\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\ne64badge\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\src\up_network.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\up_outputs.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\up_ssp.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\up_usbmsc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src\nuc_boardinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src\nuc_led.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_can.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_lcd.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_ssp.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_usbmsc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -15304,6 +15757,81 @@
     </Text>
     <Text Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\README.txt">
       <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\m68332evb\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\m68332evb\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mbed\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\micropendous3\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mirtoo\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mx1ads\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mx1ads\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\mx1ads\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\ne64badge\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\doc\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\doc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\doc\test-result.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\doc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\nucleus2g\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\nucleus2g\ostest\test-result.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\ostest</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\nucleus2g\tools\usb-driver.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\tools</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools\usb-driver.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -23197,6 +23725,69 @@
     </ClInclude>
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src\xplorer_internal.h">
       <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\lpcxpresso_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\mbed\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\mbed\src\mbed_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\micropendous3\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\micropendous3\src\micropendous3_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\mikroe-stm32f4-internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\mirtoo\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\mirtoo\src\mirtoo-internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\mx1ads\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\ne64badge\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\ne64badge\src\ne64badge_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\nucleus2g\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\nucleus2g_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src\nutiny-nuc120.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\lpc1766stk_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -33096,6 +33687,801 @@
     </None>
     <None Include="modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh\setenv.sh">
       <Filter>modules\PX4NuttX\nuttx\configs\lpc4330-xplorer\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\dhcpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\tools\flash.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\lpcxpresso-lpc1768\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\doc\m68k-defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb\doc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\m68332evb\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\m68332evb\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\hidkbd\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\hidkbd\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\hidkbd\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\hidkbd\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mbed\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\mbed\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\lpc21isp-1.60.diff">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\composite</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\scripts\lpc21isp.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mcu123-lpc214x\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\micropendous3\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\micropendous3\hello\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\micropendous3\hello\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\micropendous3\hello\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\micropendous3\hello\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\micropendous3\hello\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\hello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\micropendous3\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\micropendous3\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\micropendous3\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\fulldemo\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\fulldemo</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\fulldemo\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\fulldemo</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\fulldemo\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\fulldemo</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kernel\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kernel</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kernel\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kernel</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\kostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nx\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nx\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nx\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxlines\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxlines\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxlines\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxtext\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxtext</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxtext\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxtext</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxtext\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\nxtext</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts\gnu-elf.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts\kernel-space.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts\memory.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts\user-space.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\usbnsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\usbnsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\usbnsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\usbnsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\usbnsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mikroe-stm32f4\usbnsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\nxffs\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\nxffs\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\nxffs\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\nxffs\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\scripts\c32-debug.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\scripts\c32-release.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\scripts\mips-elf-debug.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\scripts\mips-elf-release.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\scripts\xc32-debug.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\scripts\xc32-release.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mirtoo\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\mirtoo\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mx1ads\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mx1ads\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mx1ads\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mx1ads\ostest\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mx1ads\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mx1ads\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mx1ads\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\mx1ads\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\mx1ads\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\ostest\ld.script.banked">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\ostest\ld.script.nonbanked">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ne64badge\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\ne64badge\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\poll</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\udp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\ntosd-dm320\uip</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\tools\olimex.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\tools\olimex-tiny.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\tools\oocd.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\tools\scarab.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbserial\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbserial\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbserial\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\nucleus2g\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\nutiny-nuc120\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ftpc</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\hidkbd\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\hidkbd\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\hidkbd\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\hidkbd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nettest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nettest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nettest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\slip-httpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools\olimex.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools\oocd.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbserial\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbserial\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbserial\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbserial</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
