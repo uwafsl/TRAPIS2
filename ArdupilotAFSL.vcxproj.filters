@@ -4993,6 +4993,360 @@
     <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage">
       <UniqueIdentifier>{b32135b0-01f7-40cd-b4b4-67f2acb97ae0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\include">
+      <UniqueIdentifier>{688e452e-e538-4e91-b693-e0c3a6803fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh">
+      <UniqueIdentifier>{b6e626f6-5505-43a3-901d-646d407391db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest">
+      <UniqueIdentifier>{6302fc54-d98b-46ab-b18c-bdeb0a2a2139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\scripts">
+      <UniqueIdentifier>{14b2809e-fb8f-4066-b6a2-98d497aa4d73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src">
+      <UniqueIdentifier>{9a225cbe-4467-4aa9-8c51-6169c86ff773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\include">
+      <UniqueIdentifier>{0541df0c-353a-42bb-9841-b2875ce6b135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh">
+      <UniqueIdentifier>{d80fcebe-c6ce-4185-a1de-3c0bcbbcfb2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest">
+      <UniqueIdentifier>{d19c6420-fdf4-47eb-aed1-8718b3a6af02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\scripts">
+      <UniqueIdentifier>{bff407f0-67a2-479d-8ee4-398ec0a67631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src">
+      <UniqueIdentifier>{a1b343eb-3ea3-43e2-b631-ca807b731522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src">
+      <UniqueIdentifier>{71366e95-0cc3-4fa6-9b49-312aff1bb9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\include">
+      <UniqueIdentifier>{800b8b8f-d73d-4ed7-a33a-3b1e82848615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest">
+      <UniqueIdentifier>{b76830f3-a1fb-4454-8bc7-241051ff6de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh">
+      <UniqueIdentifier>{f4185a2d-2766-4359-be41-014467e353e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest">
+      <UniqueIdentifier>{2818b71d-6beb-4d3b-bf08-37c3f782dc9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts">
+      <UniqueIdentifier>{95b79e21-d1bb-4bb6-bb31-9148bdc9edd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\include">
+      <UniqueIdentifier>{db3ec992-e9ea-47f5-a7ac-5aa8b25300d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\kernel">
+      <UniqueIdentifier>{d98275d9-fb97-4251-a605-b6477b8d8561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\knsh">
+      <UniqueIdentifier>{ed191f9f-98cd-47c2-9dfd-7b6a5f0188bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\nsh">
+      <UniqueIdentifier>{a317be03-c9eb-4be3-84f7-5dbd0e0e8948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\nxlines">
+      <UniqueIdentifier>{f8ce49ad-3f84-4e6c-9dea-c1467df4ec50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\ostest">
+      <UniqueIdentifier>{1a9ffa67-1985-43b2-aa9d-0dd959a036c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\scripts">
+      <UniqueIdentifier>{7b810438-9335-4427-a52a-47d2884ecb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\src">
+      <UniqueIdentifier>{f06ccaee-122a-46b1-97d6-8496d399f75d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\open1788\tools">
+      <UniqueIdentifier>{f3afb6b3-815a-4e86-b23e-6664447769ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\p112\include">
+      <UniqueIdentifier>{9c4c834a-3baf-463a-9a95-e600f204e628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\p112\ostest">
+      <UniqueIdentifier>{595ed79b-f4db-4132-8a98-5471291b8cd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\p112\scripts">
+      <UniqueIdentifier>{1645a2ce-a628-434c-9596-09f69d5b9e1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\p112\src">
+      <UniqueIdentifier>{fe0f2d2b-6f4d-4404-8779-f422f4ffa882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\include">
+      <UniqueIdentifier>{7fc4e2d9-85fe-4608-99ad-8b5e0a699e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src">
+      <UniqueIdentifier>{5cdfc702-9131-4d36-9d30-27af9eee0277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh">
+      <UniqueIdentifier>{5e38bea5-004c-4201-8f8d-733978abf7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest">
+      <UniqueIdentifier>{afe4874f-4834-4ebb-93e8-254177aeaaf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src">
+      <UniqueIdentifier>{b2b9c49b-6d12-405e-ab10-101ee44d4963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest">
+      <UniqueIdentifier>{76e7fda9-e81a-4b50-abcc-f40f0e987b55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh">
+      <UniqueIdentifier>{3a6e2a56-ec49-4a68-bf38-10838f4b4945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\include">
+      <UniqueIdentifier>{137272aa-283e-44f6-8438-ca9b3eead96e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\include">
+      <UniqueIdentifier>{9bc3e1b3-e1ca-4d22-9d9f-7aa36ad848a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh">
+      <UniqueIdentifier>{4c4607d3-30c0-49cc-b24a-f493f9b589a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2">
+      <UniqueIdentifier>{70a50401-7a7b-4c3d-a887-6dc9d9042858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest">
+      <UniqueIdentifier>{59d6947e-0697-48e8-af78-4f23b2bb907c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src">
+      <UniqueIdentifier>{153d85d1-7963-41ed-8248-d323c5d1d5b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\include">
+      <UniqueIdentifier>{26279be2-bea3-4b68-90f1-e5fec5197c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\nsh_highram">
+      <UniqueIdentifier>{44b1979a-5bf9-4e86-b3e1-f83cc07b1f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\scripts">
+      <UniqueIdentifier>{052709e5-bb1c-4feb-8092-392bf5b49467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\src">
+      <UniqueIdentifier>{bbc839a0-ac3c-40a5-82dc-96f85708b5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\include">
+      <UniqueIdentifier>{1590b4ef-85d0-4c03-8e3a-a009a68d1f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\src">
+      <UniqueIdentifier>{457e32de-7b07-4b5c-8eac-6f16450e1141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\qemu-i486\include">
+      <UniqueIdentifier>{a3b46a36-fdec-48eb-ba1f-fd88eb629be1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\qemu-i486\nsh">
+      <UniqueIdentifier>{c0648430-d6eb-4582-b08c-4469ae25a23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\qemu-i486\ostest">
+      <UniqueIdentifier>{66b30281-a006-4243-a341-bfc62a3c6f93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\qemu-i486\src">
+      <UniqueIdentifier>{e82edfc0-8101-423f-8dd2-f4fd5c995247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\include">
+      <UniqueIdentifier>{4a4edaed-02ad-41f5-b699-c23eba6a204a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\src">
+      <UniqueIdentifier>{93036e18-fe99-42c8-83d5-e465b2cf6856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\x86">
+      <UniqueIdentifier>{c9494dc2-4f5d-4ef7-a88b-d8becaee0b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\arm">
+      <UniqueIdentifier>{e33dcad1-13f4-4b29-a480-4e3f7b1d32ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\default">
+      <UniqueIdentifier>{bbd6dc1f-e3d8-4697-adb1-591f2a07dd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh">
+      <UniqueIdentifier>{5702fa22-a028-4704-9c8e-b5ece984861a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh">
+      <UniqueIdentifier>{02df817f-1a12-4aca-a666-9ddf8f664d1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx">
+      <UniqueIdentifier>{47f07704-3a73-4446-a25d-841e8816a05d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\default">
+      <UniqueIdentifier>{1219b322-960d-482d-ba0c-2216d2c07873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest">
+      <UniqueIdentifier>{e7709d6e-c60c-4efa-b13f-9f2756904e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src">
+      <UniqueIdentifier>{e582d317-555c-4376-aae2-32e9f61fb550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts">
+      <UniqueIdentifier>{59f8a476-80fc-428c-8132-7475728f632f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\ostest">
+      <UniqueIdentifier>{028046db-8ad4-45bf-a499-e02fcb078714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\nx">
+      <UniqueIdentifier>{faadb036-4a1d-4c8d-b650-bb72a93310d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\nsh">
+      <UniqueIdentifier>{12c4a148-e421-4456-8c68-68828cf9bbc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\knsh">
+      <UniqueIdentifier>{abb0efd7-c4df-4eed-9f88-d550feadd258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\kernel">
+      <UniqueIdentifier>{5600e3a3-0cba-46b9-897b-279a4e70109a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\include">
+      <UniqueIdentifier>{e371c29b-8b30-4ee8-96c0-d45e68494c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src">
+      <UniqueIdentifier>{376a2fc5-22f0-4c25-a364-e3df8b7d2e5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\scripts">
+      <UniqueIdentifier>{dc75ed82-e37f-42d9-a618-6fd75dd88b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\ostest">
+      <UniqueIdentifier>{0b121ea8-100d-42bd-baa3-fc94760946ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\nsh">
+      <UniqueIdentifier>{3ab01f28-5f75-4a33-b8bf-828dcc0cd3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\include">
+      <UniqueIdentifier>{2d49dd50-7ea8-47e9-8ebe-5cbee0eeacb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\src">
+      <UniqueIdentifier>{6487bd50-fe45-4d7c-8065-8d291bcaf349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\scripts">
+      <UniqueIdentifier>{5a54d6c1-76c8-48bf-99b5-72511e19b208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\ostest">
+      <UniqueIdentifier>{c9f4f496-9d98-4e0a-9ae6-8a25fdf59a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\nsh">
+      <UniqueIdentifier>{1aca3589-0b93-44cd-b1be-ec00ecc7b269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\include">
+      <UniqueIdentifier>{99f385a8-2e16-4e01-8c54-82dbd9457d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\shenzhou\include">
+      <UniqueIdentifier>{78c77d7b-9e4c-4c9a-ba86-a5331ef4c378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\shenzhou\tools">
+      <UniqueIdentifier>{ca3912a0-fa9e-43fc-82a3-d0d05a94421d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\shenzhou\thttpd">
+      <UniqueIdentifier>{161c6715-b8bd-4f48-b1c6-e6f7ed519857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\shenzhou\src">
+      <UniqueIdentifier>{2c4300c9-fc3a-4544-a0bb-c4d4767dff48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\shenzhou\scripts">
+      <UniqueIdentifier>{9e42eb43-b664-4aab-878c-8254dbde2bf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\shenzhou\nxwm">
+      <UniqueIdentifier>{5c172dfc-6b22-4e42-8cb2-1357e9711a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\shenzhou\nsh">
+      <UniqueIdentifier>{de5bc4fe-b036-4743-b2cd-9162a0351608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\cxxtest">
+      <UniqueIdentifier>{1e665c68-6c36-4e92-8c5e-b0bc29cbe85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\doc">
+      <UniqueIdentifier>{eda22c8d-403d-4d40-a74d-5d08c2ebcedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\include">
+      <UniqueIdentifier>{663454c8-4f5b-41b6-96fa-b36696f09b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\mount">
+      <UniqueIdentifier>{11554d16-b663-41e4-874b-b545b84aa005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\mtdpart">
+      <UniqueIdentifier>{dfef23b2-8abe-4399-95eb-83aad4b3a17f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\nettest">
+      <UniqueIdentifier>{e7a5d9e6-c63b-47ef-8021-ee95eaa71c81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\nsh">
+      <UniqueIdentifier>{4c45dff4-5c76-4cc8-92e4-e3ec7617a0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\nsh2">
+      <UniqueIdentifier>{4f20d8ba-d9ad-4dac-9578-2bf7d1fea409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\nx">
+      <UniqueIdentifier>{c076caea-423d-4657-bfaf-63ee00819bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\nx11">
+      <UniqueIdentifier>{8695fc05-6cd6-4542-9b2f-37bac3efb09d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\nxffs">
+      <UniqueIdentifier>{b616cc45-583d-4ca1-b3de-a316512aa321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\nxlines">
+      <UniqueIdentifier>{f4d73a31-6028-4825-8b7d-ea5cf15294d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\nxwm">
+      <UniqueIdentifier>{04f055f3-841e-4bef-9121-cf1a40c1379b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\ostest">
+      <UniqueIdentifier>{227fb1f8-b01d-42fa-b840-6d098734a15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\pashello">
+      <UniqueIdentifier>{35f8a47d-c4c0-4047-9001-79e47c015e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\src">
+      <UniqueIdentifier>{b7350fdc-f945-40bb-a3df-5f1f0c06b86a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\sim\touchscreen">
+      <UniqueIdentifier>{b9c2ef99-d45f-40c0-bcec-6bdfe4ca8063}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\skp16c26\include">
+      <UniqueIdentifier>{60db7989-ef10-4cc8-9b90-0ce7c0dd1380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\skp16c26\ostest">
+      <UniqueIdentifier>{bd44f571-29d7-4d93-98cc-2b57daa37067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\skp16c26\src">
+      <UniqueIdentifier>{c1abb1c5-78a7-49be-ac1f-8da6ef904f1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\usbnsh">
+      <UniqueIdentifier>{7fa66859-6857-4fc5-abab-f5d210e0be91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src">
+      <UniqueIdentifier>{2e55bd3e-977c-4867-aacf-7cb6f940a0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\scripts">
+      <UniqueIdentifier>{9bb37122-2729-4f29-8a5d-16232e5a7db4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\nsh">
+      <UniqueIdentifier>{70dc2f38-7bf3-46ae-b65e-2fa7021d6768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\include">
+      <UniqueIdentifier>{35b5dce8-756b-4920-acfd-a6d541ee30b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\include">
+      <UniqueIdentifier>{bc052440-2c29-4b9a-aaee-82187b9b4c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\nsh">
+      <UniqueIdentifier>{27e3adf7-b9a7-4e71-8333-42b5ca0cf4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\ostest">
+      <UniqueIdentifier>{889ee8de-b209-4f26-8ad7-8adc263770e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\scripts">
+      <UniqueIdentifier>{d27121e4-7ef2-4aeb-963d-0d15c242ca2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src">
+      <UniqueIdentifier>{66af475d-3195-42e9-8853-d0efcaa35973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\usbnsh">
+      <UniqueIdentifier>{ba56de81-63ed-4daf-984a-af5bde5bad16}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -14193,6 +14547,333 @@
     <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\up_usbmsc.c">
       <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
     </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src\up_can.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src\up_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src\up_enc28j60.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\kernel\up_userspace.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_autoleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_boardinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_lcd.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_nandinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_norinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_sdraminitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_ssp.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_touchscreen.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\open1788\src\lpc17_userleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src\pic32mx_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src\pic32mx_lcd1602.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src\pic32mx_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_mio283qt2.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_touchscreen.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_usbdev.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_usbmsc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\up_usbterm.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\up_usbdev.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\up_usbmsc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\up_usbterm.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\src\dummy.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\qemu-i486\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\kernel\up_userspace.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_lcd.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_mmcsd.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_touchscreen.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_usbdev.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\up_usbmsc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\sam_autoleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\sam_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\sam_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\sam_cxxinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\sam_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\sam_userleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\src\sam_autoleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\src\sam_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\src\sam_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\src\sam_cxxinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\src\sam_userleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_adc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_autoleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_can.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_chipid.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_composite.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_cxxinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_ili93xx.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_mmcsd.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_relays.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_ssd1289.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_touchscreen.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_usb.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_usbmsc.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_userleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_w25.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\up_watchdog.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\sim\src\up_touchscreen.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\skp16c26\src\up_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\skp16c26\src\up_lcd.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\skp16c26\src\up_lcdconsole.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\skp16c26\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\up_leds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\up_pwm.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\up_usbdev.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\up_watchdog.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\up_wireless.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_autoleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_boot.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_buttons.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_cxxinitialize.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_nsh.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_pwm.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_qencoder.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_spi.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_usb.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_userleds.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\up_watchdog.c">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -15832,6 +16513,114 @@
     </Text>
     <Text Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools\usb-driver.txt">
       <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\tools</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest\test-results.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts\usb-driver.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\open1788\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\p112\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\qemu-i486\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\qemu-i486\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\qemu-i486\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\rgmp\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\rgmp\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\rgmp\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\shenzhou\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\shenzhou\tools\usb-driver.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\tools</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\sim\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\sim\doc\test-results.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\doc</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\sim\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\sim\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\skp16c26\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\skp16c26\include\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\include</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\skp16c26\src\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\src</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny</Filter>
+    </Text>
+    <Text Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\README.txt">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -23788,6 +24577,105 @@
     </ClInclude>
     <ClInclude Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src\lpc1766stk_internal.h">
       <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\open1788\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\open1788\src\open1788.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\p112\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src\pcblogic-pic32mx.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\pic32mx7mmb_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\starterkit_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\include\power.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\include\pjrc.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\qemu-i486\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\qemu-i486\src\qemui486_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\rgmp\include\stdarg.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\sam3u-ek.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\sam4l-xplained.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\src\sam4s-xplained.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\shenzhou\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\shenzhou-internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\skp16c26\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\skp16c26\src\skp16c26_internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\stm32_tiny-internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\include\board.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\include</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\stm32f3discovery-internal.h">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -34482,6 +35370,945 @@
     </None>
     <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage\setenv.sh">
       <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc1766stk\usbstorage</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-lpc2378\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\scripts\ld.script.dfu">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-stm32-p107\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts\oocd.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts\oocd_flash.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts\oocd_ft2xx.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts\oocd_wiggler.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts\oocd-reset">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\olimex-strp711\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\olimex-strp711\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\kernel\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\kernel</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\kernel\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\kernel</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\knsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\knsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\knsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\knsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\knsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\knsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\nxlines\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\nxlines\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\nxlines\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\scripts\kernel-space.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\scripts\memory.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\scripts\user-space.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\tools\oocd.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\open1788\tools\open1788.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\open1788\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\p112\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\p112\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\p112\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\p112\ostest\setenv.bat">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\p112\scripts\setenv.bat">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\p112\scripts\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\p112\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\p112\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\p112\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\pcblogic-pic32mx\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32mx7mmb\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pic32-starterkit\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\pic32-starterkit\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\nsh_highram\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\nsh_highram</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\nsh_highram\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\nsh_highram</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\nsh_highram\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\nsh_highram</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\scripts\highram.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pirelli_dpl10\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\pirelli_dpl10\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\sdcc-2.6.0.patch">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\pjrc-8051\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\pjrc-8051\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\nsh\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\ostest\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\qemu-i486\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\qemu-i486\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\default\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\arm\default</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\default\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\arm\default</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\default\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\arm\default</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\default\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\arm\default</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\arm\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\default\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\default</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\default\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\default</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\default\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\default</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\default\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\default</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\helloxx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\rgmp\x86\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\kernel\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\kernel</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\kernel\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\kernel</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\knsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\knsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\knsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\knsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\knsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\knsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\nx\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\nx\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\nx\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts\kernel-space.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts\memory.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts\user-space.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam3u-ek\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam3u-ek\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4l-xplained\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4l-xplained\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sam4s-xplained\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\sam4s-xplained\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\nxwm\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\nxwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\nxwm\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\nxwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\nxwm\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\nxwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\scripts\ld.script.dfu">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\thttpd\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\thttpd\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\thttpd\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\thttpd</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\tools\olimex-arm-usb-ocd.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\tools\oocd.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\shenzhou\tools\stm32.cfg">
+      <Filter>modules\PX4NuttX\nuttx\configs\shenzhou\tools</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\cxxtest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\cxxtest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\cxxtest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\cxxtest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\mount\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\mount</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\mount\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\mount</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\mount\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\mount</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\mount\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\mount</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\mtdpart\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\mtdpart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\mtdpart\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\mtdpart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\mtdpart\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\mtdpart</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nettest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nettest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nettest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nettest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nettest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nsh2\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nsh2\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nsh2\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nsh2\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nsh2</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nx\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nx\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nx\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nx\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nx</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nx11\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nx11</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nx11\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nx11</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nx11\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nx11</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nx11\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nx11</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxffs\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxffs\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxffs\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxffs</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxlines\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxlines\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxlines\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxlines</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxwm\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxwm\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\nxwm\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\nxwm</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\pashello\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\pashello\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\pashello\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\pashello\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\pashello</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\touchscreen\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\touchscreen</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\touchscreen\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\touchscreen</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\touchscreen\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\touchscreen</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\sim\touchscreen\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\sim\touchscreen</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\skp16c26\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\skp16c26\ostest\appconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\skp16c26\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\skp16c26\ostest\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\skp16c26\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\skp16c26\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\skp16c26\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\skp16c26\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\skp16c26\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\usbnsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\usbnsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\usbnsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\usbnsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32_tiny\usbnsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32_tiny\usbnsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\Kconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\nsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\nsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\nsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\nsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\ostest\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\ostest\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\ostest\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\ostest</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\scripts\gnu-elf.ld">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\scripts\ld.script">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\scripts</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\.gitignore">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\src\Makefile">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\src</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\usbnsh\defconfig">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\usbnsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\usbnsh\Make.defs">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\usbnsh</Filter>
+    </None>
+    <None Include="modules\PX4NuttX\nuttx\configs\stm32f3discovery\usbnsh\setenv.sh">
+      <Filter>modules\PX4NuttX\nuttx\configs\stm32f3discovery\usbnsh</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
