@@ -7252,6 +7252,15 @@
     <Filter Include="modules\waf\waflib\Tools">
       <UniqueIdentifier>{f904d3df-b4bb-4da2-820b-462802221ff3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{79282c28-4014-4217-bc73-277141bcc477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x64">
+      <UniqueIdentifier>{dba1e1b4-56a6-4f41-8f7e-29f7dee00148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{5e021676-42a5-4ca9-8f95-721a5fc62dc6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -33142,6 +33151,9 @@
     </ClInclude>
     <ClInclude Include="modules\waf\tests\preproc\src\h.h">
       <Filter>modules\waf\tests\preproc\src</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\AP_gtest.h">
+      <Filter>tests</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

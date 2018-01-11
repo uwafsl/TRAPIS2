@@ -8774,6 +8774,7 @@
     <ClInclude Include="modules\waf\tests\preproc\src\f.h" />
     <ClInclude Include="modules\waf\tests\preproc\src\g.h" />
     <ClInclude Include="modules\waf\tests\preproc\src\h.h" />
+    <ClInclude Include="tests\AP_gtest.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="AntennaTracker\make.inc" />
