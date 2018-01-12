@@ -7261,6 +7261,306 @@
     <Filter Include="Tools">
       <UniqueIdentifier>{5e021676-42a5-4ca9-8f95-721a5fc62dc6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tools\Xplane">
+      <UniqueIdentifier>{b8124e7f-e328-4711-8630-dbc7a39e646a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\vagrant">
+      <UniqueIdentifier>{d1137dd0-db3d-495e-980d-92989770b1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\SerialProxy">
+      <UniqueIdentifier>{339f196e-a09c-4217-833f-940fde08126a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\scripts">
+      <UniqueIdentifier>{9dc4bee8-d6cb-4bd8-bd1a-efdc81d6955a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Replay">
+      <UniqueIdentifier>{15d90434-11ad-43d8-a5ce-66e76a8bb266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\PPM_decoding">
+      <UniqueIdentifier>{da18414d-547b-432e-ac56-a46feb88e62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Pozyx">
+      <UniqueIdentifier>{138653b3-eccb-48e0-b0df-3553ecb0cd74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\mavproxy_modules">
+      <UniqueIdentifier>{2539eb66-4c3e-4a3f-928b-e868543f87cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LogAnalyzer">
+      <UniqueIdentifier>{5eb00e3f-864b-4cf3-9bed-0b44b8d6bce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials">
+      <UniqueIdentifier>{bda83f52-8eaa-4835-95f9-e88f89a3b35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Hello">
+      <UniqueIdentifier>{ce9e456d-d43d-42f4-a504-6061b1799bcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\APM_radio_test">
+      <UniqueIdentifier>{999abfb7-460c-4979-9a1d-45f16e5fcdd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\APM2_2560_bootloader">
+      <UniqueIdentifier>{56a23649-1e06-468f-9971-50e24240d16e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPilotMega_demo">
+      <UniqueIdentifier>{feaa85cf-131e-4a61-b616-dc0f9f568f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArdupilotMegaPlanner">
+      <UniqueIdentifier>{36455a25-89c0-4ddf-bdb0-4299ee75bf7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ardupilotwaf">
+      <UniqueIdentifier>{5369f772-4394-4f58-bcc3-b267fb2296e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM">
+      <UniqueIdentifier>{5ea3119c-1aa2-4421-9bfd-489b27643207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest">
+      <UniqueIdentifier>{a2af0612-f1f5-4aac-aab0-d2e59fcfba75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CHDK-Scripts">
+      <UniqueIdentifier>{f0caf8e7-5b6d-40bf-bbfe-a96b674fc979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CodeStyle">
+      <UniqueIdentifier>{2308fbc8-a618-4753-a1f2-83ff6be94dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CPUInfo">
+      <UniqueIdentifier>{6d744746-0a7a-40e4-98c3-f44312adc7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Failsafe">
+      <UniqueIdentifier>{cfe59246-2f50-4dcb-b381-d284273c3e01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Frame_params">
+      <UniqueIdentifier>{7e583e8b-d4ad-4e1f-9c56-4c601ce21dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\GIT_Test">
+      <UniqueIdentifier>{190677bf-8623-43e7-8bcc-bf3b4f07afb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\gittools">
+      <UniqueIdentifier>{b7539891-031b-4861-9dfa-abe97e21c929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ardupilotwaf\px4">
+      <UniqueIdentifier>{74cdc9de-948c-4255-816e-92dee94cfc78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ardupilotwaf\px4\cmake">
+      <UniqueIdentifier>{3256f9f4-47fc-46a0-99fb-34fe5362c4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ardupilotwaf\px4\cmake\configs">
+      <UniqueIdentifier>{b7bc8e50-9830-4fdb-95be-bcb769cc9bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2">
+      <UniqueIdentifier>{36e0af36-daf1-425c-bcc2-8353b5cc57b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega328p">
+      <UniqueIdentifier>{9b8c876f-3f98-4274-aad4-2989c5fa654f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\Binaries">
+      <UniqueIdentifier>{824bb965-c04d-4609-a391-b397cb5e3222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\Libraries">
+      <UniqueIdentifier>{91ac4185-f870-40ec-b7df-fe29fdbef998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\WorkBasket">
+      <UniqueIdentifier>{d15b4a2b-84ed-4354-8a6f-f7ec3a2f502e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Bootloaders">
+      <UniqueIdentifier>{42924f3c-6ede-4dd4-ad3a-0a35d9e91dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Drivers">
+      <UniqueIdentifier>{88446e10-0c95-4073-8bf3-444c10f81075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA">
+      <UniqueIdentifier>{92ad126c-b581-4ee8-a468-6bd797e82c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Projects">
+      <UniqueIdentifier>{739c937e-7ce3-4919-a585-38e41a199f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu">
+      <UniqueIdentifier>{c3c99db8-e783-4442-b808-d43cfedc7d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\Board">
+      <UniqueIdentifier>{a6aff5f4-fa64-4474-9675-ae7033099fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Drivers\amd64">
+      <UniqueIdentifier>{28975a3c-6f02-44e6-895e-ceb90b6bedee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Drivers\ia64">
+      <UniqueIdentifier>{3b574c6e-e5d0-4c21-b126-b6a628a4af1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Drivers\x86">
+      <UniqueIdentifier>{31d168dc-2aba-424d-83e8-63bd91e55214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Common">
+      <UniqueIdentifier>{be26f05b-60cc-4922-8027-9641b3d8a7c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers">
+      <UniqueIdentifier>{1783896e-06bf-418a-9c48-2b99aafe3b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs">
+      <UniqueIdentifier>{883678b2-dcdb-4d4b-894f-d106023f6c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages">
+      <UniqueIdentifier>{2df37c44-4039-44fd-ae2b-b8d9c90b51e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Scheduler">
+      <UniqueIdentifier>{94774734-0591-44b5-bfe5-7ed449c2b1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board">
+      <UniqueIdentifier>{2f2717da-cdfe-4f24-877c-c0c861d48208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Misc">
+      <UniqueIdentifier>{f4faebc4-d92e-4f43-9c1f-b11c9d58dbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB">
+      <UniqueIdentifier>{858883e1-ffd2-468c-88dd-d4b6dbb41cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral">
+      <UniqueIdentifier>{ac752737-e3b0-490e-b6dc-0e096be41c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class">
+      <UniqueIdentifier>{fb89dc74-d144-4f11-86e9-8319e7b908ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel">
+      <UniqueIdentifier>{6e8fbd13-536f-4538-8ac1-9fc87b5409df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel">
+      <UniqueIdentifier>{a00e285c-cbb8-4b57-8021-1f98aed5b270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common">
+      <UniqueIdentifier>{a268533a-e0fb-4393-87ca-3a023c2d5e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device">
+      <UniqueIdentifier>{00b76d86-f86a-4753-984a-d5814ff47f0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host">
+      <UniqueIdentifier>{4561597b-cc42-4eb1-aacc-c2823a7823cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template">
+      <UniqueIdentifier>{995ab145-350a-4462-8ea4-428a4571e545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\ATAVRUSBRF01">
+      <UniqueIdentifier>{b3191bd5-28c7-47cf-bac7-b8c24c0d8b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BENITO">
+      <UniqueIdentifier>{b69acaab-f19d-4300-853f-65c72c2bb97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BUMBLEB">
+      <UniqueIdentifier>{793c9df9-29cb-4f83-9c34-5904da607d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527">
+      <UniqueIdentifier>{cccd4a8b-ee6a-4ed8-8f8d-13a7cd58179c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\JMDBU2">
+      <UniqueIdentifier>{298add47-fa88-40f0-a0d9-22582b0e3d76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\RZUSBSTICK">
+      <UniqueIdentifier>{7c58a702-3b98-4a6c-bd64-4077b23d5f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525">
+      <UniqueIdentifier>{85bcb1f2-612a-49ff-bc23-105c182a9678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526">
+      <UniqueIdentifier>{249d8229-a54a-4627-88c0-42c346fef2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\TEENSY">
+      <UniqueIdentifier>{62bb1969-c1ff-4e4b-823d-61b19374d58c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY">
+      <UniqueIdentifier>{726ec45f-de12-494f-b486-8cfea7f733fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBTINYMKII">
+      <UniqueIdentifier>{9aa75b3d-d28f-4109-96db-f69feb27a93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\XPLAIN">
+      <UniqueIdentifier>{d11a5266-98fe-4040-b4aa-0c071a7d772e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\AVRU4U6U7">
+      <UniqueIdentifier>{ded0f6ac-fdd7-4cc9-964b-9919fcbd1c6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial">
+      <UniqueIdentifier>{6f436a57-db14-4354-81b6-9b5e8f4f12ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Board">
+      <UniqueIdentifier>{12249471-c991-4a5e-9bc7-16fb2799c657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Lib">
+      <UniqueIdentifier>{1c50f51f-683b-41dd-8c98-4c3c54d52933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\WorkBasket\spektrum_to_ppm_encoder">
+      <UniqueIdentifier>{a6d50667-3550-4be3-8508-f0717ea33d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\WorkBasket\Jeti_Duplex">
+      <UniqueIdentifier>{3fb77b7d-a358-4bd7-80f0-d8094c0a5922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\WorkBasket\Experimental">
+      <UniqueIdentifier>{dfcf0153-1bb4-4dd3-8d28-1d18a78548d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox">
+      <UniqueIdentifier>{6396ce34-1640-456d-8d02-7f97b90b9758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft">
+      <UniqueIdentifier>{41a04adb-3aa5-4397-a0de-53b6bf97512a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\ArduPlane-Missions">
+      <UniqueIdentifier>{2afcd653-bc71-414a-9ac6-ceb2308e5ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\default_params">
+      <UniqueIdentifier>{aa124253-28a0-485c-ac7b-0c44202191e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\jsb_sim">
+      <UniqueIdentifier>{bbac9747-6c63-415a-9aec-5ea8244de609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\param_metadata">
+      <UniqueIdentifier>{3c82fc26-25f4-449a-b637-e097df1666ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\pysim">
+      <UniqueIdentifier>{15948d57-82c1-4272-82e1-0f8c622569fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\web">
+      <UniqueIdentifier>{e496b068-4993-4da1-a0ca-89c2e0e42a6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\web-firmware">
+      <UniqueIdentifier>{9f0dc9de-f1b6-448a-bd4b-e80327ba27fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\win_sitl">
+      <UniqueIdentifier>{1365fcb1-ff6e-4d40-bd46-3e595d177589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\XPlane">
+      <UniqueIdentifier>{21397425-4255-41c1-b067-0773fd7091d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\arducopter">
+      <UniqueIdentifier>{511c175e-a8ad-4921-b5cc-1de19a605f1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\Rascal">
+      <UniqueIdentifier>{1eb0b414-3186-4483-8961-633f8fe0c4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\arducopter\data">
+      <UniqueIdentifier>{9c80a945-bb36-4150-b1ac-b99f132adcd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\arducopter\Engines">
+      <UniqueIdentifier>{f3aa1adb-cffd-4def-b973-ab9239246d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\arducopter\Models">
+      <UniqueIdentifier>{9d610bef-60c9-49e2-b818-2f388f064b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\Rascal\Dialogs">
+      <UniqueIdentifier>{f5ce36e4-00de-4dde-a4e5-21439b9c5bfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\Rascal\Engines">
+      <UniqueIdentifier>{104892e2-637f-493b-a2c2-bb1888bcf60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\Rascal\Models">
+      <UniqueIdentifier>{7d52e4d2-8f43-46f7-b99e-327688d34268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\aircraft\Rascal\Systems">
+      <UniqueIdentifier>{36e95e08-196a-4d84-85b0-ac9116966ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\web\css">
+      <UniqueIdentifier>{fc211eb5-be16-4de6-b88c-0be338ba7364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\web-firmware\css">
+      <UniqueIdentifier>{4c8667e4-af5d-4f39-b9cf-1e32c94d602d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\autotest\web-firmware\images">
+      <UniqueIdentifier>{3107345e-3216-4269-acab-bf1d8a854960}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -21384,6 +21684,132 @@
     <ClCompile Include="modules\waf\tests\preproc\src\pasting.c">
       <Filter>modules\waf\tests\preproc\src</Filter>
     </ClCompile>
+    <ClCompile Include="Tools\APM2_2560_bootloader\stk500boot.c">
+      <Filter>Tools\APM2_2560_bootloader</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\Arduino-usbdfu.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\Descriptors.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\Temperature.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\Serial.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\SerialStream.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\TWI.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\Audio.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\CDC.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\HID.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\MassStorage.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\MIDI.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\RNDIS.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\CDC.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\HID.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\HIDParser.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\MassStorage.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\MIDI.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\Printer.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\RNDIS.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\StillImage.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\ConfigDescriptor.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\DeviceStandardReq.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\Events.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\HostStandardReq.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\USBTask.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Device.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Endpoint.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Host.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Pipe.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\USBController.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\USBInterrupt.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template\Template_Endpoint_Control_R.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template\Template_Endpoint_Control_W.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template\Template_Endpoint_RW.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template\Template_Pipe_RW.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\LUFA\Scheduler\Scheduler.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Arduino-usbserial.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Descriptors.c">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega328p\Encoder-PPM.c">
+      <Filter>Tools\ArduPPM\ATMega328p</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\ATMega328p\Encoder-PPM-v3.c">
+      <Filter>Tools\ArduPPM\ATMega328p</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox\JetiBox.cpp">
+      <Filter>Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -23380,6 +23806,207 @@
     </Text>
     <Text Include="modules\waf\tests\nodes\src\src.txt">
       <Filter>modules\waf\tests\nodes\src</Filter>
+    </Text>
+    <Text Include="Tools\APM2_2560_bootloader\FLASH.txt">
+      <Filter>Tools\APM2_2560_bootloader</Filter>
+    </Text>
+    <Text Include="Tools\APM2_2560_bootloader\License.txt">
+      <Filter>Tools\APM2_2560_bootloader</Filter>
+    </Text>
+    <Text Include="Tools\APM2_2560_bootloader\README.txt">
+      <Filter>Tools\APM2_2560_bootloader</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\readme.txt">
+      <Filter>Tools\ArduPPM</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\ppm_encoder.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\readme.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\windows-dfuprogramming.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\readme.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\License.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\AboutLUFA.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\AlternativeStacks.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\BuildingLinkableLibraries.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\ChangeLog.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\CompileTimeTokens.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\CompilingApps.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\ConfiguringApps.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\DevelopingWithLUFA.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\DeviceSupport.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\DirectorySummaries.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\Donating.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\FutureChanges.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\GettingStarted.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\Groups.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\LibraryApps.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\LibraryResources.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\LicenseInfo.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\LUFAPoweredProjects.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\LUFAvsAtmelStack.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\MainPage.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\MigrationInformation.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\ProgrammingApps.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\SchedulerOverview.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\SoftwareBootloaderJump.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\VIDAndPIDValues.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\WhyUseLUFA.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\LUFA\ManPages\WritingBoardDrivers.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\ManPages</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\ppm_encoder.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\readme.txt">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega328p\manual.txt">
+      <Filter>Tools\ArduPPM\ATMega328p</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\ATMega328p\readme.txt">
+      <Filter>Tools\ArduPPM\ATMega328p</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\Binaries\Hash.txt">
+      <Filter>Tools\ArduPPM\Binaries</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\Libraries\changelog_v3.txt">
+      <Filter>Tools\ArduPPM\Libraries</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\Libraries\manual_v3.txt">
+      <Filter>Tools\ArduPPM\Libraries</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\Libraries\readme.txt">
+      <Filter>Tools\ArduPPM\Libraries</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\WorkBasket\readme.txt">
+      <Filter>Tools\ArduPPM\WorkBasket</Filter>
+    </Text>
+    <Text Include="Tools\ArduPPM\WorkBasket\Jeti_Duplex\readme.txt">
+      <Filter>Tools\ArduPPM\WorkBasket\Jeti_Duplex</Filter>
+    </Text>
+    <Text Include="Tools\autotest\ap1.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\CMAC-circuit.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\CMAC-grid.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\copter_AVC2013_mission.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\copter_glitch_mission.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\copter_mission.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\copter_spline_mission.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\copter_terrain_mission.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\locations.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\rover1.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\sub_mission.txt">
+      <Filter>Tools\autotest</Filter>
+    </Text>
+    <Text Include="Tools\autotest\aircraft\arducopter\data\arducopter_half_step.txt">
+      <Filter>Tools\autotest\aircraft\arducopter\data</Filter>
+    </Text>
+    <Text Include="Tools\autotest\aircraft\arducopter\data\arducopter_step.txt">
+      <Filter>Tools\autotest\aircraft\arducopter\data</Filter>
+    </Text>
+    <Text Include="Tools\autotest\ArduPlane-Missions\CMAC-bigloop.txt">
+      <Filter>Tools\autotest\ArduPlane-Missions</Filter>
+    </Text>
+    <Text Include="Tools\autotest\ArduPlane-Missions\CMAC-toff-loop.txt">
+      <Filter>Tools\autotest\ArduPlane-Missions</Filter>
+    </Text>
+    <Text Include="Tools\autotest\ArduPlane-Missions\CMAC-turns.txt">
+      <Filter>Tools\autotest\ArduPlane-Missions</Filter>
+    </Text>
+    <Text Include="Tools\autotest\ArduPlane-Missions\CMAC-VTOL-ccw.txt">
+      <Filter>Tools\autotest\ArduPlane-Missions</Filter>
+    </Text>
+    <Text Include="Tools\autotest\ArduPlane-Missions\Dalby-OBC2016.txt">
+      <Filter>Tools\autotest\ArduPlane-Missions</Filter>
+    </Text>
+    <Text Include="Tools\autotest\ArduPlane-Missions\Dalby-OBC2016-fence.txt">
+      <Filter>Tools\autotest\ArduPlane-Missions</Filter>
+    </Text>
+    <Text Include="Tools\autotest\ArduPlane-Missions\KSFO-VTOL.txt">
+      <Filter>Tools\autotest\ArduPlane-Missions</Filter>
+    </Text>
+    <Text Include="Tools\autotest\win_sitl\readme.txt">
+      <Filter>Tools\autotest\win_sitl</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -33154,6 +33781,366 @@
     </ClInclude>
     <ClInclude Include="tests\AP_gtest.h">
       <Filter>tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\APM2_2560_bootloader\avrinterruptnames.h">
+      <Filter>Tools\APM2_2560_bootloader</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\APM2_2560_bootloader\command.h">
+      <Filter>Tools\APM2_2560_bootloader</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\Arduino-usbdfu.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\Descriptors.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\Board\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Version.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Common\Attributes.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Common\BoardTypes.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Common\Common.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\Dataflash.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\Joystick.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\Temperature.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\ATAVRUSBRF01\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\ATAVRUSBRF01</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\ATAVRUSBRF01\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\ATAVRUSBRF01</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BENITO\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BENITO</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BENITO\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BENITO</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BUMBLEB\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BUMBLEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BUMBLEB\Joystick.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BUMBLEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BUMBLEB\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\BUMBLEB</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527\AT45DB321C.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527\Dataflash.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527\Joystick.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\EVK527</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\JMDBU2\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\JMDBU2</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\JMDBU2\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\JMDBU2</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\RZUSBSTICK\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\RZUSBSTICK</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525\AT45DB321C.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525\Dataflash.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525\Joystick.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK525</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526\AT45DB642D.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526\Dataflash.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526\Joystick.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\STK526</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\TEENSY\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\TEENSY</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY\AT45DB642D.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY\Dataflash.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY\Joystick.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBKEY</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBTINYMKII\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBTINYMKII</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBTINYMKII\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\USBTINYMKII</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\XPLAIN\AT45DB642D.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\XPLAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\XPLAIN\Dataflash.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\XPLAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\XPLAIN\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Board\XPLAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Misc\TerminalCodes.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\ADC.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\Serial.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\SerialStream.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\SPI.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\TWI.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\AVRU4U6U7\ADC.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\AVRU4U6U7</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\AVRU4U6U7\TWI.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\Peripheral\AVRU4U6U7</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\USB.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Audio.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\CDC.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\HID.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\MassStorage.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\MIDI.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Printer.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\RNDIS.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\StillImage.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\Audio.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\CDC.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\HID.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\MassStorage.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\MIDI.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\Printer.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\RNDIS.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\RNDISConstants.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common\StillImage.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\Audio.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\CDC.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\HID.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\MassStorage.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\MIDI.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device\RNDIS.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\CDC.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\HID.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\HIDParser.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\HIDReportData.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\MassStorage.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\MIDI.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\Printer.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\RNDIS.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host\StillImage.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\Class\Host</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\ConfigDescriptor.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\DeviceStandardReq.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\Events.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\HostStandardReq.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\StdDescriptors.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\StdRequestType.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\StreamCallbacks.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\USBMode.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel\USBTask.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\HighLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Device.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Endpoint.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Host.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\OTG.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\Pipe.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\USBController.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel\USBInterrupt.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Drivers\USB\LowLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs\Buttons.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs\Dataflash.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs\Joystick.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\DriverStubs</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\LUFA\Scheduler\Scheduler.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA\Scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Arduino-usbserial.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Descriptors.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Board\LEDs.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Lib\LightweightRingBuff.h">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\Libraries\PPM_Encoder.h">
+      <Filter>Tools\ArduPPM\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\Libraries\PPM_Encoder_v3.h">
+      <Filter>Tools\ArduPPM\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\WorkBasket\Experimental\PPM_Encoder.h">
+      <Filter>Tools\ArduPPM\WorkBasket\Experimental</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox\JetiBox.h">
+      <Filter>Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -49111,6 +50098,471 @@
     <None Include="modules\waf\zip\waf-zip">
       <Filter>modules\waf\zip</Filter>
     </None>
+    <None Include="Tools\APM_radio_test\APM_radio_test.pde">
+      <Filter>Tools\APM_radio_test</Filter>
+    </None>
+    <None Include="Tools\APM_radio_test\Makefile">
+      <Filter>Tools\APM_radio_test</Filter>
+    </None>
+    <None Include="Tools\APM2_2560_bootloader\Makefile">
+      <Filter>Tools\APM2_2560_bootloader</Filter>
+    </None>
+    <None Include="Tools\ArduPilotMega_demo\ArduPilotMega_demo.pde">
+      <Filter>Tools\ArduPilotMega_demo</Filter>
+    </None>
+    <None Include="Tools\ArduPilotMega_demo\Timers.pde">
+      <Filter>Tools\ArduPilotMega_demo</Filter>
+    </None>
+    <None Include="Tools\ArdupilotMegaPlanner\readme.md">
+      <Filter>Tools\ArdupilotMegaPlanner</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\__init__.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\ap_library.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\ap_persistent.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\ardupilotwaf.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\boards.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\build_summary.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\cmake.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\cxx_checks.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\gbenchmark.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\git_submodule.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\gtest.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\mavgen.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\px4.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\static_linking.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\toolchain.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\uavcangen.py">
+      <Filter>Tools\ardupilotwaf</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\px4\cmake\configs\nuttx_aerofc-v1_apm.cmake">
+      <Filter>Tools\ardupilotwaf\px4\cmake\configs</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\px4\cmake\configs\nuttx_px4fmu-common_apm.cmake">
+      <Filter>Tools\ardupilotwaf\px4\cmake\configs</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\px4\cmake\configs\nuttx_px4fmu-v1_apm.cmake">
+      <Filter>Tools\ardupilotwaf\px4\cmake\configs</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\px4\cmake\configs\nuttx_px4fmu-v2_apm.cmake">
+      <Filter>Tools\ardupilotwaf\px4\cmake\configs</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\px4\cmake\configs\nuttx_px4fmu-v3_apm.cmake">
+      <Filter>Tools\ardupilotwaf\px4\cmake\configs</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\px4\cmake\configs\nuttx_px4fmu-v4_apm.cmake">
+      <Filter>Tools\ardupilotwaf\px4\cmake\configs</Filter>
+    </None>
+    <None Include="Tools\ardupilotwaf\px4\cmake\configs\nuttx_px4fmu-v4pro_apm.cmake">
+      <Filter>Tools\ardupilotwaf\px4\cmake\configs</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\LUFA.pnproj">
+      <Filter>Tools\ArduPPM\ATMega32U2</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu\makefile">
+      <Filter>Tools\ArduPPM\ATMega32U2\Bootloaders\arduino-usbdfu</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\Drivers\Arduino_MEGA_2560.inf">
+      <Filter>Tools\ArduPPM\ATMega32U2\Drivers</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\Drivers\atmel_usb_dfu.inf">
+      <Filter>Tools\ArduPPM\ATMega32U2\Drivers</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\Drivers\amd64\libusb0.sys">
+      <Filter>Tools\ArduPPM\ATMega32U2\Drivers\amd64</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\Drivers\ia64\libusb0.sys">
+      <Filter>Tools\ArduPPM\ATMega32U2\Drivers\ia64</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\Drivers\x86\libusb0.sys">
+      <Filter>Tools\ArduPPM\ATMega32U2\Drivers\x86</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\LUFA\Doxygen.conf">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\LUFA\makefile">
+      <Filter>Tools\ArduPPM\ATMega32U2\LUFA</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial\makefile">
+      <Filter>Tools\ArduPPM\ATMega32U2\Projects\arduino-usbserial</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\ATMega328p\Makefile">
+      <Filter>Tools\ArduPPM\ATMega328p</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jeti_telemetry_protocol.pdf">
+      <Filter>Tools\ArduPPM\WorkBasket\Jeti_Duplex</Filter>
+    </None>
+    <None Include="Tools\ArduPPM\WorkBasket\spektrum_to_ppm_encoder\spektrum_to_ppm_encoder.pde">
+      <Filter>Tools\ArduPPM\WorkBasket\spektrum_to_ppm_encoder</Filter>
+    </None>
+    <None Include="Tools\autotest\__init__.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\apmrover2.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\arducopter.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\arduplane.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\ardusub.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\autotest.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\common.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\dump_logs.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\fakepos.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\fg_plane_view.bat">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\fg_plane_view.sh">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\fg_quad_view.bat">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\fg_quad_view.sh">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\quadplane.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\README">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\run_in_terminal_window.sh">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\sim_vehicle.py">
+      <Filter>Tools\autotest</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\quad.nas">
+      <Filter>Tools\autotest\aircraft\arducopter</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\README">
+      <Filter>Tools\autotest\aircraft\arducopter</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\data\rw_generic_pylon.ac">
+      <Filter>Tools\autotest\aircraft\arducopter\data</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\_propeller0_.skb">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\_propeller0_.skp">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\arducopter.ac">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\AutoSave_plus_quad.skp">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\plus_quad.ac">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\plus_quad.skb">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\plus_quad.skp">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\plus_quad2.ac">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\plus_quad2.dae">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\plus_quad2.skb">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\plus_quad2.skp">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\quad.3ds">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\quad.skp">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\shareware_output.3ds">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\Untitled.ac">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\Untitled.skp">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\Y6_test.ac">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\Y6_test.skp">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\arducopter\Models\Y6_test2.skp">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\Rascal\Rascal110-splash.rgb">
+      <Filter>Tools\autotest\aircraft\Rascal</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\Rascal\README.Rascal">
+      <Filter>Tools\autotest\aircraft\Rascal</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\Rascal\Models\Rascal.rgb">
+      <Filter>Tools\autotest\aircraft\Rascal\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\Rascal\Models\Rascal110-000-013.ac">
+      <Filter>Tools\autotest\aircraft\Rascal\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\Rascal\Models\Trajectory-Marker.ac">
+      <Filter>Tools\autotest\aircraft\Rascal\Models</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\Rascal\Systems\airdata.nas">
+      <Filter>Tools\autotest\aircraft\Rascal\Systems</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\Rascal\Systems\main.nas">
+      <Filter>Tools\autotest\aircraft\Rascal\Systems</Filter>
+    </None>
+    <None Include="Tools\autotest\aircraft\Rascal\Systems\ugear.nas">
+      <Filter>Tools\autotest\aircraft\Rascal\Systems</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-AVC2013.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-beacon.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-coax.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-dodecahexa.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-heli.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-heli-dual.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-hexa.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-octa.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-octaquad.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-optflow.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-rangefinder.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-single.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-tri.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\copter-y6.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\firefly.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\gazebo-iris.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\gazebo-zephyr.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\plane.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\plane-dspoilers.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\plane-elevons.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\plane-jsbsim.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\plane-tailsitter.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\plane-vtail.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\quadplane.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\quadplane-cl84.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\quadplane-tilttri.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\quadplane-tilttrivec.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\quadplane-tri.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\rover.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\rover-skid.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\sub.parm">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\default_params\vee-gull 005.param">
+      <Filter>Tools\autotest\default_params</Filter>
+    </None>
+    <None Include="Tools\autotest\jsb_sim\__init__.py">
+      <Filter>Tools\autotest\jsb_sim</Filter>
+    </None>
+    <None Include="Tools\autotest\jsb_sim\runsim.py">
+      <Filter>Tools\autotest\jsb_sim</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\__init__.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\emit.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\htmlemit.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\mdemit.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\param.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\param_parse.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\rstemit.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\wikiemit.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\param_metadata\xmlemit.py">
+      <Filter>Tools\autotest\param_metadata</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\__init__.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\aircraft.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\fdpexpect.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\fg_display.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\iris_ros.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\rotmat.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\testwind.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\util.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\pysim\vehicleinfo.py">
+      <Filter>Tools\autotest\pysim</Filter>
+    </None>
+    <None Include="Tools\autotest\web\index.html">
+      <Filter>Tools\autotest\web</Filter>
+    </None>
+    <None Include="Tools\autotest\web\css\main.css">
+      <Filter>Tools\autotest\web\css</Filter>
+    </None>
+    <None Include="Tools\autotest\web-firmware\index.html">
+      <Filter>Tools\autotest\web-firmware</Filter>
+    </None>
+    <None Include="Tools\autotest\web-firmware\css\main.css">
+      <Filter>Tools\autotest\web-firmware\css</Filter>
+    </None>
+    <None Include="Tools\autotest\win_sitl\InstallDevEnvironment.ps1">
+      <Filter>Tools\autotest\win_sitl</Filter>
+    </None>
+    <None Include="Tools\autotest\win_sitl\InstallDevEnvironmentAndAPMSource.ps1">
+      <Filter>Tools\autotest\win_sitl</Filter>
+    </None>
+    <None Include="Tools\autotest\win_sitl\jsbsim_install.sh">
+      <Filter>Tools\autotest\win_sitl</Filter>
+    </None>
+    <None Include="Tools\autotest\win_sitl\jsbsimAPM_install.sh">
+      <Filter>Tools\autotest\win_sitl</Filter>
+    </None>
+    <None Include="Tools\autotest\win_sitl\RunCopter.bat">
+      <Filter>Tools\autotest\win_sitl</Filter>
+    </None>
+    <None Include="Tools\autotest\win_sitl\RunPlane.bat">
+      <Filter>Tools\autotest\win_sitl</Filter>
+    </None>
+    <None Include="Tools\autotest\win_sitl\RunRover.bat">
+      <Filter>Tools\autotest\win_sitl</Filter>
+    </None>
+    <None Include="Tools\autotest\win_sitl\UpdateAPMSource.bat">
+      <Filter>Tools\autotest\win_sitl</Filter>
+    </None>
+    <None Include="Tools\autotest\XPlane\Soaring in Seattle.waypoints">
+      <Filter>Tools\autotest\XPlane</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="libraries\AP_HAL_Linux\qflight\qflight_dsp.idl">
@@ -49286,6 +50738,84 @@
     <Xml Include="modules\waf\demos\vala\resources\test.gresource.xml">
       <Filter>modules\waf\demos\vala\resources</Filter>
     </Xml>
+    <Xml Include="Tools\autotest\junit.xml">
+      <Filter>Tools\autotest</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\arducopter.xml">
+      <Filter>Tools\autotest\aircraft\arducopter</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\arducopter-set.xml">
+      <Filter>Tools\autotest\aircraft\arducopter</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\initfile.xml">
+      <Filter>Tools\autotest\aircraft\arducopter</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\plus_quad2.xml">
+      <Filter>Tools\autotest\aircraft\arducopter</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\plus_quad2-set.xml">
+      <Filter>Tools\autotest\aircraft\arducopter</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\Engines\a2830-12.xml">
+      <Filter>Tools\autotest\aircraft\arducopter\Engines</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\Engines\prop10x4.5.xml">
+      <Filter>Tools\autotest\aircraft\arducopter\Engines</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\Models\arducopter.xml">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\arducopter\Models\plus_quad2.xml">
+      <Filter>Tools\autotest\aircraft\arducopter\Models</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Rascal.xml">
+      <Filter>Tools\autotest\aircraft\Rascal</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Rascal110-JSBSim-set.xml">
+      <Filter>Tools\autotest\aircraft\Rascal</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Rascal-keyboard.xml">
+      <Filter>Tools\autotest\aircraft\Rascal</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Rascal-submodels.xml">
+      <Filter>Tools\autotest\aircraft\Rascal</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\reset_CMAC.xml">
+      <Filter>Tools\autotest\aircraft\Rascal</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\reset_template.xml">
+      <Filter>Tools\autotest\aircraft\Rascal</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Dialogs\config.xml">
+      <Filter>Tools\autotest\aircraft\Rascal\Dialogs</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Engines\18x8.xml">
+      <Filter>Tools\autotest\aircraft\Rascal\Engines</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Engines\Zenoah_G-26A.xml">
+      <Filter>Tools\autotest\aircraft\Rascal\Engines</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Models\Rascal110.xml">
+      <Filter>Tools\autotest\aircraft\Rascal\Models</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Models\smokeW.xml">
+      <Filter>Tools\autotest\aircraft\Rascal\Models</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Models\Trajectory-Marker.xml">
+      <Filter>Tools\autotest\aircraft\Rascal\Models</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Systems\110-autopilot.xml">
+      <Filter>Tools\autotest\aircraft\Rascal\Systems</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\aircraft\Rascal\Systems\electrical.xml">
+      <Filter>Tools\autotest\aircraft\Rascal\Systems</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\jsb_sim\fgout_template.xml">
+      <Filter>Tools\autotest\jsb_sim</Filter>
+    </Xml>
+    <Xml Include="Tools\autotest\jsb_sim\rascal_test_template.xml">
+      <Filter>Tools\autotest\jsb_sim</Filter>
+    </Xml>
   </ItemGroup>
   <ItemGroup>
     <Image Include="mk\PX4\Tools\genmsg\doc\ros.png">
@@ -49452,6 +50982,45 @@
     </Image>
     <Image Include="modules\waf\playground\stpl_c_py_cs_satellite_wix\src\gui\Resources\Icon1.ico">
       <Filter>modules\waf\playground\stpl_c_py_cs_satellite_wix\src\gui\Resources</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\3DR_Radio.jpg">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\antenna-tracker.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\ap_rc.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\bg.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\companion.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\copter.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\logo.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\plane.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\planner.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\PX4IO.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\rover.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\sub.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
+    </Image>
+    <Image Include="Tools\autotest\web-firmware\images\tools.png">
+      <Filter>Tools\autotest\web-firmware\images</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
