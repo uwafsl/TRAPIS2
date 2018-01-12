@@ -4907,6 +4907,7 @@
     <Text Include="ArduCopter\ReleaseNotes.txt" />
     <Text Include="ArduPlane\release-notes.txt" />
     <Text Include="ArduSub\ReleaseNotes.txt" />
+    <Text Include="COPYING.txt" />
     <Text Include="libraries\AC_Fence\keywords.txt" />
     <Text Include="libraries\AC_PID\keywords.txt" />
     <Text Include="libraries\AC_WPNav\keywords.txt" />
@@ -9044,6 +9045,15 @@
     <ClInclude Include="Tools\Replay\VehicleType.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".dir-locals.el" />
+    <None Include=".editorconfig" />
+    <None Include=".gitattributes" />
+    <None Include=".github\CONTRIBUTING.md" />
+    <None Include=".github\ISSUE_TEMPLATE.md" />
+    <None Include=".gitignore" />
+    <None Include=".gitmodules" />
+    <None Include=".pydevproject" />
+    <None Include=".travis.yml" />
     <None Include="AntennaTracker\make.inc" />
     <None Include="AntennaTracker\Makefile" />
     <None Include="AntennaTracker\Parameters.pde" />
@@ -9073,6 +9083,21 @@
     <None Include="ArduSub\Makefile.waf" />
     <None Include="ArduSub\Parameters.pde" />
     <None Include="ArduSub\wscript" />
+    <None Include="BUILD.md" />
+    <None Include="docs\build-apmrover2.sh" />
+    <None Include="docs\build-arducopter.sh" />
+    <None Include="docs\build-arduplane.sh" />
+    <None Include="docs\build-libs.sh" />
+    <None Include="docs\config\apmrover2" />
+    <None Include="docs\config\arducopter" />
+    <None Include="docs\config\arduplane" />
+    <None Include="docs\config\default" />
+    <None Include="docs\config\libraries" />
+    <None Include="docs\README" />
+    <None Include="docs\setup.sh" />
+    <None Include="Doxyfile.in" />
+    <None Include="eclipse.cproject" />
+    <None Include="eclipse.project" />
     <None Include="libraries\AC_PID\examples\AC_PID_test\wscript" />
     <None Include="libraries\AP_AdvancedFailsafe\Failsafe_Board\Failsafe_Board.pde" />
     <None Include="libraries\AP_AdvancedFailsafe\Failsafe_Board\Makefile" />
@@ -9215,6 +9240,8 @@
     <None Include="libraries\RC_Channel\examples\RC_Channel\wscript" />
     <None Include="libraries\RC_Channel\examples\RC_UART\wscript" />
     <None Include="libraries\StorageManager\examples\StorageTest\wscript" />
+    <None Include="Makefile" />
+    <None Include="Makefile.waf" />
     <None Include="mk\apm.mk" />
     <None Include="mk\board_linux.mk" />
     <None Include="mk\board_native.mk" />
@@ -14362,6 +14389,8 @@
     <None Include="modules\waf\wscript" />
     <None Include="modules\waf\zip\.gitignore" />
     <None Include="modules\waf\zip\waf-zip" />
+    <None Include="README.md" />
+    <None Include="reformat.sh" />
     <None Include="Tools\APM2_2560_bootloader\Makefile" />
     <None Include="Tools\APM_radio_test\APM_radio_test.pde" />
     <None Include="Tools\APM_radio_test\Makefile" />
@@ -14670,6 +14699,14 @@
     <None Include="Tools\Xplane\serproxy-0.1.3-3\serproxy.cfg" />
     <None Include="Tools\Xplane\serproxy-0.1.3-3\serproxy.cfg copy" />
     <None Include="Tools\Xplane\X-Plane.pl" />
+    <None Include="uncrustify_cpp.cfg" />
+    <None Include="uncrustify_headers.cfg" />
+    <None Include="UpgradeLog.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+    <None Include="Vagrantfile" />
+    <None Include="waf" />
+    <None Include="wscript" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="libraries\AP_HAL_Linux\qflight\qflight_dsp.idl" />

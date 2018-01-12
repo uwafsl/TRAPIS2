@@ -7636,6 +7636,15 @@
     <Filter Include="x64\Debug\ArdupilotAFSL.tlog">
       <UniqueIdentifier>{73c58152-50d8-4e49-810d-d2763fcf0da8}</UniqueIdentifier>
     </Filter>
+    <Filter Include=".github">
+      <UniqueIdentifier>{2ff40b71-7eed-41b9-bab0-375545593b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{d32ba9d5-bd49-4201-9ef9-4359e268a6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs\config">
+      <UniqueIdentifier>{9bc6a5f9-8ebc-4f64-808a-5282b942b3fe}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -24149,6 +24158,7 @@
     <Text Include="Tools\Xplane\serproxy-0.1.3-3\README-wiring.txt">
       <Filter>Tools\Xplane\serproxy-0.1.3-3</Filter>
     </Text>
+    <Text Include="COPYING.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AntennaTracker\APM_Config.h">
@@ -51211,6 +51221,66 @@
     <None Include="Tools\Xplane\serproxy-0.1.3-3\serproxy.cfg copy">
       <Filter>Tools\Xplane\serproxy-0.1.3-3</Filter>
     </None>
+    <None Include=".github\CONTRIBUTING.md">
+      <Filter>.github</Filter>
+    </None>
+    <None Include=".github\ISSUE_TEMPLATE.md">
+      <Filter>.github</Filter>
+    </None>
+    <None Include="docs\build-apmrover2.sh">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="docs\build-arducopter.sh">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="docs\build-arduplane.sh">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="docs\build-libs.sh">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="docs\README">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="docs\setup.sh">
+      <Filter>docs</Filter>
+    </None>
+    <None Include="docs\config\apmrover2">
+      <Filter>docs\config</Filter>
+    </None>
+    <None Include="docs\config\arducopter">
+      <Filter>docs\config</Filter>
+    </None>
+    <None Include="docs\config\arduplane">
+      <Filter>docs\config</Filter>
+    </None>
+    <None Include="docs\config\default">
+      <Filter>docs\config</Filter>
+    </None>
+    <None Include="docs\config\libraries">
+      <Filter>docs\config</Filter>
+    </None>
+    <None Include=".dir-locals.el" />
+    <None Include=".editorconfig" />
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include=".gitmodules" />
+    <None Include=".pydevproject" />
+    <None Include=".travis.yml" />
+    <None Include="BUILD.md" />
+    <None Include="Doxyfile.in" />
+    <None Include="eclipse.cproject" />
+    <None Include="eclipse.project" />
+    <None Include="Makefile" />
+    <None Include="Makefile.waf" />
+    <None Include="README.md" />
+    <None Include="reformat.sh" />
+    <None Include="uncrustify_cpp.cfg" />
+    <None Include="uncrustify_headers.cfg" />
+    <None Include="UpgradeLog.htm" />
+    <None Include="Vagrantfile" />
+    <None Include="waf" />
+    <None Include="wscript" />
   </ItemGroup>
   <ItemGroup>
     <Midl Include="libraries\AP_HAL_Linux\qflight\qflight_dsp.idl">
