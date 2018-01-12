@@ -7561,6 +7561,81 @@
     <Filter Include="Tools\autotest\web-firmware\images">
       <UniqueIdentifier>{3107345e-3216-4269-acab-bf1d8a854960}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tools\CHDK-Scripts\Cannon S100">
+      <UniqueIdentifier>{ded68c12-3109-4e16-a5d4-4fafc90ccd1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\CHDK-Scripts\Cannon SX260">
+      <UniqueIdentifier>{3939a28f-7f43-48a4-bd62-e14b8ce40efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Frame_params\Cannon SX260">
+      <UniqueIdentifier>{8d015b9e-ddea-4dc3-a753-6ef8c93bb4a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Frame_params\Sub">
+      <UniqueIdentifier>{15574595-f6e4-4533-9096-c973ff3b8313}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Frame_params\XPlane">
+      <UniqueIdentifier>{50eece4c-3244-4cde-9ac1-aef80d484ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\devicetree">
+      <UniqueIdentifier>{3972e461-54e3-4821-a27f-cd06efc27d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\RCInput_UART">
+      <UniqueIdentifier>{82a9c941-e562-4375-bb88-dbbf520354ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\pru">
+      <UniqueIdentifier>{fc67afdd-e7f1-47b1-98d9-04ce1adb3ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\devicetree\bbbmini">
+      <UniqueIdentifier>{827ff661-ef6c-46ad-a70a-6157a2b6efb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\devicetree\pxf">
+      <UniqueIdentifier>{98091a36-a89b-44c0-afe5-971f1f187d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\pru\aiopru">
+      <UniqueIdentifier>{9a9afdcd-f119-4bab-b52b-e8aef06116a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\pru\pwmpru">
+      <UniqueIdentifier>{d8ab7470-0667-45a2-963d-f36fbf5df7f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru">
+      <UniqueIdentifier>{2ec35f59-f91b-461a-b0ef-d934681dee11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Linux_HAL_Essentials\pru\rcinpru">
+      <UniqueIdentifier>{ac8803db-c0e7-44cb-a595-dbd58faff929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LogAnalyzer\examples">
+      <UniqueIdentifier>{85028f63-aad7-42ed-98e2-a2f2544a3af1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\LogAnalyzer\tests">
+      <UniqueIdentifier>{0939b0c5-c51e-427e-87ac-6d147a1e7e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\mavproxy_modules\lib">
+      <UniqueIdentifier>{ed6a1521-f27a-4eb8-9586-ed7a30405654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Pozyx\IndoorLoiter">
+      <UniqueIdentifier>{ba733319-6473-48e7-bfcd-d03e2c377d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\SerialProxy\SerialProxy">
+      <UniqueIdentifier>{d49e75c6-6a37-4590-880f-609964c48869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\SerialProxy\SerialProxy\bin">
+      <UniqueIdentifier>{25cd5057-e178-4f50-a9bf-3062edb8a70f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\SerialProxy\SerialProxy\Properties">
+      <UniqueIdentifier>{c6a533de-cc1d-42ea-83de-eb13fae5ff5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\SerialProxy\SerialProxy\bin\Release">
+      <UniqueIdentifier>{6661b612-fd2f-41c7-83d8-d4351ea51d42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Xplane\serproxy-0.1.3-3">
+      <UniqueIdentifier>{b6b103a9-36d5-47b0-8a82-5476fdb0b6da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x64\Debug">
+      <UniqueIdentifier>{ef324997-d5da-46e7-a5b6-ee1a0540d0d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="x64\Debug\ArdupilotAFSL.tlog">
+      <UniqueIdentifier>{73c58152-50d8-4e49-810d-d2763fcf0da8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -21810,6 +21885,39 @@
     <ClCompile Include="Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox\JetiBox.cpp">
       <Filter>Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox</Filter>
     </ClCompile>
+    <ClCompile Include="Tools\CPUInfo\CPUInfo.cpp">
+      <Filter>Tools\CPUInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Hello\Hello.cpp">
+      <Filter>Tools\Hello</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Linux_HAL_Essentials\pru\aiopru\RcAioPRUTest.c">
+      <Filter>Tools\Linux_HAL_Essentials\pru\aiopru</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Linux_HAL_Essentials\pru\pwmpru\pwmpru1.c">
+      <Filter>Tools\Linux_HAL_Essentials\pru\pwmpru</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru\rangefinder.c">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rangefinderpru</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Linux_HAL_Essentials\pru\rcinpru\rcinpru0.c">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rcinpru</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Replay\DataFlashFileReader.cpp">
+      <Filter>Tools\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Replay\LogReader.cpp">
+      <Filter>Tools\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Replay\LR_MsgHandler.cpp">
+      <Filter>Tools\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Replay\MsgHandler.cpp">
+      <Filter>Tools\Replay</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools\Replay\Replay.cpp">
+      <Filter>Tools\Replay</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -24007,6 +24115,39 @@
     </Text>
     <Text Include="Tools\autotest\win_sitl\readme.txt">
       <Filter>Tools\autotest\win_sitl</Filter>
+    </Text>
+    <Text Include="Tools\CHDK-Scripts\Cannon S100\S100 Setup.txt">
+      <Filter>Tools\CHDK-Scripts\Cannon S100</Filter>
+    </Text>
+    <Text Include="Tools\CHDK-Scripts\Cannon SX260\SX260 Setup.txt">
+      <Filter>Tools\CHDK-Scripts\Cannon SX260</Filter>
+    </Text>
+    <Text Include="Tools\CPUInfo\output.txt">
+      <Filter>Tools\CPUInfo</Filter>
+    </Text>
+    <Text Include="Tools\CPUInfo\output-px4.txt">
+      <Filter>Tools\CPUInfo</Filter>
+    </Text>
+    <Text Include="Tools\GIT_Test\GIT_Success.txt">
+      <Filter>Tools\GIT_Test</Filter>
+    </Text>
+    <Text Include="Tools\LogAnalyzer\examples\mechanical_fail.log">
+      <Filter>Tools\LogAnalyzer\examples</Filter>
+    </Text>
+    <Text Include="Tools\LogAnalyzer\examples\nan.log">
+      <Filter>Tools\LogAnalyzer\examples</Filter>
+    </Text>
+    <Text Include="Tools\LogAnalyzer\examples\robert_lefebvre_octo_PM.log">
+      <Filter>Tools\LogAnalyzer\examples</Filter>
+    </Text>
+    <Text Include="Tools\LogAnalyzer\examples\tradheli_brownout.log">
+      <Filter>Tools\LogAnalyzer\examples</Filter>
+    </Text>
+    <Text Include="Tools\LogAnalyzer\examples\underpowered.log">
+      <Filter>Tools\LogAnalyzer\examples</Filter>
+    </Text>
+    <Text Include="Tools\Xplane\serproxy-0.1.3-3\README-wiring.txt">
+      <Filter>Tools\Xplane\serproxy-0.1.3-3</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
@@ -34141,6 +34282,54 @@
     </ClInclude>
     <ClInclude Include="Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox\JetiBox.h">
       <Filter>Tools\ArduPPM\WorkBasket\Jeti_Duplex\Jetibox</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\aiopru\RcAioPRU_BBBLUE_bin.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\aiopru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\aiopru\RcAioPRU_BBBMINI_bin.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\aiopru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\pwmpru\linux_types.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\pwmpru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\pwmpru\pru_defs.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\pwmpru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\pwmpru\prucomm.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\pwmpru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru\pru_ctrl.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rangefinderpru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\rcinpru\linux_types.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rcinpru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\rcinpru\pru_defs.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rcinpru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Linux_HAL_Essentials\pru\rcinpru\prucomm.h">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rcinpru</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Replay\DataFlashFileReader.h">
+      <Filter>Tools\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Replay\LogReader.h">
+      <Filter>Tools\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Replay\LR_MsgHandler.h">
+      <Filter>Tools\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Replay\MsgHandler.h">
+      <Filter>Tools\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Replay\Parameters.h">
+      <Filter>Tools\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Replay\Replay.h">
+      <Filter>Tools\Replay</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools\Replay\VehicleType.h">
+      <Filter>Tools\Replay</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -50563,6 +50752,465 @@
     <None Include="Tools\autotest\XPlane\Soaring in Seattle.waypoints">
       <Filter>Tools\autotest\XPlane</Filter>
     </None>
+    <None Include="Tools\CHDK-Scripts\kap_uav.lua">
+      <Filter>Tools\CHDK-Scripts</Filter>
+    </None>
+    <None Include="Tools\CHDK-Scripts\README.md">
+      <Filter>Tools\CHDK-Scripts</Filter>
+    </None>
+    <None Include="Tools\CHDK-Scripts\Cannon S100\3DR_EAI_S100.lua">
+      <Filter>Tools\CHDK-Scripts\Cannon S100</Filter>
+    </None>
+    <None Include="Tools\CHDK-Scripts\Cannon SX260\3DR_EAI_SX260.lua">
+      <Filter>Tools\CHDK-Scripts\Cannon SX260</Filter>
+    </None>
+    <None Include="Tools\CodeStyle\ardupilot-astyle.sh">
+      <Filter>Tools\CodeStyle</Filter>
+    </None>
+    <None Include="Tools\CodeStyle\astylerc">
+      <Filter>Tools\CodeStyle</Filter>
+    </None>
+    <None Include="Tools\CodeStyle\xmlpretty.py">
+      <Filter>Tools\CodeStyle</Filter>
+    </None>
+    <None Include="Tools\CPUInfo\make.inc">
+      <Filter>Tools\CPUInfo</Filter>
+    </None>
+    <None Include="Tools\CPUInfo\Makefile">
+      <Filter>Tools\CPUInfo</Filter>
+    </None>
+    <None Include="Tools\CPUInfo\wscript">
+      <Filter>Tools\CPUInfo</Filter>
+    </None>
+    <None Include="Tools\Failsafe\Failsafe.pde">
+      <Filter>Tools\Failsafe</Filter>
+    </None>
+    <None Include="Tools\Failsafe\Makefile">
+      <Filter>Tools\Failsafe</Filter>
+    </None>
+    <None Include="Tools\Frame_params\3DR_Iris+_AC34.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\EFlight_Convergence.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\eLAB_EX700_AC34.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\eLAB_EX1050_AC34.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\eLAB_LAB445_AC34.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\eLAB_VEK_AI_Rover.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\intel-aero-rtf.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\Parrot_Bebop.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\Parrot_Bebop2.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\RealFlight-quadx.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\RealFlight-tradheli.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\Solo_AC35.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\SToRM32-MAVLink.param">
+      <Filter>Tools\Frame_params</Filter>
+    </None>
+    <None Include="Tools\Frame_params\Cannon SX260\Parrot_Disco.param">
+      <Filter>Tools\Frame_params\Cannon SX260</Filter>
+    </None>
+    <None Include="Tools\Frame_params\Cannon SX260\rcS_mode_default">
+      <Filter>Tools\Frame_params\Cannon SX260</Filter>
+    </None>
+    <None Include="Tools\Frame_params\Cannon SX260\README.md">
+      <Filter>Tools\Frame_params\Cannon SX260</Filter>
+    </None>
+    <None Include="Tools\Frame_params\Cannon SX260\start_ardupilot.sh">
+      <Filter>Tools\Frame_params\Cannon SX260</Filter>
+    </None>
+    <None Include="Tools\Frame_params\Sub\bluerov2-3_5.params">
+      <Filter>Tools\Frame_params\Sub</Filter>
+    </None>
+    <None Include="Tools\Frame_params\XPlane\NACA_64_xxx_Airfoils_from_TR824.zip">
+      <Filter>Tools\Frame_params\XPlane</Filter>
+    </None>
+    <None Include="Tools\gittools\git-commit-subsystems">
+      <Filter>Tools\gittools</Filter>
+    </None>
+    <None Include="Tools\gittools\git-subsystems-split">
+      <Filter>Tools\gittools</Filter>
+    </None>
+    <None Include="Tools\gittools\path-libraries.sh">
+      <Filter>Tools\gittools</Filter>
+    </None>
+    <None Include="Tools\gittools\path-nonlibraries.sh">
+      <Filter>Tools\gittools</Filter>
+    </None>
+    <None Include="Tools\Hello\make.inc">
+      <Filter>Tools\Hello</Filter>
+    </None>
+    <None Include="Tools\Hello\Makefile">
+      <Filter>Tools\Hello</Filter>
+    </None>
+    <None Include="Tools\Hello\wscript">
+      <Filter>Tools\Hello</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pwmpru1">
+      <Filter>Tools\Linux_HAL_Essentials</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\rcinpru0">
+      <Filter>Tools\Linux_HAL_Essentials</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\README.md">
+      <Filter>Tools\Linux_HAL_Essentials</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\startup.sh">
+      <Filter>Tools\Linux_HAL_Essentials</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\bbbmini\README.md">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\bbbmini</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\BB-BONE-PRU-05-00A0.dtbo">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\BB-BONE-PRU-05-00A0.dts">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\BB-PXF-01-00A0.dtbo">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\BB-PXF-01-00A0.dts">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\BB-SPI0-PXF-01-00A0.dtbo">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\BB-SPI0-PXF-01-00A0.dts">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\BB-SPI1-PXF-01-00A0.dtbo">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\BB-SPI1-PXF-01-00A0.dts">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\devicetree\pxf\Makefile">
+      <Filter>Tools\Linux_HAL_Essentials\devicetree\pxf</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\aiopru\Makefile">
+      <Filter>Tools\Linux_HAL_Essentials\pru\aiopru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\aiopru\RcAioPRU.p">
+      <Filter>Tools\Linux_HAL_Essentials\pru\aiopru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\aiopru\README.md">
+      <Filter>Tools\Linux_HAL_Essentials\pru\aiopru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\pwmpru\lnk-am33xx.cmd">
+      <Filter>Tools\Linux_HAL_Essentials\pru\pwmpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\pwmpru\Makefile">
+      <Filter>Tools\Linux_HAL_Essentials\pru\pwmpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru\AM335x_PRU.cmd">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rangefinderpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru\HexUtil_PRU.cmd">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rangefinderpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru\Makefile">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rangefinderpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru\rangefinderprudata.bin">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rangefinderpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru\rangefinderprutext.bin">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rangefinderpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\rangefinderpru\README.md">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rangefinderpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\rcinpru\lnk-am33xx.cmd">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rcinpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\pru\rcinpru\Makefile">
+      <Filter>Tools\Linux_HAL_Essentials\pru\rcinpru</Filter>
+    </None>
+    <None Include="Tools\Linux_HAL_Essentials\RCInput_UART\pic_firmware.asm">
+      <Filter>Tools\Linux_HAL_Essentials\RCInput_UART</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\DataflashLog.py">
+      <Filter>Tools\LogAnalyzer</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\LogAnalyzer.py">
+      <Filter>Tools\LogAnalyzer</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\UnitTest.py">
+      <Filter>Tools\LogAnalyzer</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\VehicleType.py">
+      <Filter>Tools\LogAnalyzer</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestAutotune.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestBrownout.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestCompass.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestDualGyroDrift.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestDupeLogData.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestEmpty.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestEvents.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestGPSGlitch.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestIMUMatch.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestMotorBalance.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestNaN.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestOptFlow.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestParams.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestPerformance.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestPitchRollCoupling.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestThrust.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestVCC.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\LogAnalyzer\tests\TestVibration.py">
+      <Filter>Tools\LogAnalyzer\tests</Filter>
+    </None>
+    <None Include="Tools\mavproxy_modules\magcal_graph.py">
+      <Filter>Tools\mavproxy_modules</Filter>
+    </None>
+    <None Include="Tools\mavproxy_modules\README.md">
+      <Filter>Tools\mavproxy_modules</Filter>
+    </None>
+    <None Include="Tools\mavproxy_modules\sitl_calibration.py">
+      <Filter>Tools\mavproxy_modules</Filter>
+    </None>
+    <None Include="Tools\mavproxy_modules\lib\__init__.py">
+      <Filter>Tools\mavproxy_modules\lib</Filter>
+    </None>
+    <None Include="Tools\mavproxy_modules\lib\geodesic_grid.py">
+      <Filter>Tools\mavproxy_modules\lib</Filter>
+    </None>
+    <None Include="Tools\mavproxy_modules\lib\magcal_graph_ui.py">
+      <Filter>Tools\mavproxy_modules\lib</Filter>
+    </None>
+    <None Include="Tools\Pozyx\IndoorLoiter\IndoorLoiter.ino">
+      <Filter>Tools\Pozyx\IndoorLoiter</Filter>
+    </None>
+    <None Include="Tools\PPM_decoding\PPM_decoding.pde">
+      <Filter>Tools\PPM_decoding</Filter>
+    </None>
+    <None Include="Tools\PPM_decoding\Timers.pde">
+      <Filter>Tools\PPM_decoding</Filter>
+    </None>
+    <None Include="Tools\Replay\CheckLogs.py">
+      <Filter>Tools\Replay</Filter>
+    </None>
+    <None Include="Tools\Replay\make.inc">
+      <Filter>Tools\Replay</Filter>
+    </None>
+    <None Include="Tools\Replay\Makefile">
+      <Filter>Tools\Replay</Filter>
+    </None>
+    <None Include="Tools\Replay\plotit.sh">
+      <Filter>Tools\Replay</Filter>
+    </None>
+    <None Include="Tools\Replay\wscript">
+      <Filter>Tools\Replay</Filter>
+    </None>
+    <None Include="Tools\scripts\add_git_hashes.py">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_all.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_all_px4.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_all_vrbrain.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_autotest.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_binaries.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_ci.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_devrelease.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_docs.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_examples.py">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_examples.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_parameters.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_vrbrain_binaries.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_vrbrain_branch_binaries.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\build_vrbrain_project_binaries.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\configure-ci.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\decode_devid.py">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\fix_libraries_includes.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\format.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\frame_sizes.py">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\generate-manifest.py">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\install-apt-ci.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\install-prereqs-arch.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\install-prereqs-ubuntu.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\magfit_flashlog.py">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\runfliptest.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\runplanetest.py">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\unpack_mp.sh">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\scripts\update_wiki.py">
+      <Filter>Tools\scripts</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy.sln">
+      <Filter>Tools\SerialProxy</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy.suo">
+      <Filter>Tools\SerialProxy</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\app.config">
+      <Filter>Tools\SerialProxy\SerialProxy</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\Form1.cs">
+      <Filter>Tools\SerialProxy\SerialProxy</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\Form1.Designer.cs">
+      <Filter>Tools\SerialProxy\SerialProxy</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\Program.cs">
+      <Filter>Tools\SerialProxy\SerialProxy</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\SerialProxy.csproj">
+      <Filter>Tools\SerialProxy\SerialProxy</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\SerialProxy.csproj.user">
+      <Filter>Tools\SerialProxy\SerialProxy</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\bin\Release\SerialProxy.exe.config">
+      <Filter>Tools\SerialProxy\SerialProxy\bin\Release</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\bin\Release\SerialProxy.pdb">
+      <Filter>Tools\SerialProxy\SerialProxy\bin\Release</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\Properties\AssemblyInfo.cs">
+      <Filter>Tools\SerialProxy\SerialProxy\Properties</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\Properties\Resources.Designer.cs">
+      <Filter>Tools\SerialProxy\SerialProxy\Properties</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\Properties\Settings.Designer.cs">
+      <Filter>Tools\SerialProxy\SerialProxy\Properties</Filter>
+    </None>
+    <None Include="Tools\SerialProxy\SerialProxy\Properties\Settings.settings">
+      <Filter>Tools\SerialProxy\SerialProxy\Properties</Filter>
+    </None>
+    <None Include="Tools\vagrant\initvagrant.sh">
+      <Filter>Tools\vagrant</Filter>
+    </None>
+    <None Include="Tools\vagrant\README.md">
+      <Filter>Tools\vagrant</Filter>
+    </None>
+    <None Include="Tools\vagrant\screenrc">
+      <Filter>Tools\vagrant</Filter>
+    </None>
+    <None Include="Tools\vagrant\shellinit.sh">
+      <Filter>Tools\vagrant</Filter>
+    </None>
+    <None Include="Tools\Xplane\X-Plane.pl">
+      <Filter>Tools\Xplane</Filter>
+    </None>
+    <None Include="Tools\Xplane\serproxy-0.1.3-3\serproxy">
+      <Filter>Tools\Xplane\serproxy-0.1.3-3</Filter>
+    </None>
+    <None Include="Tools\Xplane\serproxy-0.1.3-3\serproxy.cfg">
+      <Filter>Tools\Xplane\serproxy-0.1.3-3</Filter>
+    </None>
+    <None Include="Tools\Xplane\serproxy-0.1.3-3\serproxy.cfg copy">
+      <Filter>Tools\Xplane\serproxy-0.1.3-3</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Midl Include="libraries\AP_HAL_Linux\qflight\qflight_dsp.idl">
@@ -50816,6 +51464,9 @@
     <Xml Include="Tools\autotest\jsb_sim\rascal_test_template.xml">
       <Filter>Tools\autotest\jsb_sim</Filter>
     </Xml>
+    <Xml Include="Tools\LogAnalyzer\example_output.xml">
+      <Filter>Tools\LogAnalyzer</Filter>
+    </Xml>
   </ItemGroup>
   <ItemGroup>
     <Image Include="mk\PX4\Tools\genmsg\doc\ros.png">
@@ -51047,6 +51698,12 @@
   <ItemGroup>
     <EmbeddedResource Include="modules\waf\playground\stpl_c_py_cs_satellite_wix\src\gui\Resources.resx">
       <Filter>modules\waf\playground\stpl_c_py_cs_satellite_wix\src\gui</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\SerialProxy\SerialProxy\Form1.resx">
+      <Filter>Tools\SerialProxy\SerialProxy</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\SerialProxy\SerialProxy\Properties\Resources.resx">
+      <Filter>Tools\SerialProxy\SerialProxy\Properties</Filter>
     </EmbeddedResource>
   </ItemGroup>
 </Project>
