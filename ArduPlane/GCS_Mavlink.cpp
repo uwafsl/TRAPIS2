@@ -1073,6 +1073,28 @@ void GCS_MAVLINK_Plane::handleMessage(mavlink_message_t* msg)
 
         switch(packet.command) {
 
+            // Custom UW Trapis Message [lat, long, alt]
+            // Case expression nested within switch(packet.command) of command_long_encode 
+        case 999: {
+            Location new_home_loc{};
+            new_home_loc.lat = (int32_t)(packet.param1 * 1.0e7f);
+            new_home_loc.lng = (int32_t)(packet.param2 * 1.0e7f);
+            new_home_loc.alt = (int32_t)(packet.param3 * 100.0f);
+            plane.ahrs.set_home(new_home_loc);
+            plane.home_is_set = HOME_SET_NOT_LOCKED;
+            plane.Log_Write_Home_And_Origin();
+            gcs().send_home(new_home_loc);
+            result = MAV_RESULT_ACCEPTED;
+            gcs().send_text(MAV_SEVERITY_INFO, "Set HOME to %.6f %.6f at %um",
+                (double)(new_home_loc.lat*1.0e-7f),
+                (double)(new_home_loc.lng*1.0e-7f),
+                (uint32_t)(new_home_loc.alt*0.01f));
+
+            result = MAV_RESULT_ACCEPTED;
+            plane.disarm_motors();
+            break;
+        }
+
         case MAV_CMD_DO_CHANGE_SPEED:
             // if we're in failsafe modes (e.g., RTL, LOITER) or in pilot
             // controlled modes (e.g., MANUAL, TRAINING)
