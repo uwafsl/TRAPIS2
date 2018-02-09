@@ -778,17 +778,57 @@ void Plane::update_flight_mode(void)
 
     case WA_SMP: {
         double aileron_controller = g.wa_smp_test;
-        if (aileron_controller > 0.5) {
-            // roll right
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 1000); // centidegrees
-        } else if (aileron_controller < 0.5) {
-            // roll left
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -1000); // centidegrees
-        } else {
-            // keep level
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 0);
+        //if (aileron_controller > 0.5) {
+        //    // roll right
+        //    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 1000); // centidegrees
+        //} else if (aileron_controller < 0.5) {
+        //    // roll left
+        //    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -1000); // centidegrees
+        //} else {
+        //    // keep level
+        //    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 0);
+        //}
+        //break;
+
+        // Get TRAPIS coords from hijacked data structure (see GPS_Mavlink.cpp for more info)
+        struct Location trapis_loc = camera_mount.loc;
+        double Tlat = (double)trapis_loc.lat;
+        double Tlng = (double)trapis_loc.lng;
+        double Talt = (double)trapis_loc.alt;
+
+        double latTest = 0;
+        double testLng = 45.7;
+
+        // Carnation: Using point-slope with two coords
+        // Should flip ailerons when crossing wall next to trailer
+        //double lat1 = 47.671791;
+        //double lat2 = 47.672025;
+        //double lng1 = -121.943638;
+        //double lng2 = -121.943719;
+
+        //double slope = (lat2 - lat1) / (lng2 - lng1);
+        //double testLng = slope * (Tlat - lat1) + lng1;
+
+        // Fountain
+        // Should flip ailerson after crossing middle of Rainier Vista
+        //double lat1 = 47.654172;
+        //double lng1 = -122.308047;
+        //double lat2 = 47.653452;
+        //double lng2 = -122.307546;
+
+        //double slope = (lat2 - lat1) / (lng2 - lng1);
+        //double testLng = slope * (Tlat - lat1) + lng1;
+
+        // Fountain: If on AERB side of the fountain, go 10 degrees on ailerons
+        //           Otherwise, go -10 degrees
+        // Carnation: If on Trailer side of the wall, go 10 degrees on ailerons
+        //           Otherwise, go -10 degrees
+        if (Tlat > testLng) {
+            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 1000);
         }
-        break;
+        else {
+            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -1000);
+        }
     }
 
     case WA_STEER: {
