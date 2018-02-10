@@ -791,23 +791,19 @@ void Plane::update_flight_mode(void)
         //break;
 
         // Get TRAPIS coords from hijacked data structure (see GPS_Mavlink.cpp for more info)
-        struct Location trapis_loc = camera_mount.loc;
-        double Tlat = (double)trapis_loc.lat;
-        double Tlng = (double)trapis_loc.lng;
-        double Talt = (double)trapis_loc.alt;
-
-        double latTest = 0;
-        double testLng = 45.7;
+        double Tlat = trapis.lat;
+        double Tlng = trapis.lng;
+        double Talt = trapis.alt;
 
         // Carnation: Using point-slope with two coords
         // Should flip ailerons when crossing wall next to trailer
-        //double lat1 = 47.671791;
-        //double lat2 = 47.672025;
-        //double lng1 = -121.943638;
-        //double lng2 = -121.943719;
+        double lat1 = 47.671791;
+        double lat2 = 47.672025;
+        double lng1 = -121.943638;
+        double lng2 = -121.943719;
 
-        //double slope = (lat2 - lat1) / (lng2 - lng1);
-        //double testLng = slope * (Tlat - lat1) + lng1;
+        double slope = (lat2 - lat1) / (lng2 - lng1);
+        double testLng = slope * (Tlat - lat1) + lng1;
 
         // Fountain
         // Should flip ailerson after crossing middle of Rainier Vista
@@ -823,7 +819,7 @@ void Plane::update_flight_mode(void)
         //           Otherwise, go -10 degrees
         // Carnation: If on Trailer side of the wall, go 10 degrees on ailerons
         //           Otherwise, go -10 degrees
-        if (Tlat > testLng) {
+        if (Tlng < testLng) {
             SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 1000);
         }
         else {
@@ -871,7 +867,8 @@ void Plane::update_flight_mode(void)
     }
 
     case ACRO: {
-        // handle locked/unlocked control
+
+         //handle locked/unlocked control
         if (acro_state.locked_roll) {
             nav_roll_cd = acro_state.locked_roll_err;
         } else {

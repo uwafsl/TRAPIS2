@@ -1077,21 +1077,20 @@ void GCS_MAVLINK_Plane::handleMessage(mavlink_message_t* msg)
             // Case expression nested within switch(packet.command) of command_long_encode 
         case 999: {
             //msg
-            int32_t Tlat = packet.param1;
-            int32_t Tlng = packet.param2;
-            int32_t Talt = packet.param3;
-            if (plane.control_mode == MANUAL) {                
+            double Tlat = packet.param1;
+            double Tlng = packet.param2;
+            double Talt = packet.param3;
+            if (plane.control_mode == WA_SMP || plane.control_mode == WA_STEER) {                
                 // Hijack Mount's ROI Location Fields to use in WA_SMP
-                Location trapis_loc;
-                plane.camera_mount.loc = trapis_loc;
-                
+                plane.trapis.lat = Tlat;
+                plane.trapis.lng = Tlng;
+                plane.trapis.alt = Talt;
+
                 gcs().send_text(MAV_SEVERITY_INFO, "Set GPS to %.6f %.6f",
                     Tlat,
                     Tlng);
             }
             result = MAV_RESULT_ACCEPTED;
-            ////jkljlkjlkj
-            //jl;jlk;jl;k
             break;
             
         }

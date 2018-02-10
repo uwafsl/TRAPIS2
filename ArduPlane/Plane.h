@@ -1,4 +1,4 @@
-﻿/*
+/*
    Lead developer: Andrew Tridgell & Tom Pittenger
 
    Authors:    Doug Weibel, Jose Julio, Jordi Munoz, Jason Short, Randy Mackay, Pat Hickey, John Arne Birkeland, Olivier Adler, Amilcar Lucas, Gregory Fletcher, Paul Riseborough, Brandon Jones, Jon Challinger
@@ -439,6 +439,12 @@ private:
         InnerLoopController ILC;
         OuterLoopController OLC;
     } uw_mode_2_state;
+
+    struct {
+        double lat;
+        double lng;
+        double alt;
+    } trapis;
     //UWAFSL END
 
 

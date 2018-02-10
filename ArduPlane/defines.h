@@ -60,18 +60,18 @@ enum FlightMode {
     AVOID_ADSB    = 14,
     GUIDED        = 15,
     INITIALISING  = 16,
-    QSTABILIZE    = 17,
-    QHOVER        = 18,
+    //UWAFSL START
+    WA_SMP        = 17,
+    WA_STEER      = 18,
     QLOITER       = 19,
     QLAND         = 20,
     QRTL          = 21,
-    //UWAFSL START
     UW_MODE_1     = 22,
     UW_MODE_2     = 23,
     UW_MODE_3     = 24,
 	UW_MODE_4     = 25,
-    WA_SMP        = 26,
-	WA_STEER	  = 27
+    QSTABILIZE    = 26,
+	QHOVER	      = 27
     //UWAFSL END
 };
 
