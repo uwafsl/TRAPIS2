@@ -1,4 +1,5 @@
 Release 3.8.0, 5th August 2017
+UWAFSL Wing Leveler Edits February 2018
 ------------------------------
 
 The ArduPilot development team is very proud to announce the release
