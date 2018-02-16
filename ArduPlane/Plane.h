@@ -31,6 +31,7 @@
 
 //UWAFSL START
 #include <OrbitControl/OrbitControl.h>
+#include <WASteer/WASteer.h>
 //UWAFSL END
 
 #include <AP_HAL/AP_HAL.h>
@@ -439,6 +440,12 @@ private:
         InnerLoopController ILC;
         OuterLoopController OLC;
     } uw_mode_2_state;
+
+    struct {
+        WingLeveler WL;
+        AltitudeHold AH;
+        //Steer STR;
+    } wa_steer_state;
 
     struct {
         double lat;

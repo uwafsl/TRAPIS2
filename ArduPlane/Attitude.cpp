@@ -388,6 +388,10 @@ void Plane::stabilize()
         // nothing to do
         return;
     }
+    if (control_mode == WA_STEER) {
+        // nothing to do
+        return;
+    }
     //UWAFSL END
 
     if (control_mode == TRAINING) {

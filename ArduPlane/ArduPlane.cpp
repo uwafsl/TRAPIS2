@@ -777,7 +777,7 @@ void Plane::update_flight_mode(void)
 	}
 
     case WA_SMP: {
-        double aileron_controller = g.wa_smp_test;
+        //double aileron_controller = g.wa_smp_test;
         //if (aileron_controller > 0.5) {
         //    // roll right
         //    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 1000); // centidegrees
@@ -828,7 +828,32 @@ void Plane::update_flight_mode(void)
     }
 
     case WA_STEER: {
-        // fill in mode
+
+        //angles
+        double p = ahrs.get_gyro().x;
+        double q = ahrs.get_gyro().y;
+        double r = ahrs.get_gyro().z;
+        //roll and pitch
+        double phi = ahrs.roll;
+        double theta = ahrs.pitch;
+        //altitude
+        double alt = relative_altitude; //(m)
+
+        double dA = wa_steer_state.WL.computeAileronDeflection(phi, p);
+        double dE = wa_steer_state.AH.computeElevatorDeflection(alt, theta, q);
+
+        // figure out how to get correct inputs for this (heading to desired waypoint)
+        //double dR = wa_steer_state.STR.computeRudderDeflection(
+
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * 100 * 180 / 3.14); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * 100 * 180 / 3.14); //centidegrees
+        //steering_control.steering = steering_control.rudder = -dR * 100 * 180 / 3.14; //Units: centi-degrees
+
+        // set RC channel 3 PWM (throttle)
+
+        // For use only in simulation
+        // SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 50); //percentage
+
         break;
     }
 

@@ -61,3 +61,4 @@ LIBRARIES += AP_Beacon
 LIBRARIES += PID
 LIBRARIES += AP_Soaring
 LIBRARIES += OrbitControl
+LIBRARIES += WASteer
