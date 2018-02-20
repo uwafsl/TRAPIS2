@@ -18,6 +18,7 @@
 #include <AP_HAL/utility/RingBuffer.h>
 #include <AP_Frsky_Telem/AP_Frsky_Telem.h>
 #include <AP_ServoRelayEvents/AP_ServoRelayEvents.h>
+#include <AP_Camera/AP_Camera.h>
 
 // check if a message will fit in the payload space available
 #define HAVE_PAYLOAD_SPACE(chan, id) (comm_get_txspace(chan) >= GCS_MAVLINK::packet_overhead_chan(chan)+MAVLINK_MSG_ID_ ## id ## _LEN)
@@ -44,6 +45,9 @@ enum ap_message {
     MSG_RAW_IMU2,
     MSG_RAW_IMU3,
     MSG_GPS_RAW,
+    MSG_GPS_RTK,
+    MSG_GPS2_RAW,
+    MSG_GPS2_RTK,
     MSG_SYSTEM_TIME,
     MSG_SERVO_OUT,
     MSG_NEXT_WAYPOINT,
@@ -74,7 +78,7 @@ enum ap_message {
     MSG_BATTERY_STATUS,
     MSG_AOA_SSA,
     MSG_LANDING,
-    MSG_RETRY_DEFERRED // this must be last
+    MSG_LAST // MSG_LAST must be the last entry in this enum
 };
 
 ///
@@ -190,7 +194,10 @@ public:
 
     // send queued parameters if needed
     void send_queued_parameters(void);
-    
+
+    // push send_message() messages and queued statustext messages etc:
+    void retry_deferred();
+
     /*
       send a MAVLink message to all components with this vehicle's system id
       This is a no-op if no routes to components have been learned
@@ -222,6 +229,7 @@ protected:
     virtual AP_Mission *get_mission() = 0;
     virtual AP_Rally *get_rally() const = 0;
     virtual Compass *get_compass() const = 0;
+    virtual class AP_Camera *get_camera() const = 0;
     virtual AP_ServoRelayEvents *get_servorelayevents() const = 0;
     virtual AP_GPS *get_gps() const = 0;
 
@@ -258,12 +266,10 @@ protected:
     void handle_common_rally_message(mavlink_message_t *msg);
     void handle_rally_fetch_point(mavlink_message_t *msg);
     void handle_rally_point(mavlink_message_t *msg);
-
+    void handle_common_camera_message(const mavlink_message_t *msg);
     void handle_gimbal_report(AP_Mount &mount, mavlink_message_t *msg) const;
     void handle_radio_status(mavlink_message_t *msg, DataFlash_Class &dataflash, bool log_radio);
     void handle_serial_control(mavlink_message_t *msg, AP_GPS &gps);
-
-    void handle_gps_inject(const mavlink_message_t *msg, AP_GPS &gps);
 
     void handle_common_message(mavlink_message_t *msg);
     void handle_setup_signing(const mavlink_message_t *msg);
@@ -282,6 +288,17 @@ protected:
     MAV_RESULT handle_command_preflight_set_sensor_offsets(const mavlink_command_long_t &packet);
     MAV_RESULT handle_command_mag_cal(const mavlink_command_long_t &packet);
     MAV_RESULT handle_command_long_message(mavlink_command_long_t &packet);
+    MAV_RESULT handle_command_camera(const mavlink_command_long_t &packet);
+
+    // vehicle-overridable message send function
+    virtual bool try_send_message(enum ap_message id);
+
+    // message sending functions:
+    bool try_send_compass_message(enum ap_message id);
+    bool try_send_mission_message(enum ap_message id);
+    bool try_send_camera_message(enum ap_message id);
+    bool try_send_gps_message(enum ap_message id);
+    void send_hwstatus();
 
 private:
 
@@ -344,8 +361,9 @@ private:
     static AP_HAL::Util::perf_counter_t _perf_packet;
     static AP_HAL::Util::perf_counter_t _perf_update;
             
-    // deferred message handling
-    enum ap_message deferred_messages[MSG_RETRY_DEFERRED];
+    // deferred message handling.  We size the deferred_message
+    // ringbuffer so we can defer every message type
+    enum ap_message deferred_messages[MSG_LAST];
     uint8_t next_deferred_message;
     uint8_t num_deferred_messages;
 
@@ -398,12 +416,11 @@ private:
     // a vehicle can optionally snoop on messages for other systems
     static void (*msg_snoop)(const mavlink_message_t* msg);
 
-    // vehicle specific message send function
-    virtual bool try_send_message(enum ap_message id) = 0;
-
     virtual bool handle_guided_request(AP_Mission::Mission_Command &cmd) = 0;
     virtual void handle_change_alt_request(AP_Mission::Mission_Command &cmd) = 0;
     void handle_common_mission_message(mavlink_message_t *msg);
+
+    void push_deferred_messages();
 
     void lock_channel(mavlink_channel_t chan, bool lock);
 
@@ -452,6 +469,8 @@ public:
     void send_message(enum ap_message id);
     void send_mission_item_reached_message(uint16_t mission_index);
     void send_home(const Location &home) const;
+    // push send_message() messages and queued statustext messages etc:
+    void retry_deferred();
     void data_stream_send();
     void update();
     virtual void setup_uarts(AP_SerialManager &serial_manager);

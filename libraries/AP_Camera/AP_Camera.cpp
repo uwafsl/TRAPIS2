@@ -77,7 +77,7 @@ const AP_Param::GroupInfo AP_Camera::var_info[] = {
     // @Units: deg
     // @Range: 0 180
     AP_GROUPINFO("MAX_ROLL",  7, AP_Camera, _max_roll, 0),
- 
+
     // @Param: FEEDBACK_PIN
     // @DisplayName: Camera feedback pin
     // @Description: pin number to use for save accurate camera feedback messages. If set to -1 then don't use a pin flag for this, otherwise this is a pin number which if held high after a picture trigger order, will save camera messages when camera really takes a picture. A universal camera hot shoe is needed. The pin should be held high for at least 2 milliseconds for reliable trigger detection. See also the CAM_FEEDBACK_POL option. If using AUX4 pin on a Pixhawk then a fast capture method is used that allows for the trigger time to be as short as one microsecond.
@@ -91,7 +91,7 @@ const AP_Param::GroupInfo AP_Camera::var_info[] = {
     // @Values: 0:TriggerLow,1:TriggerHigh
     // @User: Standard
     AP_GROUPINFO("FEEDBACK_POL",  9, AP_Camera, _feedback_polarity, 1),
-    
+
     AP_GROUPEND
 };
 
@@ -128,8 +128,7 @@ AP_Camera::relay_pic()
 
 /// single entry point to take pictures
 ///  set send_mavlink_msg to true to send DO_DIGICAM_CONTROL message to all components
-void
-AP_Camera::trigger_pic(bool send_mavlink_msg)
+void AP_Camera::trigger_pic()
 {
     setup_feedback_callback();
 
@@ -144,19 +143,7 @@ AP_Camera::trigger_pic(bool send_mavlink_msg)
         break;
     }
 
-    if (send_mavlink_msg) {
-        // create command long mavlink message
-        mavlink_command_long_t cmd_msg;
-        memset(&cmd_msg, 0, sizeof(cmd_msg));
-        cmd_msg.command = MAV_CMD_DO_DIGICAM_CONTROL;
-        cmd_msg.param5 = 1;
-        // create message
-        mavlink_message_t msg;
-        mavlink_msg_command_long_encode(0, 0, &msg, &cmd_msg);
-
-        // forward to all components
-        GCS_MAVLINK::send_to_components(&msg);
-    }
+    log_picture();
 }
 
 /// de-activate the trigger after some delay, but without using a delay() function
@@ -184,7 +171,7 @@ AP_Camera::trigger_pic_cleanup()
 
 /// decode deprecated MavLink message that controls camera.
 void
-AP_Camera::control_msg(mavlink_message_t* msg)
+AP_Camera::control_msg(const mavlink_message_t* msg)
 {
     __mavlink_digicam_control_t packet;
     mavlink_msg_digicam_control_decode(msg, &packet);
@@ -258,12 +245,12 @@ void AP_Camera::send_feedback(mavlink_channel_t chan)
         altitude_rel = current_loc.alt - ahrs.get_home().alt;
     }
 
-    mavlink_msg_camera_feedback_send(chan, 
+    mavlink_msg_camera_feedback_send(chan,
         gps.time_epoch_usec(),
         0, 0, _image_index,
         current_loc.lat, current_loc.lng,
-        altitude/100.0f, altitude_rel/100.0f,
-        ahrs.roll_sensor/100.0f, ahrs.pitch_sensor/100.0f, ahrs.yaw_sensor/100.0f,
+        altitude*1e-2, altitude_rel*1e-2,
+        ahrs.roll_sensor*1e-2, ahrs.pitch_sensor*1e-2, ahrs.yaw_sensor*1e-2,
         0.0f,CAMERA_FEEDBACK_PHOTO);
 }
 
@@ -351,7 +338,7 @@ bool AP_Camera::check_trigger_pin(void)
 void AP_Camera::capture_callback(void *context, uint32_t chan_index,
                                  hrt_abstime edge_time, uint32_t edge_state, uint32_t overflow)
 {
-    _camera_triggered = true;    
+    _camera_triggered = true;
 }
 #endif
 
@@ -377,7 +364,7 @@ void AP_Camera::setup_feedback_callback(void)
                 gcs().send_text(MAV_SEVERITY_WARNING, "Camera: unable to setup 3PWM1CAP\n");
                 close(fd);
                 goto failed;
-            }   
+            }
             if (up_input_capture_set(3, _feedback_polarity==1?Rising:Falling, 0, capture_callback, this) != 0) {
                 gcs().send_text(MAV_SEVERITY_WARNING, "Camera: unable to setup timer capture\n");
                 close(fd);

@@ -2,7 +2,7 @@ ArduPilot Copter Release Notes:
 ------------------------------------------------------------------
 Copter 3.5.1 31-July-2017 / 3.5.1-rc1 24-July-2017
 Changes from 3.5.0
-1) fix to RC input corruption when using Spektrum DSMx with Pixracer 
+1) fix to RC input corruption when using Spektrum DSMx with Pixracer
 ------------------------------------------------------------------
 Copter 3.5.0 17-July-2017 / 3.5.0-rc11 12-July-2017
 Changes from 3.5-rc10
@@ -36,7 +36,7 @@ Changes from 3.5-rc7
 2) Allow flight controller to boot even if critical sensors fail (previously stopped at startup and displayed message people could rarely see)
 3) Minor enhancements:
     a) Landing Gear retracts/deploys only when pilot first moves switch (previously would always deploy on startup)
-    b) BeagleBoneBlue supports external compass, OLED display 
+    b) BeagleBoneBlue supports external compass, OLED display
 4) Bug fixes:
     a) increase pilot stick dead zones for roll, pitch and yaw (still slightly more narrow than AC3.4)
     b) increase default roll, pitch and yaw rate IMAX values to 0.5, reduce default yaw rate filter to 2.5hz
@@ -76,7 +76,7 @@ Changes from 3.5-rc4
 9) Piksi "Multi" GPS support
 10) Performance Improvements:
     a) inter-EKF scheduling cooperation (improves load balancing when using multiple EKFs)
-    b) parameter requests from GCS processed asynchronously (resolves bad flight behaviour when fetching params in-flight) 
+    b) parameter requests from GCS processed asynchronously (resolves bad flight behaviour when fetching params in-flight)
     c) display performance improvements
 1) Bug fixes including:
     a) LSM303D (Pixhawk's backup IMU) timing fixes
@@ -103,7 +103,7 @@ Changes from 3.5-rc2
 2) bug fix to detect SBUS failsafe on Pixracer
 3) bug fix to Gimbal servo reversing
 4) ensure WPNAV_LOIT_SPEED is non-zero to avoid divide-by-zero
-5) Fence pre-arm check failure messages clarified 
+5) Fence pre-arm check failure messages clarified
 ------------------------------------------------------------------
 Copter 3.5-rc2 13-Mar-2017
 Changes from 3.5-rc1
@@ -150,7 +150,7 @@ Changes from 3.4.4
 5) Precision Loiter using IRLock sensor (set CH7_OPT to 39)
 6) Delivery improvements:
    a) Servo gripper (http://ardupilot.org/copter/docs/common-gripper-servo.html)
-   b) Package_Place mission command (drops package without vehicle landing) 
+   b) Package_Place mission command (drops package without vehicle landing)
 7) Pozyx support for Non-GPS flight (http://ardupilot.org/copter/docs/common-pozyx.html)
 8) EKF improvements:
     a) improved blending of optical flow and GPS
@@ -158,14 +158,14 @@ Changes from 3.4.4
     c) improvements when using range finder as primary height reference
 9) Object Avoidance improvements (http://ardupilot.org/dev/docs/code-overview-object-avoidance.html):
     a) uses mini-fence
-    b) accepts MAVLink distance-sensor messages 
-    c) simple avoidance in AltHold mode 
+    b) accepts MAVLink distance-sensor messages
+    c) simple avoidance in AltHold mode
 10) Other improvements:
     a) pre-arm check that logging is working
     b) better reporting of battery failsafe to ground stations
     c) reduced minimum waypoint speed to 20cm/s
     d) Flight time recorder (http://ardupilot.org/copter/docs/common-flight-time-recorder.html)
-    e) UBlox GPS baud rate fix (was occasionally selecting wrong rate) 
+    e) UBlox GPS baud rate fix (was occasionally selecting wrong rate)
 11) Technical improvements (users may not see a functional change):
     a) in-tree drivers lead to improved sharing of drivers with Linux boards
     b) copter arming checks consolidated with other vehicles
@@ -176,7 +176,7 @@ Changes from 3.4.5
 ------------------------------------------------------------------
 Copter 3.4.5 11-Feb-2017
 Changes from 3.4.4
-1) Bug fix to Guided mode that could lead to crash after take-off completes if MOT_THST_HOVER too high 
+1) Bug fix to Guided mode that could lead to crash after take-off completes if MOT_THST_HOVER too high
 ------------------------------------------------------------------
 Copter 3.4.4 06-Jan-2017 / Copter 3.4.4-rc1 21-Dec-2016
 Changes from 3.4.3
@@ -194,7 +194,7 @@ Changes from 3.4.2
     a) reduce unnecessary EKF core switching and fix position reset
     b) attitude control does not limit rate if ATC_ACCEL_MAX is zero
     c) ignore arm command from GCS if already armed
-    d) set land-complete to false during auto takeoff 
+    d) set land-complete to false during auto takeoff
     e) onboard compass calibration memory init fix that could lead to failure to complete
 2) Minor Improvements:
     a) LeddarOne driver robustness improvements
@@ -211,9 +211,9 @@ Changes from 3.4.1
     d) arming check for compass health (was previously only a pre-arm check)
 2) Bug Fixes:
     a) compass calibration (onboard) fix to return completion status
-    b) LeddarOne driver busy-wait fix 
-    c) SBF GPS altitude and accuracy reporting fix 
-    d) MAV GPS uses existing configured baud rate instead of auto detecting 
+    b) LeddarOne driver busy-wait fix
+    c) SBF GPS altitude and accuracy reporting fix
+    d) MAV GPS uses existing configured baud rate instead of auto detecting
 ------------------------------------------------------------------
 Copter 3.4.1 01-Nov-2016
 Changes from 3.4.0
@@ -237,7 +237,7 @@ Changes from 3.4.0-rc5
 1) Object Avoidance with SF40c 360 lidar
 2) ACRO_Y_EXPO parameter allows exponential yaw in ACRO mode (slow yaw at mid stick but fast response at full stick)
 3) ACRO_THR_MID parameter allows custom mid throttle for ACRO mode
-4) Precision Landing reliability and accuracy improvements using mini EKF and adding IRLock lens distortion correction 
+4) Precision Landing reliability and accuracy improvements using mini EKF and adding IRLock lens distortion correction
 5) Bug fixes, minor improvements:
     a) fix DSM binding on Pixracer
     b) resolved position jump caused by EKF core change (also added logging and reporting to GCS)
@@ -281,7 +281,7 @@ Changes from 3.4.0-rc2
     b) LAND_SPEED_HIGH allows specifying vertical descent speed separate from WPNAV_SPEED_DN during the initial descent in LAND mode (and final stage of RTL)
     c) improved USB driver reliability for windows users (NuttX change)
     d) report dataflash logging health to ground station
-    e) Guided mode accepts yaw rate from SET_ATTITUDE_TARGET message 
+    e) Guided mode accepts yaw rate from SET_ATTITUDE_TARGET message
 ------------------------------------------------------------------
 Copter 3.4.0-rc2 08-Aug-2016
 Changes from 3.4.0-rc1
@@ -300,7 +300,7 @@ Changes from 3.4.0-rc1
     b) Guided_NoGPS flight mode added to allow companion computer control in non-GPS environments
     c) stop at fence if using velocity controller, reject points outside fence if using position controller
 6) Throw Mode:
-    a) THROW_NEXTMODE parameter allows copter to switch to Auto, Guided, RTL, Land or Brake after throw is complete  
+    a) THROW_NEXTMODE parameter allows copter to switch to Auto, Guided, RTL, Land or Brake after throw is complete
     b) Throw mode fixes so motors reliably start
 7) Attitude controller:
     a) use Quaternions instead of Euler angles
@@ -310,7 +310,7 @@ Changes from 3.4.0-rc1
     a) AutoTune fix so that gains don't fall too low
     b) Rally points with altitudes no longer cause vehicle to climb above fence during RTL
     c) various EKF fixes including bug in initialisation of declination co-variances
-    d) SingleCopter, CoaxCopter flag gains 
+    d) SingleCopter, CoaxCopter flag gains
 10) Small enhancements:
     a) Rally points outside fence are ignored
     b) AP_Button support added to allow ground station to see if user has pushed a button on the flight controller
@@ -318,7 +318,7 @@ Changes from 3.4.0-rc1
     d) support for GPS_INPUT mavlink message to allow supplying vehicle position data from other sources
     e) NAV_DELAY mission command to delay start of mission (or individual command) until a specified absolute time
     e) TKOFF_NAV_ALT param allows take-off with no horizontal position hold until vehicle reaches specified altitude (intended mostly for helicopters)
-    f) SCHED_LOOP_RATE param allows slowing main loop rate from default of 400 (intended for developers only) 
+    f) SCHED_LOOP_RATE param allows slowing main loop rate from default of 400 (intended for developers only)
 11) Safety (in addition to Fence improvements above):
     a) Motors begin spinning 2 seconds after arming (previously motors spun immediately)
 ------------------------------------------------------------------
@@ -332,7 +332,7 @@ Changes from 3.3.3
     c) Bebop sonar support
 4) Precision Landing using IRLock sensor
 5) Attitude controller re-organisation (all parameter changes automatically moved and scales adjusted)
-    a) RATE_ parameters become ATC_RAT_ (i.e. RATE_RLL_P becomes ATC_RAT_RLL_P) 
+    a) RATE_ parameters become ATC_RAT_ (i.e. RATE_RLL_P becomes ATC_RAT_RLL_P)
     b) Rate Roll, Pitch, Yaw P, D are reduced by 10% for X, V, H frames, increased by 27% for all other frames
     c) STB_ parameters becomes ATC_ANG_ (i.e. STB_RLL_P becomes ATC_ANG_RLL_P)
 6) Motors library improvements:
@@ -341,9 +341,9 @@ Changes from 3.3.3
     c) SingleCopter, CoaxCopter adjust control surfaces based on throttle output
     d) MOT_PWM_MIN, MAX allow specifying output ranges to ESCs which are difference from throttle input channel (i.e. RC3)
     e) TradHeli servo objects moved into heli class (HSV_ parameters become H_SV_)
-7) uAvionix Ping sensor support (ADS-B vehicles appear on GCS, avoidance will come in future release) 
+7) uAvionix Ping sensor support (ADS-B vehicles appear on GCS, avoidance will come in future release)
 8) Safety:
-    a) warning if GPS update rate is slow (under 5hz, does not stop arming) 
+    a) warning if GPS update rate is slow (under 5hz, does not stop arming)
 ------------------------------------------------------------------
 Copter 3.3.3 24-Feb-2016 / 3.3.3-rc2 27-Jan-2016
 Changes from 3.3.3-rc1
@@ -362,7 +362,7 @@ Changes from 3.3.2-rc1
 2) Fix to hard landings when WPNAV_SPEED_DN set high in RTL, Auto (resolved by using non-feedforward alt hold)
 3) Reduce Bad AHRS by filtering innovations
 4) Allow arming without GPS if using Optical Flow
-5) Smoother throttle output in Guided mode's velocity control (z-axis now 400hz) 
+5) Smoother throttle output in Guided mode's velocity control (z-axis now 400hz)
 ------------------------------------------------------------------
 Copter 3.3.2-rc1 4-Nov-2015
 Changes from 3.3.1
@@ -474,7 +474,7 @@ Changes from 3.3-rc5
     c) improvements to step tests
 3) Improved crash check:
     a) allow triggering even if pilot doesn't move throttle to zero
-    b) easier triggering by removing baro check and using angle error instead of absolute tilt angle 
+    b) easier triggering by removing baro check and using angle error instead of absolute tilt angle
 4) TradHeli:
     a) swash moves while landed in AltHold mode
     b) improvements to land detector
@@ -496,22 +496,22 @@ Changes from 3.3-rc4
 1) Fix AHRS bad gyro health message caused by timing jitter and log IMU health
 2) TradHeli:
     a) better default rate PIDs
-    b) Collective pitch output now operates even when disarmed 
+    b) Collective pitch output now operates even when disarmed
 3) Small changes/fixes:
-    a) GCS can use MAV_CMD_MISSION_START to start mission in AUTO even without pilot raising throttle 
+    a) GCS can use MAV_CMD_MISSION_START to start mission in AUTO even without pilot raising throttle
     b) GCS can force disarming even in flight by setting param2 to "21196"
     c) rc-override timeout reduced from 2 seconds to 1 (applies when using GCS joysticks to control vehicle)
     d) do-set-speed fix so it takes effect immediately during missions
-    e) GCS failsafe disarms vehicle if already landed (previously it could RTL) 
+    e) GCS failsafe disarms vehicle if already landed (previously it could RTL)
 ------------------------------------------------------------------
 Copter 3.3-rc4 17-May-2015
 Changes from 3.3-rc3
 1) AutoTune:
     a) save roll, pitch, yaw rate acceleration limits along with gains
-    b) more conservative gains 
+    b) more conservative gains
 2) Roll, pitch rate control feed-forward now on by default (set ATC_RATE_FF_ENAB to "0" to disable)
 3) Serial ports increased to maximum of 4 (set SERIALX_PROTOCOL to 1)
-4) MOT_THR_MIX_MIN param to control minimum throttle vs attitude during landing (higher = more attitude control but bumpier landing) 
+4) MOT_THR_MIX_MIN param to control minimum throttle vs attitude during landing (higher = more attitude control but bumpier landing)
 5) EKF fixes/improvements
     a) prevent yaw errors during fast spins
     b) bug fix preventing external selection of optical flow mode
@@ -520,7 +520,7 @@ Changes from 3.3-rc3
     b) fix altitude check to be alt-above-home (was alt-above ekf origin which could be slightly different)
 7) TradHeli:
     a) parameters moved to stop possibility of corruption if board is switched between tradheli and multicopter firmware.  Heli users may need to re-setup some heli-specific params.
-    b) H_COLYAW param can be float 
+    b) H_COLYAW param can be float
 8) Small Improvements / Bug Fixes:
     a) reduced spline overshoot after very long track followed by very short track
     b) log entire mission to dataflash whenever it's uploaded
@@ -533,7 +533,7 @@ Changes from 3.3-rc1
 1) AutoTune reliability fixes (improved filtering to reduce noise interference)
 2) Optical flow improvements:
     a) Range Finder pre-arm check - lift vehicle between 50cm ~ 2m before arming.  Can be disabled by setting ARMING_CHECK to "Skip Params/Sonar"
-    b) Vehicle altitude limited to range finder altitude when optical flow is enabled 
+    b) Vehicle altitude limited to range finder altitude when optical flow is enabled
 3) AltHold & Take-off changes:
     a) feed-forward controller and jerk limiting should result in slightly snappier performance and smoother take-offs
     b) vehicle climbs automatically to PILOT_TKOFF_ALT alt when taking off in Loiter, AltHold, PosHold, Sport (disabled by default, pilot's throttle input overrides takeoff)
@@ -548,7 +548,7 @@ Changes from 3.3-rc1
 7) landing detector simplified to only check vehicle is not accelerating & motors have hit their lower limit
 8) Loiter tuning params to remove "freight train" stops:
        raising WPNAV_LOIT_MAXA makes vehicle start and stop faster
-       raising WPNAV_LOIT_MINA makes vehicle stop more quickly when sticks centered 
+       raising WPNAV_LOIT_MINA makes vehicle stop more quickly when sticks centered
 9) Other items:
     a) faster EKF startup
     b) Camera control messages sent via MAVLink to smart cameras.  Allow control of camera zoom for upcoming IntelEdison/Sony QX1 camera control board
@@ -588,7 +588,7 @@ Changes from 3.2.1-rc1
     a) prevent infinite loop with linked jump commands
     b) Pixhawk memory corruption fix when connecting via USB
     c) vehicle stops at fence altitude limit in Loiter, AltHold, PosHold
-    d) protect against multiple arming messages from GCS causing silent gyro calibration failure    
+    d) protect against multiple arming messages from GCS causing silent gyro calibration failure
 ------------------------------------------------------------------
 ArduCopter 3.2.1-rc1 08-Jan-2015
 Changes from 3.2
@@ -619,7 +619,7 @@ Changes from 3.2-rc13
 ------------------------------------------------------------------
 ArduCopter 3.2-rc13 23-Oct-2014
 Changes from 3.2-rc12
-1) DCM check triggers LAND if yaw disagrees with GPS by > 60deg (configure with DCM_CHECK_THRESH param) and in Loiter, PosHold, Auto, etc 
+1) DCM check triggers LAND if yaw disagrees with GPS by > 60deg (configure with DCM_CHECK_THRESH param) and in Loiter, PosHold, Auto, etc
 2) Safety features:
     a) landing detector checks baro climbrate between -1.5 ~ +1.5 m/s
     b) sanity check AHRS_RP_P and AHRS_YAW_P are never less than 0.05
@@ -631,17 +631,17 @@ Changes from 3.2-rc12
     d) timer fix for "slow start" of motors on Pixhawk (timer was incorrectly based on 100hz APM2 main loop speed)
 4) reduced number of relays from 4 to 2 (saves memory and flash required on APM boards)
 5) reduced number of range finders from 2 to 1 (saves memory and flash on APM boards)
-6) allow logging from startup when LOG_BITMASK set to "All+DisarmedLogging" 
+6) allow logging from startup when LOG_BITMASK set to "All+DisarmedLogging"
 ------------------------------------------------------------------
 ArduCopter 3.2-rc12 10-Oct-2014
 Changes from 3.2-rc11
-1) disable sonar on APM1 and TradHeli (APM1 & APM2) to allow code to fit 
-2) Add pre-arm and health check that gyro calibration succeeded 
-3) Bug fix to EKF reporting invalid position and velocity when switched on in flight with Ch7/Ch8 switch 
+1) disable sonar on APM1 and TradHeli (APM1 & APM2) to allow code to fit
+2) Add pre-arm and health check that gyro calibration succeeded
+3) Bug fix to EKF reporting invalid position and velocity when switched on in flight with Ch7/Ch8 switch
 ------------------------------------------------------------------
 ArduCopter 3.2-rc11 06-Oct-2014
 Changes from 3.2-rc10
-1) reduce lean on take-off in Auto by resetting horizontal position targets 
+1) reduce lean on take-off in Auto by resetting horizontal position targets
 2) TradHeli landing check ignores overall throttle output
 3) reduce AHRS bad messages by delaying 20sec after init to allow EKF to settle (Pixhawk only)
 4) Bug fixes:
@@ -674,10 +674,10 @@ Changes from 3.2-rc7
     a) AltHold Rate P reduced from 6 to 5
     b) AltHold Accel P reduced from 0.75 to 0.5, I from 1.5 to 1.0
     c) EKF check threshold increased from 0.6 to 0.8 to reduce false positives
-3) sensor health flags sent to GCS only after initialisation to remove false alerts 
+3) sensor health flags sent to GCS only after initialisation to remove false alerts
 4) suppress bad terrain data alerts
 5) Bug Fix:
-    a)PX4 dataflash RAM usage reduced to 8k so it works again  
+    a)PX4 dataflash RAM usage reduced to 8k so it works again
 ------------------------------------------------------------------
 ArduCopter 3.2-rc7 04-Sep-2014
 Changes from 3.2-rc6
@@ -685,7 +685,7 @@ Changes from 3.2-rc6
     a) Landing check made more strict (climb rate requirement reduced to 30cm/s, overall throttle < 25%, rotation < 20deg/sec)
     b) pre-arm check that accels are consistent (Pixhawk only, must be within 1m/sec/sec of each other)
     c) pre-arm check that gyros are consistent (Pixhawk only, must be within 20deg/sec of each other)
-    d) report health of all accels and gyros (not just primary) to ground station 
+    d) report health of all accels and gyros (not just primary) to ground station
 ------------------------------------------------------------------
 ArduCopter 3.2-rc6 31-Aug-2014
 Changes from 3.2-rc5
@@ -700,7 +700,7 @@ Changes from 3.2-rc5
 7) Bug Fixes:
     a) resolve NaN in angle targets when vehicle hits gimbal lock in ACRO mode
     b) resolve GPS driver buffer overflow that could lead to missed GPS messages on Pixhawk/PX4 boards
-    c) resolve false "compass not calibrated" warnings on Pixhawk/PX4 caused by missing device id initialisation 
+    c) resolve false "compass not calibrated" warnings on Pixhawk/PX4 caused by missing device id initialisation
 ------------------------------------------------------------------
 ArduCopter 3.2-rc5 15-Aug-2014
 Changes from 3.2-rc4
@@ -716,12 +716,12 @@ Changes from 3.2-rc4
 6) Bug Fixes:
     a) AltHold jump bug fixed (altitude target reset when landed)
     b) Rally point bug fix so it does not climb excessively before flying to rally point
-    c) body-frame rate controller z-axis bug fix (fast rotation in z-axis would cause wobble in roll, pitch) 
+    c) body-frame rate controller z-axis bug fix (fast rotation in z-axis would cause wobble in roll, pitch)
 ------------------------------------------------------------------
 ArduCopter 3.2-rc4 01-Aug-2014
 Changes from 3.2-rc3
 1) Pre-takeoff throttle feedback in AltHold, Loiter, PosHold
-2) Terrain altitude retrieval from ground station (informational purposes only so far, Pixhawk only) 
+2) Terrain altitude retrieval from ground station (informational purposes only so far, Pixhawk only)
 3) Safety Items:
     a) "EKF check" will switch to LAND mode if EKF's compass or velocity variance over 0.6 (configurable with EKFCHECK_THRESH param)
        When EKF is not used inertial nav's accelerometer corrections are used as a substitute
@@ -734,7 +734,7 @@ Changes from 3.2-rc3
     g) do-set-servo commands cannot interfere with motor output
 4) Bug Fixes:
     a) Drift slow yaw response fixed
-    b) AC3.2-rc3 failsafe bug resolved.  In -rc3 the throttle failsafe could be triggered even when disabled or motors armed (although vehicle would not takeoff) 
+    b) AC3.2-rc3 failsafe bug resolved.  In -rc3 the throttle failsafe could be triggered even when disabled or motors armed (although vehicle would not takeoff)
 ------------------------------------------------------------------
 ArduCopter 3.2-rc3 16-Jul-2014
 Changes from 3.2-rc2
@@ -779,7 +779,7 @@ Changes from 3.1.4
 1) Hybrid mode - position hold mode but with direct response to pilot input during repositioning (JulienD, SandroT)
 2) Spline waypoints (created by David Dewey, modified and integrated by Leonard, Randy)
 3) Drift mode uses "throttle assist" for altitude control (Jason)
-4) Extended Kalman Filter for potentially more reliable attitude and position control (Pixhawk only) (Paul Riseborough).  Set AHRS_EKF_USE to 1 to enable or use Ch7/8 switch to enable/disable in flight. 
+4) Extended Kalman Filter for potentially more reliable attitude and position control (Pixhawk only) (Paul Riseborough).  Set AHRS_EKF_USE to 1 to enable or use Ch7/8 switch to enable/disable in flight.
 5) Manual flight smoothness:
     a) Smoother roll, pitch response using RC_FEEL_RP parameter (100 = crisp, 0 = extremely soft)
     b) Adjustable max rotation rate (ATC_RATE_RP_MAX, ATC_RATE_Y_MAX) and acceleration (ATC_ACCEL_RP_MAX, ATC_ACCEL_Y_MAX)
@@ -788,7 +788,7 @@ Changes from 3.1.4
     b) Maximum roll and pitch angle acceleration in Loiter mode can be configured with WPNAV_LOIT_JERK (higher = more responsive but potentially jerky)
     c) Yaw speed can be adjusted with ATC_SLEW_YAW parameter (higher = faster)
     d) smoother takeoff with configurable acceleration using WPNAV_ACCEL_Z parameter
-    e) Twitches removed during guided mode or when entering Loiter or RTL from high speeds  
+    e) Twitches removed during guided mode or when entering Loiter or RTL from high speeds
 7) Mission improvements:
     a) mission will be resumed from last active command when pilot switches out and then back into Auto mode (prev behaviour can be restored by setting MIS_RESTART param to 1)
     b) DO_SET_ROI persistent across waypoints.  All-zero DO_SET_ROI command restores default yaw behaviour

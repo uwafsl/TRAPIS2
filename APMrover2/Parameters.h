@@ -104,7 +104,7 @@ public:
         k_param_crosstrack_entry_angle,
         k_param_speed_cruise,
         k_param_speed_turn_gain,
-        k_param_speed_turn_dist,
+        k_param_speed_turn_dist,    // unused
         k_param_ch7_option,
         k_param_auto_trigger_pin,
         k_param_auto_kickstart,
@@ -127,10 +127,10 @@ public:
         k_param_throttle_min = 170,
         k_param_throttle_max,
         k_param_throttle_cruise,
-        k_param_throttle_slewrate_old,
-        k_param_throttle_reduction,
+        k_param_throttle_slewrate_old,  // unused
+        k_param_throttle_reduction,     // unused
         k_param_skid_steer_in,
-        k_param_skid_steer_out_old,
+        k_param_skid_steer_out_old, // unused
 
         // failsafe control
         k_param_fs_action = 180,
@@ -235,7 +235,6 @@ public:
     //
     AP_Float    speed_cruise;
     AP_Int8     speed_turn_gain;
-    AP_Float    speed_turn_dist;
     AP_Int8     ch7_option;
     AP_Int8     auto_trigger_pin;
     AP_Float    auto_kickstart;
