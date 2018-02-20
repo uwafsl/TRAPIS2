@@ -670,7 +670,10 @@ void Plane::update_flight_mode(void)
 
 		//Calculate desired throttle setting
 
-		double thr_des = 60 + 0.5 * (rad_ref-rad_act);
+        double thr_base = 60;
+        double thr_scale = 0.5;
+
+        double thr_des = thr_base + thr_scale *(rad_ref - rad_act);
 
 		//Set limitations on throttle settings
 
@@ -686,13 +689,15 @@ void Plane::update_flight_mode(void)
 
 		//channel_throttle->servo_out = thr_des;
 
+        double scale_factor = 100*180/3.14 // scale factor to convert radians to centidegrees
+
 		//Set desired deflection angles
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -CSD.GetAileron()*100*180/3.14); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -CSD.GetElevator()*100*180/3.14); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -CSD.GetAileron()*scale_factor); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -CSD.GetElevator()*scale_factor); //centidegrees
 
 		//channel_roll->servo_out = -CSD.GetAileron()*100*180/3.14; //Units: centi-degrees
 		//channel_pitch->servo_out = -CSD.GetElevator()*100*180/3.14; //Units: centi-degrees
-		steering_control.steering = steering_control.rudder = -CSD.GetRudder()*100*180/3.14; //Units: centi-degrees
+		steering_control.steering = steering_control.rudder = -CSD.GetRudder()*scale_factor; //Units: centi-degrees
 		break;
 	}
 
@@ -733,7 +738,10 @@ void Plane::update_flight_mode(void)
 
 		//Calculate desired throttle setting
 
-		double thr_des = 60 + 0.5 *(rad_ref-rad_act);
+        double thr_base = 60;
+        double thr_scale = 0.5;
+
+		double thr_des = thr_base + thr_scale *(rad_ref-rad_act);
 
 		//Set limitations on throttle settings
 
@@ -749,12 +757,14 @@ void Plane::update_flight_mode(void)
 
 		//channel_throttle->servo_out = thr_des;
 
+        double scale_factor = 100 * 180 / 3.14 // scale factor to convert radians to centidegrees
+
 		//Set desired deflection angles
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -CSD.GetAileron()*100*180/3.14); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -CSD.GetElevator()*100*180/3.14); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -CSD.GetAileron()*scale_factor); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -CSD.GetElevator()*scale_factor); //centidegrees
 		//channel_roll->servo_out = -CSD.GetAileron()*100*180/3.14; //Units: centi-degrees
 		//channel_pitch->servo_out = -CSD.GetElevator()*100*180/3.14; //Units: centi-degrees
-		steering_control.steering = steering_control.rudder = -CSD.GetRudder()*100*180/3.14; //Units: centi-degrees
+		steering_control.steering = steering_control.rudder = -CSD.GetRudder()*scale_factor; //Units: centi-degrees
 
 		break;
 	}
@@ -845,9 +855,11 @@ void Plane::update_flight_mode(void)
         // figure out how to get correct inputs for this (heading to desired waypoint)
         //double dR = wa_steer_state.STR.computeRudderDeflection(
 
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * 100 * 180 / 3.14); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * 100 * 180 / 3.14); //centidegrees
-        //steering_control.steering = steering_control.rudder = -dR * 100 * 180 / 3.14; //Units: centi-degrees
+        double scale_factor = 100 * 180 / 3.14 // scale factor to convert radians to centidegrees
+
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * scale_factor); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * scale_factor); //centidegrees
+        //steering_control.steering = steering_control.rudder = -dR * scale_factor; //Units: centi-degrees
 
         // set RC channel 3 PWM (throttle)
 
