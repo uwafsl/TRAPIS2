@@ -66,6 +66,10 @@ public:
         Mount_Type_SToRM32_serial = 5   /// SToRM32 mount using custom serial protocol
     };
 
+    // UWAFSL Start
+    struct Location loc;
+    // UWAFSL End
+
     // Constructor
     AP_Mount(const AP_AHRS_TYPE &ahrs, const struct Location &current_loc);
 

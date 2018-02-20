@@ -362,6 +362,67 @@ const AP_Param::Info Plane::var_info[] = {
     // @Values: 0:Disabled,1:Enabled
     // @User: Standard
     ASCALAR(stall_prevention, "STALL_PREVENTION",  1),
+   
+    //UWAFSL START
+    //Adding Parameters
+
+    // @Param: UW_RADIUS
+    // @DisplayName: Radius of Orbit
+    // @Description: Sets the radius of orbit for visual anchoring flight mode (meters)
+    // @Values: 50 500
+    // @User: Standard
+    GSCALAR(uw_radius, "UW_RADIUS",  200),
+
+    // @Param: UW_ALTITUDE
+    // @DisplayName: Altitide of Orbit
+    // @Description: Sets the altitude of orbit for visual anchoring flight mode (meters)
+    // @Values: 50 500
+    // @User: Standard
+    GSCALAR(uw_altitude, "UW_ALTITUDE",  100),
+
+    // @Param: UW_PRO_GAIN
+    // @DisplayName: Proportional Gain of Orbit
+    // @Description: Sets the proportional gain of orbit for visual anchoring flight mode
+    // @Values: 0 1
+    // @User: Standard
+    GSCALAR(uw_pro_gain, "UW_PRO_GAIN",  5e-3),
+
+    // @Param: UW_DER_GAIN
+    // @DisplayName: Derivative Gain of Orbit
+    // @Description: Sets the derivative gain of orbit for visual anchoring flight mode
+    // @Values: 0 1
+    // @User: Standard
+    GSCALAR(uw_der_gain, "UW_DER_GAIN", 1e-2),
+
+    // @Param: WA_SMP_TEST
+    // @DisplayName: WA_Simple test
+    // @Description: Tests whether WA_Simple is the actual mode the plane is in
+    // @Values: 0 1
+    // @User: Standard
+    GSCALAR(wa_smp_test, "WA_SMP_TEST", 0.5),
+
+    // @Param: UW_PSIDOTERR_LIM
+    // @DisplayName: Heading Rate Limits of Orbit
+    // @Description: Sets the heading rate limit (psiDotErr limit) of orbit for visual anchoring flight mode (rad/s)
+    // @Values: 0 1
+    // @User: Standard
+    // GSCALAR(uw_psiDotErr_lim, "UW_PSIDOTERR_LIM", 0.3),
+
+    // @Param: UW_PRO_FORGET_FACTOR
+    // @DisplayName: Proportional Forgetting Factor of Orbit
+    // @Description: Sets the proportional forgetting factor of orbit for visual anchoring flight mode
+    // @Values: 0 1
+    // @User: Standard
+    // GSCALAR(uw_pro_forget_factor, "UW_PRO_FORGET_FACTOR", 0.98),
+
+    // @Param: UW_DER_FORGET_FACTOR
+    // @DisplayName: Derivative Forgetting Factor of Orbit
+    // @Description: Sets the derivative forgetting factor of orbit for visual anchoring flight mode
+    // @Values: 0 1
+    // @User: Standard
+    // GSCALAR(uw_der_forget_factor, "UW_DER_FORGET_FACTOR", 0.8),
+
+    //UWAFSL END
 
     // @Param: ARSPD_FBW_MIN
     // @DisplayName: Minimum Airspeed

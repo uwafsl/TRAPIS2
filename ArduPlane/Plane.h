@@ -29,6 +29,11 @@
 #include <stdarg.h>
 #include <stdio.h>
 
+//UWAFSL START
+#include <OrbitControl/OrbitControl.h>
+#include <WASteer/WASteer.h>
+//UWAFSL END
+
 #include <AP_HAL/AP_HAL.h>
 #include <AP_Common/AP_Common.h>
 #include <AP_Menu/AP_Menu.h>
@@ -427,6 +432,29 @@ private:
         bool launchTimerStarted;
     } takeoff_state;
     
+    //UWAFSL START
+    ////////////////////////////////////////////////////////////////////////////////
+    // UW controller state
+    ////////////////////////////////////////////////////////////////////////////////
+    struct {
+        InnerLoopController ILC;
+        OuterLoopController OLC;
+    } uw_mode_2_state;
+
+    struct {
+        WingLeveler WL;
+        AltitudeHold AH;
+        //Steer STR;
+    } wa_steer_state;
+
+    struct {
+        double lat;
+        double lng;
+        double alt;
+    } trapis;
+    //UWAFSL END
+
+
     // ground steering controller state
     struct {
         // Direction held during phases of takeoff and landing centidegrees

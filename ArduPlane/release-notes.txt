@@ -1,4 +1,4 @@
-Release 3.8.0, 5th August 2017
+Release 3.8.0, 2nd August 2017
 ------------------------------
 
 The ArduPilot development team is very proud to announce the release
@@ -11,7 +11,7 @@ versions of the code.
 To help with migration from the 3.7.1 release to 3.8.0 there is a
 migration guide here:
 
-  http://ardupilot.org/plane/docs/plane-3-7-to-3-8-migration.html
+  http://plane.ardupilot.com/wiki/plane-3-7-to-3-8-migration.html
 
 All users should read the migration guide carefully. While the
 firmware will try to auto-migrate most settings, please do very
@@ -284,7 +284,7 @@ stack, including several new features. Some of the changes include:
  - greatly reduced boot time on Pixhawk and similar boards
  - fixed magic check for signing key in MAVLink2
  - fixed averaging of gyros for EKF2 gyro bias estimate
- 
+
 
 Release 3.6.0, 6th June 2016
 ----------------------------
@@ -313,7 +313,7 @@ features have been added, including:
  - greatly improved transition code
  - new tuning system for VTOL motors
  - extensive upgrade to logging system for much better flight analysis
- 
+
 The new QuadPlane features are documented at:
 
   http://ardupilot.org/plane/docs/quadplane-support.html
@@ -377,7 +377,7 @@ Detailed changes include:
  - allow for ground testing of parachutes with CHUTE_MINALT=0
  - fixed elevator stick mixing for above 50% input
  - added QuadPlane ESC calibration
- 
+
 
 
 Release 3.6.0beta1, 30th April 2016
@@ -1000,10 +1000,10 @@ There have been a lot of changes to the gyro and accelerometer
 handling for this release. The accelerometer range on the Pixhawk has
 been changed to 16g from 8g to prevent clipping on high vibration
 aircraft, and the sampling rate on the lsm303d has been increased to
-1600Hz. 
+1600Hz.
 
 An important bug has also been fixed which caused aliasing in the
-sampling process from the accelerometers. That bug could cause 
+sampling process from the accelerometers. That bug could cause
 attitude errors in high vibration environments.
 
 Numerous Landing Changes
@@ -1012,7 +1012,7 @@ Numerous Landing Changes
 Once again there have been a lot of improvements to the automatic
 landing support. Perhaps most important is the introduction of a
 smooth transition from landing approach to the flare, which reduces
-the tendency to pitch up too much on flare. 
+the tendency to pitch up too much on flare.
 
 There is also a new parameter TECS_LAND_PMAX which controls the
 maximum pitch during landing. This defaults to 10 degrees, but for
@@ -1126,7 +1126,7 @@ frame. If that happened enough times we would go into a short term RC
 failsafe and ignore RC inputs, even in manual mode.
 
 The fix was very simple - it is the new_input() function itself that
-should clear the flag, not read(). 
+should clear the flag, not read().
 
 Many thanks to MarkM for helping us track down this bug by providing
 us with sufficient detail on how to reproduce it. In Marks case his
@@ -1190,7 +1190,7 @@ Release 3.2.0, November 25th 2014
 ---------------------------------
 
 The ardupilot development team is proud to announce the release of
-version 3.2.0 of APM:Plane. This is a major release with a lot of 
+version 3.2.0 of APM:Plane. This is a major release with a lot of
 new features.
 
 The changes span a lot of different areas of the code, but arguably
@@ -1211,7 +1211,7 @@ The automatic stall prevention code is code that uses the aerodynamic
 load factor (calculated from demanded bank angle) to adjust both the
 maximum roll angle and the minimum airspeed. You can enable/disable
 this code with the STALL_PREVENTION parameter which defaults to
-enabled. 
+enabled.
 
 When in stabilised manual throttle modes this option has the effect of
 limiting how much bank angle you can demand when close to the
@@ -1265,7 +1265,7 @@ This release incorporates some new autoland capabilities contributed
 by Michael Day. The key new feature is the ability to trigger an
 automatic landing when a RTL completes, which for the first time
 allows a user to setup their aircraft to land using only transmitter
-control. 
+control.
 
 The way it works is there is a new parameter RTL_AUTOLAND. If that is
 set to 1 and the aircraft reaches its target location in an RTL it
@@ -1312,7 +1312,7 @@ More complete list of changes:
  - changed default I value for roll/pitch controllers
  - added CAMERA_FEEDBACK mavlink messages
  - use airspeed temperature for baro calibration if possible
- - added STALL_PREVENTION parameter 
+ - added STALL_PREVENTION parameter
  - fixed handling of TKOFF_THR_MAX parameter
  - added ARSPD_SKIP_CAL parameter
  - fixed flaperon trim handling (WARNING: may need to retrim flaperons)
@@ -1416,7 +1416,7 @@ Changes in this release:
 
   - added new takeoff code, including new parameters:
       TKOFF_TDRAG_ELEV, TKOFF_TDRAG_SPD1, TKOFF_ROTATE_SPD,
-      TKOFF_THR_SLEW and TKOFF_THR_MAX. 
+      TKOFF_THR_SLEW and TKOFF_THR_MAX.
     This gives fine grained control of auto takeoff for tail dragger aircraft.
 
   - overhauled glide slope code to fix glide slope handling in many
@@ -1881,7 +1881,7 @@ Geofence improvements
 Michael Day has made an number of significant improvements to the
 geo-fencing support for this release. It is now possible to
 enable/disable the geofence via MAVLink, allowing ground stations to
-control the fence. 
+control the fence.
 
 There are also three new fence control parameters. One is
 FENCE_RET_RALLY which when enabled tells APM to fly back to the

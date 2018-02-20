@@ -134,7 +134,7 @@ bool Rover::start_command(const AP_Mission::Mission_Command& cmd)
 // exit_mission - callback function called from ap-mission when the mission has completed
 void Rover::exit_mission()
 {
-    gcs().send_text(MAV_SEVERITY_NOTICE, "Mission Complete");
+    gcs().send_text(MAV_SEVERITY_NOTICE, "No commands. Can't set AUTO. Setting HOLD");
     set_mode(mode_hold, MODE_REASON_MISSION_END);
 }
 

@@ -264,6 +264,14 @@ void Plane::update_sensor_status_flags(void)
     case AUTO:
     case RTL:
     case LOITER:
+    //UWAFSL START
+	case UW_MODE_1:
+	case UW_MODE_2:
+	case UW_MODE_3:
+	case UW_MODE_4:
+    case WA_SMP:
+    case WA_STEER:
+	//UWAFSL END
     case AVOID_ADSB:
     case GUIDED:
     case CIRCLE:

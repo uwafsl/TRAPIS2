@@ -348,9 +348,22 @@ public:
         k_param_mixing_offset,
         k_param_dspoiler_rud_rate,
 
-        k_param_DataFlash = 253, // Logging Group
+        k_param_DataFlash = 250, // Logging Group
 
-        // 254,255: reserved
+        // 254,255: reserved for us
+
+        //parameter graveyard: we have 251, 252, 253, 254, 255
+        //UWAFSL START
+		//Visual Anchoring
+		k_param_uw_radius = 251,  //251
+		k_param_uw_altitude,      //252
+		k_param_uw_pro_gain,      //253
+        k_param_uw_der_gain,      //254
+        k_param_wa_smp_test       //255
+        // k_param_uw_psiDotErr_lim, //255 DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
+        // k_param_uw_pro_forget_factor = 9, // was empty DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
+        // k_param_uw_der_forget_factor = 198 // replaced k_param_rc_14_old DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
+		//UWAFSL END
     };
 
     AP_Int16 format_version;
@@ -507,6 +520,18 @@ public:
 #endif
     AP_Int16 gcs_pid_mask;
     AP_Int8 parachute_channel;
+
+    //UWAFSL START
+    //Adding Parameters
+    AP_Float uw_radius;
+    AP_Float uw_altitude;
+    AP_Float uw_pro_gain;
+    AP_Float uw_der_gain;
+    AP_Float uw_psiDotErr_lim;
+    AP_Float uw_pro_forget_factor;
+    AP_Float uw_der_forget_factor;
+    AP_Float wa_smp_test;
+    //UWAFSL END
 };
 
 /*

@@ -397,6 +397,13 @@ bool GCS_MAVLINK_Rover::try_send_message(enum ap_message id)
         send_battery2(rover.battery);
         break;
 
+    case MSG_CAMERA_FEEDBACK:
+#if CAMERA == ENABLED
+        CHECK_PAYLOAD_SIZE(CAMERA_FEEDBACK);
+        rover.camera.send_feedback(chan);
+#endif
+        break;
+
     case MSG_EKF_STATUS_REPORT:
 #if AP_AHRS_NAVEKF_AVAILABLE
         CHECK_PAYLOAD_SIZE(EKF_STATUS_REPORT);
@@ -744,6 +751,35 @@ void GCS_MAVLINK_Rover::handleMessage(mavlink_message_t* msg)
                 result = MAV_RESULT_ACCEPTED;
                 break;
 #endif
+
+#if CAMERA == ENABLED
+        case MAV_CMD_DO_DIGICAM_CONFIGURE:
+            rover.camera.configure(packet.param1,
+                                   packet.param2,
+                                   packet.param3,
+                                   packet.param4,
+                                   packet.param5,
+                                   packet.param6,
+                                   packet.param7);
+
+            result = MAV_RESULT_ACCEPTED;
+            break;
+
+        case MAV_CMD_DO_DIGICAM_CONTROL:
+            rover.camera.control(packet.param1,
+                                 packet.param2,
+                                 packet.param3,
+                                 packet.param4,
+                                 packet.param5,
+                                 packet.param6);
+            result = MAV_RESULT_ACCEPTED;
+            break;
+
+        case MAV_CMD_DO_SET_CAM_TRIGG_DIST:
+            rover.camera.set_trigger_distance(packet.param1);
+            result = MAV_RESULT_ACCEPTED;
+            break;
+#endif // CAMERA == ENABLED
 
             case MAV_CMD_DO_MOUNT_CONTROL:
 #if MOUNT == ENABLED
@@ -1263,6 +1299,21 @@ void GCS_MAVLINK_Rover::handleMessage(mavlink_message_t* msg)
             break;
         }
 #endif  // HIL_MODE
+
+#if CAMERA == ENABLED
+    // deprecated. Use MAV_CMD_DO_DIGICAM_CONFIGURE
+    case MAVLINK_MSG_ID_DIGICAM_CONFIGURE:
+    {
+        break;
+    }
+
+    // deprecated. Use MAV_CMD_DO_DIGICAM_CONFIGURE
+    case MAVLINK_MSG_ID_DIGICAM_CONTROL:
+    {
+        rover.camera.control_msg(msg);
+        break;
+    }
+#endif  // CAMERA == ENABLED
 
 #if MOUNT == ENABLED
     // deprecated. Use MAV_CMD_DO_MOUNT_CONFIGURE

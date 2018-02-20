@@ -46,7 +46,7 @@ public:
     }
 
     // MAVLink methods
-    void            control_msg(const mavlink_message_t* msg);
+    void            control_msg(mavlink_message_t* msg);
     void            send_feedback(mavlink_channel_t chan);
 
     // Command processing
@@ -84,7 +84,7 @@ private:
     static void     capture_callback(void *context, uint32_t chan_index,
                                      hrt_abstime edge_time, uint32_t edge_state, uint32_t overflow);
 #endif
-    
+
     AP_Float        _trigg_dist;        // distance between trigger points (meters)
     AP_Int16        _min_interval;      // Minimum time between shots required by camera
     AP_Int16        _max_roll;          // Maximum acceptable roll angle when trigging camera
@@ -108,8 +108,9 @@ private:
     const AP_GPS &gps;
     const AP_AHRS &ahrs;
 
-    // entry point to trip local shutter (e.g. by relay or servo)
-    void trigger_pic();
+    // single entry point to take pictures
+    //  set send_mavlink_msg to true to send DO_DIGICAM_CONTROL message to all components
+    void            trigger_pic(bool send_mavlink_msg);
 
     // de-activate the trigger after some delay, but without using a delay() function
     // should be called at 50hz from main program

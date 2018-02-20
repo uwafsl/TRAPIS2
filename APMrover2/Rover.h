@@ -467,8 +467,8 @@ private:
     bool verify_RTL();
     bool verify_wait_delay();
     bool verify_within_distance();
-    bool verify_nav_set_yaw_speed();
-    void update_mission(void);
+    bool verify_yaw();
+    void update_commands(void);
     void delay(uint32_t ms);
     void mavlink_delay(uint32_t ms);
     void read_control_switch();

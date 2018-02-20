@@ -391,3 +391,32 @@
 # define HAVE_PX4_MIXER 0
 #endif
 
+//UWAFSL START
+//Adding Parameters
+#ifndef UW_RADIUS      //Defines uw_radius
+ # define UW_RADIUS 100 //Sets default value
+#endif
+#ifndef UW_ALTITUDE      //Defines uw_altitude
+ # define UW_ALTITUDE 100  //Sets default value
+#endif
+#ifndef UW_PRO_GAIN     //Defines uw_pro_gain
+ # define UW_PRO_GAIN 5e-3 //Sets default value
+#endif
+#ifndef UW_DER_GAIN     //Defines uw_der_gain
+# define UW_DER_GAIN 1e-2 //Sets default value
+#endif
+#ifndef WA_SMP_TEST     //Defines wa_smp_test
+# define WA_SMP_TEST 0.5 //Sets default value
+#endif
+/*
+#ifndef UW_PSIDOTERR_LIM     //Defines uw_psiDotErr_lim
+# define UW_PSIDOTERR_LIM 0.3 //Sets default value
+#endif
+#ifndef UW_PRO_FORGET_FACTOR     //Defines uw_pro_forget_factor
+# define UW_PRO_FORGET_FACTOR 0.98 //Sets default value
+#endif
+#ifndef UW_DER_FORGET_FACTOR    //Defines uw_der_forget_factor
+# define UW_DER_FORGET_FACTOR 0.8 //Sets default value
+#endif
+*/
+//UWAFSL END
