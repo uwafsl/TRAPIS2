@@ -1727,7 +1727,7 @@ void GCS_MAVLINK::handle_common_gps_message(mavlink_message_t *msg)
 }
 
 
-void GCS_MAVLINK::handle_common_camera_message(const mavlink_message_t *msg)
+void GCS_MAVLINK::handle_common_camera_message(mavlink_message_t *msg)
 {
     AP_Camera *camera = get_camera();
     if (camera == nullptr) {

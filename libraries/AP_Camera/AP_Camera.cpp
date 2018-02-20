@@ -128,7 +128,7 @@ AP_Camera::relay_pic()
 
 /// single entry point to take pictures
 ///  set send_mavlink_msg to true to send DO_DIGICAM_CONTROL message to all components
-void AP_Camera::trigger_pic()
+void AP_Camera::trigger_pic(bool)
 {
     setup_feedback_callback();
 
@@ -171,7 +171,7 @@ AP_Camera::trigger_pic_cleanup()
 
 /// decode deprecated MavLink message that controls camera.
 void
-AP_Camera::control_msg(const mavlink_message_t* msg)
+AP_Camera::control_msg(mavlink_message_t* msg)
 {
     __mavlink_digicam_control_t packet;
     mavlink_msg_digicam_control_decode(msg, &packet);

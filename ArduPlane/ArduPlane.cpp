@@ -852,7 +852,7 @@ void Plane::update_flight_mode(void)
         // set RC channel 3 PWM (throttle)
 
         // For use only in simulation
-        // SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 50); //percentage
+        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 50); //percentage
 
         break;
     }

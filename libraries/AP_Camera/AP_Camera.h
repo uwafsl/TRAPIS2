@@ -80,6 +80,7 @@ private:
     void            relay_pic();        // basic relay activation
     void            feedback_pin_timer();
     void            setup_feedback_callback(void);
+    void            trigger_pic(bool);
 #if CONFIG_HAL_BOARD == HAL_BOARD_PX4
     static void     capture_callback(void *context, uint32_t chan_index,
                                      hrt_abstime edge_time, uint32_t edge_state, uint32_t overflow);
@@ -110,7 +111,7 @@ private:
 
     // single entry point to take pictures
     //  set send_mavlink_msg to true to send DO_DIGICAM_CONTROL message to all components
-    void            trigger_pic(bool send_mavlink_msg);
+    //void            trigger_pic(bool send_mavlink_msg);
 
     // de-activate the trigger after some delay, but without using a delay() function
     // should be called at 50hz from main program
