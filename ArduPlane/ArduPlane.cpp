@@ -689,7 +689,7 @@ void Plane::update_flight_mode(void)
 
 		//channel_throttle->servo_out = thr_des;
 
-        double scale_factor = 100*180/3.14 // scale factor to convert radians to centidegrees
+        double scale_factor = 100*180/3.14; // scale factor to convert radians to centidegrees
 
 		//Set desired deflection angles
         SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -CSD.GetAileron()*scale_factor); //centidegrees
@@ -757,7 +757,7 @@ void Plane::update_flight_mode(void)
 
 		//channel_throttle->servo_out = thr_des;
 
-        double scale_factor = 100 * 180 / 3.14 // scale factor to convert radians to centidegrees
+        double scale_factor = 100 * 180 / 3.14; // scale factor to convert radians to centidegrees
 
 		//Set desired deflection angles
         SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -CSD.GetAileron()*scale_factor); //centidegrees
@@ -803,7 +803,7 @@ void Plane::update_flight_mode(void)
         // Get TRAPIS coords from hijacked data structure (see GPS_Mavlink.cpp for more info)
         double Tlat = trapis.lat;
         double Tlng = trapis.lng;
-        double Talt = trapis.alt;
+        //double Talt = trapis.alt;
 
         // Carnation: Using point-slope with two coords
         // Should flip ailerons when crossing wall next to trailer
@@ -842,7 +842,7 @@ void Plane::update_flight_mode(void)
         //angles
         double p = ahrs.get_gyro().x;
         double q = ahrs.get_gyro().y;
-        double r = ahrs.get_gyro().z;
+        //double r = ahrs.get_gyro().z;
         //roll and pitch
         double phi = ahrs.roll;
         double theta = ahrs.pitch;
@@ -855,7 +855,7 @@ void Plane::update_flight_mode(void)
         // figure out how to get correct inputs for this (heading to desired waypoint)
         //double dR = wa_steer_state.STR.computeRudderDeflection(
 
-        double scale_factor = 100 * 180 / 3.14 // scale factor to convert radians to centidegrees
+        double scale_factor = 100 * 180 / 3.14; // scale factor to convert radians to centidegrees
 
         SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * scale_factor); //centidegrees
         SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * scale_factor); //centidegrees
