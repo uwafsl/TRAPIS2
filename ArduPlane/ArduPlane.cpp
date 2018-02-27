@@ -788,54 +788,57 @@ void Plane::update_flight_mode(void)
 	}
 
     case WA_SMP: {
-        //double aileron_controller = g.wa_smp_test;
-        //if (aileron_controller > 0.5) {
-        //    // roll right
-        //    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 1000); // centidegrees
-        //} else if (aileron_controller < 0.5) {
-        //    // roll left
-        //    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -1000); // centidegrees
-        //} else {
-        //    // keep level
-        //    SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 0);
-        //}
-        //break;
-
-        // Get TRAPIS coords from hijacked data structure (see GPS_Mavlink.cpp for more info)
+        // Get TRAPIS coords from trapis struct field (see Plane.h)
         double Tlat = trapis.lat;
         double Tlng = trapis.lng;
+
+        // Not using Talt for WSMP - must comment to compile px4-v2 file
         //double Talt = trapis.alt;
 
-        // Carnation: Using point-slope with two coords
-        // Should flip ailerons when crossing wall next to trailer
-        double lat1 = 47.671791;
-        double lat2 = 47.672025;
-        double lng1 = -121.943638;
-        double lng2 = -121.943719;
+        // Carnation
+        // Flips ailerons when crossing wall next to trailer
+        //double lat1 = 47.671791;
+        //double lat2 = 47.672025;
+        //double lng1 = 121.943638;
+        //double lng2 = 121.943719;
 
-        double slope = (lat2 - lat1) / (lng2 - lng1);
-        double testLng = slope * (Tlat - lat1) + lng1;
+        // Trapis Simulator
+        // Flips ailerons on ID: 1 after about a minute or so
+        //double lat1 = 45.707828;
+        //double lng1 = 121.156544;
+        //double lat2 = 45.697261;
+        //double lng2 = 121.149159;
 
         // Fountain
-        // Should flip ailerson after crossing middle of Rainier Vista
+        // Flips ailerons after crossing middle of Rainier Vista
         //double lat1 = 47.654172;
-        //double lng1 = -122.308047;
+        //double lng1 = 122.308047;
         //double lat2 = 47.653452;
-        //double lng2 = -122.307546;
+        //double lng2 = 122.307546;
 
-        //double slope = (lat2 - lat1) / (lng2 - lng1);
-        //double testLng = slope * (Tlat - lat1) + lng1;
+        // AERB
+        // Flips ailerons after crossing road between AERB and CSE buildings
+        double lat1 = 47.653829;
+        double lng1 = 122.306413;
+        double lat2 = 47.653564;
+        double lng2 = 122.305140;
 
-        // Fountain: If on AERB side of the fountain, go 10 degrees on ailerons
-        //           Otherwise, go -10 degrees
-        // Carnation: If on Trailer side of the wall, go 10 degrees on ailerons
-        //           Otherwise, go -10 degrees
+        // Calculates a line based on the two defined points
+        double slope = (lng2 - lng1) / (lat2 - lat1);
+        double testLng = slope * (Tlat - lat1) + lng1;
+
+        // Fountain: If on AERB side of the fountain, go 20 degrees on ailerons
+        //           Otherwise, go -20 degrees
+        // Carnation: If on Trailer side of the wall, go 20 degrees on ailerons
+        //           Otherwise, go -20 degrees
+        // AERB: If on AERB side of Benton, go 20 degrees, otherwise go -20 degrees
         if (Tlng < testLng) {
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 1000);
+            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 2000);
         }
         else {
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -1000);
+            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -2000);
         }
+        break;
     }
 
     case WA_STEER: {
