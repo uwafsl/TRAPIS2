@@ -444,7 +444,7 @@ private:
     struct {
         WingLeveler WL;
         AltitudeHold AH;
-        //Steer STR;
+        Steer STR;
     } wa_steer_state;
 
     struct {
