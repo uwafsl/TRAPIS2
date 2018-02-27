@@ -797,10 +797,10 @@ void Plane::update_flight_mode(void)
 
         // Carnation
         // Flips ailerons when crossing wall next to trailer
-        //double lat1 = 47.671791;
-        //double lat2 = 47.672025;
-        //double lng1 = 121.943638;
-        //double lng2 = 121.943719;
+        double lat1 = 47.671791;
+        double lat2 = 47.672025;
+        double lng1 = 121.943638;
+        double lng2 = 121.943719;
 
         // Trapis Simulator
         // Flips ailerons on ID: 1 after about a minute or so
@@ -818,10 +818,10 @@ void Plane::update_flight_mode(void)
 
         // AERB
         // Flips ailerons after crossing road between AERB and CSE buildings
-        double lat1 = 47.653829;
-        double lng1 = 122.306413;
-        double lat2 = 47.653564;
-        double lng2 = 122.305140;
+        //double lat1 = 47.653829;
+        //double lng1 = 122.306413;
+        //double lat2 = 47.653564;
+        //double lng2 = 122.305140;
 
         // Calculates a line based on the two defined points
         double slope = (lng2 - lng1) / (lat2 - lat1);
