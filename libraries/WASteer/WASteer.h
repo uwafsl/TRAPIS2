@@ -10,6 +10,6 @@
 
 #include "WingLeveler.h"
 #include "AltitudeHold.h"
-//#include "Steer.h"
+#include "Steer.h"
 
 #endif /* WASTEER_H_ */

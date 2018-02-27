@@ -22,6 +22,7 @@
 
 #include "Plane.h"
 
+
 #define SCHED_TASK(func, rate_hz, max_time_micros) SCHED_TASK_CLASS(Plane, &plane, func, rate_hz, max_time_micros)
 
 
@@ -838,34 +839,68 @@ void Plane::update_flight_mode(void)
     }
 
     case WA_STEER: {
+        // constants 
 
-        //angles
-        double p = ahrs.get_gyro().x;
-        double q = ahrs.get_gyro().y;
-        //double r = ahrs.get_gyro().z;
-        //roll and pitch
-        double phi = ahrs.roll;
-        double theta = ahrs.pitch;
-        //altitude
+        double pi = 3.14159;
+
+        // euler angle rates 
+        double p = ahrs.get_gyro().x; // rad/s
+        double q = ahrs.get_gyro().y; // rad/s
+        double r = ahrs.get_gyro().z; // rad/s
+        r = r * 180 / pi * 100; // centidegrees/s
+        // euler angles 
+        double phi = ahrs.roll; // rad
+        double theta = ahrs.pitch; // rad
+        double psi = ahrs.yaw; // rad
+        psi = psi * 180 / pi * 100; // centidegrees
+        if (psi < 0) {
+            psi += 36000;
+        }
+        // altitude
         double alt = relative_altitude; //(m)
 
-        double dA = wa_steer_state.WL.computeAileronDeflection(phi, p);
-        double dE = wa_steer_state.AH.computeElevatorDeflection(alt, theta, q);
 
-        // figure out how to get correct inputs for this (heading to desired waypoint)
-        //double dR = wa_steer_state.STR.computeRudderDeflection(
 
-        double scale_factor = 100 * 180 / 3.14; // scale factor to convert radians to centidegrees
+        // bearing to next waypoint
 
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * scale_factor); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * scale_factor); //centidegrees
-        //steering_control.steering = steering_control.rudder = -dR * scale_factor; //Units: centi-degrees
+        next_WP_loc = home;
 
+        double off_x = next_WP_loc.lng - current_loc.lng;
+        double off_y = (next_WP_loc.lat - current_loc.lat) / longitude_scale(next_WP_loc);
+        double bearing = 9000 + atan2f(-off_y, off_x) * 5729.57795f;
+        if (bearing < 0) {
+            bearing += 36000;   // centidegrees
+        }
+
+        // Sending parameters to message window
+
+
+        // gcs().send_text(MAV_SEVERITY_INFO, "%.2f",
+        //    bearing - psi);
+      
+
+        // Calculate control surface deflections
+
+        double dA = wa_steer_state.WL.computeAileronDeflection(phi, p); // rad
+        double dE = wa_steer_state.AH.computeElevatorDeflection(alt, theta, q); // rad
+        double dR = wa_steer_state.STR.computeRudderDeflection(bearing, psi, r); // centidegrees
+
+        // Set RC output channels to control surface deflections
+
+        double scale_factor_r2cd = 100 * 180 / pi; // scale factor to convert radians to centidegrees
+
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * scale_factor_r2cd); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * scale_factor_r2cd); //centidegrees
+        steering_control.steering = steering_control.rudder = channel_rudder->get_control_in_zero_dz();
+        
+        // Uncomment this to allow automatic rudder steering. Leave commented to just run wing leveler and altitude hold.
+        // steering_control.steering = steering_control.rudder = -dR; //Units: centi-degrees
+        
+                                                                   
         // set RC channel 3 PWM (throttle)
 
         // For use only in simulation
-        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 50); //percentage
-
+        // SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 40); //percentage
         break;
     }
 
