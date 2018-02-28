@@ -7645,8 +7645,14 @@
     <Filter Include="docs\config">
       <UniqueIdentifier>{9bc6a5f9-8ebc-4f64-808a-5282b942b3fe}</UniqueIdentifier>
     </Filter>
-    <Filter Include="libraries\WASteer">
-      <UniqueIdentifier>{2efb731d-fbef-44ac-89ae-c58cdd2fe045}</UniqueIdentifier>
+    <Filter Include="libraries\UWAFSL">
+      <UniqueIdentifier>{1665e8db-8df9-47b6-8646-0203cbfeb5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\UWAFSL\OrbitControl">
+      <UniqueIdentifier>{8d73b31d-bf56-4e21-9d95-6168f7ccede6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libraries\UWAFSL\WASteer">
+      <UniqueIdentifier>{8534a562-b6c7-4e2e-bd43-a6686f8a2226}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -21931,13 +21937,13 @@
       <Filter>Tools\Replay</Filter>
     </ClCompile>
     <ClCompile Include="libraries\WASteer\AltitudeHold.cpp">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UWAFSL\WASteer</Filter>
     </ClCompile>
     <ClCompile Include="libraries\WASteer\Steer.cpp">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UWAFSL\WASteer</Filter>
     </ClCompile>
     <ClCompile Include="libraries\WASteer\WingLeveler.cpp">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UWAFSL\WASteer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -34354,16 +34360,16 @@
       <Filter>Tools\Replay</Filter>
     </ClInclude>
     <ClInclude Include="libraries\WASteer\AltitudeHold.h">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UWAFSL\WASteer</Filter>
     </ClInclude>
     <ClInclude Include="libraries\WASteer\Steer.h">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UWAFSL\WASteer</Filter>
     </ClInclude>
     <ClInclude Include="libraries\WASteer\WASteer.h">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UWAFSL\WASteer</Filter>
     </ClInclude>
     <ClInclude Include="libraries\WASteer\WingLeveler.h">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UWAFSL\WASteer</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
