@@ -1,4 +1,4 @@
-LIBRARIES += AP_Common
+﻿LIBRARIES += AP_Common
 LIBRARIES += AP_Menu
 LIBRARIES += AP_Param
 LIBRARIES += StorageManager
@@ -61,4 +61,4 @@ LIBRARIES += AP_Beacon
 LIBRARIES += PID
 LIBRARIES += AP_Soaring
 LIBRARIES += OrbitControl
-LIBRARIES += UWAFSL
+LIBRARIES += WASteer
