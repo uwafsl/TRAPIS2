@@ -897,7 +897,7 @@ void Plane::update_flight_mode(void)
  
         
         // dR set to zero to just test wing leveler and altitude hold.
-        dR = 0 // Setting rudder to zero deflection
+        // dR = 0 // Setting rudder to zero deflection
         steering_control.steering = steering_control.rudder = -dR; //Units: centi-degrees
         
                                                                    
