@@ -894,10 +894,11 @@ void Plane::update_flight_mode(void)
 
         SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * scale_factor_r2cd); //centidegrees
         SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * scale_factor_r2cd); //centidegrees
-        steering_control.steering = steering_control.rudder = channel_rudder->get_control_in_zero_dz();
+ 
         
-        // Uncomment this to allow automatic rudder steering. Leave commented to just run wing leveler and altitude hold.
-        // steering_control.steering = steering_control.rudder = -dR; //Units: centi-degrees
+        // dR set to zero to just test wing leveler and altitude hold.
+        dR = 0 // Setting rudder to zero deflection
+        steering_control.steering = steering_control.rudder = -dR; //Units: centi-degrees
         
                                                                    
         // set RC channel 3 PWM (throttle)
