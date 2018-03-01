@@ -6259,7 +6259,7 @@
     <ClInclude Include="libraries\StorageManager\StorageManager.h" />
     <ClInclude Include="libraries\WASteer\AltitudeHold.h" />
     <ClInclude Include="libraries\WASteer\Steer.h" />
-    <ClInclude Include="libraries\WASteer\WASteer.h" />
+    <ClInclude Include="libraries\WASteer\UW_TRAPIS.h" />
     <ClInclude Include="libraries\WASteer\WingLeveler.h" />
     <ClInclude Include="mavschema.h">
       <DependentUpon>modules\mavlink\pymavlink\generator\mavschema.xsd</DependentUpon>

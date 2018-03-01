@@ -7645,7 +7645,7 @@
     <Filter Include="docs\config">
       <UniqueIdentifier>{9bc6a5f9-8ebc-4f64-808a-5282b942b3fe}</UniqueIdentifier>
     </Filter>
-    <Filter Include="libraries\WASteer">
+    <Filter Include="libraries\UW_TRAPIS">
       <UniqueIdentifier>{2efb731d-fbef-44ac-89ae-c58cdd2fe045}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -21931,13 +21931,13 @@
       <Filter>Tools\Replay</Filter>
     </ClCompile>
     <ClCompile Include="libraries\WASteer\AltitudeHold.cpp">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
     <ClCompile Include="libraries\WASteer\Steer.cpp">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
     <ClCompile Include="libraries\WASteer\WingLeveler.cpp">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -34354,16 +34354,16 @@
       <Filter>Tools\Replay</Filter>
     </ClInclude>
     <ClInclude Include="libraries\WASteer\AltitudeHold.h">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
     <ClInclude Include="libraries\WASteer\Steer.h">
-      <Filter>libraries\WASteer</Filter>
-    </ClInclude>
-    <ClInclude Include="libraries\WASteer\WASteer.h">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
     <ClInclude Include="libraries\WASteer\WingLeveler.h">
-      <Filter>libraries\WASteer</Filter>
+      <Filter>libraries\UW_TRAPIS</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\WASteer\UW_TRAPIS.h">
+      <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

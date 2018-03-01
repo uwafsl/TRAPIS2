@@ -34,7 +34,7 @@ def build(bld):
             'PID',
             'AP_Soaring',
 			'OrbitControl',
-			'WASteer'
+			'UW_TRAPIS'
         ],
     )
 

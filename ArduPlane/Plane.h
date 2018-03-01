@@ -31,7 +31,7 @@
 
 //UWAFSL START
 #include <OrbitControl/OrbitControl.h>
-#include <WASteer/WASteer.h>
+#include <UW_TRAPIS/UW_TRAPIS.h>
 //UWAFSL END
 
 #include <AP_HAL/AP_HAL.h>
