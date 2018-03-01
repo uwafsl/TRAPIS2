@@ -787,7 +787,7 @@ void Plane::update_flight_mode(void)
 		break;
 	}
 
-    case WA_SMP: {
+    case WSMP: {
         // Get TRAPIS coords from trapis struct field (see Plane.h)
         double Tlat = trapis.lat;
         double Tlng = trapis.lng;
@@ -841,7 +841,7 @@ void Plane::update_flight_mode(void)
         break;
     }
 
-    case WA_STEER: {
+    case WSTR: {
         // constants 
 
         double pi = 3.14159;
@@ -884,9 +884,9 @@ void Plane::update_flight_mode(void)
 
         // Calculate control surface deflections
 
-        double dA = wa_steer_state.WL.computeAileronDeflection(phi, p); // rad
-        double dE = wa_steer_state.AH.computeElevatorDeflection(alt, theta, q); // rad
-        double dR = wa_steer_state.STR.computeRudderDeflection(bearing, psi, r); // centidegrees
+        double dA = wstr_state.WL.computeAileronDeflection(phi, p); // rad
+        double dE = wstr_state.AH.computeElevatorDeflection(alt, theta, q); // rad
+        double dR = wstr_state.STR.computeRudderDeflection(bearing, psi, r); // centidegrees
 
         // Set RC output channels to control surface deflections
 
@@ -1151,14 +1151,14 @@ void Plane::update_navigation()
         break;
 	case UW_MODE_4:
         break;
-    case WA_SMP:
-        if (control_mode != WA_SMP) {
-            set_mode(WA_SMP, MODE_REASON_UNKNOWN);
+    case WSMP:
+        if (control_mode != WSMP) {
+            set_mode(WSMP, MODE_REASON_UNKNOWN);
         }
         break;
-    case WA_STEER:
-        if (control_mode != WA_STEER) {
-            set_mode(WA_STEER, MODE_REASON_UNKNOWN);
+    case WSTR:
+        if (control_mode != WSTR) {
+            set_mode(WSTR, MODE_REASON_UNKNOWN);
         }
         break;
 	//UWAFSL END

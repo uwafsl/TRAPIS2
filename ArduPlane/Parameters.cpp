@@ -394,12 +394,12 @@ const AP_Param::Info Plane::var_info[] = {
     // @User: Standard
     GSCALAR(uw_der_gain, "UW_DER_GAIN", 1e-2),
 
-    // @Param: WA_SMP_TEST
-    // @DisplayName: WA_Simple test
-    // @Description: Tests whether WA_Simple is the actual mode the plane is in
+    // @Param: WSMP_TEST
+    // @DisplayName: WSMP test
+    // @Description: Tests whether WSMP is the actual mode the plane is in
     // @Values: 0 1
     // @User: Standard
-    GSCALAR(wa_smp_test, "WA_SMP_TEST", 0.5),
+    GSCALAR(wsmp_test, "WSMP_TEST", 0.5),
 
     // @Param: UW_PSIDOTERR_LIM
     // @DisplayName: Heading Rate Limits of Orbit

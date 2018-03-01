@@ -359,7 +359,7 @@ public:
 		k_param_uw_altitude,      //252
 		k_param_uw_pro_gain,      //253
         k_param_uw_der_gain,      //254
-        k_param_wa_smp_test       //255
+        k_param_wsmp_test         //255
         // k_param_uw_psiDotErr_lim, //255 DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
         // k_param_uw_pro_forget_factor = 9, // was empty DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
         // k_param_uw_der_forget_factor = 198 // replaced k_param_rc_14_old DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
@@ -530,7 +530,7 @@ public:
     AP_Float uw_psiDotErr_lim;
     AP_Float uw_pro_forget_factor;
     AP_Float uw_der_forget_factor;
-    AP_Float wa_smp_test;
+    AP_Float wsmp_test;
     //UWAFSL END
 };
 

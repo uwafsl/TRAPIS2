@@ -384,11 +384,11 @@ void Plane::stabilize()
         // nothing to do
         return;
     }
-    if (control_mode == WA_SMP) {
+    if (control_mode == WSMP) {
         // nothing to do
         return;
     }
-    if (control_mode == WA_STEER) {
+    if (control_mode == WSTR) {
         // nothing to do
         return;
     }

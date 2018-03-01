@@ -54,8 +54,8 @@ void Plane::send_heartbeat(mavlink_channel_t chan)
 	case UW_MODE_2:
 	case UW_MODE_3:
 	case UW_MODE_4:
-    case WA_SMP:
-    case WA_STEER:
+    case WSMP:
+    case WSTR:
 	//UWAFSL END
     case CIRCLE:
     case QRTL:
@@ -1017,8 +1017,8 @@ void GCS_MAVLINK_Plane::handleMessage(mavlink_message_t* msg)
             double Tlat = packet.param1;
             double Tlng = packet.param2;
             double Talt = packet.param3;
-            if (plane.control_mode == WA_SMP || plane.control_mode == WA_STEER) {
-                // Hijack Mount's ROI Location Fields to use in WA_SMP
+            if (plane.control_mode == WSMP || plane.control_mode == WSTR) {
+                // Hijack Mount's ROI Location Fields to use in WSMP
                 plane.trapis.lat = Tlat;
                 plane.trapis.lng = Tlng;
                 plane.trapis.alt = Talt;

@@ -445,7 +445,7 @@ private:
         WingLeveler WL;
         AltitudeHold AH;
         Steer STR;
-    } wa_steer_state;
+    } wstr_state;
 
     struct {
         double lat;

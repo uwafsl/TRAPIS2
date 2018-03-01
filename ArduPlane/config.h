@@ -405,8 +405,8 @@
 #ifndef UW_DER_GAIN     //Defines uw_der_gain
 # define UW_DER_GAIN 1e-2 //Sets default value
 #endif
-#ifndef WA_SMP_TEST     //Defines wa_smp_test
-# define WA_SMP_TEST 0.5 //Sets default value
+#ifndef WSMP_TEST       //Defines wsmp_test
+# define WSMP_TEST 0.5  //Sets default value
 #endif
 /*
 #ifndef UW_PSIDOTERR_LIM     //Defines uw_psiDotErr_lim

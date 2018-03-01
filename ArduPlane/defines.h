@@ -61,8 +61,8 @@ enum FlightMode {
     GUIDED        = 15,
     INITIALISING  = 16,
     //UWAFSL START
-    WA_SMP        = 17,
-    WA_STEER      = 18,
+    WSMP          = 17,
+    WSTR          = 18,
     QLOITER       = 19,
     QLAND         = 20,
     QRTL          = 21,
