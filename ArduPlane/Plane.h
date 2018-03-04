@@ -451,6 +451,7 @@ private:
         double lat;
         double lng;
         double alt;
+        Location loc = new Location((int32_t) (lat * 1e7), (int32_t) (lng * 1e7), (int32_t) (alt * 100), 0);
     } trapis;
     //UWAFSL END
 
