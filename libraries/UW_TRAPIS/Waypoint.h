@@ -22,13 +22,11 @@
 //#include <vector>			//vector
 #include <AP_Mission/AP_Mission.h>
 #include <AP_Common/Location.h>
-#include <Plane.h>
 
 // Local header files
-//#include "ControlSurfaceDeflections.h"		//ControlSurfaceDeflections class
 
 //-------------------------------------------------------------------------------
-/// Define Steer objects which are used to represent a rudder controller.
+/// Define Waypoint objects which are used to extract waypoints from the flight plan.
 ///
 ////
 class Waypoint {
@@ -46,7 +44,7 @@ public:
 
 
     ///////////// Public interface methods ///////////////////////////////
-    Location nextWaypoint(AP_Mission mission);
+    Location nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius);
 
     // ====== Get/Set Functions ==========================
 

@@ -60,26 +60,34 @@ Waypoint::~Waypoint()
 
 /// Compute Aileron Deflection
 ///	
-/// Input:			- mission       = current mission plan 
+/// Input:			- mission           = current mission plan 
+///                 - cur_loc           = current location of the plane
+///                                     (i.e. using trapis coords)
+///                 - waypoint_radius   = max radius at which point plane will move to next waypoint
 ///
-/// Output:			- waypoint      = current waypoint (Location)
+/// Output:			- waypoint          = current waypoint (Location)
+///                                         -- contains the current waypoint number in loc.options (optional to use)
 ///
 /// Side-effects:	- none
 ////
-Location Waypoint::nextWaypoint(AP_Mission mission)
+Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius)
 {
     AP_Mission::Mission_Command cmd;
-    //cmd.content.location
-    // get_next_nav_cmd(cur_index, cmd) finds waypoint at or after "cur_index"
-    if (trapis.loc.getDistance(loc) < 100) {
+
+    if (get_distance(cur_loc, loc) < waypoint_radius) {
+        // If there is another waypoint, set plane to that next waypoint
         if (mission.get_next_nav_cmd(cur_index, cmd)) {
             cur_index++;
         }
+        // If no waypoints available, set plane to home
         else {
             mission.get_next_nav_cmd(0, cmd);
         }
         loc = cmd.content.location;
+        // Using unused loc.options to store the cur_index so that it is accessible in the return type
+        loc.options = cur_index;
     }
+
     return loc;
 }
 

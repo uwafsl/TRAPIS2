@@ -794,6 +794,11 @@ void Plane::update_flight_mode(void)
 
         // Not using Talt for WSMP - must comment to compile px4-v2 file
         //double Talt = trapis.alt;
+        //uint16_t rad = g.waypoint_radius;
+        //gcs().send_text(MAV_SEVERITY_INFO, "waypoint radius %.3i", rad);
+        uint16_t wp_rad = g.waypoint_radius;
+        Location waypoint = wstr_state.WP.nextWaypoint(mission, trapis.loc, wp_rad);
+        gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %2i", waypoint.options);
 
         // Carnation
         // Flips ailerons when crossing wall next to trailer

@@ -21939,7 +21939,7 @@
     <ClCompile Include="libraries\UW_TRAPIS\WingLeveler.cpp">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
-    <ClCompile Include="Waypoint.cpp">
+    <ClCompile Include="libraries\UW_TRAPIS\Waypoint.cpp">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
   </ItemGroup>
@@ -34368,7 +34368,7 @@
     <ClInclude Include="libraries\UW_TRAPIS\WingLeveler.h">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
-    <ClInclude Include="Waypoint.h">
+    <ClInclude Include="libraries\UW_TRAPIS\Waypoint.h">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
   </ItemGroup>
