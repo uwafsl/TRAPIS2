@@ -36,7 +36,7 @@
 ////
 Waypoint::Waypoint()
 {
-    cur_index = 1; 
+    cur_index = 2; 
 }
 
 
@@ -73,20 +73,33 @@ Waypoint::~Waypoint()
 Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius)
 {
     AP_Mission::Mission_Command cmd;
-
+    // Waypoint #0 is always the home waypoint
+    // Waypoint #1 is skipped due to the takeoff waypoint
+    // therefore, if you would like to use this code for actual
+    // flight test, use a dummy waypoint for the first one
+    // (in place for TAKEOFF)
+    if (cur_index == 2) {
+        mission.get_next_nav_cmd(2, cmd);
+        loc = cmd.content.location;
+    }
     if (get_distance(cur_loc, loc) < waypoint_radius) {
         // If there is another waypoint, set plane to that next waypoint
-        if (mission.get_next_nav_cmd(cur_index, cmd)) {
+        if (mission.get_next_nav_cmd(cur_index + 1, cmd)) {
             cur_index++;
+            loc = cmd.content.location;
         }
         // If no waypoints available, set plane to home
+        // Plane will continue circling the home waypoint once
+        // it reaches the home waypoint
+
+        // TODO: Figure out why mavproxy still prints waypoint 6
         else {
-            mission.get_next_nav_cmd(0, cmd);
+            mission.get_next_nav_cmd(0, cmd); // 0 is home waypoint
+            loc = cmd.content.location;
         }
-        loc = cmd.content.location;
-        // Using unused loc.options to store the cur_index so that it is accessible in the return type
-        loc.options = cur_index;
     }
+    // Using unused loc.options to store the cur_index so that it is accessible in the return type
+    loc.options = cur_index;
 
     return loc;
 }

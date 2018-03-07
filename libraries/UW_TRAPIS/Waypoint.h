@@ -3,6 +3,12 @@
 // Ravi Patel
 // patelr3@uw.edu
 //
+//
+// NOTES:
+// The nextWaypoint() method assumes that your first waypoint is a
+// dummy waypoint. This code will not command to the first waypoint
+// initially. This is so you can assign a TAKEOFF waypoint in simulation
+// while still being able to command to certain waypoints in your flight plan
 //////////////////////////////////////////////////////////////////////
 
 #ifndef GUARD_Waypoint_h

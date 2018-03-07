@@ -797,8 +797,8 @@ void Plane::update_flight_mode(void)
         //uint16_t rad = g.waypoint_radius;
         //gcs().send_text(MAV_SEVERITY_INFO, "waypoint radius %.3i", rad);
         uint16_t wp_rad = g.waypoint_radius;
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, trapis.loc, wp_rad);
-        gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %2i", waypoint.options);
+        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad);
+        gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
 
         // Carnation
         // Flips ailerons when crossing wall next to trailer
@@ -869,9 +869,29 @@ void Plane::update_flight_mode(void)
 
 
 
-        // bearing to next waypoint
+        /* 
+        *   bearing to next waypoint
+        */
+        uint16_t wp_rad = g.waypoint_radius; // extracts waypoint radius from Mission Planner
 
-        next_WP_loc = home;
+        // Extract the current waypoint
+
+        /*
+        * NOTE: This will command to the 2nd waypoint you have in the flight plan initially.
+        * The first waypoint can either be used as TAKEOFF for simulation or just as a dummy
+        * waypoint. Again: This will not start at WAYPOINT#1, it will start at WAYPOINT #2.
+        */
+        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad);
+
+        // Print waypoint information to MissionPlanner/gcs
+        gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
+        float wlat = (float)waypoint.lat / 1e7;
+        float wlng = (float)waypoint.lng / 1e7;
+        float walt = (float)waypoint.alt / 100;
+        gcs().send_text(MAV_SEVERITY_INFO, "waypoint location: %.3f, %.3f, %.3f", wlat, wlng, walt);
+
+        // Assign waypoint
+        next_WP_loc = waypoint;
 
         double off_x = next_WP_loc.lng - current_loc.lng;
         double off_y = (next_WP_loc.lat - current_loc.lat) / longitude_scale(next_WP_loc);
@@ -909,7 +929,7 @@ void Plane::update_flight_mode(void)
         // set RC channel 3 PWM (throttle)
 
         // For use only in simulation
-        // SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 40); //percentage
+        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 40); //percentage
         break;
     }
 
