@@ -914,9 +914,10 @@
     <ClCompile Include="libraries\SRV_Channel\SRV_Channel_aux.cpp" />
     <ClCompile Include="libraries\StorageManager\examples\StorageTest\StorageTest.cpp" />
     <ClCompile Include="libraries\StorageManager\StorageManager.cpp" />
-    <ClCompile Include="libraries\WASteer\AltitudeHold.cpp" />
-    <ClCompile Include="libraries\WASteer\Steer.cpp" />
-    <ClCompile Include="libraries\WASteer\WingLeveler.cpp" />
+    <ClCompile Include="libraries\UW_TRAPIS\AltitudeHold.cpp" />
+    <ClCompile Include="libraries\UW_TRAPIS\Steer.cpp" />
+    <ClCompile Include="libraries\UW_TRAPIS\Waypoint.cpp" />
+    <ClCompile Include="libraries\UW_TRAPIS\WingLeveler.cpp" />
     <ClCompile Include="modules\gbenchmark\cmake\gnu_posix_regex.cpp" />
     <ClCompile Include="modules\gbenchmark\cmake\posix_regex.cpp" />
     <ClCompile Include="modules\gbenchmark\cmake\std_regex.cpp" />
@@ -6257,10 +6258,11 @@
     <ClInclude Include="libraries\SITL\SITL.h" />
     <ClInclude Include="libraries\SRV_Channel\SRV_Channel.h" />
     <ClInclude Include="libraries\StorageManager\StorageManager.h" />
-    <ClInclude Include="libraries\WASteer\AltitudeHold.h" />
-    <ClInclude Include="libraries\WASteer\Steer.h" />
-    <ClInclude Include="libraries\WASteer\UW_TRAPIS.h" />
-    <ClInclude Include="libraries\WASteer\WingLeveler.h" />
+    <ClInclude Include="libraries\UW_TRAPIS\AltitudeHold.h" />
+    <ClInclude Include="libraries\UW_TRAPIS\Steer.h" />
+    <ClInclude Include="libraries\UW_TRAPIS\UW_TRAPIS.h" />
+    <ClInclude Include="libraries\UW_TRAPIS\Waypoint.h" />
+    <ClInclude Include="libraries\UW_TRAPIS\WingLeveler.h" />
     <ClInclude Include="mavschema.h">
       <DependentUpon>modules\mavlink\pymavlink\generator\mavschema.xsd</DependentUpon>
     </ClInclude>

@@ -11,5 +11,6 @@
 #include "WingLeveler.h"
 #include "AltitudeHold.h"
 #include "Steer.h"
+#include "Waypoint.h"
 
 #endif /* WASTEER_H_ */

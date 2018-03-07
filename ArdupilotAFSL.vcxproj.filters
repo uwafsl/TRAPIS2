@@ -21930,13 +21930,16 @@
     <ClCompile Include="Tools\Replay\Replay.cpp">
       <Filter>Tools\Replay</Filter>
     </ClCompile>
-    <ClCompile Include="libraries\WASteer\AltitudeHold.cpp">
+    <ClCompile Include="libraries\UW_TRAPIS\AltitudeHold.cpp">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
-    <ClCompile Include="libraries\WASteer\Steer.cpp">
+    <ClCompile Include="libraries\UW_TRAPIS\Steer.cpp">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
-    <ClCompile Include="libraries\WASteer\WingLeveler.cpp">
+    <ClCompile Include="libraries\UW_TRAPIS\WingLeveler.cpp">
+      <Filter>libraries\UW_TRAPIS</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\UW_TRAPIS\Waypoint.cpp">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
   </ItemGroup>
@@ -34353,16 +34356,19 @@
     <ClInclude Include="Tools\Replay\VehicleType.h">
       <Filter>Tools\Replay</Filter>
     </ClInclude>
-    <ClInclude Include="libraries\WASteer\AltitudeHold.h">
+    <ClInclude Include="libraries\UW_TRAPIS\UW_TRAPIS.h">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
-    <ClInclude Include="libraries\WASteer\Steer.h">
+    <ClInclude Include="libraries\UW_TRAPIS\AltitudeHold.h">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
-    <ClInclude Include="libraries\WASteer\WingLeveler.h">
+    <ClInclude Include="libraries\UW_TRAPIS\Steer.h">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
-    <ClInclude Include="libraries\WASteer\UW_TRAPIS.h">
+    <ClInclude Include="libraries\UW_TRAPIS\WingLeveler.h">
+      <Filter>libraries\UW_TRAPIS</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\UW_TRAPIS\Waypoint.h">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
   </ItemGroup>

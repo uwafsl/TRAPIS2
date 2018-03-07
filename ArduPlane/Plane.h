@@ -445,12 +445,14 @@ private:
         WingLeveler WL;
         AltitudeHold AH;
         Steer STR;
+        Waypoint WP;
     } wstr_state;
 
     struct {
         double lat;
         double lng;
         double alt;
+        Location loc;
     } trapis;
     //UWAFSL END
 

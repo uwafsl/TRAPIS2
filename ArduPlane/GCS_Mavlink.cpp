@@ -1022,6 +1022,10 @@ void GCS_MAVLINK_Plane::handleMessage(mavlink_message_t* msg)
                 plane.trapis.lat = Tlat;
                 plane.trapis.lng = Tlng;
                 plane.trapis.alt = Talt;
+                //plane.trapis.loc = new Location((int32_t)(lat * 1e7), (int32_t)(lng * 1e7), (int32_t)(alt * 100), 0);
+                plane.trapis.loc.lat = (int32_t)(Tlat * 1e7);
+                plane.trapis.loc.lng = (int32_t)(Tlng * 1e7);
+                plane.trapis.loc.alt = (int32_t)(Talt * 100);
 
                 gcs().send_text(MAV_SEVERITY_INFO, "Set GPS to %.6f %.6f",
                     Tlat,
