@@ -80,7 +80,7 @@ Steer::~Steer()
 ///
 /// Side-effects:	- none
 ////
-double Steer::computeRudderDeflection(double bearing, double psi, double r)
+double Steer::computeRudderDeflection(double bearing, double psi, double r, double pro_gain, double der_gain)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
@@ -94,12 +94,14 @@ double Steer::computeRudderDeflection(double bearing, double psi, double r)
 	////
 	/// Rudder Control Interface
 	////
+    kPsi = pro_gain;
+    kR = der_gain;
 
     double psi_e = bearing - psi;
 
-    if (psi_e < -9000) {
-        psi_e = psi_e + 36000;
-    }
+    //if (psi_e < -9000) {
+    //    psi_e = psi_e + 36000;
+    //}
 
     double dR = -(psi_e*kPsi); // -r*kR);
 

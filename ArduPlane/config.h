@@ -399,17 +399,20 @@
 #ifndef UW_ALTITUDE      //Defines uw_altitude
  # define UW_ALTITUDE 100  //Sets default value
 #endif
-#ifndef UW_PRO_GAIN     //Defines uw_pro_gain
- # define UW_PRO_GAIN 5e-3 //Sets default value
+#ifndef WSTR_PRO_GAIN     //Defines uw_pro_gain
+ # define UW_PRO_GAIN 3 //Sets default value
 #endif
-#ifndef UW_DER_GAIN     //Defines uw_der_gain
-# define UW_DER_GAIN 1e-2 //Sets default value
+#ifndef WSTR_DER_GAIN     //Defines uw_der_gain
+# define UW_DER_GAIN 0.5 //Sets default value
 #endif
 #ifndef WSTR_HOME       //Defines wstr_home
 # define WSTR_HOME 1  //Sets default value
 #endif
 #ifndef WSTR_TRAPIS_LOC       //Defines wstr_trapis_loc
 # define WSTR_TRAPIS_LOC 0  //Sets default value
+#endif
+#ifndef WSTR_ACTIVATE       //Defines wstr_activate
+# define WSTR_ACTIVATE 0  //Sets default value
 #endif
 /*
 #ifndef UW_PSIDOTERR_LIM     //Defines uw_psiDotErr_lim

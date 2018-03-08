@@ -659,8 +659,8 @@ void Plane::update_flight_mode(void)
 		double theta = ahrs.pitch;
 
         // Defining Paramters
-        double pro_gain = g.uw_pro_gain;
-        double der_gain = g.uw_der_gain;
+        double pro_gain = g.wstr_pro_gain;
+        double der_gain = g.wstr_der_gain;
         //double psiDotErr_lim = g.uw_psiDotErr_lim;
         //double pro_forget_factor = g.uw_pro_forget_factor;
         //double der_forget_factor = g.uw_der_forget_factor;
@@ -730,8 +730,8 @@ void Plane::update_flight_mode(void)
 		double theta = ahrs.pitch;
 
         // Defining Paramters
-        double pro_gain = g.uw_pro_gain;
-        double der_gain = g.uw_der_gain;
+        double pro_gain = g.wstr_pro_gain;
+        double der_gain = g.wstr_der_gain;
 
         double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain);
 
@@ -896,11 +896,11 @@ void Plane::update_flight_mode(void)
 
         Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad);
 
-        // check waypoint validity - if mission is done, switch to RTL
+        // check waypoint validity - if mission is done, switch to WSTR - restart mission
         // Switching back to WSTR will restart the mission from waypoint #2
         if (waypoint.lat == 1 && waypoint.lng == 3 && waypoint.alt == 7) {
-            gcs().send_text(MAV_SEVERITY_INFO, "Trapis mission ended. Switch to WSTR to restart.");
-            set_mode(AUTO, MODE_REASON_MISSION_END);
+            gcs().send_text(MAV_SEVERITY_INFO, "Trapis mission ended. Restarting mission in WSTR.");
+            set_mode(WSTR, MODE_REASON_MISSION_END);
         }
 
         // Print waypoint information to MissionPlanner/gcs
@@ -939,10 +939,12 @@ void Plane::update_flight_mode(void)
       
 
         // Calculate control surface deflections
+        double pro_gain = g.wstr_pro_gain;
+        double der_gain = g.wstr_der_gain;
 
         double dA = wstr_state.WL.computeAileronDeflection(phi, p); // rad
         double dE = wstr_state.AH.computeElevatorDeflection(alt, theta, q); // rad
-        double dR = wstr_state.STR.computeRudderDeflection(bearing, psi, r); // centidegrees
+        double dR = wstr_state.STR.computeRudderDeflection(bearing, psi, r, pro_gain, der_gain); // centidegrees
 
         // Set RC output channels to control surface deflections
 
@@ -954,7 +956,15 @@ void Plane::update_flight_mode(void)
         
         // dR set to zero to just test wing leveler and altitude hold.
         // dR = 0 // Setting rudder to zero deflection
-        steering_control.steering = steering_control.rudder = -dR; //Units: centi-degrees
+
+        // If wstr_uw_activate is set to 0 in Mission Planner, gives rudder control to Hannah/Pilot
+        if (g.wstr_activate != 1) {
+            steering_control.steering = steering_control.rudder = channel_rudder->get_control_in_zero_dz();
+        }
+        // If wstr_activate == 1, use full waypoint navigation
+        else {
+            steering_control.steering = steering_control.rudder = -dR; //Units: centi-degrees
+        }
         
                                                                    
         // set RC channel 3 PWM (throttle)

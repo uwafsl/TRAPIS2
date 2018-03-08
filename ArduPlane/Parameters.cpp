@@ -381,18 +381,18 @@ const AP_Param::Info Plane::var_info[] = {
     GSCALAR(uw_altitude, "UW_ALTITUDE",  100),
 
     // @Param: UW_PRO_GAIN
-    // @DisplayName: Proportional Gain of Orbit
-    // @Description: Sets the proportional gain of orbit for visual anchoring flight mode
-    // @Values: 0 1
+    // @DisplayName: Proportional Gain of Trapis Controller
+    // @Description: Sets the proportional gain of trapis controller for WSTR
+    // @Values: 0 10
     // @User: Standard
-    GSCALAR(uw_pro_gain, "UW_PRO_GAIN",  5e-3),
+    GSCALAR(wstr_pro_gain, "WSTR_PRO_GAIN",  3),
 
     // @Param: UW_DER_GAIN
-    // @DisplayName: Derivative Gain of Orbit
-    // @Description: Sets the derivative gain of orbit for visual anchoring flight mode
-    // @Values: 0 1
+    // @DisplayName: Derivative Gain of Trapis Controller
+    // @Description: Sets the derivative gain of trapis controller for WSTR
+    // @Values: 0 10
     // @User: Standard
-    GSCALAR(uw_der_gain, "UW_DER_GAIN", 1e-2),
+    GSCALAR(wstr_der_gain, "WSTR_DER_GAIN", 0.5),
 
     // @Param: WSTR_HOME
     // @DisplayName: WSTR home
@@ -407,6 +407,13 @@ const AP_Param::Info Plane::var_info[] = {
     // @Values: 0 1
     // @User: Standard
     GSCALAR(wstr_trapis_loc, "WSTR_TRAPIS_LOC", 0),
+
+    // @Param: WSTR_ACTIVATE
+    // @DisplayName: WSTR Activation
+    // @Description: Sets the mode to full WSTR (=1), otherwise sets mode to Alt Hold and Wing Leveler only (=0)
+    // @Values: 0 1
+    // @User: Standard
+    GSCALAR(wstr_activate, "WSTR_ACTIVATE", 0),
 
     // @Param: UW_PSIDOTERR_LIM
     // @DisplayName: Heading Rate Limits of Orbit

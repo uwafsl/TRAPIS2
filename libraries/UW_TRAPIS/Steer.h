@@ -46,7 +46,7 @@ public:
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeRudderDeflection(double nav_bearing, double psi, double r);
+    double computeRudderDeflection(double nav_bearing, double psi, double r, double pro_gain, double der_gain);
 	
 	// ====== Get/Set Functions ==========================
 

@@ -278,7 +278,7 @@ public:
         k_param_long_fs_timeout,
         k_param_rc_13_old,
         k_param_rc_14_old,
-        k_param_tuning,
+        k_param_tuning = 199,
 
         //
         // 200: Feed-forward gains
@@ -357,10 +357,11 @@ public:
 		//Visual Anchoring
 		k_param_uw_radius = 251,   //251
 		k_param_uw_altitude,       //252
-		k_param_uw_pro_gain,       //253
-        k_param_uw_der_gain,       //254
+		k_param_wstr_pro_gain,       //253
+        k_param_wstr_der_gain,       //254
         k_param_wstr_home,         //255
-        k_param_wstr_trapis_loc = 9 //9    was empty - SEE BELOW 
+        k_param_wstr_trapis_loc = 9, //9    was empty - SEE BELOW 
+        k_param_wstr_activate = 198 //252
         // k_param_uw_psiDotErr_lim, //255 DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
         // k_param_uw_pro_forget_factor = 9, // was empty DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
         // k_param_uw_der_forget_factor = 198 // replaced k_param_rc_14_old DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
@@ -526,13 +527,12 @@ public:
     //Adding Parameters
     AP_Float uw_radius;
     AP_Float uw_altitude;
-    AP_Float uw_pro_gain;
-    AP_Float uw_der_gain;
+    AP_Float wstr_pro_gain;
+    AP_Float wstr_der_gain;
     AP_Float uw_psiDotErr_lim;
-    AP_Float uw_pro_forget_factor;
-    AP_Float uw_der_forget_factor;
     AP_Float wstr_home;
     AP_Float wstr_trapis_loc;
+    AP_Float wstr_activate;
     //UWAFSL END
 };
 
