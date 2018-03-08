@@ -900,7 +900,7 @@ void Plane::update_flight_mode(void)
         // Switching back to WSTR will restart the mission from waypoint #2
         if (waypoint.lat == 1 && waypoint.lng == 3 && waypoint.alt == 7) {
             gcs().send_text(MAV_SEVERITY_INFO, "Trapis mission ended. Switch to WSTR to restart.");
-            set_mode(RTL, MODE_REASON_MISSION_END);
+            set_mode(AUTO, MODE_REASON_MISSION_END);
         }
 
         // Print waypoint information to MissionPlanner/gcs
