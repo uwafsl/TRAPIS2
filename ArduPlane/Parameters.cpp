@@ -394,12 +394,12 @@ const AP_Param::Info Plane::var_info[] = {
     // @User: Standard
     GSCALAR(uw_der_gain, "UW_DER_GAIN", 1e-2),
 
-    // @Param: WSMP_TEST
-    // @DisplayName: WSMP test
-    // @Description: Tests whether WSMP is the actual mode the plane is in
+    // @Param: WSTR_HOME
+    // @DisplayName: WSTR home
+    // @Description: Sets the target waypoint for WSTR to either home (=1) or flight plane (=0)
     // @Values: 0 1
     // @User: Standard
-    GSCALAR(wsmp_test, "WSMP_TEST", 0.5),
+    GSCALAR(wstr_home, "WSTR_HOME", 1),
 
     // @Param: UW_PSIDOTERR_LIM
     // @DisplayName: Heading Rate Limits of Orbit

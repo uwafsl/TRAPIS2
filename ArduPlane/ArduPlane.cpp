@@ -883,6 +883,13 @@ void Plane::update_flight_mode(void)
         */
         Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad);
 
+        // check waypoint validity - if mission is done, switch to RTL
+        // Switching back to WSTR will restart the mission from waypoint #2
+        if (waypoint.lat == 1 && waypoint.lng == 3 && waypoint.alt == 7) {
+            gcs().send_text(MAV_SEVERITY_INFO, "Trapis mission ended. Switch to WSTR to restart.");
+            set_mode(RTL, MODE_REASON_MISSION_END);
+        }
+
         // Print waypoint information to MissionPlanner/gcs
         gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
         float wlat = (float)waypoint.lat / 1e7;
@@ -891,7 +898,14 @@ void Plane::update_flight_mode(void)
         gcs().send_text(MAV_SEVERITY_INFO, "waypoint location: %.3f, %.3f, %.3f", wlat, wlng, walt);
 
         // Assign waypoint
-        next_WP_loc = waypoint;
+        // If MissionPlanner parameter wstr_home set to 1, make waypoint the home waypoint
+        // Otherwise, command to flight plane waypoints
+        if (g.wstr_home == 1) {
+            next_WP_loc = home;
+        }
+        else {
+            next_WP_loc = waypoint;
+        }
 
         double off_x = next_WP_loc.lng - current_loc.lng;
         double off_y = (next_WP_loc.lat - current_loc.lat) / longitude_scale(next_WP_loc);

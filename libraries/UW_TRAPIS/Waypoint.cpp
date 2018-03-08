@@ -94,8 +94,12 @@ Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t w
 
         // TODO: Figure out why mavproxy still prints waypoint 6
         else {
-            mission.get_next_nav_cmd(0, cmd); // 0 is home waypoint
-            loc = cmd.content.location;
+            //mission.get_next_nav_cmd(0, cmd); // 0 is home waypoint
+            //loc = cmd.content.location;
+            loc.lat = 1;
+            loc.lng = 3;
+            loc.alt = 7;
+            cur_index = 2;
         }
     }
     // Using unused loc.options to store the cur_index so that it is accessible in the return type
