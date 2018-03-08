@@ -405,8 +405,11 @@
 #ifndef UW_DER_GAIN     //Defines uw_der_gain
 # define UW_DER_GAIN 1e-2 //Sets default value
 #endif
-#ifndef WSMP_TEST       //Defines wsmp_test
-# define WSMP_TEST 0.5  //Sets default value
+#ifndef WSTR_HOME       //Defines wstr_home
+# define WSTR_HOME 1  //Sets default value
+#endif
+#ifndef WSTR_TRAPIS_LOC       //Defines wstr_trapis_loc
+# define WSTR_TRAPIS_LOC 0  //Sets default value
 #endif
 /*
 #ifndef UW_PSIDOTERR_LIM     //Defines uw_psiDotErr_lim

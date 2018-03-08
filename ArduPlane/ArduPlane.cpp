@@ -881,18 +881,49 @@ void Plane::update_flight_mode(void)
         * The first waypoint can either be used as TAKEOFF for simulation or just as a dummy
         * waypoint. Again: This will not start at WAYPOINT#1, it will start at WAYPOINT #2.
         */
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad);
+
+        // Sets plane's location based on Mission Planner parameter WSTR_TRAPIS_LOC
+        // When set to 1, uses trapis coords. When set to 0, uses gps coords
+        Location plane_location;
+        if (g.wstr_trapis_loc == 1) {
+            plane_location = trapis.loc;
+            plane_location.lng *= -1; // Flips sign on longitude because MP is set up that way
+        }
+        else {
+            plane_location = gps.location();
+        }
+
+
+        Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad);
+
+        // check waypoint validity - if mission is done, switch to RTL
+        // Switching back to WSTR will restart the mission from waypoint #2
+        if (waypoint.lat == 1 && waypoint.lng == 3 && waypoint.alt == 7) {
+            gcs().send_text(MAV_SEVERITY_INFO, "Trapis mission ended. Switch to WSTR to restart.");
+            set_mode(AUTO, MODE_REASON_MISSION_END);
+        }
 
         // Print waypoint information to MissionPlanner/gcs
-        gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
-        float wlat = (float)waypoint.lat / 1e7;
-        float wlng = (float)waypoint.lng / 1e7;
-        float walt = (float)waypoint.alt / 100;
-        gcs().send_text(MAV_SEVERITY_INFO, "waypoint location: %.3f, %.3f, %.3f", wlat, wlng, walt);
+        if (trapis.waypoint_num != waypoint.options) {
+            gcs().send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Num: %2i", waypoint.options);
+            float wlat = (float)waypoint.lat / 1e7;
+            float wlng = (float)waypoint.lng / 1e7;
+            float walt = (float)waypoint.alt / 100;
+            gcs().send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Location: %.6f, %.6f, %.6f", wlat, wlng, walt);
+        }
+        trapis.waypoint_num = waypoint.options;
 
         // Assign waypoint
-        next_WP_loc = waypoint;
+        // If MissionPlanner parameter wstr_home set to 1, make waypoint the home waypoint
+        // Otherwise, command to flight plane waypoints
+        if (g.wstr_home == 1) {
+            next_WP_loc = home;
+        }
+        else {
+            next_WP_loc = waypoint;
+        }
 
+        // Calculate inputs to the WSTR Controller
         double off_x = next_WP_loc.lng - current_loc.lng;
         double off_y = (next_WP_loc.lat - current_loc.lat) / longitude_scale(next_WP_loc);
         double bearing = 9000 + atan2f(-off_y, off_x) * 5729.57795f;
