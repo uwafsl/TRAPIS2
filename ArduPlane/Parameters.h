@@ -355,11 +355,12 @@ public:
         //parameter graveyard: we have 251, 252, 253, 254, 255
         //UWAFSL START
 		//Visual Anchoring
-		k_param_uw_radius = 251,  //251
-		k_param_uw_altitude,      //252
-		k_param_uw_pro_gain,      //253
-        k_param_uw_der_gain,      //254
-        k_param_wstr_home         //255
+		k_param_uw_radius = 251,   //251
+		k_param_uw_altitude,       //252
+		k_param_uw_pro_gain,       //253
+        k_param_uw_der_gain,       //254
+        k_param_wstr_home,         //255
+        k_param_wstr_trapis_loc = 9 //9    was empty - SEE BELOW 
         // k_param_uw_psiDotErr_lim, //255 DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
         // k_param_uw_pro_forget_factor = 9, // was empty DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
         // k_param_uw_der_forget_factor = 198 // replaced k_param_rc_14_old DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
@@ -531,6 +532,7 @@ public:
     AP_Float uw_pro_forget_factor;
     AP_Float uw_der_forget_factor;
     AP_Float wstr_home;
+    AP_Float wstr_trapis_loc;
     //UWAFSL END
 };
 

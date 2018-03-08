@@ -401,6 +401,13 @@ const AP_Param::Info Plane::var_info[] = {
     // @User: Standard
     GSCALAR(wstr_home, "WSTR_HOME", 1),
 
+    // @Param: WSTR_TRAPIS_LOC
+    // @DisplayName: WSTR Trapis Plane Location
+    // @Description: Sets the plane's location to Trapis coords (=1) or Plane gps coords (=0)
+    // @Values: 0 1
+    // @User: Standard
+    GSCALAR(wstr_trapis_loc, "WSTR_TRAPIS_LOC", 0),
+
     // @Param: UW_PSIDOTERR_LIM
     // @DisplayName: Heading Rate Limits of Orbit
     // @Description: Sets the heading rate limit (psiDotErr limit) of orbit for visual anchoring flight mode (rad/s)

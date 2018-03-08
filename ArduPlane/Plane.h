@@ -453,6 +453,7 @@ private:
         double lng;
         double alt;
         Location loc;
+        int16_t waypoint_num;
     } trapis;
     //UWAFSL END
 
