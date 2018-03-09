@@ -99,9 +99,13 @@ double Steer::computeRudderDeflection(double bearing, double psi, double r, doub
 
     double psi_e = bearing - psi;
 
-    //if (psi_e < -9000) {
-    //    psi_e = psi_e + 36000;
-    //}
+    if (psi_e < -18000) {
+        psi_e = psi_e + 36000;
+    }
+
+    if (psi_e > 18000) {
+        psi_e = psi_e - 36000;
+    }
 
     double dR = -(psi_e*kPsi); // -r*kR);
 
