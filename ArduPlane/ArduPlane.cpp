@@ -856,19 +856,21 @@ void Plane::update_flight_mode(void)
         double q = ahrs.get_gyro().y; // rad/s
         double r = ahrs.get_gyro().z; // rad/s
         r = r * 180 / pi * 100; // centidegrees/s
+        
         // euler angles 
         double phi = ahrs.roll; // rad
         double theta = ahrs.pitch; // rad
         double psi = ahrs.yaw; // rad
         psi = psi * 180 / pi * 100; // centidegrees
+
+        //convert psi to range of [0, 36000] centidegrees
         if (psi < 0) {
             psi += 36000;
         }
+
         // altitude
         double alt = relative_altitude; //(m)
-
-
-
+        
         /* 
         *   bearing to next waypoint
         */

@@ -18,7 +18,7 @@
 #include <math.h>						//min, max
 
 // local header files
-#include "WingLeveler.h"		//InnerLoopController class
+#include "WingLeveler.h"		//WingLeveler class
 
 // using declaration
 
