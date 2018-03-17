@@ -122,5 +122,5 @@ bld/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
-# specific file that might have been generated when the solution as updated to  newer vesion.
+# specific file that might have been generated when the solution as updated to newer version.
 UpgradeLog.htm
