@@ -889,7 +889,7 @@ void Plane::update_flight_mode(void)
         Location plane_location;
         if (g.wstr_trapis_loc == 1) {
             plane_location = trapis.loc;
-            plane_location.lng *= -1; // Flips sign on longitude because MP is set up that way
+            //plane_location.lng *= -1; // Flips sign on longitude because MP is set up that way
         }
         else {
             plane_location = gps.location();
