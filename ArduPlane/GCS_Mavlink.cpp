@@ -1015,7 +1015,7 @@ void GCS_MAVLINK_Plane::handleMessage(mavlink_message_t* msg)
         case 999: {
             //msg
             double Tlat = packet.param1;
-            double Tlng = packet.param2;
+            double Tlng = -packet.param2;
             double Talt = packet.param3;
             if (plane.control_mode == WSMP || plane.control_mode == WSTR) {
                 // Hijack Mount's ROI Location Fields to use in WSMP
