@@ -70,7 +70,7 @@ Waypoint::~Waypoint()
 ///
 /// Side-effects:	- none
 ////
-Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius)
+Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius, Location default_loc)
 {
     AP_Mission::Mission_Command cmd;
     // Waypoint #0 is always the home waypoint
@@ -79,8 +79,12 @@ Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t w
     // flight test, use a dummy waypoint for the first one
     // (in place for TAKEOFF)
     if (cur_index == 2) {
-        mission.get_next_nav_cmd(2, cmd);
-        loc = cmd.content.location;
+        if (mission.get_next_nav_cmd(2, cmd)) {
+            loc = cmd.content.location;
+        }
+        else {
+            loc = default_loc;
+        }
     }
     if (get_distance(cur_loc, loc) < waypoint_radius) {
         // If there is another waypoint, set plane to that next waypoint
@@ -96,9 +100,7 @@ Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t w
         else {
             // This is basically a secret code to check for
             // showing that we are done with this trapis mission
-            loc.lat = 1;
-            loc.lng = 3;
-            loc.alt = 7;
+            loc = default_loc;
             cur_index = 2; // Reset starting waypoint for next test run
         }
     }

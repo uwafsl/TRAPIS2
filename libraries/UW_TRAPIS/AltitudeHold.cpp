@@ -44,12 +44,13 @@ AltitudeHold::AltitudeHold()
 	kQ = 0.5;       // derivative pitch gain
 
 	// initialize integrators
-	//intAltitude = 0;
+	intAltitude = 0;
 
 	// initialize previous values for input
     last_alt = 0;
 	last_q = 0;
 	last_theta = 0;
+    last_dt = 0;
 }
 
 
@@ -81,7 +82,7 @@ AltitudeHold::~AltitudeHold()
 ///
 /// Side-effects:	- none
 ////
-double AltitudeHold::computeElevatorDeflection(double alt, double theta, double q)
+double AltitudeHold::computeElevatorDeflection(double alt, double theta, double q, double dt, double alt_pro_gain)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
@@ -94,11 +95,20 @@ double AltitudeHold::computeElevatorDeflection(double alt, double theta, double 
 	if (theta>1 || theta<-1) {
         theta = last_theta;
 	}
+    if (alt>6000 || alt<-100) {
+        alt = last_alt;
+    }
+    if (dt == 0) {
+        // invalid time step
+        dt = last_dt;
+    }
 
 	////
 	/// Elevator Control Interface
 	////
-	
+    // Mission Planner parameter controlling altitude proportional gain
+    kAlt = alt_pro_gain;   // proportional altitude hold
+
     double pi = 3.14159; // constant
 
     double alt_ref = 100; //(m)
@@ -106,7 +116,16 @@ double AltitudeHold::computeElevatorDeflection(double alt, double theta, double 
 
     double alt_e = alt_ref - alt;
 
-    double theta_cmd = (alt_e*kAlt) * (pi / 180);
+    intAltitude += (kAlt / 15)*alt_e*dt;
+    // signal saturation
+    if (intAltitude < -60) {
+        intAltitude = -60;
+    }
+    else if (intAltitude > 60) {
+        intAltitude = 60;
+    }
+
+    double theta_cmd = (alt_e*kAlt + intAltitude) * (pi / 180);
 
     double theta_e = theta_cmd - theta;
     double dE = -(theta_e*kTheta - q*kQ);
@@ -124,6 +143,7 @@ double AltitudeHold::computeElevatorDeflection(double alt, double theta, double 
 	last_q = q;
     last_theta = theta;
     last_alt = alt;
+    last_dt = dt;
 
 	return(dE);
 }

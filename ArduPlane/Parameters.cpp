@@ -380,26 +380,33 @@ const AP_Param::Info Plane::var_info[] = {
     // @User: Standard
     GSCALAR(uw_altitude, "UW_ALTITUDE",  100),
 
-    // @Param: UW_PRO_GAIN
+    // @Param: WSTR_WL_PRO_GAIN
     // @DisplayName: Proportional Gain of Trapis Controller
-    // @Description: Sets the proportional gain of trapis controller for WSTR
+    // @Description: Sets the proportional gain of Wing Leveler for WSTR
     // @Values: 0 10
     // @User: Standard
-    GSCALAR(wstr_pro_gain, "WSTR_PRO_GAIN",  3),
+    GSCALAR(wstr_wl_pro_gain, "WSTR_WL_PRO_GAIN",  3),
 
-    // @Param: UW_DER_GAIN
+    // @Param: WSTR_WL_DER_GAIN
     // @DisplayName: Derivative Gain of Trapis Controller
-    // @Description: Sets the derivative gain of trapis controller for WSTR
+    // @Description: Sets the derivative gain of Wing Leveler for WSTR
     // @Values: 0 10
     // @User: Standard
-    GSCALAR(wstr_der_gain, "WSTR_DER_GAIN", 0.5),
+    GSCALAR(wstr_wl_der_gain, "WSTR_WL_DER_GAIN", 0.5),
 
     // @Param: WSTR_HOME
     // @DisplayName: WSTR home
     // @Description: Sets the target waypoint for WSTR to either home (=1) or flight plane (=0)
     // @Values: 0 1
     // @User: Standard
-    GSCALAR(wstr_home, "WSTR_HOME", 1),
+    //GSCALAR(wstr_home, "WSTR_HOME", 1),
+
+    // @Param: WSTR_AH_PRO_GAIN
+    // @DisplayName: WSTR home
+    // @Description: Sets the target waypoint for WSTR to either home (=1) or flight plane (=0)
+    // @Values: 0 1
+    // @User: Standard
+    GSCALAR(wstr_ah_pro_gain, "WSTR_AH_PRO_GAIN", 0.5),
 
     // @Param: WSTR_TRAPIS_LOC
     // @DisplayName: WSTR Trapis Plane Location

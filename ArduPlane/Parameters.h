@@ -357,9 +357,9 @@ public:
 		//Visual Anchoring
 		k_param_uw_radius = 251,   //251
 		k_param_uw_altitude,       //252
-		k_param_wstr_pro_gain,       //253
-        k_param_wstr_der_gain,       //254
-        k_param_wstr_home,         //255
+		k_param_wstr_wl_pro_gain,       //253
+        k_param_wstr_wl_der_gain,       //254
+        k_param_wstr_ah_pro_gain,       //255
         k_param_wstr_trapis_loc = 9, //9    was empty - SEE BELOW 
         k_param_wstr_activate = 198 //252
         // k_param_uw_psiDotErr_lim, //255 DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
@@ -527,10 +527,11 @@ public:
     //Adding Parameters
     AP_Float uw_radius;
     AP_Float uw_altitude;
-    AP_Float wstr_pro_gain;
-    AP_Float wstr_der_gain;
+    AP_Float wstr_wl_pro_gain;
+    AP_Float wstr_wl_der_gain;
     AP_Float uw_psiDotErr_lim;
-    AP_Float wstr_home;
+    AP_Float wstr_ah_pro_gain;
+    // AP_Float wstr_home; UWAFSL- deprecated
     AP_Float wstr_trapis_loc;
     AP_Float wstr_activate;
     //UWAFSL END

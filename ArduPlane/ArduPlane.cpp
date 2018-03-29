@@ -659,8 +659,8 @@ void Plane::update_flight_mode(void)
 		double theta = ahrs.pitch;
 
         // Defining Paramters
-        double pro_gain = g.wstr_pro_gain;
-        double der_gain = g.wstr_der_gain;
+        double pro_gain = g.wstr_wl_pro_gain;
+        double der_gain = g.wstr_wl_der_gain;
         //double psiDotErr_lim = g.uw_psiDotErr_lim;
         //double pro_forget_factor = g.uw_pro_forget_factor;
         //double der_forget_factor = g.uw_der_forget_factor;
@@ -730,8 +730,8 @@ void Plane::update_flight_mode(void)
 		double theta = ahrs.pitch;
 
         // Defining Paramters
-        double pro_gain = g.wstr_pro_gain;
-        double der_gain = g.wstr_der_gain;
+        double pro_gain = g.wstr_wl_pro_gain;
+        double der_gain = g.wstr_wl_der_gain;
 
         double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain);
 
@@ -797,7 +797,7 @@ void Plane::update_flight_mode(void)
         //uint16_t rad = g.waypoint_radius;
         //gcs().send_text(MAV_SEVERITY_INFO, "waypoint radius %.3i", rad);
         uint16_t wp_rad = g.waypoint_radius;
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad);
+        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad, home);
         gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
 
         // Carnation
@@ -851,6 +851,9 @@ void Plane::update_flight_mode(void)
 
         double pi = 3.14159;
 
+        //dt used for AH integrator
+        double dt = 0.02; //Seconds
+
         // euler angle rates 
         double p = ahrs.get_gyro().x; // rad/s
         double q = ahrs.get_gyro().y; // rad/s
@@ -889,20 +892,34 @@ void Plane::update_flight_mode(void)
         Location plane_location;
         if (g.wstr_trapis_loc == 1) {
             plane_location = trapis.loc;
-            plane_location.lng *= -1; // Flips sign on longitude because MP is set up that way
+            //plane_location.lng *= -1; // Flips sign on longitude because MP is set up that way
         }
         else {
             plane_location = gps.location();
         }
 
 
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad);
+        Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home);
 
         // check waypoint validity - if mission is done, switch to WSTR - restart mission
         // Switching back to WSTR will restart the mission from waypoint #2
-        if (waypoint.lat == 1 && waypoint.lng == 3 && waypoint.alt == 7) {
-            gcs().send_text(MAV_SEVERITY_INFO, "Trapis mission ended. Restarting mission in WSTR.");
-            set_mode(WSTR, MODE_REASON_MISSION_END);
+        if (waypoint.lat == home.lat && waypoint.lng == home.lng && waypoint.alt == home.alt) {
+            if (trapis.flight_plan_existing_counter == 0) {
+                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Trapis mission ended. Restarting mission in WSTR.");
+                trapis.flight_plan_existing_counter++;
+            }
+            else if (trapis.flight_plan_existing_counter == 1) {
+                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Please input a flight plan.");
+                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to home in WSTR.");
+                trapis.flight_plan_existing_counter = 2;
+            }
+        }
+        else {
+            if (trapis.flight_plan_existing_counter == 2) {
+                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Flight plan received in WSTR.");
+                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to waypoint #2 in WSTR.");
+            }
+            trapis.flight_plan_existing_counter = 0;
         }
 
         // Print waypoint information to MissionPlanner/gcs
@@ -916,14 +933,7 @@ void Plane::update_flight_mode(void)
         trapis.waypoint_num = waypoint.options;
 
         // Assign waypoint
-        // If MissionPlanner parameter wstr_home set to 1, make waypoint the home waypoint
-        // Otherwise, command to flight plane waypoints
-        if (g.wstr_home == 1) {
-            next_WP_loc = home;
-        }
-        else {
-            next_WP_loc = waypoint;
-        }
+        next_WP_loc = waypoint;
 
         // Calculate inputs to the WSTR Controller
         double off_x = next_WP_loc.lng - current_loc.lng;
@@ -940,13 +950,20 @@ void Plane::update_flight_mode(void)
         //    bearing - psi);
       
 
-        // Calculate control surface deflections
-        double pro_gain = g.wstr_pro_gain;
-        double der_gain = g.wstr_der_gain;
+        // Calculate control surface deflections with parameters from MissionPlanner
+        // Wing Leveler Gains
+        double wl_pro_gain = g.wstr_wl_pro_gain;
+        double wl_der_gain = g.wstr_wl_der_gain;
+        // Altitude Hold Gains
+        double kAlt = g.wstr_ah_pro_gain;
 
-        double dA = wstr_state.WL.computeAileronDeflection(phi, p); // rad
-        double dE = wstr_state.AH.computeElevatorDeflection(alt, theta, q); // rad
-        double dR = wstr_state.STR.computeRudderDeflection(bearing, psi, r, pro_gain, der_gain); // centidegrees
+        // Steer gains
+        double kPsi = 3; // proportional gain
+        double kR = 0.5; // derivative gain
+
+        double dA = wstr_state.WL.computeAileronDeflection(phi, p, wl_pro_gain, wl_der_gain); // rad
+        double dE = wstr_state.AH.computeElevatorDeflection(alt, theta, q, dt, kAlt); // rad
+        double dR = wstr_state.STR.computeRudderDeflection(bearing, psi, r, kPsi, kR); // centidegrees
 
         // Set RC output channels to control surface deflections
 
@@ -972,7 +989,7 @@ void Plane::update_flight_mode(void)
         // set RC channel 3 PWM (throttle)
 
         // For use only in simulation
-        // SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
+        //SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
         break;
     }
 

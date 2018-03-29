@@ -50,7 +50,7 @@ public:
 
 
     ///////////// Public interface methods ///////////////////////////////
-    Location nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius);
+    Location nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius, Location default_loc);
 
     // ====== Get/Set Functions ==========================
 

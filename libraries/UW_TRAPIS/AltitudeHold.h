@@ -45,7 +45,7 @@ public:
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeElevatorDeflection(double alt, double theta, double q);
+    double computeElevatorDeflection(double alt, double theta, double q, double dt, double alt_pro_gain);
 	
 	// ====== Get/Set Functions ==========================
 
@@ -69,13 +69,14 @@ private:
 
 	///////////// Private data members ///////////////////////////////////
 
-	// integrator terms
-	//double intAltitude;
+	// integrator term
+	double intAltitude;
 
 	// previous values for inputs
 	double last_q;
 	double last_theta;
     double last_alt;
+    double last_dt;
 
 };
 #endif

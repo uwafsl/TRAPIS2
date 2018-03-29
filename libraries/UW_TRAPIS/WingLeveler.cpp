@@ -78,7 +78,7 @@ WingLeveler::~WingLeveler()
 ///
 /// Side-effects:	- none
 ////
-double WingLeveler::computeAileronDeflection(double phi, double p)
+double WingLeveler::computeAileronDeflection(double phi, double p, double pro_gain, double der_gain)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
@@ -96,6 +96,10 @@ double WingLeveler::computeAileronDeflection(double phi, double p)
 	/// Aileron Control Interface
 	////
 	
+    // Using Mission Planner parameters to adjust proportional and derivative gains
+    kPhi = pro_gain;   // proportional gain
+    kP = der_gain;       // derivative gain
+
     double phi_cmd = 0; // desired bank angle is zero for a wing leveler
 
 	double phi_e = phi_cmd - phi;

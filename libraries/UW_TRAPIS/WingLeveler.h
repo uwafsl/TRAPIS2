@@ -46,7 +46,7 @@ public:
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeAileronDeflection(double phi, double p);
+    double computeAileronDeflection(double phi, double p, double pro_gain, double der_gain);
 	
 	// ====== Get/Set Functions ==========================
 
