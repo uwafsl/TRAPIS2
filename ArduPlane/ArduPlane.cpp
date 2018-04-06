@@ -597,6 +597,11 @@ void Plane::update_flight_mode(void)
     } else {
         ahrs.set_fly_forward(true);
     }
+    // UWAFSL START
+    // Gets the current flight mode from the plane
+    // And saves it into the Waypoint instance/object
+    wstr_state.WP.getFlightMode(&control_mode);
+    // UWAFSL END
 
     switch (effective_mode) 
     {
@@ -797,7 +802,7 @@ void Plane::update_flight_mode(void)
         //uint16_t rad = g.waypoint_radius;
         //gcs().send_text(MAV_SEVERITY_INFO, "waypoint radius %.3i", rad);
         uint16_t wp_rad = g.waypoint_radius;
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad, home);
+        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad, home, &control_mode);
         gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
 
         // Carnation
@@ -899,7 +904,7 @@ void Plane::update_flight_mode(void)
         }
 
 
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home);
+        Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home, &control_mode);
 
         // check waypoint validity - if mission is done, switch to WSTR - restart mission
         // Switching back to WSTR will restart the mission from waypoint #2
@@ -908,6 +913,7 @@ void Plane::update_flight_mode(void)
                 gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Trapis mission ended. Restarting mission in WSTR.");
                 trapis.flight_plan_existing_counter++;
             }
+
             else if (trapis.flight_plan_existing_counter == 1) {
                 gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Please input a flight plan.");
                 gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to home in WSTR.");
@@ -958,8 +964,8 @@ void Plane::update_flight_mode(void)
         double kAlt = g.wstr_ah_pro_gain;
 
         // Steer gains
-        double kPsi = 3; // proportional gain
-        double kR = 0.5; // derivative gain
+        double kPsi = g.wstr_rd_pro_gain; // proportional gain
+        double kR = g.wstr_rd_der_gain; // derivative gain
 
         double dA = wstr_state.WL.computeAileronDeflection(phi, p, wl_pro_gain, wl_der_gain); // rad
         double dE = wstr_state.AH.computeElevatorDeflection(alt, theta, q, dt, kAlt); // rad
@@ -989,7 +995,7 @@ void Plane::update_flight_mode(void)
         // set RC channel 3 PWM (throttle)
 
         // For use only in simulation
-        //SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
+        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
         break;
     }
 

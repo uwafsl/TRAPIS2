@@ -380,6 +380,20 @@ const AP_Param::Info Plane::var_info[] = {
     // @User: Standard
     GSCALAR(uw_altitude, "UW_ALTITUDE",  100),
 
+    // @Param: WSTR_RD_PRO_GAIN
+    // @DisplayName: Proportional Gain of Trapis Rudder Controller
+    // @Description: Sets the proportional gain of Rudder Deflection for WSTR
+    // @Values: 0 10
+    // @User: Standard
+    GSCALAR(wstr_rd_pro_gain, "WSTR_RD_PRO_GAIN", 3),
+
+    // @Param: WSTR_RD_DER_GAIN
+    // @DisplayName: WSTR home
+    // @Description: Sets the proportional gain of Rudder Deflection for WSTR
+    // @Values: 0 10
+    // @User: Standard
+    GSCALAR(wstr_rd_der_gain, "WSTR_RD_DER_GAIN", 0.5),
+
     // @Param: WSTR_WL_PRO_GAIN
     // @DisplayName: Proportional Gain of Trapis Controller
     // @Description: Sets the proportional gain of Wing Leveler for WSTR
@@ -393,13 +407,6 @@ const AP_Param::Info Plane::var_info[] = {
     // @Values: 0 10
     // @User: Standard
     GSCALAR(wstr_wl_der_gain, "WSTR_WL_DER_GAIN", 0.5),
-
-    // @Param: WSTR_HOME
-    // @DisplayName: WSTR home
-    // @Description: Sets the target waypoint for WSTR to either home (=1) or flight plane (=0)
-    // @Values: 0 1
-    // @User: Standard
-    //GSCALAR(wstr_home, "WSTR_HOME", 1),
 
     // @Param: WSTR_AH_PRO_GAIN
     // @DisplayName: WSTR home
@@ -421,6 +428,13 @@ const AP_Param::Info Plane::var_info[] = {
     // @Values: 0 1
     // @User: Standard
     GSCALAR(wstr_activate, "WSTR_ACTIVATE", 0),
+
+    // @Param: WSTR_HOME
+    // @DisplayName: WSTR home
+    // @Description: Sets the target waypoint for WSTR to either home (=1) or flight plane (=0)
+    // @Values: 0 1
+    // @User: Standard
+    //GSCALAR(wstr_home, "WSTR_HOME", 1),
 
     // @Param: UW_PSIDOTERR_LIM
     // @DisplayName: Heading Rate Limits of Orbit

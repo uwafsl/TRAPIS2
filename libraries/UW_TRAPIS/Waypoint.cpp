@@ -17,6 +17,7 @@
 // local header files
 #include "Waypoint.h"		//Waypoint class
 
+
 // using declaration
 
 
@@ -36,7 +37,7 @@
 ////
 Waypoint::Waypoint()
 {
-    cur_index = 2; 
+    cur_waypoint_num = STARTING_WAYPOINT; 
 }
 
 
@@ -58,7 +59,7 @@ Waypoint::~Waypoint()
 // Public interface methods
 //////////////////////////////////////////////////////////////////////
 
-/// Compute Aileron Deflection
+/// Return Next Waypoint
 ///	
 /// Input:			- mission           = current mission plan 
 ///                 - cur_loc           = current location of the plane
@@ -70,44 +71,74 @@ Waypoint::~Waypoint()
 ///
 /// Side-effects:	- none
 ////
-Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius, Location default_loc)
+Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius, 
+                                Location default_loc, FlightMode *control_mode)
 {
-    AP_Mission::Mission_Command cmd;
+    // Check if plane is in WSTR
+    // If plane is not in WSTR, return last saved waypoint
+    // And reset flight plan mission
+    if (flight_mode != WSTR) {
+        cur_waypoint_num = STARTING_WAYPOINT;
+        return loc;
+    }
+
+    // Set current control_mode in private field
+    flight_mode = *control_mode;
+    AP_Mission::Mission_Command cmd; // Saves output from mission.get_next_nav_cmd
+
     // Waypoint #0 is always the home waypoint
-    // Waypoint #1 is skipped due to the takeoff waypoint
+    // Waypoint #1 is skipped due to the takeoff waypoint in sim
     // therefore, if you would like to use this code for actual
     // flight test, use a dummy waypoint for the first one
     // (in place for TAKEOFF)
-    if (cur_index == 2) {
-        if (mission.get_next_nav_cmd(2, cmd)) {
+    if (cur_waypoint_num == STARTING_WAYPOINT) {
+        if (mission.get_next_nav_cmd(STARTING_WAYPOINT, cmd)) {
             loc = cmd.content.location;
         }
         else {
             loc = default_loc;
         }
     }
+
+    // Checks if plane has reached the current waypoint
+    // If plane has reached, go to next waypoint
+    /// get_distance is in Location.h which is included
     if (get_distance(cur_loc, loc) < waypoint_radius) {
         // If there is another waypoint, set plane to that next waypoint
-        if (mission.get_next_nav_cmd(cur_index + 1, cmd)) {
-            cur_index++;
+        if (mission.get_next_nav_cmd(cur_waypoint_num + 1, cmd)) {
+            cur_waypoint_num++;
             loc = cmd.content.location;
         }
+
         // If no waypoints available, set plane to home
         // Plane will continue circling the home waypoint once
         // it reaches the home waypoint
-
-        // TODO: Figure out why mavproxy still prints waypoint 6
         else {
-            // This is basically a secret code to check for
-            // showing that we are done with this trapis mission
             loc = default_loc;
-            cur_index = 2; // Reset starting waypoint for next test run
+            cur_waypoint_num = STARTING_WAYPOINT; // Reset starting waypoint for next test run
         }
     }
+
     // Using unused loc.options to store the cur_index so that it is accessible in the return type
-    loc.options = cur_index;
+    loc.options = cur_waypoint_num;
 
     return loc;
+}
+
+void Waypoint::sendMessage()
+{
+    gcs().send_text(MAV_SEVERITY_INFO, "FlightMode: %i", flight_mode);
+}
+
+void Waypoint::getFlightMode(FlightMode *control_mode) {
+    flight_mode = *control_mode;
+
+    // Check if plane is in WSTR
+    // If plane is not in WSTR, return last saved waypoint
+    // And reset flight plan mission
+    if (flight_mode != WSTR) {
+        cur_waypoint_num = STARTING_WAYPOINT;
+    }
 }
 
 

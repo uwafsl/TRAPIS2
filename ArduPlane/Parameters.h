@@ -197,6 +197,7 @@ public:
         k_param_battery_monitoring, // unused
         k_param_volt_div_ratio,     // unused
         k_param_curr_amp_per_volt,  // unused
+        //UWAFSL: 137, hijacking this one (k_param_input_voltage)
         k_param_input_voltage, // deprecated, can be deleted
         k_param_pack_capacity,      // unused
         k_param_sonar_enabled_old,  // unused
@@ -207,6 +208,7 @@ public:
         k_param_NavEKF,  // deprecated - remove
         k_param_mission, // mission library
         k_param_serial_manager, // serial manager library
+        //UWAFSL: 147, hijacking this one (k_param_NavEKF2_old)
         k_param_NavEKF2_old,  // deprecated - remove
         k_param_land_pre_flare_alt, // unused - moved to AP_Landing
         k_param_land_pre_flare_airspeed = 149,  // unused - moved to AP_Landing
@@ -354,18 +356,20 @@ public:
 
         //parameter graveyard: we have 251, 252, 253, 254, 255
         //UWAFSL START
-		//Visual Anchoring
-		k_param_uw_radius = 251,   //251
-		k_param_uw_altitude,       //252
+		// Visual Anchoring
+		k_param_uw_radius = 251,        //251
+		k_param_uw_altitude,            //252
+        // Trapis
 		k_param_wstr_wl_pro_gain,       //253
         k_param_wstr_wl_der_gain,       //254
         k_param_wstr_ah_pro_gain,       //255
-        k_param_wstr_trapis_loc = 9, //9    was empty - SEE BELOW 
-        k_param_wstr_activate = 198 //252
-        // k_param_uw_psiDotErr_lim, //255 DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
-        // k_param_uw_pro_forget_factor = 9, // was empty DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
-        // k_param_uw_der_forget_factor = 198 // replaced k_param_rc_14_old DEPRECATED: WAS USED FOR VISUAL ANCHORING TESTING
-		//UWAFSL END
+        // Below params use either empty or deprecated params
+        // Find old param above for more details
+        k_param_wstr_trapis_loc = 9,    //9   - was empty
+        k_param_wstr_activate = 198,    //198 - hijacked: replaced k_param_rc_14_old
+        k_param_wstr_rd_pro_gain = 137, //137 - hijacked: replaced k_param_input_voltage
+        k_param_wstr_rd_der_gain = 147  //147 - hijacked: replaced k_param_NavEKF2_old
+        //UWAFSL END
     };
 
     AP_Int16 format_version;
@@ -529,8 +533,10 @@ public:
     AP_Float uw_altitude;
     AP_Float wstr_wl_pro_gain;
     AP_Float wstr_wl_der_gain;
-    AP_Float uw_psiDotErr_lim;
+    // AP_Float uw_psiDotErr_lim; UWAFSL - deprecated
     AP_Float wstr_ah_pro_gain;
+    AP_Float wstr_rd_pro_gain;
+    AP_Float wstr_rd_der_gain;
     // AP_Float wstr_home; UWAFSL- deprecated
     AP_Float wstr_trapis_loc;
     AP_Float wstr_activate;

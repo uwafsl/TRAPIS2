@@ -22,12 +22,16 @@
 #define ORBITCONTROLLERLIBRARY_API __declspec(dllimport)
 #endif
 */
+#define STARTING_WAYPOINT 2
 
 // Standard headers
 //#include <string>			//string
 //#include <vector>			//vector
 #include <AP_Mission/AP_Mission.h>
 #include <AP_Common/Location.h>
+#include <../ArduPlane/defines.h>
+#include <../ArduPlane/GCS_Plane.h>
+
 
 // Local header files
 
@@ -50,11 +54,14 @@ public:
 
 
     ///////////// Public interface methods ///////////////////////////////
-    Location nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius, Location default_loc);
+    Location nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius, 
+                            Location default_loc, FlightMode *control_mode);
 
+    //void sendMessage(GCS_Plane *gcsPtr);
+    void sendMessage();
     // ====== Get/Set Functions ==========================
 
-
+    void getFlightMode(FlightMode *control_mode);
     // data members
 
 protected:
@@ -68,8 +75,9 @@ private:
     ///////////// Private data members ///////////////////////////////////
 
     // data members
-    uint16_t cur_index;
+    uint16_t cur_waypoint_num;
     Location loc;
+    FlightMode flight_mode;
 
 };
 #endif
