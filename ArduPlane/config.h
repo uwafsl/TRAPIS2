@@ -405,6 +405,12 @@
 #ifndef WSTR_WL_DER_GAIN     //Defines wstr_wl_der_gain
 # define WSTR_WL_DER_GAIN 0.5 //Sets default value
 #endif
+#ifndef WSTR_RD_PRO_GAIN     //Defines wstr_rd_pro_gain
+# define WSTR_RD_PRO_GAIN 3 //Sets default value
+#endif
+#ifndef WSTR_RD_DER_GAIN     //Defines wstr_rd_der_gain
+# define WSTR_RD_DER_GAIN 0.5 //Sets default value
+#endif
 #ifndef WSTR_AH_PRO_GAIN     //Defines wstr_ah_pro_gain
 # define WSTR_AH_PRO_GAIN 0.5 //Sets default value
 #endif

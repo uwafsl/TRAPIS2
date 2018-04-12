@@ -127,16 +127,26 @@ double AltitudeHold::computeElevatorDeflection(double alt, double theta, double 
 
     double theta_cmd = (alt_e*kAlt + intAltitude) * (pi / 180);
 
+    // Limit max/min bank angle
+    double theta_cmd_limit = 25 * pi / 180; // 25 deg in radians
+    if (theta_cmd < -theta_cmd_limit) {
+        theta_cmd = -theta_cmd_limit;
+    }
+    else if (theta_cmd > theta_cmd_limit) {
+        theta_cmd = theta_cmd_limit;
+    }
+
     double theta_e = theta_cmd - theta;
     double dE = -(theta_e*kTheta - q*kQ);
 
     // limit elevator deflection to +/- 30 deg
 
-    if (dE < -0.5236) {
-        dE = -0.5236;
+    double dE_limit = 30 * pi / 180; // 30 deg in radians
+    if (dE < -dE_limit) {
+        dE = -dE_limit;
     }
-    else if (dE > 0.5236) {
-        dE = 0.5236;
+    else if (dE > dE_limit) {
+        dE = dE_limit;
     }
 
 	// save input information
