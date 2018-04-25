@@ -110,6 +110,11 @@ Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t w
             loc = cmd.content.location;
         }
 
+        else if (mission.get_next_nav_cmd(cur_waypoint_num, cmd)) {
+            loc = cmd.content.location;
+            cur_waypoint_num = STARTING_WAYPOINT;
+        }
+
         // If no waypoints available, set plane to home
         // Plane will continue circling the home waypoint once
         // it reaches the home waypoint
