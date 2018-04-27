@@ -95,6 +95,11 @@ double Steer::computeRudderDeflection(Location waypoint, Location cur_loc, AP_AH
     double r = ahrs.get_gyro().z * 180 / PI * 100; // centidegrees/s
     double psi = ahrs.yaw * 180 / PI * 100;
 
+    //convert psi to range of [0, 36000] centidegrees
+    if (psi < 0) {
+        psi += 36000;
+    }
+
 	// invalid state (inertial measurement) input
 	//if (r>0.9 || r<-0.9) {
 		//r = last_r;
