@@ -601,6 +601,7 @@ void Plane::update_flight_mode(void)
     // Gets the current flight mode from the plane
     // And saves it into the Waypoint instance/object
     wstr_state.WP.getFlightMode(&control_mode);
+    //wstr_state.WP.sendMessage(gcs());
     // UWAFSL END
 
     switch (effective_mode) 
@@ -905,37 +906,37 @@ void Plane::update_flight_mode(void)
 
 
         Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home, &control_mode);
+        wstr_state.WP.sendMessage(gcs(), home);
+        //// check waypoint validity - if mission is done, switch to WSTR - restart mission
+        //// Switching back to WSTR will restart the mission from waypoint #2
+        //if (waypoint.lat == home.lat && waypoint.lng == home.lng && waypoint.alt == home.alt) {
+        //    if (trapis.flight_plan_existing_counter == 0) {
+        //        gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Trapis mission ended. Restarting mission in WSTR.");
+        //        trapis.flight_plan_existing_counter++;
+        //    }
 
-        // check waypoint validity - if mission is done, switch to WSTR - restart mission
-        // Switching back to WSTR will restart the mission from waypoint #2
-        if (waypoint.lat == home.lat && waypoint.lng == home.lng && waypoint.alt == home.alt) {
-            if (trapis.flight_plan_existing_counter == 0) {
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Trapis mission ended. Restarting mission in WSTR.");
-                trapis.flight_plan_existing_counter++;
-            }
+        //    else if (trapis.flight_plan_existing_counter == 1) {
+        //        gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Please input a flight plan.");
+        //        gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to home in WSTR.");
+        //        trapis.flight_plan_existing_counter = 2;
+        //    }
+        //}
+        //else {
+        //    if (trapis.flight_plan_existing_counter == 2) {
+        //        gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Flight plan received in WSTR.");
+        //        gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to waypoint #2 in WSTR.");
+        //    }
+        //    trapis.flight_plan_existing_counter = 0;
+        //}
 
-            else if (trapis.flight_plan_existing_counter == 1) {
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Please input a flight plan.");
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to home in WSTR.");
-                trapis.flight_plan_existing_counter = 2;
-            }
-        }
-        else {
-            if (trapis.flight_plan_existing_counter == 2) {
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Flight plan received in WSTR.");
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to waypoint #2 in WSTR.");
-            }
-            trapis.flight_plan_existing_counter = 0;
-        }
-
-        // Print waypoint information to MissionPlanner/gcs
-        if (trapis.waypoint_num != waypoint.options) {
-            gcs().send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Num: %2i", waypoint.options);
-            float wlat = (float)waypoint.lat / 1e7;
-            float wlng = (float)waypoint.lng / 1e7;
-            float walt = (float)waypoint.alt / 100;
-            gcs().send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Location: %.6f, %.6f, %.6f", wlat, wlng, walt);
-        }
+        //// Print waypoint information to MissionPlanner/gcs
+        //if (trapis.waypoint_num != waypoint.options) {
+        //    gcs().send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Num: %2i", waypoint.options);
+        //    float wlat = (float)waypoint.lat / 1e7;
+        //    float wlng = (float)waypoint.lng / 1e7;
+        //    float walt = (float)waypoint.alt / 100;
+        //    gcs().send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Location: %.6f, %.6f, %.6f", wlat, wlng, walt);
+        //}
         trapis.waypoint_num = waypoint.options;
 
         // Assign waypoint
