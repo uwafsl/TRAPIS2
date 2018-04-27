@@ -78,11 +78,19 @@ WingLeveler::~WingLeveler()
 ///
 /// Side-effects:	- none
 ////
-double WingLeveler::computeAileronDeflection(double phi, double p, double pro_gain, double der_gain)
+//double WingLeveler::computeAileronDeflection(double phi, double p, double pro_gain, double der_gain)
+double WingLeveler::computeAileronDeflection(AP_AHRS_DCM& ahrs, double pro_gain, double der_gain)
+
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
 	////
+
+    // getPhi
+    double phi = ahrs.roll;
+
+    // get p
+    double p = ahrs.get_gyro().x;
 
 	// invalid state (inertial measurement) input
 	if (p>0.9 || p<-0.9) {

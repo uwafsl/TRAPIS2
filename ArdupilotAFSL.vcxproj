@@ -4903,6 +4903,7 @@
     <ClCompile Include="Tools\Replay\LR_MsgHandler.cpp" />
     <ClCompile Include="Tools\Replay\MsgHandler.cpp" />
     <ClCompile Include="Tools\Replay\Replay.cpp" />
+    <ClCompile Include="UW_TRAPIS.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt" />
@@ -5709,6 +5710,8 @@
     <ClInclude Include="ArduSub\UserVariables.h" />
     <ClInclude Include="ArduSub\version.h" />
     <ClInclude Include="benchmarks\AP_gbenchmark.h" />
+    <ClInclude Include="AFSL.h" />
+    <ClInclude Include="AFSL_Constants.h" />
     <ClInclude Include="libraries\AC_AttitudeControl\AC_AttitudeControl.h" />
     <ClInclude Include="libraries\AC_AttitudeControl\AC_AttitudeControl_Heli.h" />
     <ClInclude Include="libraries\AC_AttitudeControl\AC_AttitudeControl_Multi.h" />

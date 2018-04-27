@@ -23,6 +23,7 @@
 // Standard headers
 //#include <string>			//string
 //#include <vector>			//vector
+#include <AP_AHRS/AP_AHRS_DCM.h>
 
 // Local header files
 //#include "ControlSurfaceDeflections.h"		//ControlSurfaceDeflections class
@@ -46,7 +47,7 @@ public:
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeAileronDeflection(double phi, double p, double pro_gain, double der_gain);
+    double computeAileronDeflection(AP_AHRS_DCM& ahrs, double pro_gain, double der_gain);
 	
 	// ====== Get/Set Functions ==========================
 

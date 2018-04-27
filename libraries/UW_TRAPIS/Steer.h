@@ -11,6 +11,10 @@
 #ifndef GUARD_Steer_h
 #define GUARD_Steer_h
 
+#include <AFSL/AFSL.h>
+#include <AP_Common/Location.h>
+#include <AP_AHRS/AP_AHRS_DCM.h>
+
 /*
 // generate dll 
 #ifdef ORBITCONTROLLERLIBRARY_EXPORTS
@@ -46,7 +50,8 @@ public:
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeRudderDeflection(double nav_bearing, double psi, double r, double pro_gain, double der_gain);
+    double computeRudderDeflection(Location waypoint, Location cur_loc, AP_AHRS_DCM& ahrs, double pro_gain, double der_gain);
+
 	
 	// ====== Get/Set Functions ==========================
 

@@ -82,11 +82,17 @@ AltitudeHold::~AltitudeHold()
 ///
 /// Side-effects:	- none
 ////
-double AltitudeHold::computeElevatorDeflection(double alt, double theta, double q, double dt, double alt_pro_gain)
+double AltitudeHold::computeElevatorDeflection(double alt, AP_AHRS_DCM& ahrs, double alt_pro_gain)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
 	////
+
+    // get q
+    double q = ahrs.get_gyro().y;
+    double dt = DT;
+    double theta = ahrs.pitch;
+
 
 	// invalid state (inertial measurement) input
 	if (q>0.9 || q<-0.9) {

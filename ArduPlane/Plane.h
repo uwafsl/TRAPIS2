@@ -455,7 +455,7 @@ private:
         Location loc;
         int16_t waypoint_num;
         int8_t flight_plan_existing_counter;
-    } trapis;
+    } trapis_state;
     //UWAFSL END
 
 

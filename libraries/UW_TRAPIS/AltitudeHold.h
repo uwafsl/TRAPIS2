@@ -11,6 +11,9 @@
 #ifndef GUARD_AltitudeHold_h
 #define GUARD_AltitudeHold_h
 
+#include <AP_AHRS/AP_AHRS_DCM.h>
+
+#define DT 0.02
 /*
 // generate dll 
 #ifdef ORBITCONTROLLERLIBRARY_EXPORTS
@@ -45,7 +48,8 @@ public:
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeElevatorDeflection(double alt, double theta, double q, double dt, double alt_pro_gain);
+    //double computeElevatorDeflection(double alt, double theta, double q, double dt, double alt_pro_gain);
+    double computeElevatorDeflection(double alt, AP_AHRS_DCM& ahrs, double alt_pro_gain);
 	
 	// ====== Get/Set Functions ==========================
 

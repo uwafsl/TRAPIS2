@@ -3,14 +3,18 @@
  *
  *  Created on: Feb 14, 2018
  *      Author: Ryan Grimes and Hannah Rotta
+ *
+ *  Edited on: Apr 27, 2018
+        Editors: Connor Kafka, Jacob, Ravi Patel
  */
 
-#ifndef WASTEER_H_
-#define WASTEER_H_
+// Header guard
+#ifndef UW_TRAPIS_H_
+#define UW_TRAPIS_H_
 
-#include "WingLeveler.h"
-#include "AltitudeHold.h"
-#include "Steer.h"
-#include "Waypoint.h"
+#include <AFSL/AFSL.h>
 
-#endif /* WASTEER_H_ */
+// Note: trapis_state would go here
+
+
+#endif /* UW_TRAPIS_H_ */

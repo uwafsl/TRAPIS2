@@ -65,7 +65,6 @@ Steer::~Steer()
 // Overloaded operators
 //////////////////////////////////////////////////////////////////////
 
-
 //////////////////////////////////////////////////////////////////////
 // Public interface methods
 //////////////////////////////////////////////////////////////////////
@@ -80,11 +79,21 @@ Steer::~Steer()
 ///
 /// Side-effects:	- none
 ////
-double Steer::computeRudderDeflection(double bearing, double psi, double r, double pro_gain, double der_gain)
+double Steer::computeRudderDeflection(Location waypoint, Location cur_loc, AP_AHRS_DCM& ahrs, double pro_gain, double der_gain)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
 	////
+
+    double off_x = waypoint.lng - cur_loc.lng;
+    double off_y = waypoint.lat - cur_loc.lat;
+    double bearing = 9000 + atan2f(-off_y, off_x) * 5729.57795f;
+    if (bearing < 0) {
+        bearing += 36000;   // centidegrees
+    }
+
+    double r = ahrs.get_gyro().z * 180 / PI * 100; // centidegrees/s
+    double psi = ahrs.yaw * 180 / PI * 100;
 
 	// invalid state (inertial measurement) input
 	//if (r>0.9 || r<-0.9) {
