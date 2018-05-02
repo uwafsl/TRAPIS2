@@ -126,6 +126,10 @@ double WingLeveler::computeAileronDeflection(AP_AHRS_DCM& ahrs, double pro_gain,
 	last_p = p;
     last_phi = phi;
 
+    // convert from Radians two(2) CentiDegrees (R2CD)
+    // Also invert calculation so equipment functions correctly
+    dA = -dA * SCALE_FACTOR_R2CD;
+
 	return(dA);
 }
 	

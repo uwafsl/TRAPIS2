@@ -12,6 +12,7 @@
 #define GUARD_AltitudeHold_h
 
 #include <AP_AHRS/AP_AHRS_DCM.h>
+#include "AFSL_Constants.h"
 
 #define DT 0.02
 /*

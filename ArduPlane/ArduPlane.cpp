@@ -860,31 +860,20 @@ void Plane::update_flight_mode(void)
     }
 
     case WSTR: {        
-        /* 
-        *   bearing to next waypoint
-        */
+        // Set waypoint radius for WaypointNavigation
         uint16_t wp_rad = g.waypoint_radius; // extracts waypoint radius from Mission Planner
-
-        // See Waypoint class
 
         // Sets plane's location based on Mission Planner parameter WSTR_TRAPIS_LOC
         // When set to 1, uses trapis coords. When set to 0, uses gps coords
         Location plane_location;
-        if (g.wstr_trapis_loc == 1) {
-            plane_location = trapis.loc;
-            //plane_location.lng *= -1; // Flips sign on longitude because MP is set up that way
-        }
-        else {
-            plane_location = gps.location();
-        }
+
+        // Sets plane position (from Waypoint Navigation perspective) to trapis location/coords
+        // if appropriate Mission Planner parameter (WSTR_TRAPIS_LOC) is 1, otherwise uses plane gps coords
+        plane_location = g.wstr_trapis_location == 1 ? trapis.loc : gps.location();
 
         // Retrieve waypoint
         Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home, &control_mode);
         wstr_state.WP.sendMessage(gcs(), home);
-        trapis.waypoint_num = waypoint.options;
-
-        // Assign waypoint
-        next_WP_loc = waypoint;
 
         // Calculate control surface deflections with parameters from MissionPlanner
         // Wing Leveler Gains
@@ -898,20 +887,13 @@ void Plane::update_flight_mode(void)
         double kPsi = g.wstr_rd_pro_gain; // proportional gain
         double kR = g.wstr_rd_der_gain; // derivative gain
 
-        double dA = wstr_state.WL.computeAileronDeflection(&ahrs, wl_pro_gain, wl_der_gain); // rad
-        double dE = wstr_state.AH.computeElevatorDeflection(relative_altitude, &ahrs, kAlt); // rad
-        double dR = wstr_state.STR.computeRudderDeflection(next_WP_loc, plane_location, &ahrs, kPsi, kR); // centidegrees
+        double dA = wstr_state.WL.computeAileronDeflection(ahrs, wl_pro_gain, wl_der_gain); // rad
+        double dE = wstr_state.AH.computeElevatorDeflection(relative_altitude, ahrs, kAlt); // rad
+        double dR = wstr_state.STR.computeRudderDeflection(waypoint, plane_location, ahrs, kPsi, kR); // centidegrees
 
         // Set RC output channels to control surface deflections
-
-        double scale_factor_r2cd = 100 * 180 / 3.14159; // scale factor to convert radians to centidegrees
-
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * scale_factor_r2cd); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * scale_factor_r2cd); //centidegrees
- 
-        
-        // dR set to zero to just test wing leveler and altitude hold.
-        // dR = 0 // Setting rudder to zero deflection
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, dA); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, dE); //centidegrees
 
         // If wstr_uw_activate is set to 0 in Mission Planner, gives rudder control to Hannah/Pilot
         if (g.wstr_activate != 1) {

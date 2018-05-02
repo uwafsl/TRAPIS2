@@ -12,7 +12,7 @@
 #ifndef UW_TRAPIS_H_
 #define UW_TRAPIS_H_
 
-#include <AFSL/AFSL.h>
+#include "../AFSL/AFSL.h"
 
 // Note: trapis_state would go here
 

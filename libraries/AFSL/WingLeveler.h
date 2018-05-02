@@ -24,6 +24,7 @@
 //#include <string>			//string
 //#include <vector>			//vector
 #include <AP_AHRS/AP_AHRS_DCM.h>
+#include "AFSL_Constants.h"
 
 // Local header files
 //#include "ControlSurfaceDeflections.h"		//ControlSurfaceDeflections class

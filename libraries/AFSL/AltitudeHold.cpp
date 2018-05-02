@@ -161,6 +161,10 @@ double AltitudeHold::computeElevatorDeflection(double alt, AP_AHRS_DCM& ahrs, do
     last_alt = alt;
     last_dt = dt;
 
+    // Scale value from radians to centidegrees
+    // Invert so that plane functions correctly
+    dE = -dE * SCALE_FACTOR_R2CD;
+
 	return(dE);
 }
 	
