@@ -10,7 +10,11 @@
 #define AFSL_CONSTANTS_H_
 
 #ifndef PI
-  #define PI 3.14159
+#define PI 3.14159
+#endif
+
+#ifndef SCALE_FACTOR_R2CD
+#define SCALE_FACTOR_R2CD 100 * 180 / PI
 #endif
 
 #endif
