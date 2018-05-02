@@ -942,8 +942,8 @@ void Plane::update_flight_mode(void)
         next_WP_loc = waypoint;
 
         // Calculate inputs to the WSTR Controller
-        double off_x = next_WP_loc.lng - current_loc.lng;
-        double off_y = (next_WP_loc.lat - current_loc.lat) / longitude_scale(next_WP_loc);
+        double off_x = next_WP_loc.lng - plane_location.lng;
+        double off_y = (next_WP_loc.lat - plane_location.lat) / longitude_scale(next_WP_loc);
         double bearing = 9000 + atan2f(-off_y, off_x) * 5729.57795f;
         if (bearing < 0) {
             bearing += 36000;   // centidegrees
