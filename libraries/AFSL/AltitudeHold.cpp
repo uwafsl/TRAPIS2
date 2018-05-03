@@ -82,7 +82,7 @@ AltitudeHold::~AltitudeHold()
 ///
 /// Side-effects:	- none
 ////
-double AltitudeHold::computeElevatorDeflection(double alt, AP_AHRS_DCM& ahrs, double alt_pro_gain)
+double AltitudeHold::computeElevatorDeflection(double alt, AP_AHRS& ahrs, double alt_pro_gain)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)

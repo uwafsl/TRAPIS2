@@ -20,6 +20,8 @@
 // local header files
 #include "Steer.h"		//InnerLoopController class
 
+#define PI 3.14159
+
 // using declaration
 
 
@@ -79,7 +81,7 @@ Steer::~Steer()
 ///
 /// Side-effects:	- none
 ////
-double Steer::computeRudderDeflection(Location waypoint, Location cur_loc, AP_AHRS_DCM& ahrs, double pro_gain, double der_gain)
+double Steer::computeRudderDeflection(Location waypoint, Location cur_loc, AP_AHRS& ahrs, double pro_gain, double der_gain)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)

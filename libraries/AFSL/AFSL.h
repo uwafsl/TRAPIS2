@@ -9,8 +9,13 @@
 #ifndef AFSL_H_
 #define AFSL_H_
 
+#include <AP_AHRS/AP_AHRS.h>
+
 // Define macros
 
+
+
+// Include local libraries
 #include "WingLeveler.h"
 #include "AltitudeHold.h"
 #include "Steer.h"

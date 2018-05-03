@@ -79,7 +79,7 @@ WingLeveler::~WingLeveler()
 /// Side-effects:	- none
 ////
 //double WingLeveler::computeAileronDeflection(double phi, double p, double pro_gain, double der_gain)
-double WingLeveler::computeAileronDeflection(AP_AHRS_DCM& ahrs, double pro_gain, double der_gain)
+double WingLeveler::computeAileronDeflection(AP_AHRS& ahrs, double pro_gain, double der_gain)
 
 {
 	////

@@ -11,7 +11,7 @@
 #ifndef GUARD_AltitudeHold_h
 #define GUARD_AltitudeHold_h
 
-#include <AP_AHRS/AP_AHRS_DCM.h>
+#include <AP_AHRS/AP_AHRS.h>
 #include "AFSL_Constants.h"
 
 #define DT 0.02
@@ -50,7 +50,7 @@ public:
 
 	///////////// Public interface methods ///////////////////////////////
     //double computeElevatorDeflection(double alt, double theta, double q, double dt, double alt_pro_gain);
-    double computeElevatorDeflection(double alt, AP_AHRS_DCM& ahrs, double alt_pro_gain);
+    double computeElevatorDeflection(double alt, AP_AHRS& ahrs, double alt_pro_gain);
 	
 	// ====== Get/Set Functions ==========================
 

@@ -351,6 +351,10 @@
     <ClCompile Include="libraries\AC_Sprayer\AC_Sprayer.cpp" />
     <ClCompile Include="libraries\AC_WPNav\AC_Circle.cpp" />
     <ClCompile Include="libraries\AC_WPNav\AC_WPNav.cpp" />
+    <ClCompile Include="libraries\AFSL\AltitudeHold.cpp" />
+    <ClCompile Include="libraries\AFSL\Steer.cpp" />
+    <ClCompile Include="libraries\AFSL\Waypoint.cpp" />
+    <ClCompile Include="libraries\AFSL\WingLeveler.cpp" />
     <ClCompile Include="libraries\APM_Control\AP_AutoTune.cpp" />
     <ClCompile Include="libraries\APM_Control\AP_PitchController.cpp" />
     <ClCompile Include="libraries\APM_Control\AP_RollController.cpp" />
@@ -914,10 +918,6 @@
     <ClCompile Include="libraries\SRV_Channel\SRV_Channel_aux.cpp" />
     <ClCompile Include="libraries\StorageManager\examples\StorageTest\StorageTest.cpp" />
     <ClCompile Include="libraries\StorageManager\StorageManager.cpp" />
-    <ClCompile Include="libraries\UW_TRAPIS\AltitudeHold.cpp" />
-    <ClCompile Include="libraries\UW_TRAPIS\Steer.cpp" />
-    <ClCompile Include="libraries\UW_TRAPIS\Waypoint.cpp" />
-    <ClCompile Include="libraries\UW_TRAPIS\WingLeveler.cpp" />
     <ClCompile Include="modules\gbenchmark\cmake\gnu_posix_regex.cpp" />
     <ClCompile Include="modules\gbenchmark\cmake\posix_regex.cpp" />
     <ClCompile Include="modules\gbenchmark\cmake\std_regex.cpp" />
@@ -4903,7 +4903,6 @@
     <ClCompile Include="Tools\Replay\LR_MsgHandler.cpp" />
     <ClCompile Include="Tools\Replay\MsgHandler.cpp" />
     <ClCompile Include="Tools\Replay\Replay.cpp" />
-    <ClCompile Include="UW_TRAPIS.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt" />
@@ -5710,8 +5709,6 @@
     <ClInclude Include="ArduSub\UserVariables.h" />
     <ClInclude Include="ArduSub\version.h" />
     <ClInclude Include="benchmarks\AP_gbenchmark.h" />
-    <ClInclude Include="AFSL.h" />
-    <ClInclude Include="AFSL_Constants.h" />
     <ClInclude Include="libraries\AC_AttitudeControl\AC_AttitudeControl.h" />
     <ClInclude Include="libraries\AC_AttitudeControl\AC_AttitudeControl_Heli.h" />
     <ClInclude Include="libraries\AC_AttitudeControl\AC_AttitudeControl_Multi.h" />
@@ -5737,6 +5734,12 @@
     <ClInclude Include="libraries\AC_Sprayer\AC_Sprayer.h" />
     <ClInclude Include="libraries\AC_WPNav\AC_Circle.h" />
     <ClInclude Include="libraries\AC_WPNav\AC_WPNav.h" />
+    <ClInclude Include="libraries\AFSL\AFSL.h" />
+    <ClInclude Include="libraries\AFSL\AFSL_Constants.h" />
+    <ClInclude Include="libraries\AFSL\AltitudeHold.h" />
+    <ClInclude Include="libraries\AFSL\Steer.h" />
+    <ClInclude Include="libraries\AFSL\Waypoint.h" />
+    <ClInclude Include="libraries\AFSL\WingLeveler.h" />
     <ClInclude Include="libraries\APM_Control\APM_Control.h" />
     <ClInclude Include="libraries\APM_Control\AP_AutoTune.h" />
     <ClInclude Include="libraries\APM_Control\AP_PitchController.h" />
@@ -6261,11 +6264,7 @@
     <ClInclude Include="libraries\SITL\SITL.h" />
     <ClInclude Include="libraries\SRV_Channel\SRV_Channel.h" />
     <ClInclude Include="libraries\StorageManager\StorageManager.h" />
-    <ClInclude Include="libraries\UW_TRAPIS\AltitudeHold.h" />
-    <ClInclude Include="libraries\UW_TRAPIS\Steer.h" />
     <ClInclude Include="libraries\UW_TRAPIS\UW_TRAPIS.h" />
-    <ClInclude Include="libraries\UW_TRAPIS\Waypoint.h" />
-    <ClInclude Include="libraries\UW_TRAPIS\WingLeveler.h" />
     <ClInclude Include="mavschema.h">
       <DependentUpon>modules\mavlink\pymavlink\generator\mavschema.xsd</DependentUpon>
     </ClInclude>

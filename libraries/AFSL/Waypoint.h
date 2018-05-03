@@ -76,6 +76,7 @@ private:
 
     // data members
     uint16_t cur_waypoint_num;
+    uint16_t prev_waypoint_num;
     Location loc;
     FlightMode flight_mode;
     uint8_t flight_plan_existing_counter;

@@ -802,8 +802,8 @@ void Plane::update_flight_mode(void)
 
     case WSMP: {
         // Get TRAPIS coords from trapis struct field (see Plane.h)
-        double Tlat = trapis.lat;
-        double Tlng = trapis.lng;
+        double Tlat = trapis_state.lat;
+        double Tlng = trapis_state.lng;
 
         // Not using Talt for WSMP - must comment to compile px4-v2 file
         //double Talt = trapis.alt;
@@ -869,7 +869,7 @@ void Plane::update_flight_mode(void)
 
         // Sets plane position (from Waypoint Navigation perspective) to trapis location/coords
         // if appropriate Mission Planner parameter (WSTR_TRAPIS_LOC) is 1, otherwise uses plane gps coords
-        plane_location = g.wstr_trapis_location == 1 ? trapis.loc : gps.location();
+        plane_location = g.wstr_trapis_loc == 1 ? trapis_state.loc : gps.location();
 
         // Retrieve waypoint
         Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home, &control_mode);
