@@ -628,8 +628,9 @@ void Plane::update_flight_mode(void)
     //UWAFSL START
 	case UW_MODE_1:{
 		//Start playing a LOUD tone so the user can locate the aircraft
-		//Lost_aircraft is deleted or renamed 
-        //AP_Notify::events.lost_aircraft = true;
+        // And set mode to Manual
+        AP_Notify::flags.vehicle_lost = true;
+        set_mode(MANUAL, MODE_REASON_UNKNOWN);
 		break;
 	}
 	case UW_MODE_2:{
@@ -791,9 +792,6 @@ void Plane::update_flight_mode(void)
         SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 50);
         SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 500); //centidegrees
         SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -500); //centidegrees
-		//channel_throttle->servo_out= 50;
-		//channel_roll->servo_out = 500;
-		//channel_pitch->servo_out = -500;
 		steering_control.steering = steering_control.rudder = rad_act_pwm;
 
 			
@@ -806,9 +804,6 @@ void Plane::update_flight_mode(void)
         double Tlng = trapis_state.lng;
 
         // Not using Talt for WSMP - must comment to compile px4-v2 file
-        //double Talt = trapis.alt;
-        //uint16_t rad = g.waypoint_radius;
-        //gcs().send_text(MAV_SEVERITY_INFO, "waypoint radius %.3i", rad);
         uint16_t wp_rad = g.waypoint_radius;
         Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad, home, &control_mode);
         gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
