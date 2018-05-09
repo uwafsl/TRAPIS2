@@ -601,7 +601,6 @@ void Plane::update_flight_mode(void)
     // Gets the current flight mode from the plane
     // And saves it into the Waypoint instance/object
     wstr_state.WP.getFlightMode(&control_mode);
-    //wstr_state.WP.sendMessage(gcs());
     // UWAFSL END
 
     switch (effective_mode) 
