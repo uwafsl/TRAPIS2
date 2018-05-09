@@ -855,55 +855,8 @@ void Plane::update_flight_mode(void)
     }
 
     case WSTR: {        
-        // Set waypoint radius for WaypointNavigation
-        uint16_t wp_rad = g.waypoint_radius; // extracts waypoint radius from Mission Planner
-
-        // Sets plane's location based on Mission Planner parameter WSTR_TRAPIS_LOC
-        // When set to 1, uses trapis coords. When set to 0, uses gps coords
-        Location plane_location;
-
-        // Sets plane position (from Waypoint Navigation perspective) to trapis location/coords
-        // if appropriate Mission Planner parameter (WSTR_TRAPIS_LOC) is 1, otherwise uses plane gps coords
-        plane_location = g.wstr_trapis_loc == 1 ? trapis_state.loc : gps.location();
-
-        // Retrieve waypoint
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home, &control_mode);
-        wstr_state.WP.sendMessage(gcs(), home);
-
-        // Calculate control surface deflections with parameters from MissionPlanner
-        // Wing Leveler Gains
-        double wl_pro_gain = g.wstr_wl_pro_gain;
-        double wl_der_gain = g.wstr_wl_der_gain;
-
-        // Altitude Hold Gains
-        double kAlt = g.wstr_ah_pro_gain;
-
-        // Steer gains
-        double kPsi = g.wstr_rd_pro_gain; // proportional gain
-        double kR = g.wstr_rd_der_gain; // derivative gain
-
-        double dA = wstr_state.WL.computeAileronDeflection(ahrs, wl_pro_gain, wl_der_gain); // rad
-        double dE = wstr_state.AH.computeElevatorDeflection(relative_altitude, ahrs, kAlt); // rad
-        double dR = wstr_state.STR.computeRudderDeflection(waypoint, plane_location, ahrs, kPsi, kR); // centidegrees
-
-        // Set RC output channels to control surface deflections
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, dA); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, dE); //centidegrees
-
-        // If wstr_uw_activate is set to 0 in Mission Planner, gives rudder control to Hannah/Pilot
-        if (g.wstr_activate != 1) {
-            steering_control.steering = steering_control.rudder = channel_rudder->get_control_in_zero_dz();
-        }
-        // If wstr_activate == 1, use full waypoint navigation
-        else {
-            steering_control.steering = steering_control.rudder = -dR; //Units: centi-degrees
-        }
-        
-                                                                   
-        // set RC channel 3 PWM (throttle)
-
-        // For use only in simulation
-        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
+        TR.engageMode(gcs(), ahrs, g, control_mode, gps, mission, home, relative_altitude, 
+                        &steering_control.steering, &steering_control.rudder, channel_rudder);
         break;
     }
 

@@ -442,21 +442,7 @@ private:
         OuterLoopController OLC;
     } uw_mode_2_state;
 
-    struct {
-        WingLeveler WL;
-        AltitudeHold AH;
-        Steer STR;
-        Waypoint WP;
-    } wstr_state;
-
-    struct {
-        double lat;
-        double lng;
-        double alt;
-        Location loc;
-        int16_t waypoint_num;
-        int8_t flight_plan_existing_counter;
-    } trapis_state;
+    Trapis TR;
     //UWAFSL END
 
 

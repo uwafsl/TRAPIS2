@@ -21945,6 +21945,9 @@
     <ClCompile Include="libraries\AFSL\WingLeveler.cpp">
       <Filter>libraries\AFSL</Filter>
     </ClCompile>
+    <ClCompile Include="libraries\UW_TRAPIS\Trapis.cpp">
+      <Filter>libraries\UW_TRAPIS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="AntennaTracker\AntennaTracker.txt">
@@ -34379,6 +34382,9 @@
     </ClInclude>
     <ClInclude Include="libraries\AFSL\WingLeveler.h">
       <Filter>libraries\AFSL</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\UW_TRAPIS\Trapis.h">
+      <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
