@@ -855,8 +855,8 @@ void Plane::update_flight_mode(void)
     }
 
     case WSTR: {        
-        TR.engageMode(gcs(), ahrs, g, control_mode, gps, mission, home, relative_altitude, 
-                        &steering_control.steering, &steering_control.rudder, channel_rudder);
+        TR.engageMode(gcs(), ahrs, g, &control_mode, gps, mission, home, relative_altitude, 
+                        &(steering_control.steering), &(steering_control.rudder), channel_rudder);
         break;
     }
 

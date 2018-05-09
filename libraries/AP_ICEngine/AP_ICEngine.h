@@ -16,6 +16,8 @@
 /*
   control of internal combustion engines (starter, ignition and choke)
  */
+#ifndef GUARD_AP_ICEENGINE_H_
+#define GUARD_AP_ICEENGINE_H_
 
 #include <AP_HAL/AP_HAL.h>
 #include <AP_RPM/AP_RPM.h>
@@ -96,4 +98,4 @@ private:
     // we are waiting for valid height data
     bool height_pending:1;
 };
-
+#endif

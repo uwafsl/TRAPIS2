@@ -8,11 +8,15 @@
 #ifndef GUARD_Trapis_h
 #define GUARD_Trapis_h
 
-#include "../../ArduPlane/Plane.h"
 #include "../AP_AHRS/AP_AHRS.h"         // for AHRS object (for retrieving plane state)
 #include "../../ArduPlane/GCS_Plane.h"  // for GCS object (for sending text)
 #include "../AP_Common/Location.h"      // for Location object (for storing location information)
 #include "../AFSL/AFSL.h"               // for AFSL Library object/functions
+#include "../AP_Terrain/AP_Terrain.h"
+#include "../AP_Button/AP_Button.h"
+#include "../AP_Stats/AP_Stats.h"
+#include "../AP_ICEngine/AP_ICEngine.h"
+#include "../AP_Soaring/AP_Soaring.h"
 #include "../../ArduPlane/Parameters.h" // for GCS Parameters (retrieving parameters from MissionPlanner)
 #include "../../ArduPlane/defines.h"    // for Flight Mode object to be sent to waypoint object
 #include "../AP_GPS/AP_GPS.h"           // for GPS information on plane
@@ -45,8 +49,10 @@ public:
 
 
     ///////////// Public interface methods ///////////////////////////////
-    void engageMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode& control_mode, AP_GPS& gps,
-                    AP_Mission mission, Location home, float relative_altitude, int16_t* steering, int16_t* rudder, RC_Channel* channel_rudder);
+    void engageMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode* control_mode, AP_GPS& gps,
+                    AP_Mission& mission, Location home, float relative_altitude, int16_t* steering, int16_t* rudder, RC_Channel* channel_rudder);
+
+    void setTrapisCoords(GCS_Plane& gcs, double Tlat, double Tlng, double Talt);
 
     // ====== Get/Set Functions ==========================
 

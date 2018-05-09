@@ -40,6 +40,8 @@ Waypoint::Waypoint()
     prev_waypoint_num = STARTING_WAYPOINT - 1;
     cur_waypoint_num = STARTING_WAYPOINT; 
     flight_plan_existing_counter = 0;
+    loc.lat = 2 * 1e7;
+    loc.lng = 7 * 1e7;
 }
 
 
@@ -78,15 +80,6 @@ Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t w
 {
     prev_waypoint_num = cur_waypoint_num;
     cur_waypoint_num = cur_waypoint_num == STARTING_WAYPOINT - 1 ? STARTING_WAYPOINT : cur_waypoint_num;
-    
-    // Check if plane is in WSTR
-    // If plane is not in WSTR, return last saved waypoint
-    // And reset flight plan mission
-    if (flight_mode != WSTR) {
-        cur_waypoint_num = STARTING_WAYPOINT;
-        prev_waypoint_num = 0;
-        return loc;
-    }
 
     // Set current control_mode in private field
     flight_mode = *control_mode;

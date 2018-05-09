@@ -36,18 +36,7 @@
 ////
 Trapis::Trapis()
 {
-    kAlt = 0.5;   // proportional altitude hold
-    kTheta = 3;   // proportional pitch gain
-    kQ = 0.5;       // derivative pitch gain
-
-                    // initialize integrators
-    intAltitude = 0;
-
-    // initialize previous values for input
-    last_alt = 0;
-    last_q = 0;
-    last_theta = 0;
-    last_dt = 0;
+    
 }
 
 
@@ -80,8 +69,8 @@ Trapis::~Trapis()
 ///
 /// Side-effects:	- none
 ////
-void Trapis::engageMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode& control_mode, AP_GPS& gps, 
-                        AP_Mission mission, Location home, float relative_altitude, int16_t* steering, int16_t* rudder, RC_Channel* channel_rudder)
+void Trapis::engageMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode* control_mode, AP_GPS& gps, 
+                        AP_Mission& mission, Location home, float relative_altitude, int16_t* steering, int16_t* rudder, RC_Channel* channel_rudder)
 {
     // Set waypoint radius for Waypoint Navigation (using AFSL Library)
     uint16_t wp_rad = g.waypoint_radius;
@@ -95,7 +84,7 @@ void Trapis::engageMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode
     plane_location = g.wstr_trapis_loc == 1 ? trapis_state.loc : gps.location();
 
     // Retrieve waypoint
-    Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home, &control_mode);
+    Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home, control_mode);
     wstr_state.WP.sendMessage(gcs, home);
 
     // Calculate control surface deflections with parameters from MissionPlanner
@@ -132,6 +121,21 @@ void Trapis::engageMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode
 
     // For use only in simulation
     SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
+}
+
+void Trapis::setTrapisCoords(GCS_Plane& gcs, double Tlat, double Tlng, double Talt)
+{
+    trapis_state.lat = Tlat;
+    trapis_state.lng = Tlng;
+    trapis_state.alt = Talt;
+
+    trapis_state.loc.lat = (int32_t)(Tlat * 1e7);
+    trapis_state.loc.lng = (int32_t)(Tlng * 1e7);
+    trapis_state.loc.alt = (int32_t)(Talt * 100);
+
+    gcs.send_text(MAV_SEVERITY_INFO, "Set GPS to %.6f %.6f",
+        Tlat,
+        Tlng);
 }
 
 
