@@ -128,7 +128,7 @@ void Trapis::engageWSTRMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, Flight
 
     // Set throttle
     // For use only in simulation
-    SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
+    // SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
 }
 
 /// Engage Trapis WSMP mode
