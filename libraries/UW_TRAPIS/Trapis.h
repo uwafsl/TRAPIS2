@@ -1,4 +1,6 @@
-// AltitudeHold.h: interface for the AltitudeHold class.
+// Trapis.h: interface for the Trapis class. This object handles/stores
+// trapis data (trapis coordinates) and controls the plane's behavior
+// based on that data.
 //
 // Ravi Patel
 // patelr3@uw.edu
@@ -31,7 +33,8 @@
 // Local header files
 
 //-------------------------------------------------------------------------------
-/// Define altitude hold objects which are used to represent a altitude hold controller.
+/// Define trapis objects that contain trapis data and control plane's behavior
+/// for Trapis modes
 ///
 ////
 class Trapis {
@@ -49,9 +52,35 @@ public:
 
 
     ///////////// Public interface methods ///////////////////////////////
-    void engageMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode* control_mode, AP_GPS& gps,
+    /// Engage Trapis WSTR mode
+    ///	
+    /// Input:			- gcs               = ground control station object to send messages to
+    ///                 - ahrs              = ahrs object containing sensor, position, velocity, and other information
+    ///                 - g                 = parameters object for retrieving ground station parameters
+    ///                 - control_mode      = current mode of the plane
+    ///                 - gps               = current state of the gps on the plane
+    ///                 - mission           = current state of the flight plan and mission on the plane
+    ///                 - home              = current home waypoint loaded onto the plane
+    ///                 - relative_altitude = relative altitude of the plane
+    ///
+    /// Output:			- steering          = steering value to be set
+    ///                 - rudder            = rudder position value to be set
+    ///                 - channel_rudder    = actual rudder state being sent to the plane (this actually controls the plane)
+    ///
+    /// Side-effects:	- affects plane.steering and plane.rudder fields (see Plane.h for declaration of those fields)
+    void engageWSTRMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode* control_mode, AP_GPS& gps,
                     AP_Mission& mission, Location home, float relative_altitude, int16_t* steering, int16_t* rudder, RC_Channel* channel_rudder);
 
+    /// Set Trapis Coordinates
+    ///	
+    /// Input:			- gcs   = ground control station object to send messages to
+    ///                 - Tlat  = Trapis latitude
+    ///                 - Tlng  = Trapis longitude
+    ///                 - Talt  = Trapis altitude
+    ///
+    /// Output:			
+    ///
+    /// Side-effects:	- trapis_state = updates this private field
     void setTrapisCoords(GCS_Plane& gcs, double Tlat, double Tlng, double Talt);
 
     // ====== Get/Set Functions ==========================
@@ -68,23 +97,21 @@ protected:
 private:
 
     ///////////// Private data members ///////////////////////////////////
-    // AFSL Objects
+    // AFSL Control Surfaces Objects
     struct {
-        WingLeveler WL;
-        AltitudeHold AH;
-        Steer STR;
-        Waypoint WP;
+        WingLeveler WL;     // primarily for keeping wings level (ailerons)
+        AltitudeHold AH;    // for keeping plane at constant altitude (elevator)
+        Steer STR;          // for steering plane to a certain waypoint (rudder)
+        Waypoint WP;        // for handling flight plan navigation
     } wstr_state;
 
 
-    // trapis information to keep hold of
+    // Contains trapis data
     struct {
         double lat;
         double lng;
         double alt;
         Location loc;
-        int16_t waypoint_num;
-        int8_t flight_plan_existing_counter;
     } trapis_state;
 };
-#endif
+#endif // GUARD_Trapis_h
