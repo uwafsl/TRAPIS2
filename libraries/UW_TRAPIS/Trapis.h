@@ -71,6 +71,20 @@ public:
     void engageWSTRMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, FlightMode* control_mode, AP_GPS& gps,
                     AP_Mission& mission, Location home, float relative_altitude, int16_t* steering, int16_t* rudder, RC_Channel* channel_rudder);
 
+    /// Engage Trapis WSMP mode
+    ///	
+    /// Input:			- gcs               = ground control station object to send messages to
+    ///                 - g                 = parameters object for retrieving ground station parameters
+    ///                 - control_mode      = current mode of the plane
+    ///                 - gps               = current state of the gps on the plane
+    ///                 - mission           = current state of the flight plan and mission on the plane
+    ///                 - home              = current home waypoint loaded onto the plane
+    ///
+    /// Output:
+    ///
+    /// Side-effects:
+    void engageWSMPMode(GCS_Plane& gcs, Parameters& g, FlightMode* control_mode, AP_GPS& gps, AP_Mission& mission, Location home);
+
     /// Set Trapis Coordinates
     ///	
     /// Input:			- gcs   = ground control station object to send messages to

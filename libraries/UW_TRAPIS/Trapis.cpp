@@ -131,6 +131,76 @@ void Trapis::engageWSTRMode(GCS_Plane& gcs, AP_AHRS& ahrs, Parameters& g, Flight
     SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
 }
 
+/// Engage Trapis WSMP mode
+///	
+/// Input:			- gcs               = ground control station object to send messages to
+///                 - g                 = parameters object for retrieving ground station parameters
+///                 - control_mode      = current mode of the plane
+///                 - gps               = current state of the gps on the plane
+///                 - mission           = current state of the flight plan and mission on the plane
+///                 - home              = current home waypoint loaded onto the plane
+///
+/// Output:
+///
+/// Side-effects:
+void Trapis::engageWSMPMode(GCS_Plane& gcs, Parameters& g, FlightMode* control_mode, AP_GPS& gps, AP_Mission& mission, Location home)
+{
+    // Get TRAPIS coords from trapis struct field (see Plane.h)
+    double Tlat = trapis_state.lat;
+    double Tlng = trapis_state.lng;
+
+    // Get waypoint radius from Mission Planner parameter
+    uint16_t wp_rad = g.waypoint_radius;
+
+    // Proceed to next waypoint on flight plan
+    wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad, home, control_mode);
+    wstr_state.WP.sendMessage(gcs, home);  // Sends waypoint navigation information to gcs program
+
+    // Carnation
+    // Flips ailerons when crossing wall next to trailer
+    double lat1 = 47.671791;
+    double lat2 = 47.672025;
+    double lng1 = 121.943638;
+    double lng2 = 121.943719;
+
+    // Trapis Simulator
+    // Flips ailerons on ID: 1 after about a minute or so
+    //double lat1 = 45.707828;
+    //double lng1 = 121.156544;
+    //double lat2 = 45.697261;
+    //double lng2 = 121.149159;
+
+    // Fountain
+    // Flips ailerons after crossing middle of Rainier Vista
+    //double lat1 = 47.654172;
+    //double lng1 = 122.308047;
+    //double lat2 = 47.653452;
+    //double lng2 = 122.307546;
+
+    // AERB
+    // Flips ailerons after crossing road between AERB and CSE buildings
+    //double lat1 = 47.653829;
+    //double lng1 = 122.306413;
+    //double lat2 = 47.653564;
+    //double lng2 = 122.305140;
+
+    // Calculates a line based on the two defined points
+    double slope = (lng2 - lng1) / (lat2 - lat1);
+    double testLng = slope * (Tlat - lat1) + lng1;
+
+    // Fountain: If on AERB side of the fountain, go 20 degrees on ailerons
+    //           Otherwise, go -20 degrees
+    // Carnation: If on Trailer side of the wall, go 20 degrees on ailerons
+    //           Otherwise, go -20 degrees
+    // AERB: If on AERB side of Benton, go 20 degrees, otherwise go -20 degrees
+    if (Tlng < testLng) {
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 2000);
+    }
+    else {
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -2000);
+    }
+}
+
 /// Set Trapis Coordinates
 ///	
 /// Input:			- gcs   = ground control station object to send messages to

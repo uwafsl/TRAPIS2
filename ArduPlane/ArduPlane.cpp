@@ -798,67 +798,17 @@ void Plane::update_flight_mode(void)
 	}
 
     case WSMP: {
-        // Get TRAPIS coords from trapis struct field (see Plane.h)
-        double Tlat = trapis_state.lat;
-        double Tlng = trapis_state.lng;
-
-        // Not using Talt for WSMP - must comment to compile px4-v2 file
-        uint16_t wp_rad = g.waypoint_radius;
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad, home, &control_mode);
-        gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
-
-        // Carnation
-        // Flips ailerons when crossing wall next to trailer
-        double lat1 = 47.671791;
-        double lat2 = 47.672025;
-        double lng1 = 121.943638;
-        double lng2 = 121.943719;
-
-        // Trapis Simulator
-        // Flips ailerons on ID: 1 after about a minute or so
-        //double lat1 = 45.707828;
-        //double lng1 = 121.156544;
-        //double lat2 = 45.697261;
-        //double lng2 = 121.149159;
-
-        // Fountain
-        // Flips ailerons after crossing middle of Rainier Vista
-        //double lat1 = 47.654172;
-        //double lng1 = 122.308047;
-        //double lat2 = 47.653452;
-        //double lng2 = 122.307546;
-
-        // AERB
-        // Flips ailerons after crossing road between AERB and CSE buildings
-        //double lat1 = 47.653829;
-        //double lng1 = 122.306413;
-        //double lat2 = 47.653564;
-        //double lng2 = 122.305140;
-
-        // Calculates a line based on the two defined points
-        double slope = (lng2 - lng1) / (lat2 - lat1);
-        double testLng = slope * (Tlat - lat1) + lng1;
-
-        // Fountain: If on AERB side of the fountain, go 20 degrees on ailerons
-        //           Otherwise, go -20 degrees
-        // Carnation: If on Trailer side of the wall, go 20 degrees on ailerons
-        //           Otherwise, go -20 degrees
-        // AERB: If on AERB side of Benton, go 20 degrees, otherwise go -20 degrees
-        if (Tlng < testLng) {
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 2000);
-        }
-        else {
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -2000);
-        }
+        // Uses Trapis object to control flight behavior based on WSMP
+        TR.engageWSMPMode(gcs(), g, &control_mode, gps, mission, home);
         break;
     }
 
-    case WSTR: {        
+    case WSTR: {  
+        // Uses Trapis object to control flight behavior based on WSMP
         TR.engageWSTRMode(gcs(), ahrs, g, &control_mode, gps, mission, home, relative_altitude, 
                         &(steering_control.steering), &(steering_control.rudder), channel_rudder);
         break;
     }
-
 	//UWAFSL END
         
     case TRAINING: {
