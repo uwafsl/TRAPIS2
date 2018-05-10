@@ -58,7 +58,7 @@ public:
                             Location default_loc, FlightMode *control_mode);
 
     //void sendMessage(GCS_Plane *gcsPtr);
-    void sendMessage();
+    void sendMessage(GCS_Plane& gcs, Location default_loc);
     // ====== Get/Set Functions ==========================
 
     void getFlightMode(FlightMode *control_mode);
@@ -76,8 +76,10 @@ private:
 
     // data members
     uint16_t cur_waypoint_num;
+    uint16_t prev_waypoint_num;
     Location loc;
     FlightMode flight_mode;
+    uint8_t flight_plan_existing_counter;
 
 };
 #endif

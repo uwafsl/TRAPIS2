@@ -1,4 +1,4 @@
-// Steer.h: interface for the Steer class.
+// AltitudeHold.h: interface for the AltitudeHold class.
 //
 // Ryan Grimes
 // rjgrimes@uw.edu
@@ -8,9 +8,13 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#ifndef GUARD_Steer_h
-#define GUARD_Steer_h
+#ifndef GUARD_AltitudeHold_h
+#define GUARD_AltitudeHold_h
 
+#include <AP_AHRS/AP_AHRS.h>
+#include "AFSL_Constants.h"
+
+#define DT 0.02
 /*
 // generate dll 
 #ifdef ORBITCONTROLLERLIBRARY_EXPORTS
@@ -25,28 +29,28 @@
 //#include <vector>			//vector
 
 // Local header files
-//#include "ControlSurfaceDeflections.h"		//ControlSurfaceDeflections class
 
 //-------------------------------------------------------------------------------
-/// Define Steer objects which are used to represent a rudder controller.
+/// Define altitude hold objects which are used to represent a altitude hold controller.
 ///
 ////
-class Steer {
+class AltitudeHold {
 
 public:
 	///////////// Construction/Destruction ///////////////////////////////
 
 	// default constructor
-    Steer();
+	AltitudeHold();
 	
 	// destructor
-	virtual ~Steer();
+	virtual ~AltitudeHold();
 
 	///////////// Overload operators /////////////////////////////////////
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeRudderDeflection(double nav_bearing, double psi, double r, double pro_gain, double der_gain);
+    //double computeElevatorDeflection(double alt, double theta, double q, double dt, double alt_pro_gain);
+    double computeElevatorDeflection(double alt, AP_AHRS& ahrs, double alt_pro_gain);
 	
 	// ====== Get/Set Functions ==========================
 
@@ -62,20 +66,22 @@ protected:
 	////
 	/// Gains
 	////
-	double kPsi;   // proportional
-	double kR;       // derivative
+	double kAlt;         // proportional altitude hold
+	double kTheta;       // proportional pitch control
+    double kQ;           // derivative pitch control
 	
 private:
 
 	///////////// Private data members ///////////////////////////////////
 
-	// integrator terms
-	//double intAltitude;
+	// integrator term
+	double intAltitude;
 
 	// previous values for inputs
-	double last_r;
-	double last_psi;
-    double last_nav_bearing;
+	double last_q;
+	double last_theta;
+    double last_alt;
+    double last_dt;
 
 };
 #endif

@@ -37,7 +37,11 @@
 ////
 Waypoint::Waypoint()
 {
+    prev_waypoint_num = STARTING_WAYPOINT - 1;
     cur_waypoint_num = STARTING_WAYPOINT; 
+    flight_plan_existing_counter = 0;
+    loc.lat = 2 * 1e7;
+    loc.lng = 7 * 1e7;
 }
 
 
@@ -74,13 +78,8 @@ Waypoint::~Waypoint()
 Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t waypoint_radius, 
                                 Location default_loc, FlightMode *control_mode)
 {
-    // Check if plane is in WSTR
-    // If plane is not in WSTR, return last saved waypoint
-    // And reset flight plan mission
-    if (flight_mode != WSTR) {
-        cur_waypoint_num = STARTING_WAYPOINT;
-        return loc;
-    }
+    prev_waypoint_num = cur_waypoint_num;
+    cur_waypoint_num = cur_waypoint_num == STARTING_WAYPOINT - 1 ? STARTING_WAYPOINT : cur_waypoint_num;
 
     // Set current control_mode in private field
     flight_mode = *control_mode;
@@ -125,14 +124,44 @@ Location Waypoint::nextWaypoint(AP_Mission mission, Location cur_loc, uint32_t w
     }
 
     // Using unused loc.options to store the cur_index so that it is accessible in the return type
-    loc.options = cur_waypoint_num;
+
+    /*loc.options = cur_waypoint_num;*/
 
     return loc;
 }
 
-void Waypoint::sendMessage()
+void Waypoint::sendMessage(GCS_Plane& gcs, Location default_loc)
 {
-    gcs().send_text(MAV_SEVERITY_INFO, "FlightMode: %i", flight_mode);
+    // check waypoint validity - if mission is done, switch to WSTR - restart mission
+    // Switching back to WSTR will restart the mission from waypoint #2
+    if (loc.lat == default_loc.lat && loc.lng == default_loc.lng && loc.alt == default_loc.alt) {
+        if (flight_plan_existing_counter == 0) {
+            gcs.send_text(MAV_SEVERITY_INFO, "WSTR: Trapis mission ended. Restarting mission in WSTR.");
+            flight_plan_existing_counter++;
+        }
+
+        else if (flight_plan_existing_counter == 1) {
+            gcs.send_text(MAV_SEVERITY_INFO, "WSTR: Please input a flight plan.");
+            gcs.send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to home in WSTR.");
+            flight_plan_existing_counter = 2;
+        }
+    }
+    else {
+        if (flight_plan_existing_counter == 2) {
+            gcs.send_text(MAV_SEVERITY_INFO, "WSTR: Flight plan received in WSTR.");
+            gcs.send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to waypoint #2 in WSTR.");
+        }
+        flight_plan_existing_counter = 0;
+    }
+
+    // Print waypoint information to MissionPlanner/gcs
+    if (prev_waypoint_num != cur_waypoint_num) {
+        gcs.send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Num: %2i", cur_waypoint_num);
+        float wlat = (float)loc.lat / 1e7;
+        float wlng = (float)loc.lng / 1e7;
+        float walt = (float)loc.alt / 100;
+        gcs.send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Location: %.6f, %.6f, %.6f", wlat, wlng, walt);
+    }
 }
 
 void Waypoint::getFlightMode(FlightMode *control_mode) {
@@ -142,7 +171,8 @@ void Waypoint::getFlightMode(FlightMode *control_mode) {
     // If plane is not in WSTR, return last saved waypoint
     // And reset flight plan mission
     if (flight_mode != WSTR) {
-        cur_waypoint_num = STARTING_WAYPOINT;
+        cur_waypoint_num = STARTING_WAYPOINT - 1;
+        prev_waypoint_num = STARTING_WAYPOINT - 2;
     }
 }
 

@@ -13,6 +13,9 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#ifndef GUARD_AP_BUTTON_H_
+#define GUARD_AP_BUTTON_H_
+
 #include <AP_HAL/AP_HAL.h>
 #include <AP_Param/AP_Param.h>
 
@@ -64,3 +67,4 @@ private:
     void setup_pins();
 };
 
+#endif

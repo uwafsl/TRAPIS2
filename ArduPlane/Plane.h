@@ -29,11 +29,6 @@
 #include <stdarg.h>
 #include <stdio.h>
 
-//UWAFSL START
-#include <OrbitControl/OrbitControl.h>
-#include <UW_TRAPIS/UW_TRAPIS.h>
-//UWAFSL END
-
 #include <AP_HAL/AP_HAL.h>
 #include <AP_Common/AP_Common.h>
 #include <AP_Menu/AP_Menu.h>
@@ -115,6 +110,12 @@
 #include "Parameters.h"
 #include "avoidance_adsb.h"
 #include "AP_Arming.h"
+
+//UWAFSL START
+#include <OrbitControl/OrbitControl.h>
+#include <UW_TRAPIS/UW_TRAPIS.h>
+#include <AFSL/AFSL.h>
+//UWAFSL END
 
 #if CONFIG_HAL_BOARD == HAL_BOARD_SITL
 #include <SITL/SITL.h>
@@ -455,7 +456,10 @@ private:
         Location loc;
         int16_t waypoint_num;
         int8_t flight_plan_existing_counter;
-    } trapis;
+    } trapis_state;
+
+
+    Trapis TR;
     //UWAFSL END
 
 

@@ -24,6 +24,9 @@
 //#include <string>			//string
 //#include <vector>			//vector
 
+#include <AP_AHRS/AP_AHRS.h>
+#include "AFSL_Constants.h"
+
 // Local header files
 //#include "ControlSurfaceDeflections.h"		//ControlSurfaceDeflections class
 
@@ -46,7 +49,7 @@ public:
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeAileronDeflection(double phi, double p, double pro_gain, double der_gain);
+    double computeAileronDeflection(AP_AHRS& ahrs, double pro_gain, double der_gain);
 	
 	// ====== Get/Set Functions ==========================
 

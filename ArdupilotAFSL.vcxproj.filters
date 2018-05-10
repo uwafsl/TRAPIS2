@@ -7648,6 +7648,9 @@
     <Filter Include="libraries\UW_TRAPIS">
       <UniqueIdentifier>{2efb731d-fbef-44ac-89ae-c58cdd2fe045}</UniqueIdentifier>
     </Filter>
+    <Filter Include="libraries\AFSL">
+      <UniqueIdentifier>{0ea31df4-4cdc-4388-a54c-8f1281c62fab}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AntennaTracker\AntennaTracker.cpp">
@@ -21930,16 +21933,19 @@
     <ClCompile Include="Tools\Replay\Replay.cpp">
       <Filter>Tools\Replay</Filter>
     </ClCompile>
-    <ClCompile Include="libraries\UW_TRAPIS\AltitudeHold.cpp">
-      <Filter>libraries\UW_TRAPIS</Filter>
+    <ClCompile Include="libraries\AFSL\AltitudeHold.cpp">
+      <Filter>libraries\AFSL</Filter>
     </ClCompile>
-    <ClCompile Include="libraries\UW_TRAPIS\Steer.cpp">
-      <Filter>libraries\UW_TRAPIS</Filter>
+    <ClCompile Include="libraries\AFSL\Steer.cpp">
+      <Filter>libraries\AFSL</Filter>
     </ClCompile>
-    <ClCompile Include="libraries\UW_TRAPIS\WingLeveler.cpp">
-      <Filter>libraries\UW_TRAPIS</Filter>
+    <ClCompile Include="libraries\AFSL\Waypoint.cpp">
+      <Filter>libraries\AFSL</Filter>
     </ClCompile>
-    <ClCompile Include="libraries\UW_TRAPIS\Waypoint.cpp">
+    <ClCompile Include="libraries\AFSL\WingLeveler.cpp">
+      <Filter>libraries\AFSL</Filter>
+    </ClCompile>
+    <ClCompile Include="libraries\UW_TRAPIS\Trapis.cpp">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClCompile>
   </ItemGroup>
@@ -34359,16 +34365,25 @@
     <ClInclude Include="libraries\UW_TRAPIS\UW_TRAPIS.h">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
-    <ClInclude Include="libraries\UW_TRAPIS\AltitudeHold.h">
-      <Filter>libraries\UW_TRAPIS</Filter>
+    <ClInclude Include="libraries\AFSL\AFSL.h">
+      <Filter>libraries\AFSL</Filter>
     </ClInclude>
-    <ClInclude Include="libraries\UW_TRAPIS\Steer.h">
-      <Filter>libraries\UW_TRAPIS</Filter>
+    <ClInclude Include="libraries\AFSL\AFSL_Constants.h">
+      <Filter>libraries\AFSL</Filter>
     </ClInclude>
-    <ClInclude Include="libraries\UW_TRAPIS\WingLeveler.h">
-      <Filter>libraries\UW_TRAPIS</Filter>
+    <ClInclude Include="libraries\AFSL\AltitudeHold.h">
+      <Filter>libraries\AFSL</Filter>
     </ClInclude>
-    <ClInclude Include="libraries\UW_TRAPIS\Waypoint.h">
+    <ClInclude Include="libraries\AFSL\Steer.h">
+      <Filter>libraries\AFSL</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AFSL\Waypoint.h">
+      <Filter>libraries\AFSL</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\AFSL\WingLeveler.h">
+      <Filter>libraries\AFSL</Filter>
+    </ClInclude>
+    <ClInclude Include="libraries\UW_TRAPIS\Trapis.h">
       <Filter>libraries\UW_TRAPIS</Filter>
     </ClInclude>
   </ItemGroup>

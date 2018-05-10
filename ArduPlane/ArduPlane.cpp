@@ -627,8 +627,9 @@ void Plane::update_flight_mode(void)
     //UWAFSL START
 	case UW_MODE_1:{
 		//Start playing a LOUD tone so the user can locate the aircraft
-		//Lost_aircraft is deleted or renamed 
-        //AP_Notify::events.lost_aircraft = true;
+        // And set mode to Manual
+        AP_Notify::flags.vehicle_lost = true;
+        set_mode(MANUAL, MODE_REASON_UNKNOWN);
 		break;
 	}
 	case UW_MODE_2:{
@@ -711,6 +712,10 @@ void Plane::update_flight_mode(void)
         if (control_mode != UW_MODE_3) {
             set_mode(UW_MODE_3, MODE_REASON_UNKNOWN);
         }
+
+        // compute rotatational stuff (uses g, ahrs, ...)
+
+
 		//dt used for ILCintegrator
 		double dt = 0.02; //Seconds
 		//radius
@@ -758,6 +763,9 @@ void Plane::update_flight_mode(void)
 			thr_des = 40;
 		}
 
+
+        // K-throttle updates, 
+
 		//Set desired throttle setting
         SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
 
@@ -783,9 +791,6 @@ void Plane::update_flight_mode(void)
         SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 50);
         SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 500); //centidegrees
         SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -500); //centidegrees
-		//channel_throttle->servo_out= 50;
-		//channel_roll->servo_out = 500;
-		//channel_pitch->servo_out = -500;
 		steering_control.steering = steering_control.rudder = rad_act_pwm;
 
 			
@@ -793,212 +798,17 @@ void Plane::update_flight_mode(void)
 	}
 
     case WSMP: {
-        // Get TRAPIS coords from trapis struct field (see Plane.h)
-        double Tlat = trapis.lat;
-        double Tlng = trapis.lng;
-
-        // Not using Talt for WSMP - must comment to compile px4-v2 file
-        //double Talt = trapis.alt;
-        //uint16_t rad = g.waypoint_radius;
-        //gcs().send_text(MAV_SEVERITY_INFO, "waypoint radius %.3i", rad);
-        uint16_t wp_rad = g.waypoint_radius;
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, gps.location(), wp_rad, home, &control_mode);
-        gcs().send_text(MAV_SEVERITY_INFO, "waypoint num: %3i", waypoint.options);
-
-        // Carnation
-        // Flips ailerons when crossing wall next to trailer
-        double lat1 = 47.671791;
-        double lat2 = 47.672025;
-        double lng1 = 121.943638;
-        double lng2 = 121.943719;
-
-        // Trapis Simulator
-        // Flips ailerons on ID: 1 after about a minute or so
-        //double lat1 = 45.707828;
-        //double lng1 = 121.156544;
-        //double lat2 = 45.697261;
-        //double lng2 = 121.149159;
-
-        // Fountain
-        // Flips ailerons after crossing middle of Rainier Vista
-        //double lat1 = 47.654172;
-        //double lng1 = 122.308047;
-        //double lat2 = 47.653452;
-        //double lng2 = 122.307546;
-
-        // AERB
-        // Flips ailerons after crossing road between AERB and CSE buildings
-        //double lat1 = 47.653829;
-        //double lng1 = 122.306413;
-        //double lat2 = 47.653564;
-        //double lng2 = 122.305140;
-
-        // Calculates a line based on the two defined points
-        double slope = (lng2 - lng1) / (lat2 - lat1);
-        double testLng = slope * (Tlat - lat1) + lng1;
-
-        // Fountain: If on AERB side of the fountain, go 20 degrees on ailerons
-        //           Otherwise, go -20 degrees
-        // Carnation: If on Trailer side of the wall, go 20 degrees on ailerons
-        //           Otherwise, go -20 degrees
-        // AERB: If on AERB side of Benton, go 20 degrees, otherwise go -20 degrees
-        if (Tlng < testLng) {
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, 2000);
-        }
-        else {
-            SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -2000);
-        }
+        // Uses Trapis object to control flight behavior based on WSMP
+        TR.engageWSMPMode(gcs(), g, &control_mode, gps, mission, home);
         break;
     }
 
-    case WSTR: {
-        // constants 
-
-        double pi = 3.14159;
-
-        //dt used for AH integrator
-        double dt = 0.02; //Seconds
-
-        // euler angle rates 
-        double p = ahrs.get_gyro().x; // rad/s
-        double q = ahrs.get_gyro().y; // rad/s
-        double r = ahrs.get_gyro().z; // rad/s
-        r = r * 180 / pi * 100; // centidegrees/s
-        
-        // euler angles 
-        double phi = ahrs.roll; // rad
-        double theta = ahrs.pitch; // rad
-        double psi = ahrs.yaw; // rad
-        psi = psi * 180 / pi * 100; // centidegrees
-
-        //convert psi to range of [0, 36000] centidegrees
-        if (psi < 0) {
-            psi += 36000;
-        }
-
-        // altitude
-        double alt = relative_altitude; //(m)
-        
-        /* 
-        *   bearing to next waypoint
-        */
-        uint16_t wp_rad = g.waypoint_radius; // extracts waypoint radius from Mission Planner
-
-        // Extract the current waypoint
-
-        /*
-        * NOTE: This will command to the 2nd waypoint you have in the flight plan initially.
-        * The first waypoint can either be used as TAKEOFF for simulation or just as a dummy
-        * waypoint. Again: This will not start at WAYPOINT#1, it will start at WAYPOINT #2.
-        */
-
-        // Sets plane's location based on Mission Planner parameter WSTR_TRAPIS_LOC
-        // When set to 1, uses trapis coords. When set to 0, uses gps coords
-        Location plane_location;
-        if (g.wstr_trapis_loc == 1) {
-            plane_location = trapis.loc;
-            //plane_location.lng *= -1; // Flips sign on longitude because MP is set up that way
-        }
-        else {
-            plane_location = gps.location();
-        }
-
-
-        Location waypoint = wstr_state.WP.nextWaypoint(mission, plane_location, wp_rad, home, &control_mode);
-
-        // check waypoint validity - if mission is done, switch to WSTR - restart mission
-        // Switching back to WSTR will restart the mission from waypoint #2
-        if (waypoint.lat == home.lat && waypoint.lng == home.lng && waypoint.alt == home.alt) {
-            if (trapis.flight_plan_existing_counter == 0) {
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Trapis mission ended. Restarting mission in WSTR.");
-                trapis.flight_plan_existing_counter++;
-            }
-
-            else if (trapis.flight_plan_existing_counter == 1) {
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Please input a flight plan.");
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to home in WSTR.");
-                trapis.flight_plan_existing_counter = 2;
-            }
-        }
-        else {
-            if (trapis.flight_plan_existing_counter == 2) {
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Flight plan received in WSTR.");
-                gcs().send_text(MAV_SEVERITY_INFO, "WSTR: Setting waypoint to waypoint #2 in WSTR.");
-            }
-            trapis.flight_plan_existing_counter = 0;
-        }
-
-        // Print waypoint information to MissionPlanner/gcs
-        if (trapis.waypoint_num != waypoint.options) {
-            gcs().send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Num: %2i", waypoint.options);
-            float wlat = (float)waypoint.lat / 1e7;
-            float wlng = (float)waypoint.lng / 1e7;
-            float walt = (float)waypoint.alt / 100;
-            gcs().send_text(MAV_SEVERITY_INFO, "WSTR Waypoint Location: %.6f, %.6f, %.6f", wlat, wlng, walt);
-        }
-        trapis.waypoint_num = waypoint.options;
-
-        // Assign waypoint
-        next_WP_loc = waypoint;
-
-        // Calculate inputs to the WSTR Controller
-        double off_x = next_WP_loc.lng - plane_location.lng;
-        double off_y = (next_WP_loc.lat - plane_location.lat) / longitude_scale(next_WP_loc);
-        double bearing = 9000 + atan2f(-off_y, off_x) * 5729.57795f;
-        if (bearing < 0) {
-            bearing += 36000;   // centidegrees
-        }
-
-        // Sending parameters to message window
-
-
-        // gcs().send_text(MAV_SEVERITY_INFO, "%.2f",
-        //    bearing - psi);
-      
-
-        // Calculate control surface deflections with parameters from MissionPlanner
-        // Wing Leveler Gains
-        double wl_pro_gain = g.wstr_wl_pro_gain;
-        double wl_der_gain = g.wstr_wl_der_gain;
-        // Altitude Hold Gains
-        double kAlt = g.wstr_ah_pro_gain;
-
-        // Steer gains
-        double kPsi = g.wstr_rd_pro_gain; // proportional gain
-        double kR = g.wstr_rd_der_gain; // derivative gain
-
-        double dA = wstr_state.WL.computeAileronDeflection(phi, p, wl_pro_gain, wl_der_gain); // rad
-        double dE = wstr_state.AH.computeElevatorDeflection(alt, theta, q, dt, kAlt); // rad
-        double dR = wstr_state.STR.computeRudderDeflection(bearing, psi, r, kPsi, kR); // centidegrees
-
-        // Set RC output channels to control surface deflections
-
-        double scale_factor_r2cd = 100 * 180 / pi; // scale factor to convert radians to centidegrees
-
-        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -dA * scale_factor_r2cd); //centidegrees
-        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -dE * scale_factor_r2cd); //centidegrees
- 
-        
-        // dR set to zero to just test wing leveler and altitude hold.
-        // dR = 0 // Setting rudder to zero deflection
-
-        // If wstr_uw_activate is set to 0 in Mission Planner, gives rudder control to Hannah/Pilot
-        if (g.wstr_activate != 1) {
-            steering_control.steering = steering_control.rudder = channel_rudder->get_control_in_zero_dz();
-        }
-        // If wstr_activate == 1, use full waypoint navigation
-        else {
-            steering_control.steering = steering_control.rudder = -dR; //Units: centi-degrees
-        }
-        
-                                                                   
-        // set RC channel 3 PWM (throttle)
-
-        // For use only in simulation
-        //SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, 25); //percentage
+    case WSTR: {  
+        // Uses Trapis object to control flight behavior based on WSMP
+        TR.engageWSTRMode(gcs(), ahrs, g, &control_mode, gps, mission, home, relative_altitude, 
+                        &(steering_control.steering), &(steering_control.rudder), channel_rudder);
         break;
     }
-
 	//UWAFSL END
         
     case TRAINING: {

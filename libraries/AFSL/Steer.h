@@ -1,4 +1,4 @@
-// AltitudeHold.h: interface for the AltitudeHold class.
+// Steer.h: interface for the Steer class.
 //
 // Ryan Grimes
 // rjgrimes@uw.edu
@@ -8,8 +8,11 @@
 //
 //////////////////////////////////////////////////////////////////////
 
-#ifndef GUARD_AltitudeHold_h
-#define GUARD_AltitudeHold_h
+#ifndef GUARD_Steer_h
+#define GUARD_Steer_h
+
+#include <AP_AHRS/AP_AHRS.h>
+#include <AP_Common/Location.h>
 
 /*
 // generate dll 
@@ -25,27 +28,29 @@
 //#include <vector>			//vector
 
 // Local header files
+//#include "ControlSurfaceDeflections.h"		//ControlSurfaceDeflections class
 
 //-------------------------------------------------------------------------------
-/// Define altitude hold objects which are used to represent a altitude hold controller.
+/// Define Steer objects which are used to represent a rudder controller.
 ///
 ////
-class AltitudeHold {
+class Steer {
 
 public:
 	///////////// Construction/Destruction ///////////////////////////////
 
 	// default constructor
-	AltitudeHold();
+    Steer();
 	
 	// destructor
-	virtual ~AltitudeHold();
+	virtual ~Steer();
 
 	///////////// Overload operators /////////////////////////////////////
 
 
 	///////////// Public interface methods ///////////////////////////////
-    double computeElevatorDeflection(double alt, double theta, double q, double dt, double alt_pro_gain);
+    double computeRudderDeflection(Location waypoint, Location cur_loc, AP_AHRS& ahrs, double pro_gain, double der_gain);
+
 	
 	// ====== Get/Set Functions ==========================
 
@@ -61,22 +66,20 @@ protected:
 	////
 	/// Gains
 	////
-	double kAlt;         // proportional altitude hold
-	double kTheta;       // proportional pitch control
-    double kQ;           // derivative pitch control
+	double kPsi;   // proportional
+	double kR;       // derivative
 	
 private:
 
 	///////////// Private data members ///////////////////////////////////
 
-	// integrator term
-	double intAltitude;
+	// integrator terms
+	//double intAltitude;
 
 	// previous values for inputs
-	double last_q;
-	double last_theta;
-    double last_alt;
-    double last_dt;
+	double last_r;
+	double last_psi;
+    double last_nav_bearing;
 
 };
 #endif
