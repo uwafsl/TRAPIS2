@@ -739,6 +739,8 @@ void Plane::update_flight_mode(void)
 		double phi = ahrs.roll;
 		double theta = ahrs.pitch;
 
+        //test
+
         // Defining Paramters
         double pro_gain = g.wstr_wl_pro_gain;
         double der_gain = g.wstr_wl_der_gain;
