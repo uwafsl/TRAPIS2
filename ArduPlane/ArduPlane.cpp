@@ -769,7 +769,8 @@ void Plane::update_flight_mode(void)
         // K-throttle updates, 
 
 		//Set desired throttle setting
-        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
+        // COMMENTED OUT ONLY FOR 10-6-18 FLIGHT TEST
+        //SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
 
 		//channel_throttle->servo_out = thr_des;
 
