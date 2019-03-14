@@ -388,6 +388,10 @@ private:
     // receiver RSSI
     uint8_t receiver_rssi;
 
+    //6.6 ADC input
+    float tracao_value;
+    AP_HAL::AnalogSource* tracao_analog_source;
+
     // Ground speed
     // The amount current ground speed is below min ground speed.  Centimeters per second
     int32_t groundspeed_undershoot;
@@ -397,10 +401,6 @@ private:
 
     // Battery Sensors
     AP_BattMonitor battery;
-
-    //6.6 ADC input
-    float tracao_value;
-    AP_HAL::AnalogSource* tracao_analog_source;
 
 #if FRSKY_TELEM_ENABLED == ENABLED
     // FrSky telemetry support

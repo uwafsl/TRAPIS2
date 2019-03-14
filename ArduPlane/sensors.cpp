@@ -121,7 +121,6 @@ void Plane::read_battery(void)
 {
     battery.read();
     compass.set_current(battery.current_amps());
-    tracao_value = tracao_analog_source->voltage_average();
 
     if (hal.util->get_soft_armed() &&
         battery.exhausted(g.fs_batt_voltage, g.fs_batt_mah)) {
