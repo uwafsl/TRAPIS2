@@ -398,6 +398,10 @@ private:
     // Battery Sensors
     AP_BattMonitor battery;
 
+    //6.6 ADC input
+    float tracao_value;
+    AP_HAL::AnalogSource* tracao_analog_source;
+
 #if FRSKY_TELEM_ENABLED == ENABLED
     // FrSky telemetry support
     AP_Frsky_Telem frsky_telemetry {ahrs, battery, rangefinder};
