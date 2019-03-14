@@ -751,18 +751,18 @@ void Plane::update_flight_mode(void)
 
 		//Calculate desired throttle setting
 
-        double thr_base = 20;
+        double thr_base = 75;
         double thr_scale = 0.5;
 
 		double thr_des = thr_base + thr_scale *(rad_ref-rad_act);
 
 		//Set limitations on throttle settings
 
-		if (thr_des > 30){
-			thr_des = 30;
+		if (thr_des > 90){
+			thr_des = 90;
 		}
-		else if (thr_des < 10){
-			thr_des = 10;
+		else if (thr_des < 60){
+			thr_des = 60;
 		}
 
 
