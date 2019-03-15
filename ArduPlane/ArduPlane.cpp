@@ -110,8 +110,6 @@ void Plane::setup()
 
     // initialise the main loop scheduler
     scheduler.init(&scheduler_tasks[0], ARRAY_SIZE(scheduler_tasks));
-
-    tracao_analog_source = hal.analogin->channel(15);
 }
 
 void Plane::loop()
@@ -722,7 +720,6 @@ void Plane::update_flight_mode(void)
 		double dt = 0.02; //Seconds
 		//radius
 		uint8_t ch = 7; //CH_8
-        tracao_value = tracao_analog_source->voltage_average();
 		double rad_act_pwm = hal.rcin->read(ch); //(pwm)
 		double rad_act = rad_act_pwm/100; //(m)
 		//double rad_act = g.uw_act_radius; //(m)
