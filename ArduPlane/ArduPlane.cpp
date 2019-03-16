@@ -720,6 +720,7 @@ void Plane::update_flight_mode(void)
 		double dt = 0.02; //Seconds
 		//radius
 		uint8_t ch = 7; //CH_8
+        uint16_t v_yaw = voltage_mv;
 		double rad_act_pwm = hal.rcin->read(ch); //(pwm)
 		double rad_act = rad_act_pwm/100; //(m)
 		//double rad_act = g.uw_act_radius; //(m)
@@ -799,6 +800,85 @@ void Plane::update_flight_mode(void)
 			
 		break;
 	}
+
+    case UW_MODE_5: {
+        if (control_mode != UW_MODE_5) {
+            set_mode(UW_MODE_5, MODE_REASON_UNKNOWN);
+        }
+
+        // compute rotatational stuff (uses g, ahrs, ...)
+
+
+        //dt used for ILCintegrator
+        double dt = 0.02; //Seconds
+                          //radius
+        uint8_t ch = 7; //CH_8
+        uint16_t v_yaw = voltage_mv;
+        double rad_act_pwm = hal.rcin->read(ch); //(pwm)
+        double rad_act = rad_act_pwm / 100; //(m)
+                                            //double rad_act = g.uw_act_radius; //(m)
+        double rad_ref = g.uw_radius; //(m)
+                                      //altitude
+        double alt = relative_altitude; //(m)
+        double alt_ref = g.uw_altitude; //(m)
+                                        //speed
+        double uB = airspeed.get_airspeed(); //(m/s)
+        double vB = 0;         //(m/s)
+        double wB = 0;         //(m/s)
+                               //angles
+        double p = ahrs.get_gyro().x;
+        double q = ahrs.get_gyro().y;
+        double r = ahrs.get_gyro().z;
+        //roll and pitch
+        double phi = ahrs.roll;
+        double theta = ahrs.pitch;
+
+        //test
+
+        // Defining Paramters
+        double pro_gain = g.wstr_wl_pro_gain;
+        double der_gain = g.wstr_wl_der_gain;
+
+        double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain);
+
+        ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
+
+        //Calculate desired throttle setting
+
+        double thr_base = 75;
+        double thr_scale = 0.5;
+
+        double thr_des = thr_base + thr_scale * (rad_ref - rad_act);
+
+        //Set limitations on throttle settings
+
+        if (thr_des > 90) {
+            thr_des = 90;
+        }
+        else if (thr_des < 60) {
+            thr_des = 60;
+        }
+
+
+        // K-throttle updates, 
+
+        //Set desired throttle setting
+        // COMMENTED OUT ONLY FOR 10-6-18 FLIGHT TEST
+        //SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
+
+        //channel_throttle->servo_out = thr_des;
+
+        double scale_factor = 100 * 180 / 3.14; // scale factor to convert radians to centidegrees
+
+                                                //Set desired deflection angles
+        SRV_Channels::set_output_scaled(SRV_Channel::k_aileron, -CSD.GetAileron()*scale_factor); //centidegrees
+        SRV_Channels::set_output_scaled(SRV_Channel::k_elevator, -CSD.GetElevator()*scale_factor); //centidegrees
+                                                                                                   //channel_roll->servo_out = -CSD.GetAileron()*100*180/3.14; //Units: centi-degrees
+                                                                                                   //channel_pitch->servo_out = -CSD.GetElevator()*100*180/3.14; //Units: centi-degrees
+        steering_control.steering = steering_control.rudder = -CSD.GetRudder()*scale_factor; //Units: centi-degrees
+
+        break;
+    }
 
     case WSMP: {
         // Uses Trapis object to control flight behavior based on WSMP
@@ -1055,6 +1135,11 @@ void Plane::update_navigation()
         }
         break;
 	case UW_MODE_4:
+        break;
+    case UW_MODE_5:
+        if (control_mode != UW_MODE_5) {
+            set_mode(UW_MODE_5, MODE_REASON_UNKNOWN);
+        }
         break;
     case WSMP:
         if (control_mode != WSMP) {

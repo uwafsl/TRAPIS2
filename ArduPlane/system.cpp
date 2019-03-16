@@ -408,6 +408,7 @@ void Plane::set_mode(enum FlightMode mode, mode_reason_t reason)
 	case UW_MODE_2:
 	case UW_MODE_3:
 	case UW_MODE_4:
+    case UW_MODE_5:
     case WSMP:
     case WSTR:
 	//UWAFSL END
@@ -560,6 +561,7 @@ bool Plane::mavlink_set_mode(uint8_t mode)
 	case UW_MODE_2:
 	case UW_MODE_3:
 	case UW_MODE_4:
+    case UW_MODE_5:
     case WSMP:
     case WSTR:
 	//UWAFSL END
@@ -761,6 +763,9 @@ void Plane::print_flight_mode(AP_HAL::BetterStream *port, uint8_t mode)
 	case UW_MODE_4:
 		port->print("UW_Mode_4");
 		break;
+    case UW_MODE_35:
+        port->print("UW_Mode_5");
+        break;
     case WSMP:
         port->print("WSMP");
         break;

@@ -411,6 +411,9 @@ private:
     // Airspeed Sensors
     AP_Airspeed airspeed;
 
+    //Gimbal yaw angle
+    RangeFinder voltage_mv;
+
     // ACRO controller state
     struct {
         bool locked_roll;

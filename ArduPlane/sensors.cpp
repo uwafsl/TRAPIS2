@@ -269,6 +269,7 @@ void Plane::update_sensor_status_flags(void)
 	case UW_MODE_2:
 	case UW_MODE_3:
 	case UW_MODE_4:
+    case UW_MODE_5:
     case WSMP:
     case WSTR:
 	//UWAFSL END
