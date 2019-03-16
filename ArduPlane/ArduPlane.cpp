@@ -720,7 +720,6 @@ void Plane::update_flight_mode(void)
 		double dt = 0.02; //Seconds
 		//radius
 		uint8_t ch = 7; //CH_8
-        uint16_t v_yaw = voltage_mv;
 		double rad_act_pwm = hal.rcin->read(ch); //(pwm)
 		double rad_act = rad_act_pwm/100; //(m)
 		//double rad_act = g.uw_act_radius; //(m)
@@ -813,7 +812,6 @@ void Plane::update_flight_mode(void)
         double dt = 0.02; //Seconds
                           //radius
         uint8_t ch = 7; //CH_8
-        uint16_t v_yaw = voltage_mv;
         double rad_act_pwm = hal.rcin->read(ch); //(pwm)
         double rad_act = rad_act_pwm / 100; //(m)
                                             //double rad_act = g.uw_act_radius; //(m)
