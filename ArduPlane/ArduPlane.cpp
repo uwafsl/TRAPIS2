@@ -765,6 +765,14 @@ void Plane::update_flight_mode(void)
 			thr_des = 60;
 		}
 
+        va_state.counter += 1;
+
+        // Prints rangefinder state every second?
+        // Decrease the '200' to increase the message rate.
+        if (va_state.counter % 200 == 0) {
+            va_state.counter = 0;
+            gcs().send_text(MAV_SEVERITY_INFO, "Rangefinder Voltage?: %.6f", rangefinder.voltage_mv(0));
+        }
 
         // K-throttle updates, 
 

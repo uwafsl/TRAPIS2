@@ -458,6 +458,10 @@ private:
         int8_t flight_plan_existing_counter;
     } trapis_state;
 
+    struct {
+        int counter;
+    } va_state;
+
 
     Trapis TR;
     //UWAFSL END
