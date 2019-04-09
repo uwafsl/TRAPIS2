@@ -71,8 +71,7 @@ enum FlightMode {
     UW_MODE_3     = 24,
 	UW_MODE_4     = 25,
     QSTABILIZE    = 26,
-	QHOVER	      = 27,
-    UW_MODE_5     = 28,
+	QHOVER	      = 27
     //UWAFSL END
 };
 

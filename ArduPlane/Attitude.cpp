@@ -384,10 +384,6 @@ void Plane::stabilize()
         // nothing to do
         return;
     }
-    if (control_mode == UW_MODE_5) {
-        // nothing to do
-        return;
-    }
     if (control_mode == WSMP) {
         // nothing to do
         return;
