@@ -203,6 +203,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	////
 	double phi_cmd = atan((psiDot*vA) * (1/g));
 
+
 	//Ryan Grimes implemented limitations on desired bank angle
 	if (phi_cmd < -60) {
 		phi_cmd = -60;
