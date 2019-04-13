@@ -198,10 +198,11 @@ double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_re
 
     // signal saturation
 	// Ryan Grimes increased max and min psiDotErr values (was 0.1)
+    // Rostyk Svitelskyi made separate max and min limits
     if (psiDotErr < -psiDotErr_lim) {
         psiDotErr = -psiDotErr_lim;
-    } else if (psiDotErr > psiDotErr_lim/6) {
-        psiDotErr = psiDotErr_lim/6;
+    } else if (psiDotErr > psiDotErr_lim) {
+        psiDotErr = psiDotErr_lim;
     }
 
     // save input information

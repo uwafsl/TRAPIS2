@@ -754,15 +754,15 @@ void Plane::update_flight_mode(void)
         double thr_base = 75;
         double thr_scale = 0.5;
 
-		double thr_des = thr_base + thr_scale *(rad_ref-rad_act);
+		double thr_des = thr_base;
 
 		//Set limitations on throttle settings
 
 		if (thr_des > 90){
 			thr_des = 90;
 		}
-		else if (thr_des < 60){
-			thr_des = 60;
+		else if (thr_des < 6){
+			thr_des = 6;
 		}
 
         va_state.counter += 1;

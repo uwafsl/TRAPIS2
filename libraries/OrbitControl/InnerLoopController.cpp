@@ -42,7 +42,7 @@ InnerLoopController::InnerLoopController()
 {
 	kPhi = 3;   // roll loop forward gain
 	kP = 0.5;       // roll loop damping gain
-	kR = 1.2;       // yaw damper gain
+	kR = 1;       // yaw damper gain, tune for Pear (was 1)
 	kTheta = 3;   // pitch loop forward gain
 	kQ = 0.5;     // pitch loop damping gain
 	kAlt = 0.5;   // altitude loop forward gain
@@ -195,8 +195,26 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	//Ryan Grimes reference heading rate to be (vA/rad_act) instead of (vA/rad_ref)
 	//Ryan Grimes updated r_ref equation to multiply by cos(phi) instead of dividing by cos(phi)
 	double vA = sqrt(uB*uB + vB*vB + wB*wB);
-	double psiDot = psiDotErr + (vA/rad_act); //Ryan Grimes added rad_act information
-	double r_ref = (vA/rad_act)*cos(phi);
+    //Rostyk Svitelskyi set the average speed with reduced correction from IAS (removed in current version)
+
+    //double r_check = r;//RS added limit on r
+    //if (r_check < -0.25) {
+    //    r_check = -0.25;
+    //}
+    //else if (r_check > 0.25) {
+    //    r_check = 0.25;
+    //}
+    //Tadej added control over r
+    double psiDot = psiDotErr + r / cos(phi); // ((15+(vA-15)/5)/rad_act); //Ryan Grimes added rad_act information
+	
+    //if (psiDot < -0.1) {//RS added limit
+    //    psiDot = -0.1;
+    //}
+    //else if (psiDot > 0.4) {
+    //    psiDot = 0.4;
+    //}
+    
+    double r_ref = (vA/rad_act)*cos(phi);
 	
 	////
 	/// Roll Inner Loop
@@ -205,10 +223,11 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 
 
 	//Ryan Grimes implemented limitations on desired bank angle
-	if (phi_cmd < -60) {
-		phi_cmd = -60;
-	} else if (phi_cmd > 60) {
-		phi_cmd = 60;
+    //Rostyk Svitelskyi changed to radians (35 deg)
+	if (phi_cmd < -0.61) {
+		phi_cmd = -0.61;
+	} else if (phi_cmd > 0.61) {
+		phi_cmd = 0.61;
 	}
 
 	double phi_e = phi_cmd - phi;
