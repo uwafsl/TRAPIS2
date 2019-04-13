@@ -197,22 +197,22 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	double vA = sqrt(uB*uB + vB*vB + wB*wB);
     //Rostyk Svitelskyi set the average speed with reduced correction from IAS (removed in current version)
 
-    double r_check = ((15+(vA-15)/5)/rad_act);//RS added limit on r
-    if (r_check < 0.1) {
-        r_check = 0.1;
-    }
-    else if (r_check > 0.21) {
-        r_check = 0.21;
-    }
+    //double r_check = ((15+(vA-15)/5)/rad_act);//RS added limit on r
+   // if (r_check < 0.1) {
+    //    r_check = 0.1;
+    //}
+    //else if (r_check > 0.21) {
+    //    r_check = 0.21;
+    //}
     //RS added control over reduced radius calculation
-    double psiDot = psiDotErr + r_check; //Ryan Grimes added rad_act information
+    double psiDot = psiDotErr + r / cos(phi); //Ryan Grimes added rad_act information
 	
-    if (psiDot < -0.1) {//RS added limit
-        psiDot = -0.1;
-    }
-    else if (psiDot > 0.4) {
-        psiDot = 0.4;
-    }
+   // if (psiDot < -0.1) {//RS added limit
+    //    psiDot = -0.1;
+    //}
+   // else if (psiDot > 0.4) {
+   //     psiDot = 0.4;
+    //}
     
     double r_ref = (vA/rad_act)*cos(phi);
 	
