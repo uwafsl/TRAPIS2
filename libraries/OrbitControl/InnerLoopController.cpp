@@ -42,7 +42,7 @@ InnerLoopController::InnerLoopController()
 {
 	kPhi = 3;   // roll loop forward gain
 	kP = 0.5;       // roll loop damping gain
-	kR = 1;       // yaw damper gain, tune for Pear (was 1)
+	kR = 1.16;       // yaw damper gain, tune for Pear (was 1)
 	kTheta = 3;   // pitch loop forward gain
 	kQ = 0.5;     // pitch loop damping gain
 	kAlt = 0.5;   // altitude loop forward gain
@@ -197,7 +197,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	double vA = sqrt(uB*uB + vB*vB + wB*wB);
     //Rostyk Svitelskyi set the average speed with reduced correction from IAS (removed in current version)
 
-    double r_check = r;//RS added limit on r
+    double r_check = ((15 + (vA - 15) / 5) / rad_act);//RS added limit on required psi_dot
     if (r_check < 0.1) {
         r_check = 0.1;
     }
@@ -205,7 +205,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
         r_check = 0.21;
     }
     //RS added control over reduced radius calculation
-    double psiDot = psiDotErr + r_check * cos(phi) / cos(theta) + q * sin(phi) / cos(theta); //Ryan Grimes added rad_act information
+    double psiDot = psiDotErr + r_check; 
 	
     if (psiDot < -0.1) {//RS added limit
         psiDot = -0.1;
