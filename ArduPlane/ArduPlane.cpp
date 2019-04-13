@@ -752,7 +752,7 @@ void Plane::update_flight_mode(void)
 		//Calculate desired throttle setting
 
         double thr_base = 75;
-        double thr_scale = 0.5;
+       // double thr_scale = 0.5;
 
 		double thr_des = thr_base;
 
