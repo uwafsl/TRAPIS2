@@ -205,7 +205,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
         r_check = 0.21;
     }
     //RS added control over reduced radius calculation
-    double psiDot = psiDotErr + r_check / cos(phi); //Ryan Grimes added rad_act information
+    double psiDot = psiDotErr + r_check * cos(phi) / cos(theta) + q * sin(phi) / cos(theta); //Ryan Grimes added rad_act information
 	
     if (psiDot < -0.1) {//RS added limit
         psiDot = -0.1;
