@@ -667,11 +667,11 @@ void Plane::update_flight_mode(void)
         // Defining Paramters
         double pro_gain = g.wstr_wl_pro_gain;
         double der_gain = g.wstr_wl_der_gain;
-        //double psiDotErr_lim = g.uw_psiDotErr_lim;
+        double int_gain = g.uw_psiDotErr_lim;
         //double pro_forget_factor = g.uw_pro_forget_factor;
         //double der_forget_factor = g.uw_der_forget_factor;
 
-		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain);
+		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, int_gain);
 
 		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
 
@@ -744,14 +744,15 @@ void Plane::update_flight_mode(void)
         // Defining Paramters
         double pro_gain = g.wstr_wl_pro_gain;
         double der_gain = g.wstr_wl_der_gain;
+        double int_gain = g.uw_psiDotErr_lim;
 
-        double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain);
+        double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, int_gain);
 
 		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
 
 		//Calculate desired throttle setting
 
-        double thr_base = 75;
+        double thr_base = 6;
        // double thr_scale = 0.5;
 
 		double thr_des = thr_base;
@@ -778,7 +779,7 @@ void Plane::update_flight_mode(void)
 
 		//Set desired throttle setting
         // COMMENTED OUT ONLY FOR 10-6-18 FLIGHT TEST
-        //SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
+        SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
 
 		//channel_throttle->servo_out = thr_des;
 

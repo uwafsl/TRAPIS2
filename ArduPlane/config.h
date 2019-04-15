@@ -420,6 +420,9 @@
 #ifndef WSTR_ACTIVATE       //Defines wstr_activate
 # define WSTR_ACTIVATE 0  //Sets default value
 #endif
+#ifndef UW_PSIDOTERR_LIM     //Defines uw_psiDotErr_lim
+# define UW_PSIDOTERR_LIM 0.3 //Sets default value
+#endif
 /*
 --------- Old parameters that we no longer use -------------
 

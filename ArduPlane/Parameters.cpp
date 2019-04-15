@@ -441,7 +441,7 @@ const AP_Param::Info Plane::var_info[] = {
     // @Description: Sets the heading rate limit (psiDotErr limit) of orbit for visual anchoring flight mode (rad/s)
     // @Values: 0 1
     // @User: Standard
-    // GSCALAR(uw_psiDotErr_lim, "UW_PSIDOTERR_LIM", 0.3),
+    GSCALAR(uw_psiDotErr_lim, "UW_PSIDOTERR_LIM", 0.3),
 
     // @Param: UW_PRO_FORGET_FACTOR
     // @DisplayName: Proportional Forgetting Factor of Orbit
@@ -1329,7 +1329,7 @@ const AP_Param::ConversionInfo conversion_table[] = {
     { Parameters::k_param_curr_amp_offset,    0,      AP_PARAM_FLOAT, "BATT_AMP_OFFSET" },
     { Parameters::k_param_pack_capacity,      0,      AP_PARAM_INT32, "BATT_CAPACITY" },
     { Parameters::k_param_log_bitmask_old,    0,      AP_PARAM_INT16, "LOG_BITMASK" },
-    { Parameters::k_param_rally_limit_km_old, 0,      AP_PARAM_FLOAT, "RALLY_LIMIT_KM" },
+    //{ Parameters::k_param_rally_limit_km_old, 0,      AP_PARAM_FLOAT, "RALLY_LIMIT_KM" },
     { Parameters::k_param_rally_total_old,    0,      AP_PARAM_INT8, "RALLY_TOTAL" },
     { Parameters::k_param_serial0_baud,       0,      AP_PARAM_INT16, "SERIAL0_BAUD" },
     { Parameters::k_param_serial1_baud,       0,      AP_PARAM_INT16, "SERIAL1_BAUD" },

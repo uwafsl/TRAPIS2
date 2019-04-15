@@ -45,7 +45,7 @@ public:
 
 
     ///////////// Public interface methods ///////////////////////////////
-    double computeOuterLoopSignal(double rad_act, double rad_ref, double pro_gain, double der_gain);
+    double computeOuterLoopSignal(double rad_act, double rad_ref, double pro_gain, double der_gain, double int_gain);
     double activateController();
 
     // ====== Get/Set Functions ==========================
@@ -90,6 +90,8 @@ private:
     /// previous value of actual radius
     ////
     double last_rad_act;
+    double intOuter;
+    //double int_gain;
 
     ////
     /// radius derivative values

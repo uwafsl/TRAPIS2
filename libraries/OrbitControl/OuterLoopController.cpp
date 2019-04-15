@@ -41,6 +41,8 @@ OuterLoopController::OuterLoopController()
 {
     //Kp_outer = 3;        // outerloopcontroller forward gain
     fadein_tau = 0.005;  // time constant for fade-in activation
+    intOuter = 0;
+    //int_gain = 0.001;
 
     //initialize parameters
     last_fader = 0;
@@ -85,7 +87,7 @@ OuterLoopController::~OuterLoopController()
 ///
 /// Side-effects:   - none
 ////
-double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_ref, double pro_gain, double der_gain)
+double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_ref, double pro_gain, double der_gain, double int_gain)
 {
     double psiDotErr_lim = 0.3;
     double pro_forget_factor = 0.98;
@@ -193,7 +195,16 @@ double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_re
 	//Ryan Grimes disabled the fade in gain application to the forward gain because of its negative impact on wind drift correction
     //double forward_gain = OuterLoopController::activateController() * pre_gain * Kp_outer;
 	//double forward_gain = pre_gain * Kp_outer;
-	psiDotErr = r_err * pro_gain * -1 + der_gain*dr;
+    intOuter = intOuter + dt*(r_err);
+    
+    if (intOuter < -0.3) {
+        intOuter = -0.3;
+    }
+    else if (intOuter > 0.3) {
+        intOuter = 0.3;
+    }
+    
+	psiDotErr = r_err * pro_gain * -1 + der_gain*dr- int_gain * intOuter;
 
 
     // signal saturation

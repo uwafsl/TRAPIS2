@@ -42,7 +42,7 @@ InnerLoopController::InnerLoopController()
 {
 	kPhi = 3;   // roll loop forward gain
 	kP = 0.5;       // roll loop damping gain
-	kR = 1.16;       // yaw damper gain, tune for Pear (was 1)
+	kR = 1;       // yaw damper gain, tune for Pear (was 1)
 	kTheta = 3;   // pitch loop forward gain
 	kQ = 0.5;     // pitch loop damping gain
 	kAlt = 0.5;   // altitude loop forward gain
@@ -95,6 +95,7 @@ InnerLoopController::~InnerLoopController()
 ///                 - r         = yaw rate (rad/s)
 ///                 - phi       = bank angle (rad)
 ///                 - theta     = pitch angle (rad)
+///                 - psi       = yaw (heading) angle (rad)
 ///                 - uB        = velocity in x-direction (m/s)
 ///                 - vB        = velocity in y-direction (m/s)
 ///                 - wB        = velocity in z-direction (m/s)
@@ -197,6 +198,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	double vA = sqrt(uB*uB + vB*vB + wB*wB);
     //Rostyk Svitelskyi set the average speed with reduced correction from IAS (removed in current version)
 
+    /*Limiters kR=1.16; Der=0.01; Pro=0.005.
     double r_check = ((15 + (vA - 15) / 5) / rad_act);//RS added limit on required psi_dot
     if (r_check < 0.1) {
         r_check = 0.1;
@@ -213,8 +215,24 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
     else if (psiDot > 0.4) {
         psiDot = 0.4;
     }
+    */
+
+    //New alg. kR=1; Der =0.006; Pro=0.0003.
+    double psiDot = psiDotErr + r * cos(phi); //Measurment
     
-    double r_ref = (vA/rad_act)*cos(phi);
+
+    /*New alg. Precise psi_dot. kR=1; Der =0.006; Pro=0.0003.
+    double psiDot = psiDotErr + r * cos(phi) / cos(theta) + q * sin(phi) / cos(theta);
+    */
+
+    /*Original alg. kR=1; Der=0.0005; Pro=0.0005.
+    double psiDot = psiDotErr + (vA / rad_act); //Measurment
+    */
+    
+    
+    // reference yaw rate
+    // double r_ref = (vA/rad_act)*cos(phi); //original *
+    double r_ref = (vA/rad_act)/cos(phi);
 	
 	////
 	/// Roll Inner Loop

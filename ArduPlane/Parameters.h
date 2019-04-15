@@ -99,7 +99,7 @@ public:
         k_param_waypoint_max_radius,
         k_param_ground_steer_alt,        
         k_param_ground_steer_dps,
-        k_param_rally_limit_km_old, //unused anymore -- just holding this index
+        k_param_uw_psiDotErr_lim,//k_param_rally_limit_km_old, //unused anymore -- just holding this index
         k_param_hil_err_limit,
         k_param_sonar_old, // unused
         k_param_log_bitmask,
@@ -533,7 +533,7 @@ public:
     AP_Float uw_altitude;
     AP_Float wstr_wl_pro_gain;
     AP_Float wstr_wl_der_gain;
-    // AP_Float uw_psiDotErr_lim; UWAFSL - deprecated
+    AP_Float uw_psiDotErr_lim; //UWAFSL - deprecated
     AP_Float wstr_ah_pro_gain;
     AP_Float wstr_rd_pro_gain;
     AP_Float wstr_rd_der_gain;
