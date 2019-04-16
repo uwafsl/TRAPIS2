@@ -197,14 +197,14 @@ double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_re
 	//double forward_gain = pre_gain * Kp_outer;
     intOuter = intOuter + dt*(r_err);
     
-    if (intOuter < -0.3) {
-        intOuter = -0.3;
+    if (intOuter < -0.8) {
+        intOuter = -0.8;
     }
-    else if (intOuter > 0.3) {
-        intOuter = 0.3;
+    else if (intOuter > 0.8) {
+        intOuter = 0.8;
     }
-    
-	psiDotErr = r_err * pro_gain * -1 + der_gain*dr- int_gain * intOuter;
+
+	psiDotErr = r_err * pro_gain * -1 + der_gain * dr - int_gain * intOuter;
 
 
     // signal saturation

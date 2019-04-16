@@ -217,13 +217,13 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
     }
     */
 
-    //New alg. kR=1; Der =0.006; Pro=0.0003.
-    double psiDot = psiDotErr + r * cos(phi); //Measurment
-    
-
-    /*New alg. Precise psi_dot. kR=1; Der =0.006; Pro=0.0003.
-    double psiDot = psiDotErr + r * cos(phi) / cos(theta) + q * sin(phi) / cos(theta);
+    /*New alg. kR=1; Der =0.006; Pro=0.0003.
+    double psiDot = psiDotErr + r * cos(phi) / cos(theta); //Measurment
     */
+
+    //New alg. Precise psi_dot. kR=1; Der =0.006; Pro=0.0003.
+    double psiDot = psiDotErr + r * cos(phi) / cos(theta) + q * sin(phi) / cos(theta);
+    
 
     /*Original alg. kR=1; Der=0.0005; Pro=0.0005.
     double psiDot = psiDotErr + (vA / rad_act); //Measurment

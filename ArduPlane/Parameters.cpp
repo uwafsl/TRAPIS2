@@ -441,7 +441,7 @@ const AP_Param::Info Plane::var_info[] = {
     // @Description: Sets the heading rate limit (psiDotErr limit) of orbit for visual anchoring flight mode (rad/s)
     // @Values: 0 1
     // @User: Standard
-    GSCALAR(uw_psiDotErr_lim, "UW_PSIDOTERR_LIM", 0.3),
+    GSCALAR(wstr_wl_int_gain, "WSTR_WL_INT_GAIN", 0.01),
 
     // @Param: UW_PRO_FORGET_FACTOR
     // @DisplayName: Proportional Forgetting Factor of Orbit

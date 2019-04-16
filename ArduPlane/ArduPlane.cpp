@@ -667,7 +667,7 @@ void Plane::update_flight_mode(void)
         // Defining Paramters
         double pro_gain = g.wstr_wl_pro_gain;
         double der_gain = g.wstr_wl_der_gain;
-        double int_gain = g.uw_psiDotErr_lim;
+        double int_gain = g.wstr_wl_int_gain;
         //double pro_forget_factor = g.uw_pro_forget_factor;
         //double der_forget_factor = g.uw_der_forget_factor;
 
@@ -744,7 +744,7 @@ void Plane::update_flight_mode(void)
         // Defining Paramters
         double pro_gain = g.wstr_wl_pro_gain;
         double der_gain = g.wstr_wl_der_gain;
-        double int_gain = g.uw_psiDotErr_lim;
+        double int_gain = g.wstr_wl_int_gain;
 
         double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, int_gain);
 
@@ -766,14 +766,14 @@ void Plane::update_flight_mode(void)
 			thr_des = 6;
 		}
 
-        va_state.counter += 1;
+        /*va_state.counter += 1;
 
         // Prints rangefinder state every second?
         // Decrease the '200' to increase the message rate.
         if (va_state.counter % 200 == 0) {
             va_state.counter = 0;
             gcs().send_text(MAV_SEVERITY_INFO, "Rangefinder Voltage?: %.6f", rangefinder.voltage_mv(0));
-        }
+        }*/
 
         // K-throttle updates, 
 
