@@ -42,7 +42,7 @@ InnerLoopController::InnerLoopController()
 {
 	kPhi = 3;   // roll loop forward (P - proportional) gain
 	kP = 0.5;       // roll loop damping (D - diferential) gain
-	kR = 2;       // yaw damper forward (P - proportional) gain, tune for Pear (was 1)
+	kR = 1.2;       // yaw damper forward (P - proportional) gain, tune for Pear (was 1)
 	kTheta = 3;   // pitch loop forward (P - proporcional) gain
 	kQ = 0.5;     // pitch loop damping (D - diferential) gain
 	kAlt = 0.5;   // altitude loop forward (P - proportional) gain
