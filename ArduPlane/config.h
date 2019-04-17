@@ -420,7 +420,7 @@
 #ifndef WSTR_ACTIVATE       //Defines wstr_activate
 # define WSTR_ACTIVATE 0  //Sets default value
 #endif
-#ifndef UW_PSIDOTERR_LIM     //Defines uw_psiDotErr_lim
+#ifndef WSTR_WL_INT_GAIN     //Defines wstr_wl_int_gain
 # define WSTR_WL_INT_GAIN 0.01 //Sets default value
 #endif
 /*

@@ -41,7 +41,7 @@ OuterLoopController::OuterLoopController()
 {
     //Kp_outer = 3;        // outerloopcontroller forward gain
     fadein_tau = 0.005;  // time constant for fade-in activation
-    intOuter = 0;
+    intOuter = 0;   // integral sum
     //int_gain = 0.001;
 
     //initialize parameters
@@ -195,7 +195,8 @@ double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_re
 	//Ryan Grimes disabled the fade in gain application to the forward gain because of its negative impact on wind drift correction
     //double forward_gain = OuterLoopController::activateController() * pre_gain * Kp_outer;
 	//double forward_gain = pre_gain * Kp_outer;
-    intOuter = intOuter + dt*(r_err);
+    //Rostyk and Tadej added integral component
+    intOuter += dt*(r_err);
     
     if (intOuter < -0.8) {
         intOuter = -0.8;
