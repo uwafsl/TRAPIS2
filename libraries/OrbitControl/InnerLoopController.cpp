@@ -211,12 +211,12 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
     
     */
 
-    double r_filt = r * 0.5 + last_r * 0.5; //Filter for r-controller
+    double r_filt = r * 0.5 + last_r * 0.5; //Filter for r-controller//1
 
     //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
-    double psiDot = psiDotErr + r_filt * cos(phi) / cos(theta); //Measurment
+    double psiDot = psiDotErr + r_filt * cos(phi) / cos(theta); //Measurment//2
     
-    if (psiDot < -0.1) {//RS added limit
+    if (psiDot < -0.1) {//RS added limit//3
         psiDot = -0.1;
     }
     else if (psiDot > 0.4) {
@@ -259,7 +259,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	double r_e = r_ref - r_filt;
 	
     // was kR/5
-    /*intYawDamper += r_e*dt;
+    /*intYawDamper += r_e*dt;//4
 	// signal saturation
 	if (intYawDamper < -0.7) {
 		intYawDamper = -0.7;

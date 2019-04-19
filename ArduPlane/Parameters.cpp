@@ -437,25 +437,25 @@ const AP_Param::Info Plane::var_info[] = {
     //GSCALAR(wstr_home, "WSTR_HOME", 1),
 
     // @Param: UW_PSIDOTERR_LIM
-    // @DisplayName: Heading Rate Limits of Orbit
+    // @DisplayName: Integral gain for OLC
     // @Description: Sets the heading rate limit (psiDotErr limit) of orbit for visual anchoring flight mode (rad/s)
     // @Values: 0 1
     // @User: Standard
     GSCALAR(wstr_wl_int_gain, "WSTR_WL_INT_GAIN", 0.01),
 
-    // @Param: UW_PRO_FORGET_FACTOR
+    // @Param: WSTR_AL_PRO_GAIN
     // @DisplayName: Proportional Forgetting Factor of Orbit
     // @Description: Sets the proportional forgetting factor of orbit for visual anchoring flight mode
     // @Values: 0 1
     // @User: Standard
-    // GSCALAR(uw_pro_forget_factor, "UW_PRO_FORGET_FACTOR", 0.98),
+    GSCALAR(wstr_al_pro_gain, "WSTR_AL_PRO_GAIN", 3),
 
-    // @Param: UW_DER_FORGET_FACTOR
+    // @Param: WSTR_AL_DER_GAIN
     // @DisplayName: Derivative Forgetting Factor of Orbit
     // @Description: Sets the derivative forgetting factor of orbit for visual anchoring flight mode
     // @Values: 0 1
     // @User: Standard
-    // GSCALAR(uw_der_forget_factor, "UW_DER_FORGET_FACTOR", 0.8),
+    GSCALAR(wstr_al_pro_gain, "WSTR_AL_DER_GAIN", 0.5),
 
     //UWAFSL END
 

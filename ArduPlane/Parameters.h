@@ -198,14 +198,14 @@ public:
         k_param_volt_div_ratio,     // unused
         k_param_curr_amp_per_volt,  // unused
         //UWAFSL: 137, hijacking this one (k_param_input_voltage)
-        k_param_input_voltage, // deprecated, can be deleted
+        k_param_wstr_al_pro_gain, //k_param_input_voltage, // deprecated, can be deleted//uw_mode_3 now
         k_param_pack_capacity,      // unused
         k_param_sonar_enabled_old,  // unused
         k_param_ahrs,  // AHRS group
         k_param_barometer,   // barometer ground calibration
         k_param_airspeed,  // AP_Airspeed parameters
         k_param_curr_amp_offset,
-        k_param_NavEKF,  // deprecated - remove
+        k_param_wstr_al_der_gain, //k_param_NavEKF,  // deprecated - remove//uw_mode_3 now
         k_param_mission, // mission library
         k_param_serial_manager, // serial manager library
         //UWAFSL: 147, hijacking this one (k_param_NavEKF2_old)
@@ -537,6 +537,8 @@ public:
     AP_Float wstr_ah_pro_gain;
     AP_Float wstr_rd_pro_gain;
     AP_Float wstr_rd_der_gain;
+    AP_Float wstr_al_pro_gain;
+    AP_Float wstr_al_der_gain;
     // AP_Float wstr_home; UWAFSL- deprecated
     AP_Float wstr_trapis_loc;
     AP_Float wstr_activate;
