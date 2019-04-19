@@ -42,7 +42,7 @@ InnerLoopController::InnerLoopController()
 {
 	kPhi = 3;   // roll loop forward (P - proportional) gain
 	kP = 0.5;       // roll loop damping (D - diferential) gain
-	kR = 1.2;       // yaw damper forward (P - proportional) gain, tune for Pear (was 1)  1.2
+	//kR = 1.2;       // yaw damper forward (P - proportional) gain, tune for Pear (was 1)  1.2
 	kTheta = 3;   // pitch loop forward (P - proporcional) gain
 	kQ = 0.5;     // pitch loop damping (D - diferential) gain
 	kAlt = 0.5;   // altitude loop forward (P - proportional) gain
@@ -112,7 +112,7 @@ InnerLoopController::~InnerLoopController()
 /// Side-effects:	- none
 ////
 ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, double p, double q, double r, 
-		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt)
+		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
@@ -208,18 +208,20 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
     }
     //RS added control over reduced radius calculation
     double psiDot = psiDotErr + r_check; 
-	
+    
+    */
+
+    double r_filt = r * 0.5 + last_r * 0.5; //Filter for r-controller
+
+    //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
+    double psiDot = psiDotErr + r_filt * cos(phi) / cos(theta); //Measurment
+    
     if (psiDot < -0.1) {//RS added limit
         psiDot = -0.1;
     }
     else if (psiDot > 0.4) {
         psiDot = 0.4;
     }
-    */
-
-    //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
-    double psiDot = psiDotErr + r * cos(phi) * cos(theta); //Measurment
-    
 
     /*New alg. Precise psi_dot. kR=1; Der =0.006; Pro=0.0003.
     double psiDot = psiDotErr + r * cos(phi) / cos(theta) + q * sin(phi) / cos(theta);
@@ -254,10 +256,10 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	////
 	/// Yaw Damper
 	////
-	double r_e = r_ref - r;
+	double r_e = r_ref - r_filt;
 	
     // was kR/5
-    intYawDamper += r_e*dt;
+    /*intYawDamper += r_e*dt;
 	// signal saturation
 	if (intYawDamper < -0.7) {
 		intYawDamper = -0.7;
@@ -265,7 +267,8 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 		intYawDamper = 0.7;
 	}
 	double dR = -(r_e*kR + intYawDamper * (kR / 10));
-    //double dR = -(r_e*kR);
+    */
+    double dR = -(r_e*kR);
 
 	////
 	/// Altitude Loop

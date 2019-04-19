@@ -668,12 +668,13 @@ void Plane::update_flight_mode(void)
         double pro_gain = g.wstr_wl_pro_gain;
         double der_gain = g.wstr_wl_der_gain;
         double int_gain = g.wstr_wl_int_gain;
+        double kR = g.wstr_rd_pro_gain;
         //double pro_forget_factor = g.uw_pro_forget_factor;
         //double der_forget_factor = g.uw_der_forget_factor;
 
 		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, int_gain);
 
-		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
+		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt, kR);
 
 		//Calculate desired throttle setting
 
@@ -745,10 +746,10 @@ void Plane::update_flight_mode(void)
         double pro_gain = g.wstr_wl_pro_gain;
         double der_gain = g.wstr_wl_der_gain;
         double int_gain = g.wstr_wl_int_gain;
-
+        double kR = g.wstr_rd_pro_gain;
         double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, int_gain);
 
-		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt);
+		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt, kR);
 
 		//Calculate desired throttle setting
 
