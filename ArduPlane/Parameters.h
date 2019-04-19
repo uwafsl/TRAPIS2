@@ -110,7 +110,7 @@ public:
         k_param_gps,
         k_param_autotune_level,
         k_param_rally,
-        k_param_serial0_baud,           // deprecated
+        k_param_wstr_al_der_gain, //k_param_serial0_baud,           // deprecated
         k_param_serial1_baud,           // deprecated
         k_param_serial2_baud,           // deprecated
         k_param_takeoff_tdrag_elevator,
@@ -369,6 +369,7 @@ public:
         k_param_wstr_activate = 198,    //198 - hijacked: replaced k_param_rc_14_old
         k_param_wstr_rd_pro_gain = 137, //137 - hijacked: replaced k_param_input_voltage
         k_param_wstr_rd_der_gain = 147  //147 - hijacked: replaced k_param_NavEKF2_old
+        //24, 63, and 52 taken for VA
         //UWAFSL END
     };
 
@@ -536,10 +537,11 @@ public:
     AP_Float wstr_wl_int_gain; //Rostyk added integral gain
     AP_Float wstr_ah_pro_gain;
     AP_Float wstr_rd_pro_gain;
-    AP_Float wstr_rd_der_gain;
-    AP_Float wstr_al_pro_gain; // UWAFSL- deprecated
+    AP_Float wstr_rd_der_gain; 
+    AP_Float wstr_al_pro_gain; // ILC pro gain
     AP_Float wstr_trapis_loc;
     AP_Float wstr_activate;
+    AP_Float wstr_al_der_gain; // ILC der gain
     //UWAFSL END
 };
 

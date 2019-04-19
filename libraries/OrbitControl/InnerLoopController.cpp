@@ -41,7 +41,7 @@
 InnerLoopController::InnerLoopController()
 {
 	//kPhi = 3;   // roll loop forward (P - proportional) gain
-	kP = 0.5;       // roll loop damping (D - diferential) gain
+	//kP = 0.5;       // roll loop damping (D - diferential) gain
 	//kR = 1.2;       // yaw damper forward (P - proportional) gain, tune for Pear (was 1)  1.2
 	kTheta = 3;   // pitch loop forward (P - proporcional) gain
 	kQ = 0.5;     // pitch loop damping (D - diferential) gain
@@ -112,7 +112,7 @@ InnerLoopController::~InnerLoopController()
 /// Side-effects:	- none
 ////
 ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, double p, double q, double r, 
-		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi)
+		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi, double kP)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)

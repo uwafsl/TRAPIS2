@@ -436,9 +436,9 @@ const AP_Param::Info Plane::var_info[] = {
     // @User: Standard
     //GSCALAR(wstr_home, "WSTR_HOME", 1),
 
-    // @Param: UW_PSIDOTERR_LIM
-    // @DisplayName: Heading Rate Limits of Orbit
-    // @Description: Sets the heading rate limit (psiDotErr limit) of orbit for visual anchoring flight mode (rad/s)
+    // @Param: WSTR_WL_INT_GAIN
+    // @DisplayName: Integral gain for OLC
+    // @Description: Sets integral gain of orbit for visual anchoring flight mode 
     // @Values: 0 1
     // @User: Standard
     GSCALAR(wstr_wl_int_gain, "WSTR_WL_INT_GAIN", 0.01),
@@ -450,12 +450,12 @@ const AP_Param::Info Plane::var_info[] = {
     // @User: Standard
     GSCALAR(wstr_al_pro_gain, "WSTR_AL_PRO_GAIN", 3),
 
-    // @Param: UW_DER_FORGET_FACTOR
-    // @DisplayName: Derivative Forgetting Factor of Orbit
-    // @Description: Sets the derivative forgetting factor of orbit for visual anchoring flight mode
+    // @Param: UW_AL_DER_GAIN
+    // @DisplayName: Derivative Aileron gain UWM3
+    // @Description: Sets the proportional gain for ILC orbit for visual anchoring flight mode
     // @Values: 0 1
     // @User: Standard
-    // GSCALAR(uw_der_forget_factor, "UW_DER_FORGET_FACTOR", 0.8),
+    GSCALAR(wstr_al_der_gain, "WSTR_AL_DER_GAIN", 0.5),
 
     //UWAFSL END
 
@@ -1331,7 +1331,7 @@ const AP_Param::ConversionInfo conversion_table[] = {
     { Parameters::k_param_log_bitmask_old,    0,      AP_PARAM_INT16, "LOG_BITMASK" },
     //{ Parameters::k_param_rally_limit_km_old, 0,      AP_PARAM_FLOAT, "RALLY_LIMIT_KM" },//Removed by Rostyk
     { Parameters::k_param_rally_total_old,    0,      AP_PARAM_INT8, "RALLY_TOTAL" },
-    { Parameters::k_param_serial0_baud,       0,      AP_PARAM_INT16, "SERIAL0_BAUD" },
+    //{ Parameters::k_param_serial0_baud,       0,      AP_PARAM_INT16, "SERIAL0_BAUD" },//Removed by Rostyk
     { Parameters::k_param_serial1_baud,       0,      AP_PARAM_INT16, "SERIAL1_BAUD" },
     { Parameters::k_param_serial2_baud,       0,      AP_PARAM_INT16, "SERIAL2_BAUD" },
 

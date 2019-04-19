@@ -426,6 +426,9 @@
 #ifndef WSTR_AL_PRO_GAIN     //Defines wstr_wl_int_gain
 # define WSTR_AL_PRO_GAIN 3 //Sets default value
 #endif
+#ifndef WSTR_AL_DER_GAIN     //Defines wstr_wl_int_gain
+# define WSTR_AL_DER_GAIN 0.5 //Sets default value
+#endif
 /*
 --------- Old parameters that we no longer use -------------
 
