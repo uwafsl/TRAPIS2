@@ -47,7 +47,7 @@ public:
 
 	///////////// Public interface methods ///////////////////////////////
 	ControlSurfaceDeflections computeControl(double psiDotErr, double p, double q, double r,
-		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR);
+		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi);
 	
 	// ====== Get/Set Functions ==========================
 
@@ -63,7 +63,7 @@ protected:
 	////
 	/// Lateral/directional gains
 	////
-	double kPhi;   // roll loop forward gain
+	//double kPhi;   // roll loop forward gain
 	double kP;       // roll loop damping gain
 	//double kR;       // yaw damper gain
 
