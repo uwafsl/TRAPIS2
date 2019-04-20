@@ -112,7 +112,7 @@ InnerLoopController::~InnerLoopController()
 /// Side-effects:	- none
 ////
 ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, double p, double q, double r, 
-		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi, double kP)
+		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi, double kP, double rad_ref)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
@@ -198,23 +198,22 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	double vA = sqrt(uB*uB + vB*vB + wB*wB);
     //Rostyk Svitelskyi set the average speed with reduced correction from IAS (removed in current version)
 
-    /*Limiters kR=1.16; Der=0.01; Pro=0.005.
-    double r_check = ((15 + (vA - 15) / 5) / rad_act);//RS added limit on required psi_dot
-    if (r_check < 0.1) {
+    //Limiters kR=1.16; Der=0.01; Pro=0.005.
+    double r_check = ((15 + (vA - 15) / 5) / rad_ref);//RS added limit on required psi_dot
+    /*if (r_check < 0.1) {
         r_check = 0.1;
     }
     else if (r_check > 0.21) {
         r_check = 0.21;
-    }
+    }*/
     //RS added control over reduced radius calculation
     double psiDot = psiDotErr + r_check; 
     
-    */
 
     double r_filt = r * 0.5 + last_r * 0.5; //Filter for r-controller//1
 
     //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
-    double psiDot = psiDotErr + r_filt * cos(phi) / cos(theta); //Measurment//2
+    //double psiDot = psiDotErr + r_filt * cos(phi) / cos(theta); //Measurment//2
     
     if (psiDot < -0.1) {//RS added limit//3
         psiDot = -0.1;

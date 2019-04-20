@@ -676,7 +676,7 @@ void Plane::update_flight_mode(void)
 
 		double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, int_gain);
 
-		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt, kR, kPhi, kP);
+		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt, kR, kPhi, kP, rad_ref);
 
 		//Calculate desired throttle setting
 
@@ -753,7 +753,7 @@ void Plane::update_flight_mode(void)
         double kP = g.wstr_al_der_gain;
         double psiDotErr = uw_mode_2_state.OLC.computeOuterLoopSignal(rad_act, rad_ref, pro_gain, der_gain, int_gain);
 
-		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt, kR, kPhi, kP);
+		ControlSurfaceDeflections CSD = uw_mode_2_state.ILC.computeControl(psiDotErr, p, q, r, phi, theta, uB, vB, wB, rad_act, alt_ref, alt, dt, kR, kPhi, kP, rad_ref);
 
 		//Calculate desired throttle setting
 
