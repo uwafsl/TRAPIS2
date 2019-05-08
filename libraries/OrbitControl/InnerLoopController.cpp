@@ -213,7 +213,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
     //RS added control over reduced radius calculation
     switch (cont_type)
     {
-    case 0: {psiDot = psiDotErr + ((12 + (vA - 12) / 5) / rad_ref);}
+    case 0: {psiDot = psiDotErr + ((kR_der + (vA - kR_der) / 5) / rad_ref);}
         break;
 
         //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
