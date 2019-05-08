@@ -47,7 +47,7 @@ public:
 
 	///////////// Public interface methods ///////////////////////////////
 	ControlSurfaceDeflections computeControl(double psiDotErr, double p, double q, double r,
-		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi, double kP, double rad_ref);
+		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi, double kP, double rad_ref, int cont_type, double kR_der);
 	
 	// ====== Get/Set Functions ==========================
 

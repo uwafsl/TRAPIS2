@@ -112,7 +112,7 @@ InnerLoopController::~InnerLoopController()
 /// Side-effects:	- none
 ////
 ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, double p, double q, double r, 
-		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi, double kP, double rad_ref)
+		double phi, double theta, double uB, double vB, double wB, double rad_act, double alt_ref, double alt, double dt, double kR, double kPhi, double kP, double rad_ref, int cont_type, double kR_der)
 {
 	////
 	/// Check input data range (subject to change depending on aircraft specification)
@@ -199,76 +199,89 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
     //Rostyk Svitelskyi set the average speed with reduced correction from IAS (removed in current version)
 
     //Limiters kR=1.16; Der=0.01; Pro=0.005.
-    double r_check = (15 / rad_ref);//RS added limit on required psi_dot
+    //double r_check = ((15 + (vA - 15) / 5) / rad_ref);//RS added limit on required psi_dot
     /*if (r_check < 0.1) {
         r_check = 0.1;
     }
     else if (r_check > 0.21) {
         r_check = 0.21;
     }*/
+    //double r_filt = r * 0.5 + last_r * 0.5; //Filter for r-controller//1
+    double psiDot = 0;
+    double dA = 0;
+    double dR = 0;
     //RS added control over reduced radius calculation
-    double psiDot = psiDotErr + r_check; 
-    
+    switch (cont_type)
+    {
+    case 0: {psiDot = psiDotErr + ((12 + (vA - 15) / 5) / rad_ref);}
+        break;
 
-    double r_filt = r * 0.5 + last_r * 0.5; //Filter for r-controller//1
+        //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
+    case 2: {psiDot = psiDotErr + r * cos(phi) / cos(theta);
+        } //Measurment//2
+        break;
 
-    //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
-    //double psiDot = psiDotErr + r_filt * cos(phi) / cos(theta); //Measurment//2
-    
-    if (psiDot < -0.1) {//RS added limit//3
-        psiDot = -0.1;
+    case 3:{
+        dA = -(- phi * kPhi - p * kP);
+        goto labp;}
+           break;
     }
-    else if (psiDot > 0.3) {
-        psiDot = 0.3;
+
+    {
+        if (psiDot < -0.1) {//RS added limit//3
+            psiDot = -0.1;
+        }
+        else if (psiDot > 0.3) {
+            psiDot = 0.3;
+        }
+
+        /*New alg. Precise psi_dot. kR=1; Der =0.006; Pro=0.0003.
+        double psiDot = psiDotErr + r * cos(phi) / cos(theta) + q * sin(phi) / cos(theta);
+        */
+
+        /*Original alg. kR=1; Der=0.0005; Pro=0.0005.
+        double psiDot = psiDotErr + (vA / rad_act); //Measurment
+        */
+
+        ////
+        /// Roll Inner Loop
+        ////
+        double phi_cmd = atan((psiDot*vA) * (1 / g));
+
+
+        //Ryan Grimes implemented limitations on desired bank angle
+        //Rostyk Svitelskyi changed to radians (35 deg = 0.61 rad)
+        if (phi_cmd < -0.61) {
+            phi_cmd = -0.61;
+        }
+        else if (phi_cmd > 0.61) {
+            phi_cmd = 0.61;
+        }
+
+        double phi_e = phi_cmd - phi;
+        dA = -(phi_e*kPhi - p * kP);
+
+        // reference yaw rate
+        // double r_ref = (vA/rad_act)*cos(phi); //original *
+        double r_ref = ((12 + (vA - 15) / 5) / rad_act) / cos(phi);
+        ////
+        /// Yaw Damper
+        ////
+        double r_e = r_ref - r;
+
+        // was kR/5
+        /*intYawDamper += r_e*dt;//4
+        // signal saturation
+        if (intYawDamper < -0.7) {
+            intYawDamper = -0.7;
+        } else if (intYawDamper > 0.7) {
+            intYawDamper = 0.7;
+        }
+        double dR = -(r_e*kR + intYawDamper * (kR / 10));
+        */
+        dR = -(r_e*kR);
     }
-
-    /*New alg. Precise psi_dot. kR=1; Der =0.006; Pro=0.0003.
-    double psiDot = psiDotErr + r * cos(phi) / cos(theta) + q * sin(phi) / cos(theta);
-    */
-
-    /*Original alg. kR=1; Der=0.0005; Pro=0.0005.
-    double psiDot = psiDotErr + (vA / rad_act); //Measurment
-    */
-    
-    
-    // reference yaw rate
-    // double r_ref = (vA/rad_act)*cos(phi); //original *
-    double r_ref = (vA/rad_act)/cos(phi);
-	
-	////
-	/// Roll Inner Loop
-	////
-	double phi_cmd = atan((psiDot*vA) * (1/g));
-
-
-	//Ryan Grimes implemented limitations on desired bank angle
-    //Rostyk Svitelskyi changed to radians (35 deg = 0.61 rad)
-	if (phi_cmd < -0.61) {
-		phi_cmd = -0.61;
-	} else if (phi_cmd > 0.61) {
-		phi_cmd = 0.61;
-	}
-
-	double phi_e = phi_cmd - phi;
-	double dA = -(phi_e*kPhi - p*kP);
-
-	////
-	/// Yaw Damper
-	////
-	double r_e = r_ref - r_filt;
-	
-    // was kR/5
-    /*intYawDamper += r_e*dt;//4
-	// signal saturation
-	if (intYawDamper < -0.7) {
-		intYawDamper = -0.7;
-	} else if (intYawDamper > 0.7) {
-		intYawDamper = 0.7;
-	}
-	double dR = -(r_e*kR + intYawDamper * (kR / 10));
-    */
-    double dR = -(r_e*kR);
-
+    labp:
 	////
 	/// Altitude Loop
 	////

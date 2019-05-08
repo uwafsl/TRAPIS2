@@ -537,11 +537,11 @@ public:
     AP_Float wstr_wl_int_gain; //Rostyk added integral gain
     AP_Float wstr_ah_pro_gain;
     AP_Float wstr_rd_pro_gain;
-    AP_Float wstr_rd_der_gain; 
-    AP_Float wstr_al_pro_gain; // ILC pro gain
+    AP_Float wstr_rd_der_gain; //VA ILC rudder der gain
+    AP_Float wstr_al_pro_gain; //VA ILC aileron pro gain
     AP_Float wstr_trapis_loc;
-    AP_Float wstr_activate;
-    AP_Float wstr_al_der_gain; // ILC der gain
+    AP_Float wstr_activate;//VA modes selector
+    AP_Float wstr_al_der_gain; //VA ILC aileron der gain
     //UWAFSL END
 };
 

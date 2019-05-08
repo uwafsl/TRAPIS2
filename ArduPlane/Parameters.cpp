@@ -424,8 +424,8 @@ const AP_Param::Info Plane::var_info[] = {
 
     // @Param: WSTR_ACTIVATE
     // @DisplayName: WSTR Activation
-    // @Description: Sets the mode to full WSTR (=1), otherwise sets mode to Alt Hold and Wing Leveler only (=0)
-    // @Values: 0 1
+    // @Description: Sets the mode to full WSTR (=1), otherwise sets mode to Alt Hold and Wing Leveler only and normal mode in VA (=0), uses gyroZ in VA (=2), VA rudder only (=3)
+    // @Values: 0:VA normal controller,1:WSTR TRAPIS,2:VA R controller,3:VA Rudder only
     // @User: Standard
     GSCALAR(wstr_activate, "WSTR_ACTIVATE", 0),
 
