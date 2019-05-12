@@ -213,7 +213,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
     //RS added control over reduced radius calculation
     switch (cont_type)
     {
-    case 0: {psiDot = psiDotErr + ((kR_der) / rad_ref);}
+    case 0: {psiDot = psiDotErr + ((kR_der + (vA - kR_der) / 5) / rad_ref);}
         break;
 
         //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
@@ -273,7 +273,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 
         // reference yaw rate
         // double r_ref = (vA/rad_act)*cos(phi); //original *
-        double r_ref = (kR_der/ rad_act) / cos(phi);
+        double r_ref = ((kR_der + (vA - kR_der) / 5) / rad_act) / cos(phi);
         ////
         /// Yaw Damper
         ////
