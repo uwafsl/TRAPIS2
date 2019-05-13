@@ -273,7 +273,7 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 
         // reference yaw rate
         // double r_ref = (vA/rad_act)*cos(phi); //original *
-        double r_ref = ((12 + (vA - 15) / 5) / rad_act) / cos(phi);
+        double r_ref = ((kR_der + (vA - kR_der) / 5) / rad_ref) / cos(phi);
         ////
         /// Yaw Damper
         ////
