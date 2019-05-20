@@ -196,7 +196,7 @@ double OuterLoopController::computeOuterLoopSignal(double rad_act, double rad_re
     //double forward_gain = OuterLoopController::activateController() * pre_gain * Kp_outer;
 	//double forward_gain = pre_gain * Kp_outer;
     //Rostyk and Tadej added integral component
-    intOuter += dt*(r_err);
+    intOuter += dt*(r_err);//integral was never tested on a flight
     
     if (intOuter < -0.8) {
         intOuter = -0.8;

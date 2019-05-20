@@ -196,32 +196,27 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 	//Ryan Grimes reference heading rate to be (vA/rad_act) instead of (vA/rad_ref)
 	//Ryan Grimes updated r_ref equation to multiply by cos(phi) instead of dividing by cos(phi)
 	double vA = sqrt(uB*uB + vB*vB + wB*wB);
-    //Rostyk Svitelskyi set the average speed with reduced correction from IAS (removed in current version)
 
-    //Limiters kR=1.16; Der=0.01; Pro=0.005.
-    //double r_check = ((15 + (vA - 15) / 5) / rad_ref);//RS added limit on required psi_dot
-    /*if (r_check < 0.1) {
-        r_check = 0.1;
-    }
-    else if (r_check > 0.21) {
-        r_check = 0.21;
-    }*/
-    //double r_filt = r * 0.5 + last_r * 0.5; //Filter for r-controller//1
     double psiDot = 0;
     double dA = 0;
     double dR = 0;
+    int rudder = 0;
     //RS added control over reduced radius calculation
     switch (cont_type)
-    {
-    case 0: {psiDot = psiDotErr + ((kR_der + (vA - kR_der) / 5) / rad_ref);}
+    {//did half the loop rud_pro=0.6;wl_der_gain=0.01;wl_pro_gain=0.005;al_pro=0.8;al_der=0.4;rud_der=13.5; 05/11
+    case 0: {psiDot = psiDotErr + ((kR_der + (vA - kR_der) / 5) / rad_ref);
+        rudder = 1;}
         break;
 
-        //New alg. kR=2; Der =0.005; Pro=0.0003; Int=0.03.
+        //New alg. kR=0.6;wl_der_gain=0.01;wl_pro_gain=0.005;al_pro=0.8;al_der=0.4; requires tuning
     case 2: {psiDot = psiDotErr + r * cos(phi) / cos(theta);
-        } //Measurment//2
+        rudder = 1;} //Measurment//2
+    /*New alg. Precise psi_dot. kR=1; Der =0.006; Pro=0.0003.
+    double psiDot = psiDotErr + r * cos(phi) / cos(theta) + q * sin(phi) / cos(theta);
+    */
         break;
 
-    case 3:{
+    case 3:{//TRAPIS type controller rud_pro=0.1;wl_der_gain=0.01;wl_pro_gain=0.005;al_pro=2;al_der=0.5;rud_der=1; requires tunung
         dR = -((rad_act - rad_ref )*kR)-((psiDotErr + ((12 + (vA - 12) / 5) / rad_ref))-r)*kR_der;
         if (dR < -0.5236) {
             dR = -0.5236;
@@ -235,6 +230,22 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
         dA = -((-(0.08*dR/0.5236)-phi) * kPhi - p * kP);
         goto labp;}
            break;
+
+    case 4: {psiDot = psiDotErr + (vA / rad_act);
+        rudder = 0;}//Original alg. kR=1; Der=0.0005; Pro=0.0005.
+            break;//fisrt success 03/23/19
+
+    case 5: {psiDot =(vA / rad_act);//Original limited alg. kR=1.2; Der=0.001; Pro=0.0005.
+        if (psiDot < 0.1) {//RS added limit//3//second success 04/17/19
+            psiDot = 0.1;
+        }
+        else if (psiDot > 0.21) {
+            psiDot = 0.21;
+        }
+        psiDot += psiDotErr;
+        rudder = 0;
+    }
+            break;
     }
 
     {
@@ -244,14 +255,6 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
         else if (psiDot > 0.3) {
             psiDot = 0.3;
         }
-
-        /*New alg. Precise psi_dot. kR=1; Der =0.006; Pro=0.0003.
-        double psiDot = psiDotErr + r * cos(phi) / cos(theta) + q * sin(phi) / cos(theta);
-        */
-
-        /*Original alg. kR=1; Der=0.0005; Pro=0.0005.
-        double psiDot = psiDotErr + (vA / rad_act); //Measurment
-        */
 
         ////
         /// Roll Inner Loop
@@ -273,13 +276,14 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
 
         // reference yaw rate
         // double r_ref = (vA/rad_act)*cos(phi); //original *
-        double r_ref = ((kR_der + (vA - kR_der) / 5) / rad_ref) / cos(phi);
+        //double r_ref = ((kR_der + (vA - kR_der) / 5) / rad_ref) / cos(phi);//new rudder
+        double r_ref = (vA / rad_act)*cos(phi)*(1 - rudder) + ((kR_der + (vA - kR_der) / 5) / rad_ref) / cos(phi)*rudder;
         ////
         /// Yaw Damper
         ////
         double r_e = r_ref - r;
-
-        // was kR/5
+        dR = -(r_e*kR);
+        // was kR/5//Yaw damper was never used
         /*intYawDamper += r_e*dt;//4
         // signal saturation
         if (intYawDamper < -0.7) {
@@ -289,29 +293,60 @@ ControlSurfaceDeflections InnerLoopController::computeControl(double psiDotErr, 
         }
         double dR = -(r_e*kR + intYawDamper * (kR / 10));
         */
-        dR = -(r_e*kR);
+
     }
     labp:
-	////
-	/// Altitude Loop
-	////
-	double alt_e = alt_ref - alt;
-	intAltitude += (kAlt/15)*alt_e*dt;
-	// signal saturation
-	if (intAltitude < -60) {
-		intAltitude = -60;
-	} else if (intAltitude > 60) {
-		intAltitude = 60;
-	}
-	double theta_cmd = (alt_e*kAlt + intAltitude) * (pi/180);
 
-	// Ryan Grimes implemented limitations on desired pitch
+    //RS added bank angle limiter 45 degrees//engages at high bank angles, tries to disengage, when rudder deflection is less than 15 deg
+    if (phi < -0.78) {
+        if (dR < -0.26) {
+            dR = -0.26;
+            dA = -((-0.78-phi)*3 - p * 0.5);
+        }
+        dA = -((-0.7 - phi) * 3 - p * 0.5);
+        if (dA < -0.5236) {
+            dA = -0.5236;
+        }
+        else if (dA > 0.5236) {
+            dA = 0.5236;
+        }
+    }
+    else if (phi > 0.78) {
+        if (dR > 0.26) {
+            dR = 0.26;
+            dA = -((0.78 - phi) * 3 - p * 0.5);
+        }
+        dA = -((0.7 - phi) * 3 - p * 0.5);
+        if (dA < -0.5236) {
+            dA = -0.5236;
+        }
+        else if (dA > 0.5236) {
+            dA = 0.5236;
+        }
+    }
+
+    ////
+    /// Altitude Loop
+    ////
+    double alt_e = alt_ref - alt;
+    intAltitude += (kAlt / 15)*alt_e*dt;
+    // signal saturation
+    if (intAltitude < -60) {
+        intAltitude = -60;
+    }
+    else if (intAltitude > 60) {
+        intAltitude = 60;
+    }
+    double theta_cmd = (alt_e*kAlt + intAltitude) * (pi / 180);
+
+    // Ryan Grimes implemented limitations on desired pitch
     // 20 deg = 0.35 rad
-	if (theta_cmd < -0.35) {
-		theta_cmd = -0.35;
-	} else if (theta_cmd > 0.35) {
-		theta_cmd = 0.35;
-	}
+    if (theta_cmd < -0.35) {
+        theta_cmd = -0.35;
+    }
+    else if (theta_cmd > 0.35) {
+        theta_cmd = 0.35;
+    }
 
 	////
 	/// Pitch Inner Loop

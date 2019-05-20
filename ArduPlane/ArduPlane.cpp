@@ -761,21 +761,21 @@ void Plane::update_flight_mode(void)
 
 		//Calculate desired throttle setting
 
-        double thr_base = 75;
+        double thr_base = 60;//6 for sim, 60 for Papaya
        // double thr_scale = 0.5;
 
 		double thr_des = thr_base;
 
 		//Set limitations on throttle settings
-
+        //RS removed throttle lateral control
 		if (thr_des > 90){
 			thr_des = 90;
 		}
-		else if (thr_des < 6){
-			thr_des = 6;
+		else if (thr_des < 40){//6 for sim, 40 for Papaya
+			thr_des = 40;
 		}
 
-        /*va_state.counter += 1;
+        /*va_state.counter += 1;//this is for potentiometer readings
 
         // Prints rangefinder state every second?
         // Decrease the '200' to increase the message rate.
@@ -787,7 +787,7 @@ void Plane::update_flight_mode(void)
         // K-throttle updates, 
 
 		//Set desired throttle setting
-        // COMMENTED OUT ONLY FOR 10-6-18 FLIGHT TEST
+        // COMMENTED OUT FOR after 10-6-18 FLIGHT TESTs
         //SRV_Channels::set_output_scaled(SRV_Channel::k_throttle, thr_des);
 
 		//channel_throttle->servo_out = thr_des;
